@@ -25,7 +25,6 @@ three stages cost about $50.
 - [Train](#train)
 - [Layout](#layout)
 - [What is not in this repo](#what-is-not-in-this-repo)
-- [Limitations](#limitations)
 - [License](#license)
 
 ## The action grammar
@@ -49,9 +48,7 @@ anything, so learning when to stay quiet is the first thing the model has to
 get right.
 
 `highlight` and `suggest_edit` are trained (255 and 151 stage-1 cards) and the
-runtime will execute them, but no demo in the write-up exercises them; see
-[`docs/limitations.md`](docs/limitations.md) for why the highlighting data is
-weaker than it looks.
+runtime will execute them, but no demo in the write-up exercises them.
 
 Note that stage 1 performs translation through `respond` — `translate_commit`
 and `web_search` do not appear in the corpus until stage 2.
@@ -156,7 +153,7 @@ scripts/      build, eval, probe, and local-serving entry points
 tests/        distribution gates and contract tests
 static/       the browser client that ticks every 650 ms
 data/         authored source records
-docs/         architecture, data spec, training recipe, limitations
+docs/         architecture, data spec, training recipe
 ```
 
 `app/stream.py` is worth reading first. Training and serving compile prompts
@@ -169,16 +166,6 @@ from what the model was trained on.
 - **Compiled training cards** — all three stages are on Hugging Face, and
   stage 1 also rebuilds from `data/g1_authored` with the command above.
   `data/**/*.jsonl` is gitignored.
-- **The V4–V6 lineage.** This project went through several earlier
-  generations with an incompatible card format. `app/policy.py` still carries
-  those grammars, but the datagen and training paths here are g1 only.
-
-## Limitations
-
-[`docs/limitations.md`](docs/limitations.md) documents what does not work,
-including a recurring-reminder failure the shipped checkpoint does not solve
-and a highlighting behavior coupled to an artifact of the generator. It is
-worth reading before trusting any number here.
 
 ## License
 
