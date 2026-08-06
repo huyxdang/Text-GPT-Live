@@ -14,24 +14,52 @@ runtime decides whether the user has finished talking. The model does.
 - **Dataset:** [huyxdang/text-gpt-live-dataset](https://huggingface.co/datasets/huyxdang/text-gpt-live-dataset)
 
 Base model is `Qwen/Qwen3.5-4B` with a rank-32 LoRA, trained in three
-sequential SFT stages. All three stages cost about $50 on Tinker.
+sequential SFT stages on [Tinker](https://thinkingmachines.ai/tinker/). All
+three stages cost about $50.
+
+## Contents
+
+- [The action grammar](#the-action-grammar)
+- [Run the app](#run-the-app)
+- [Reproduce the dataset](#reproduce-the-dataset)
+- [Train](#train)
+- [Layout](#layout)
+- [What is not in this repo](#what-is-not-in-this-repo)
+- [Limitations](#limitations)
+- [License](#license)
 
 ## The action grammar
 
-The model emits one line per tick, from a closed set:
+The model emits one line per tick, from a closed set of seven verbs enforced
+by `app/stream.py`:
 
-```
-idle()                    stay silent — the default, and ~68.5% of stage-1 targets
-respond({...})            reply, acknowledge, or fire a reminder
-highlight({...})          mark a specific occurrence of a word
-suggest_edit({...})       replace an exact span in the current text
-delegate({...})           hand a slow task to a background model
-web_search({...})         issue a query; results arrive as a later event
-translate_commit({...})   append a stable unit of translation mid-sentence
-```
+| Action | Meaning | First trained | Demo |
+| --- | --- | --- | --- |
+| `idle()` | stay silent | stage 1 | all |
+| `respond({...})` | reply, acknowledge, or fire a reminder | stage 1 | all |
+| `delegate({...})` | hand a slow task to a background model | stage 1 | concurrent tool calls |
+| `highlight({...})` | mark a specific occurrence of a word | stage 1 | — |
+| `suggest_edit({...})` | replace an exact span in the current text | stage 1 | — |
+| `translate_commit({...})` | append a stable unit of translation mid-sentence | stage 2 | live translation |
+| `web_search({...})` | issue a query; results arrive as a later event | stage 2 | concurrent tool calls |
+
+`idle()` is the default and by far the most common correct answer — **68.5%
+of stage-1 targets**. Most moments in a live interaction should not trigger
+anything, so learning when to stay quiet is the first thing the model has to
+get right.
+
+`highlight` and `suggest_edit` are trained (255 and 151 stage-1 cards) and the
+runtime will execute them, but no demo in the write-up exercises them; see
+[`docs/limitations.md`](docs/limitations.md) for why the highlighting data is
+weaker than it looks.
+
+Note that stage 1 performs translation through `respond` — `translate_commit`
+and `web_search` do not appear in the corpus until stage 2.
 
 Because the set is closed, every prediction can be validated and executed
-without putting any interaction policy in the runtime.
+without putting any interaction policy in the runtime. The runtime never
+decides whether the user has finished, whether to interrupt, or whether to
+stay quiet; it only carries out the action the model emitted.
 
 ## Run the app
 
@@ -80,27 +108,43 @@ Tinker limit: removed 5 rows above 65536 target tokens; max published=62223
 
 Those are the numbers in the write-up.
 
-**This step is required.** Training runs in three stages, and Hugging Face
-carries only the last two — `train.jsonl` (2,903 cards, stage 2) and
-`delivery_repair_train.jsonl` (544, stage 3). The 6,013-card stage that
-teaches the core interaction behavior is not published there; it is rebuilt
-from the authored records above.
+All three stages are also published on Hugging Face if you would rather not
+rebuild them. Train them in this order, each resuming from the previous
+checkpoint:
 
-| stage | cards | source |
-|---|---|---|
-| 1 — core interaction behavior | 6,013 train / 675 dev | `scripts.g1_full_build` |
-| 2 — translation, web search | 2,903 | Hugging Face |
-| 3 — evaluation repairs | 544 | Hugging Face |
+| Stage | Cards | Teaches | On Hugging Face as |
+| ---: | ---: | --- | --- |
+| 1 | 6,013 | core interaction behaviour — when to stay silent, speak, highlight, delegate | `stage1_train.jsonl` |
+| 2 | 2,903 | translation and web search | `train.jsonl` |
+| 3 | 544 | repairs for failures found in evaluation | `delivery_repair_train.jsonl` |
+
+The dev sets are deliberately not published, so held-out evaluation stays
+independent. `scripts.g1_full_build` regenerates stage 1's dev split (675
+cards) locally.
 
 ## Train
+
+Training runs on [Tinker](https://thinkingmachines.ai/tinker/), Thinking
+Machines Lab's managed LoRA service — **you need an account and a
+`TINKER_API_KEY` to reproduce this step.** Tinker abstracts the GPUs, the
+distributed step, and checkpoint storage; every hyperparameter is set by this
+repo and stamped into each run's report, so no forgotten flag can pass itself
+off as the recipe.
 
 ```bash
 .venv/bin/python -m train.tinker_run --stage g1
 ```
 
+All three stages together cost about $50.
+
 Each stage resumes from the previous checkpoint at a lower learning rate
-(2e-4, 5e-5, 1e-5). The full locked configuration — rank, seed, optimizer
-settings, per-stage step counts — is in [`docs/training.md`](docs/training.md).
+(2e-4, 5e-5, 1e-5). The full locked configuration — rank 32, adapter seed 650,
+optimizer settings, per-stage step counts — is in
+[`docs/training.md`](docs/training.md).
+
+Nothing here is Tinker-specific beyond the client: the corpus is plain JSONL
+of `prompt` / `completion` pairs, so any LoRA trainer that reads that format
+can substitute.
 
 ## Layout
 
@@ -122,8 +166,8 @@ from what the model was trained on.
 ## What is not in this repo
 
 - **Weights** — on Hugging Face. `models/` is gitignored.
-- **Compiled training cards** — stages 2 and 3 are on Hugging Face; stage 1
-  rebuilds from `data/g1_authored` with the command above.
+- **Compiled training cards** — all three stages are on Hugging Face, and
+  stage 1 also rebuilds from `data/g1_authored` with the command above.
   `data/**/*.jsonl` is gitignored.
 - **The V4–V6 lineage.** This project went through several earlier
   generations with an incompatible card format. `app/policy.py` still carries
