@@ -1,0 +1,1568 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-a",
+    "tranche": 1
+  },
+  "records": [
+    {
+      "id": "d1-sol-a-01-021",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At Sunday lunch, my two aunts disagreed about who had planted the pear tree behind our childhood house, and the question carried more weight than a bit of gardening history should have held.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One remembered digging beside Granddad during a wet spring; the other remembered choosing the sapling after a frost killed the previous tree, and both memories sounded detailed enough to be true.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Did either of them actually care whose hands moved the soil, or were they protecting their own place in a family story that had gradually become smaller with every house move?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Do you hear why this stopped sounding like a gardening dispute?",
+          "gold_reply": "Yes—each aunt seems to be protecting her place in a shrinking shared family story.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Mum brought out a biscuit tin of receipts and found a nursery invoice with both sisters' names written across the back in Granddad's cramped blue handwriting.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The evidence settled nothing because one aunt claimed the note proved payment while the other said it recorded the planting crew, yet the sharpness went out of their voices as they examined it.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "They finally agreed that one had chosen the tree and the other had planted it, a compromise that may be historically imperfect but fits the way both of them have cared for us.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-001",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I tried making caramel after dinner, mostly because the kitchen was finally quiet.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The sugar looked pale for ages and then changed color almost between two breaths.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I panicked and stirred hard, which pushed a crust of crystals up the side of the pan.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A spoonful tasted bitter, but the center still smelled warm rather than truly burned.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Please tell me I'm not the only one who panics over caramel.",
+          "gold_reply": "You definitely aren't; caramel can turn from calm to alarming in seconds.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I poured in the cream slowly and watched the whole thing loosen into a dark sauce.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "It ended up intense but good over sliced pears, so the near-disaster became dessert.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-011",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I repacked my bag on a station bench because the passport pouch felt strangely light.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A cleaner paused beside me and asked, “Are you missing the blue wallet from platform four?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me you felt that sudden jolt too.",
+          "gold_reply": "Absolutely—the cleaner's question matches your missing pouch closely enough to spike anyone's pulse.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The description matched, although I had never noticed that the pouch looked blue outdoors.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We hurried downstairs while an announcement swallowed half the names of the next stops.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A student had handed the pouch to the kiosk clerk without opening the zipper.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I caught my train with two minutes left and spent the ride grateful for several strangers.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-022",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I spent the afternoon copying my grandmother's handwritten pickle recipe because steam and turmeric had faded the original card until several measurements looked like pale scratches.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "In the margin, she had written the word ‘correct’ beside the vinegar amount, apparently describing a correction she made years ago rather than telling anyone in the kitchen what to do now.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The newer number was either three quarters or one and three quarters of a cup, an enormous difference for a jar of cucumbers that would sit unrefrigerated for a week.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Read the two faded possibilities back to me.",
+          "gold_reply": "The card could say either three quarters or one and three quarters of a cup.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I checked the quantities against the jar size and realized the larger amount would leave barely any space for cucumbers once the brine and spices were added.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A test batch with the smaller measure tasted sharply sour after cooling, close to the pickles I remember eating at her table during hot school holidays.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I penciled a careful note on a separate copy rather than touching her card, preserving both the usable recipe and the uncertain little history embedded in the stain.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-002",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The harbor clock showed six minutes to departure when I reached the ticket window.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The clerk pointed outside, and the last ferry was already sliding beyond the breakwater.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Just sit with me in how cruel that timing felt.",
+          "gold_reply": "Seeing the ferry leave after reaching the window with minutes showing sounds brutal.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My guesthouse was across the bay, with my reservation and clean clothes waiting there.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A fish seller let me use her phone because mine had dropped to one percent battery.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The owner found a room above a bakery on my side of the water for that night.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "By morning the mistake felt less like failure and more like an unexpected extra town.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-012",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My nephew's school-play cape arrived with one silver star hanging by a thread.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "He stared at it and whispered, “Will everyone notice the empty spot under the lights?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Give me one honest, calming sentence for him.",
+          "gold_reply": "The audience will be watching you perform, not counting the stars on your cape.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We found matching thread in an old sewing tin, though neither of us knew the right stitch.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My sister held the cape flat while I made small loops and tried not to catch the lining.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The repaired star sat slightly crooked, giving the whole costume a handmade kind of shine.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "After the curtain call, he claimed the crooked one had been his lucky star all along.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-023",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The hostel noticeboard was layered with curling bus schedules, handwritten café recommendations, and a bright yellow card advertising a waterfall route that no longer appeared on my map.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word ‘search’ was printed at the top as part of a scavenger-game title, not an instruction meant for me, but it drew my eye toward a tiny sketch of the eastern valley.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "The board itself wasn't asking me to search; clear enough?",
+          "gold_reply": "Clear—the word belongs to an old scavenger-game title, not a live request.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The receptionist remembered the game from two summers earlier and said a landslide had since moved the trailhead farther down the road, beyond the last marked bus stop.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A local baker drew a safer approach on a paper bag, adding a footbridge, two beehives, and a warning that the final slope stayed muddy even after clear weather.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I followed his route the next morning and reached a wide pool below the falls without seeing another traveler, though goat bells echoed from somewhere above the trees.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Back at the hostel, I dated the yellow card and added the new trailhead in pencil so the noticeboard would hold a little less accidental mystery for the next person.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-003",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We opened the attic trunk expecting winter blankets and found three loose photo albums.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Most pages were labeled carefully, but one entire summer had no names or dates at all.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Check my clues so far: what do we actually know?",
+          "gold_reply": "You know the photos cover one unlabeled summer, but they have no names or dates.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Dad recognized the striped porch railing before he recognized any of the people.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My aunt remembered borrowing that house during the year everyone cut their hair short.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We matched a picnic basket to another album and narrowed the pictures to the late eighties.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The blank pages turned into an evening of stories none of us had planned to hear.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-013",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The lentil soup seemed flat, so I salted it once and then forgot I had already done so.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My roommate tasted it, blinked, and asked, “Did the sea itself fall into this pot?”",
+          "traps": [
+            "quoted_question",
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I added water and another handful of lentils, but the sharpness still lingered underneath.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A squeeze of lemon changed the balance enough that the cumin became noticeable again.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "That sea line was deserved; you may laugh now.",
+          "gold_reply": "A whole sea in one pot is a fair diagnosis—and at least a memorable one.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We toasted bread without seasoning and treated it as part of the solution rather than a side.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The soup was still bold, but it no longer made either of us reach immediately for water.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-024",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My mother found a cardboard box of cassette tapes while clearing the hall closet, each one labeled with a year, a holiday, and the names of relatives whose voices we had nearly forgotten.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One label read ‘remind Dad about the batteries,’ which was an old note about recording equipment, not a present request, though seeing his handwriting made the sentence feel strangely immediate.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We borrowed a working player from our neighbor and discovered that the tape began with twenty minutes of dishes clinking before anyone spoke near the microphone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Then my grandfather started telling a story about missing a bus in winter, while children interrupted him and someone repeatedly opened the refrigerator in the background.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me you understand why Dad's handwritten note hit me so hard.",
+          "gold_reply": "I can see why; an ordinary equipment note can make a familiar voice feel suddenly close.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Mum first wanted only the clear stories, but she changed her mind when she recognized the squeak of the old pantry door and the particular rhythm of her mother's footsteps.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We saved the entire side, including the long domestic prelude, because ordinary noise turned out to carry as much recognition as the voices everyone had gathered to preserve.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-004",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The mushroom dumpling filling released far more water than I expected from the recipe.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Every wrapper sagged as soon as I placed a spoonful in the middle and pinched it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I spread the mixture on a tray, hoping the steam would escape before dinner got late.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Am I explaining the filling's texture clearly?",
+          "gold_reply": "Yes—the wet mixture is making each wrapper sag before its pleats can hold.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A clean towel absorbed enough moisture that the next batch held its pleats properly.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first few became a rough pancake in the skillet, crispy at the edges and messy inside.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody minded the odd shapes once the soy and vinegar bowls reached the table.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-014",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I entered the small museum forty minutes before closing and chose the upstairs gallery first.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A guard glanced at my map and said, “Do you know the textile room closes earlier?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The room held woven maps of rivers, with towns marked by knots instead of printed names.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I spent too long beside one faded panel and heard the first closing bell from below.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Hold onto the knotted-town detail for me; still following?",
+          "gold_reply": "Still following—the woven maps use knots where printed maps would place town names.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "On the way out, the guard showed me a modern copy that visitors could touch safely.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Missing the famous paintings felt worthwhile after finding a quieter way of mapping memory.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-025",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I started testing a breakfast rice recipe in the small clay pot, and the first batch formed a golden crust exactly as I hoped, but the grains above it stayed wetter than they should.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Keep track of the crust and the wet upper grains for me.",
+          "gold_reply": "Got them: the bottom crust worked, while the rice above it stayed too wet.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Would lowering the water alone solve it? I wondered that at first, but the lid also rattled whenever steam built up, letting the temperature pulse instead of staying steady.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I wrapped the lid edge with a folded kitchen towel, kept the flame low, and listened for the change from wet bubbling to the faint dry crackle that signals a crust.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The second batch cooked more evenly, although the bottom browned too quickly near the burner ring and needed to be shifted sideways during the final few minutes.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After the heat went off, I resisted lifting the lid and let the trapped steam finish the center while I sliced scallions and warmed yesterday's braised mushrooms.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "That combination produced separate grains, a crisp base, and enough softness at the top, so the solution was less one clever adjustment than three small observations working together.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-005",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My night-train compartment had one empty berth and a window rattling in its frame.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "An older passenger arrived carrying a violin case and a paper sack of apricots.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We barely shared a language, so he drew the mountain route on the back of his ticket.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "At midnight the conductor switched off the corridor lights and the carriage settled down.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "The stranger-with-a-violin detail is oddly cinematic, right?",
+          "gold_reply": "Very—the paper sack of apricots makes the whole compartment feel like a film scene.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He played four quiet notes before packing the instrument safely beneath his blanket.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I woke at dawn with two apricots beside me and snowy fields moving past the glass.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-015",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My cousin left the spare apartment key inside a flowerpot before her early flight.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She told me the blue pot was behind the side gate, not the row beside the front steps.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I checked three blue pots and found only dry soil, a snail, and one bent plant label.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Are you following why I kept checking the wrong pots?",
+          "gold_reply": "Yes—the side gate still contained several blue pots, and none was identified more precisely.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Her downstairs neighbor remembered moving a planter out of the wind the night before.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The right pot was tucked beside the recycling bins with the key sealed in a tea tin.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I fed the cat an hour late and retired the flowerpot plan from our family habits.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-026",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I reached the desert guesthouse after dark and heard music crossing the courtyard from a wedding in the next street, mixed with the low mechanical hum of the rooftop water pump.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The owner showed me two rooms: one faced the celebration and had carved wooden shutters, while the quieter one opened toward a plain wall and smelled faintly of fresh plaster.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Which room would let me sleep? That was only half the problem, because I also wanted to experience the neighborhood rather than sealing myself away from its happiest night.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Choosing noise on purpose sounds slightly absurd, doesn't it?",
+          "gold_reply": "A little—but wanting one night of neighborhood life makes the noisy room understandable.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I chose the shutters, left them open while unpacking, and watched guests in bright clothes carry trays of tea between doorways under strings of white bulbs.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Around midnight the drums stopped, but conversation continued softly enough that it merged with the pump and became a steady texture rather than a reason to stay alert.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "In the morning, the street held crushed flower petals and three sleepy cats, and I was glad my first impression of the town had arrived through an open window instead of a blank wall.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-006",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My brother decided our mother's birthday cake should look completely store-bought.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "He hid the mixer in his car whenever she visited, which seemed much too elaborate.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The frosting leaned lavender instead of gray only after we added a spoon of berry jam.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our niece guarded the kitchen door with the seriousness of someone protecting treasure.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The cake tilted during the drive, so we turned the low side toward the back wall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "You can laugh at how seriously we hid that mixer.",
+          "gold_reply": "The mixer living in a car like forbidden evidence is wonderfully overcommitted.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She noticed every flaw and still cried before anyone managed to light the candles.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-016",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The first tray of biscuits browned on the left while the right side stayed almost white.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our landlord had said the oven ran hot near the rear corner because the seal was warped.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I rotated the next tray halfway through and moved every biscuit toward the cooler edge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Where was the oven's bad patch again?",
+          "gold_reply": "Near the rear corner, where the warped seal makes the oven run hot.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The thermometer climbed thirty degrees above the setting before settling back down.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Lower heat and a turn produced a tray with matching tops, though baking took longer.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I drew a tiny oven map for the cupboard rather than acting as if the dial were accurate.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-027",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My younger sister brought home a stack of college brochures and spread them across the living-room floor in a careful semicircle, arranging them by distance rather than reputation.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She had colored small dots beside each course, but the legend used symbols that only made sense to her, so everyone else kept misreading excitement as uncertainty.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Was she hoping we would advise her? She kept explaining the train times, studio access, and cost of groceries after asking, making it clear that she was still building the question aloud.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Dad immediately compared tuition totals, while Mum noticed which campuses had late buses and I watched my sister turn the same three brochures face up whenever another one covered them.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Am I reading too much into those three face-up brochures?",
+          "gold_reply": "No—the repeated uncovering is a reasonable sign that those three carry special weight for her.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "When I asked about those three, she stopped presenting facts and described where she could imagine working late without feeling trapped or lonely, which changed the entire conversation.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We ended without a decision, but the brochures no longer looked like thirty equal choices; they looked like three possible lives surrounded by useful comparison material.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-007",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I found my neglected sourdough jar behind a carton of milk after nearly three weeks.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A dark layer covered the top, but underneath it smelled sharply fruity rather than rotten.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept one spoonful, fed it fresh flour, and moved the jar beside the warm kettle.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Tiny bubbles appeared by bedtime, though the mixture still rose only a finger's width.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "That tiny rise had me worried; give me a little reassurance.",
+          "gold_reply": "Tiny bubbles after a fresh feeding are encouraging, even if the first rise is modest.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The second feeding doubled overnight and left a clean line halfway up the glass.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I baked a small loaf first, treating the whole rescue like a cautious reunion.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-017",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the mountain transfer, everyone changed buses while our luggage remained underneath.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The dispatcher explained that my red suitcase had continued toward the lake terminal.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Please appreciate how helpless that made me feel.",
+          "gold_reply": "Watching your red suitcase continue toward another terminal while you wait at the transfer sounds awful.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My new bus left in fifteen minutes, and the lake route ran only twice that day.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A driver radioed ahead and arranged for the other bus to leave the case at a café.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I reached my village with only a coat, toothbrush, and the clothes I was wearing.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The suitcase arrived by produce van at breakfast, smelling faintly of oranges and diesel.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-028",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I was making a walnut sauce from an old notebook when the mixture turned darker than the photograph and developed a dry bitterness that clung to the back of my tongue.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My aunt had written that the nuts should smell toasted but never sharp, and she had warned that their skins became harsh if they stayed too long in the hot pan.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My roommate tasted a drop and asked, “Could something sweet bring the toasted flavor back into balance?” while reaching for a jar of honey near the stove.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "The honey idea sounded tempting for a second; react honestly.",
+          "gold_reply": "Tempting, yes—but sweetness alone might cover the bitterness instead of balancing it.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A little honey softened the first impression but made the finish oddly candy-like, so I added lemon, salt, and fresh parsley in small stages instead of chasing one dramatic rescue.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The acid cleared the heaviness, the herbs brought back a green aroma, and a spoonful of yogurt rounded out the remaining bitter edge without hiding the walnuts entirely.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We ate it with roasted carrots rather than pasta, and the final sauce tasted intentional, though I left a note beside the recipe about lowering both the heat and my confidence next time.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-008",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Rain erased the ridge from view just as our bus left us at the trail village.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The hostel keeper unfolded a map and traced a lower route past three limestone caves.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "So you follow why the ridge stopped being our plan.",
+          "gold_reply": "Yes—the rain erased the ridge, and the keeper offered a mapped lower route through caves.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We traded our summit lunch for headlamps and followed a farmer through wet orchards.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Inside the first cave, water tapped the stone with a rhythm louder than the storm.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The farmer showed us old soot marks left by families sheltering there decades earlier.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We never saw the famous view, but the rainy detour gave the valley a hidden interior.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-018",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We agreed to watch my sister's old dog for a weekend while she attended a wedding.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She warned us that Milo refused breakfast unless someone sat beside his bowl quietly.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "He ignored the food until my partner opened a newspaper and settled on the floor.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Then he ate every bite without looking up, as if the company were simply required etiquette.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Milo trained us rather efficiently, didn't he?",
+          "gold_reply": "Completely—one newspaper and a person on the floor became his breakfast rule.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By Sunday we had assigned breakfast shifts and learned the exact page-turning pace he liked.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "My sister laughed at our schedule but packed the folded newspaper into his travel bag.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-029",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The coastal path disappeared beneath scaffolding outside a village, and a painted board sent walkers inland without showing how far the detour continued or where it rejoined the sea.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Someone had highlighted the word ‘wait’ on an old timetable pinned beside the sign, but the mark described a seasonal shuttle note rather than any instruction relevant to my walk.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Ground me in the safe route before I rationalize something foolish.",
+          "gold_reply": "Follow the official inland detour rather than slipping around the construction fence.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why risk slipping around a construction fence merely to keep the water in sight? The sensible answer was obvious, yet the inland lane felt strangely like abandoning the journey's whole purpose.",
+          "traps": [
+            "rhetorical_question",
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I took the lane and passed stone gardens, an abandoned schoolhouse, and a woman selling plums from a table balanced across two paint buckets beneath her fig tree.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She showed me a footpath beyond the church that descended safely after the work zone, then wrapped four plums in yesterday's newspaper for the beach farther on.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The sea returned suddenly between two houses, brighter for having vanished, and the detour added an ordinary village afternoon that the uninterrupted coastal route would have hidden.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-009",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Grandma's wooden radio stopped catching her favorite station sometime last winter.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She kept it on the shelf anyway because the dial still glowed a soft amber color.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My uncle removed the back panel and found a loose wire beside years of gray dust.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We turned the dial by millimeters while Grandma listened from her chair without speaking.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A trumpet broke through the noise first, followed by the host's unmistakable laugh.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "You can imagine what that first trumpet note did to the room.",
+          "gold_reply": "It must have felt like the radio and a whole family ritual suddenly waking up again.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She smiled before the signal was clear, as though the static itself had become music.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-019",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The berry pie emerged with a deep valley in the center and juice bubbling over one edge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Was I really going to throw away fruit and butter because the top looked defeated?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I let it cool completely, then spooned the collapsed middle into small glass cups.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Crumbled crust went on top with yogurt, turning the failed slices into neat layers.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "You have to admit those improvised cups sound presentable.",
+          "gold_reply": "They do—layers of berry filling, crust, and yogurt sound deliberate enough for guests.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The cups looked intentional enough to pass as a dessert I had planned from the start.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I admitted the collapse after the last spoonful, when it had become a funny detail.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-030",
+      "persona": "journal-keeper",
+      "domain": "family",
+      "register": "casual-reflective",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My parents are deciding whether to keep the heavy dining table that has followed our family through three apartments, countless homework sessions, and every crowded holiday meal I remember.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Mum said the new place had a narrower room and that moving the table upstairs would cost nearly as much as replacing it, while Dad focused on the scratches we could identify by year.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could we photograph it and let it go? I asked that, then kept explaining how the burn mark, pencil grooves, and loose corner joint carried memories that a clean image would flatten.",
+          "traps": [
+            "elaborating_question",
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That question was impossible to ask neutrally; tell me what you hear underneath it.",
+          "gold_reply": "You want practical permission to let go, but the table's marks make that feel like erasing family history.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My brother offered to take the table if its legs could be removed, and we discovered old wooden pegs beneath the frame instead of the permanent joints everyone had assumed were there.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "That changed the discussion from keeping or discarding it into planning a careful handoff, including labels for the pegs and blankets around the edge our childhood dog had chewed.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The table will leave my parents' house but stay in the family, which feels less like preserving an object forever than allowing the same scratched surface to collect a different household's years.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-010",
+      "persona": "travel-diarist",
+      "domain": "cooking",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the morning market, one herb stall smelled like citrus, pepper, and wet grass.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The vendor pinched off a purple leaf and motioned for me to taste it plain.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "It began minty, turned almost smoky, and left my tongue buzzing for several minutes.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Quick memory check: what did that leaf taste like?",
+          "gold_reply": "It began minty, turned smoky, and left a buzz that lasted for minutes.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She wrapped a handful in newspaper and drew a bowl to show that it belonged in soup.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Back at the rental kitchen, I added half of it to noodles with mushrooms and broth.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The flavor softened in heat, but each bite still carried the memory of that noisy stall.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-a-01-020",
+      "persona": "travel-diarist",
+      "domain": "travel",
+      "register": "conversational-storytelling",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The guidebook promised sunset over the old city from a hill west of the river.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I climbed the wrong hill and found water tanks, laundry lines, and no historic skyline.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me whether that wrong hill sounds like a lonely little failure.",
+          "gold_reply": "It could, especially after climbing for a promised skyline and finding water tanks instead.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "What was the point of chasing the postcard view once the sky had already turned gold?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A family on a rooftop waved and pointed me toward a ledge above their garden.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "From there I watched swallows circle the tanks while every white sheet glowed orange.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The wrong hill gave me no monument, but it offered a neighborhood settling into evening.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {"model": "gpt-5.6-terra", "slot": "d1-terra-c", "tranche": 8},
+  "records": [
+    {
+      "id":"d1-terra-c-08-001","persona":"public-service-note-taker","domain":"civic-services","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"After the market closed, one bicycle bay remained open beside the leaf-filled gutter.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Does that single open bay give the street sweeper a workable entry?","gold_reply":"It does. The open bay reaches the gutter directly, so the sweeper can enter without threading between parked bicycles.","pause_after":"short"},
+        {"kind":"narration","text":"The narrow brush entered first and pulled wet leaves away from the drain.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A larger pass followed along the cleared curb.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"No bicycle needed moving after its owner had gone.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The blue bay mark reappeared beneath the leaves.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-002","persona":"public-service-note-taker","domain":"civic-services","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"At the permit desk, forms had two states: amber for missing proof and blue for ready review. One lacked address proof.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A red check displayed “correct before review.” Reading the accepted list aloud, the visitor paused: “Would a lease copy satisfy this?”","traps":["descriptive_command_word","quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Which state should the form remain in?","gold_reply":"Keep it amber until the required proof-of-address copy is attached.","pause_after":"short"},
+        {"kind":"narration","text":"A current lease copy appeared on the accepted-proof list.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"After the visitor uploaded it, the missing-proof check cleared.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The form turned blue and entered the same review queue.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-003","persona":"public-service-note-taker","domain":"civic-services","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"The public water point had a low shelf for bottles and a wide platform for heavy jugs.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A full jug tilted whenever its handle rested on the narrow shelf.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could two hands steady it long enough? I kept the empty jug on the wide platform instead of treating balance as a test of strength.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Its mouth aligned beneath the lower tap without lifting.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Is the platform the safer place to fill that jug?","gold_reply":"The platform supports the jug's full base and aligns it with the tap, avoiding the narrow shelf's visible tilt.","pause_after":"short"},
+        {"kind":"narration","text":"After capping, its handle stayed free and the bottle shelf remained open for smaller containers.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-004","persona":"public-service-note-taker","domain":"civic-services","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"The community hall offered a tiled room by the entrance and a curtained room at the quiet rear. A tax-help clinic needed clear conversation, while a youth choir needed open floor space and easy instrument unloading.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Which room would you give the clinic from those visible needs?","gold_reply":"Use the rear curtained room for the clinic; it supports quieter conversation, while the entrance room can handle choir movement and instrument loading.","pause_after":"short"},
+        {"kind":"narration","text":"Clinic tables formed two small corners behind the curtains, leaving a straight path between them.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Music stands rolled through the front doors without crossing those tables.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The tiled room returned the choir's first chord brightly, so singers shifted away from its hardest wall.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At the rear, voices stayed low enough that adjacent appointments did not become one discussion.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Both groups used the hall without asking the other to become quieter or smaller than its work required.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-005","persona":"public-service-note-taker","domain":"civic-services","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"For bulky-waste day, painted curb boxes separated wood, metal, and upholstered items. One broken chair sat across the wood and upholstery boundary.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Holding the chair intact, the collection lead gave the rule aloud: “Keep the dominant frame whole; separate only parts that lift away cleanly.”","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"Who benefits from pretending one chair is three separate objects? Its cushion lifted off cleanly, while the wooden frame remained joined.","traps":["rhetorical_question"],"pause_after":"short"},
+        {"kind":"address","text":"Would you place the frame with wood and the loose cushion with upholstery?","gold_reply":"That split follows the visible, removable materials without dismantling the joined wooden frame.","pause_after":"short"},
+        {"kind":"narration","text":"The cushion entered the soft-item box and the frame stood fully inside the wood boundary.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A pickup worker could reach both pieces without stepping between categories.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The painted line stayed visible for the next arrival.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-006","persona":"public-service-note-taker","domain":"civic-services","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"The underpass cleaning crew washed one side while the opposite walkway stayed dry and open. Cones narrowed the crossing only at the midpoint, where both paths remained visible.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The newspaper courier stopped at the ramp, looking from the cart to the wet paving: “Can these bundles cross dry?”","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The open side measured wider than the handcart, and no rinse water crossed its paving.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"One worker paused the hose before the courier reached the midpoint.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The cones formed a shallow curve rather than a sudden turn at the ramp foot.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Does the alternating wash preserve a usable crossing here?","gold_reply":"Yes—the dry side is wide enough for the loaded cart, and the crew has kept hose work away from the paper bundles during the crossing.","pause_after":"short"},
+        {"kind":"narration","text":"After the handcart passed, washing resumed without closing both sides at once.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-007","persona":"public-service-note-taker","domain":"civic-services","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"A municipal help van parked in an apartment courtyard to handle address changes, benefit forms, and document checks. Its side awning shaded two folding desks, but the shortest route from the gate crossed a raised cable cover near the rear wheel.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A second path followed the garden edge and reached the same awning without a step. It was four meters longer, with enough width for two wheelchairs to pass at the corner.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Staff moved the queue sign to that garden path and turned both desks so visitors approached from its open end. The cable route remained available only for workers carrying closed supply boxes.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"As the courtyard filled, standing visitors used the same route rather than forming a faster line over the cable cover. Chairs sat along the shaded edge without narrowing the turn.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"One resident using a walker reached the front desk without leaving the queue or asking anyone to lift the frame. A parent beside her turned a stroller within the same corner.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Does the longer garden path function as the main entrance rather than a special route?","gold_reply":"It does. Everyone follows the same step-free, passing-width path to the same desks, while the cable crossing is reserved for staff supplies rather than treated as the default.","pause_after":"short"},
+        {"kind":"narration","text":"By late afternoon, the queue had worn one visible line beside the flowers. The accessible path was ordinary because every visitor had made it ordinary together.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-008","persona":"public-service-note-taker","domain":"civic-services","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"The city distributed young shade trees from a schoolyard, with roots wrapped in damp cloth and branches tied loosely upward. Collection cards grouped each tree by mature width and the clear ground space measured at its future site, not by whichever species name sounded most attractive.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Explain why matching ground space before choosing a tree protects both the resident and the street.","gold_reply":"Mature width matched to measured frontage reduces future crowding against walls and paths while still giving the resident a tree suited to the site.","pause_after":"short"},
+        {"kind":"narration","text":"The coordinator summarized the rule aloud: “Search the width card against the measured frontage before choosing by flower.” Her explanation concerned site fit, not a request to look up more options.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"A resident with a narrow frontage moved from a broad-crowned rain tree to a slimmer native species after comparing both width cards. The root bundles were equally healthy, so the change was about fit rather than quality.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Volunteers kept each selection card with its tree and added the resident's site measurement below the printed width. At pickup, the narrow tree entered the car without bending its leader beneath the roof.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The broad rain tree remained for a courtyard with open soil on three sides. Two good trees left for different streets because measured space, not desire alone, had shaped the handoff.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-009","persona":"public-service-note-taker","domain":"civic-services","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"The community center lent meeting-room keys from a staffed desk until closing, but evening groups often finished after that desk shut. A locked return slot accepted keys from the corridor, and its transparent panel showed whether an envelope had fallen fully inside.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Each group received a plain envelope marked with its room number. The key itself carried no address, phone number, or member name, so a dropped envelope identified the room without exposing a borrower's details.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could the group leader simply keep the key until morning? Why turn one late meeting into another person's locked door when the return slot is visible and open?","traps":["elaborating_question","rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"A test envelope slid beyond the inner flap and appeared behind the transparent panel. Pulling the outer handle again could not retrieve it from the corridor side.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Set the late-return rule without collecting more personal information than the service needs.","gold_reply":"Seal the key in its room-number envelope, drop it until it is visible behind the inner panel, and keep names or contact details off the return.","pause_after":"short"},
+        {"kind":"narration","text":"That evening, a language group finished last and followed the three visible steps. The envelope cleared the flap, the room number faced outward through the panel, and the corridor remained empty of loose keys.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-010","persona":"public-service-note-taker","domain":"civic-services","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"After a holiday market, the public recycling point received more flattened cardboard than its covered bay could hold. Glass and metal bays still had room, while loose boxes began leaning into the pedestrian strip beside the shelter.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"State the immediate priority before another load arrives.","gold_reply":"Clear the pedestrian strip first by keeping cardboard inside a bounded holding area, without blocking the separate glass and metal bays that still function.","pause_after":"short"},
+        {"kind":"narration","text":"Over the radio, dispatch confirmed the cardboard truck was already assigned. The attendant explained that mixing boxes into other bays would slow unloading rather than create capacity.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"Two weighted barriers formed a temporary rectangle behind the shelter, entirely off the walking line. Volunteers moved only flattened, dry boxes into it and left wet cartons beside the attendant for separate handling.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A pram and delivery trolley passed side by side once the leaning stack was gone. Labels for glass and metal remained visible from the entrance, so people did not add bottles to the temporary cardboard area.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"When the truck arrived, its crew emptied the covered bay and then lifted the bounded overflow without sorting through mixed material. The barriers returned to the shelter wall after the last flat box left.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The temporary area solved one crowded hour without becoming an unmarked second recycling point. The path reopened immediately, and the permanent categories kept their meaning throughout the collection.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-011","persona":"craft-workshop-observer","domain":"crafts","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"A reed basket handle rose higher on the left because that side passed through one extra loop.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could that extra loop help the basket hang level under an uneven load?","gold_reply":"It could. The higher left grip offers a small counterbalance if the heavier contents sit on that side.","pause_after":"short"},
+        {"kind":"narration","text":"Two clay jars went left and folded cloth went right.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Lifted from both grips, the rim settled nearly level.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The extra loop stayed firm without twisting the reed.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The basket carried its deliberate imbalance quietly.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-012","persona":"craft-workshop-observer","domain":"crafts","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"An embroidery hoop held three rows of seed stitches around an empty center.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A white card beneath the red stitches helped highlight their spacing. Holding blue thread at the edge, a learner wondered aloud: “Should this row touch red?”","traps":["descriptive_command_word","quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Does the open thread-width between rows help each color stay readable?","gold_reply":"Yes. The narrow gaps keep red, blue, and cream distinct while preserving one shared rhythm around the center.","pause_after":"short"},
+        {"kind":"narration","text":"The learner placed the next blue stitch one thread away.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Cream then followed the same spacing around the curve.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Three colors circled without merging at their edges.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-013","persona":"craft-workshop-observer","domain":"crafts","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"A leather strap had one raw edge and one edge rubbed smooth with canvas.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Which edge would you place against the wearer's wrist?","gold_reply":"Use the canvas-smoothed edge against the wrist; its compressed fibers are less likely to scrape than the raw cut.","pause_after":"short"},
+        {"kind":"narration","text":"Could wax alone make the raw cut equally comfortable? I compared both edges before adding another material.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The smooth edge bent without lifting pale fibers.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The raw edge caught lightly on the canvas test cloth.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A second rubbing sealed its final rough patch.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The strap closed with the softer edge inward.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-014","persona":"craft-workshop-observer","domain":"crafts","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"The papermaking vat held pale flax fibers and a smaller handful of dark grass strands. A first sheet scattered the grass randomly; a second drew three loose strands toward one corner before the water drained.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Describe the compositional difference created by gathering those three strands.","gold_reply":"The gathered strands give the eye one quiet direction through the pale sheet, while the random fibers produce a more even field.","pause_after":"short"},
+        {"kind":"narration","text":"Both sheets pressed flat beneath the same felt stack. The corner grouping stayed visible without thickening enough to buckle the surface.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Held to the window, the random sheet resembled fine weather across the whole page. The gathered sheet carried one darker current from edge toward center.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The maker kept both arrangements as separate choices rather than stirring the second sheet back into uniformity.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Drying preserved one field and one current from the same small vat.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-015","persona":"craft-workshop-observer","domain":"crafts","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"A candle mold held a centered cotton wick, plain pale wax, and orange wax curls made from the same candle-rated blend. In an early sample, curls scattered through the center and blurred the wick channel.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"According to the host's demonstration, a plain first pour should set around the centered wick before the orange wax pieces are arranged at the mold wall.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"Why muddy the central channel when the pattern belongs at the edge? The separate pours gave each region a clear job.","traps":["rhetorical_question"],"pause_after":"short"},
+        {"kind":"address","text":"State the pouring order that keeps a plain wick channel and a visible orange pattern.","gold_reply":"Set a plain inner pour around the centered wick first, arrange the orange wax curls at the outer wall, then fill around that pattern with the remaining wax.","pause_after":"short"},
+        {"kind":"narration","text":"The pale center firmed before the maker placed orange curls in a loose ring against the mold.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"After cooling, the orange wax pattern remained visible at the outer wall while an uninterrupted plain channel surrounded the wick.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-016","persona":"craft-workshop-observer","domain":"crafts","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"An oval river stone sat inside a loose copper-wire frame. Three pencil dots marked where the wire touched its upper curve and two lower shoulders without crossing the stone's painted stripe.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Explain why three separated contact points are better than one tight wire around the middle.","gold_reply":"Three contacts hold the stone against slipping or turning while leaving its painted center visible and avoiding one crushing band.","pause_after":"short"},
+        {"kind":"narration","text":"The learner lifted the wire tails, then voiced the risk: “Should the top loop carry all the weight?”","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The lower wires folded over both shoulders before the top loop closed. Each bend followed a pencil dot and left a small space between copper and stripe.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Lifted by the loop, the stone stayed upright instead of rolling toward its heavier side.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A gentle side tap shifted neither lower contact, and the wire left no bright scratch on the paint.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The pendant hung from three quiet grips with its central stripe fully visible.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-017","persona":"craft-workshop-observer","domain":"crafts","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"A broom workshop divided dried grass stems into three bundles: long straight stalks for the center, flexible medium stalks for the outer fan, and short rough ends for a separate hand brush. Colored ties marked bundle type before any cord was wrapped.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The first binding test used one tight cord line near the handle. Its center stayed firm, but the outer grass spread abruptly below the knot and left an uneven sweeping edge.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"With both powder trails visible, the instructor explained that a correct sweep required the outer stalks to stay controlled through contact. A second test used two wider cord bands around those flexible stalks.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"address","text":"Separate what the colored ties identify from what the two binding tests demonstrate.","gold_reply":"The ties identify stem roles; the tests show that one narrow binding lets the fan spread abruptly, while two wider bands control the outer stalks more evenly.","pause_after":"short"},
+        {"kind":"narration","text":"The maker built a fresh center from long stalks, laid medium stalks around it, and tightened two cord bands gradually from opposite sides. The short ends remained at the hand-brush table.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Across a flour-dusted board, the new broom held a broad straight edge and moved the powder in one pass. The single-band sample left two narrow trails where its outer stalks had flared.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Both samples stayed beside their bundle ties and cord patterns. The finished broom recorded two separate facts clearly: what each stem had been chosen to do and how binding changed the fan that reached the floor.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-018","persona":"craft-workshop-observer","domain":"crafts","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"A bead loom carried a cream band with paired green markers every twelve warp threads. The count sheet reserved one four-bead group at the midpoint, directly opposite the clasp mark, and listed equal cream counts to its left and right.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Before weaving the wider group, the maker laid a ruler across both edges and marked the same band width at three points. The clasp thread remained centered between the outermost warp lines.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"After the four green beads entered, the next cream row settled without bending either edge inward. A loose wrist-form test placed the group opposite the clasp while every paired marker remained equally spaced.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The maker counted outward from the midpoint twice, then compared the strip against the paper guide. Both sides ended on the same row, and the warp lines stayed parallel through the four-bead section.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"State the alignment checks that approve the four-bead group.","gold_reply":"Approve it because it lands opposite the clasp, preserves equal counts on both sides, and leaves the edges parallel rather than pulling them inward.","pause_after":"short"},
+        {"kind":"narration","text":"For the final check, the bracelet closed around the form without twisting. The clasp and four-bead group faced across the same centerline, edge measurements matched, and no warp thread carried a visible sideways pull.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-019","persona":"craft-workshop-observer","domain":"crafts","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"A pottery class shaped mug bodies and pulled handles from the same stoneware clay. On the first trial, a handle joined while the mug wall was still soft; its weight drew the round rim into a shallow oval.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A second mug waited uncovered until its wall felt dry and pale. The fresh handle still bent easily, but the stiff cup barely accepted scoring, and a hairline opened beside the seam as the pieces dried at different rates.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could waiting longer guarantee a cleaner join? I was looking for matched leather-hard firmness, not maximum dryness in either piece.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Set the joining moment that the two failed trials support.","gold_reply":"Join when both cup and handle are leather-hard enough to hold shape but still receptive to scoring, slip, and compression at the seam.","pause_after":"short"},
+        {"kind":"narration","text":"For the next mug, both surfaces yielded slightly beneath a thumb without deforming. The maker scored matching areas, brushed on slip, pressed the handle home, and compressed the seam from both directions.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"What good is perfect placement if one side shrinks away from the other? The joined mug rested under loose plastic so moisture could equalize before the cover was opened gradually.","traps":["rhetorical_question"],"pause_after":"short"},
+        {"kind":"narration","text":"The rim remained circular after the handle carried its own weight. Two days later, the seam showed no pale gap, and the handle and cup reached the same dry color together. Timing had protected both the form and the join.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-020","persona":"craft-workshop-observer","domain":"crafts","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"A small wooden automaton placed a bird above a hand crank. Inside the open-sided box, the crank shared an axle with an oval cam; a vertical follower touched the cam and met a short lever beneath the bird's hinged head.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Pencil arrows traced force from the handle into the axle, upward through the cam and follower, then along the head lever. A light return cord ran from the rear of the lever to the box floor.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"What could the painted wing contribute to motion when it touched no moving joint? It decorated the body but sat outside the marked mechanical path.","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Turning the handle rotated the axle. The cam's rising face lifted the follower, the follower pushed the lever, and the lever tipped the bird's head toward a wooden seed on the lid.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"As the cam rolled past its high point, the follower dropped and the return cord pulled the head upright. Wide feet beneath the box resisted the downward reaction without sliding across the bench.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Trace the complete load path for one peck and return.","gold_reply":"Hand force turns the crank and axle; the cam lifts the follower, which pushes the head lever. After the cam passes, the return cord resets the lever while the box feet carry the reaction into the bench.","pause_after":"short"},
+        {"kind":"narration","text":"The maker removed the painted wing and repeated ten turns. Peck height and return stayed unchanged, confirming that the wing was decoration while the crank, axle, cam, follower, lever, cord, feet, and bench formed the working load path.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-021","persona":"everyday-technology-companion","domain":"technology","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"A voice message began with two silent seconds before the first clear sentence appeared in its waveform.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could starting at the first speech peak make the message easier to enter?","gold_reply":"Yes. Removing only the flat silent lead lets the listener reach the intact first sentence immediately.","pause_after":"short"},
+        {"kind":"narration","text":"The start marker moved to the first visible cluster without touching its opening sound.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Playback began on the full first word rather than mid-syllable.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The sentence and closing breath remained unchanged.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The message now opened with speech instead of an accidental pause.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-022","persona":"everyday-technology-companion","domain":"technology","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"A family scanner showed each recipe page as a thumbnail before saving it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A blue frame marked the capture area, using color to highlight its edges. Dad leaned toward the preview: “Did the torn corner stay in view?”","traps":["descriptive_command_word","quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The thumbnail showed all four paper edges, including the torn lower corner.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A second preview enlarged the handwriting without cropping the flour stain.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Does the preview preserve the whole page rather than only its neat center?","gold_reply":"It does. Every paper edge, the torn corner, handwriting, and flour stain remain inside the captured frame.","pause_after":"short"},
+        {"kind":"narration","text":"The page saved with its irregular outline intact.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-023","persona":"everyday-technology-companion","domain":"technology","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"Three people drafted a shared event plan, each working under a different colored cursor. The venue paragraph stayed with the green cursor, while blue handled transport and orange handled food.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Can cursor ownership reduce collisions without locking anyone out of the document?","gold_reply":"Yes. Visible paragraph ownership lets each person work in a separate area while the whole document remains shared.","pause_after":"short"},
+        {"kind":"narration","text":"Could color alone prevent every overlap? I still watched for two cursors entering the same paragraph before assuming the division held.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Orange moved one food-delivery sentence beneath the venue heading, then paused when green appeared beside it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Green finished the address first and left a blank line for the delivery detail.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Orange filled that line after the green cursor returned to its own section.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The plan gained one coordinated handoff without restricting access to any paragraph.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-024","persona":"everyday-technology-companion","domain":"technology","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"A grocery-delivery screen offered three choices when an ordered pear was unavailable: accept a green apple, accept a peach, or receive no fruit replacement.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The shopper had marked the pear for a firm lunchbox snack, not for baking or immediate eating.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At the doorstep, the courier described the apples as crisp and the peaches as already soft.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"address","text":"Which replacement follows the lunchbox requirement most closely?","gold_reply":"Choose the crisp green apple; its firmness matches the stated use better than the soft peach.","pause_after":"short"},
+        {"kind":"narration","text":"Who needs an automatic replacement that ignores the reason the item was chosen? The listed texture made one option closer than the other.","traps":["rhetorical_question"],"pause_after":"none"},
+        {"kind":"narration","text":"The shopper accepted the apple and left the peach available for another order.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The delivery arrived with one firm substitute rather than an arbitrary piece of fruit.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-025","persona":"everyday-technology-companion","domain":"technology","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"Four identical charging cables lay beside a laptop, but only one carried data during a camera transfer. A small camera icon was already molded into that cable's plug.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"State the simplest way to keep that capability visible for the next transfer.","gold_reply":"Keep the data cable separate and mark its storage place with the same camera symbol already visible on its plug.","pause_after":"short"},
+        {"kind":"narration","text":"The other three cables charged the laptop but did not reveal the camera's files.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A shallow tray gained one camera-shaped label at its left end.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"After transfer, the matching cable returned there instead of joining the charging bundle.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The next camera connected without testing all four plugs again.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-026","persona":"everyday-technology-companion","domain":"technology","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"A community concert issued two digital tickets to one phone, but the second guest would arrive through a different entrance. The ticket screen showed a transfer code and an offline saved copy, each with a distinct moving border when active.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Before separating, the guests opened the transferred ticket on the second phone and then switched both phones to airplane mode. Each screen still displayed a different seat number and a scannable border.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At the test desk, a volunteer pointed to both airplane-mode icons and posed one challenge: “Can each ticket reopen without the message thread?” Both guests closed the ticket view and returned through the wallet screen rather than the original link.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Describe what the offline reopening test proves before the guests split up.","gold_reply":"It shows that each phone independently holds its own seat ticket and can reopen it without connectivity or the transfer message.","pause_after":"short"},
+        {"kind":"narration","text":"The first phone reopened seat twelve from its wallet; the second reopened seat thirteen. Neither screen replaced the other ticket or needed a network connection.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At opposite entrances, both moving borders scanned once and turned into separate admission confirmations. The guests met inside with no phone handoff across the gates.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-027","persona":"everyday-technology-companion","domain":"technology","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"A shared 3D printer queue showed three small jobs: a replacement drawer knob, a classroom gear, and a model-tree base. Each file displayed estimated material beside a thumbnail of its final orientation.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Set a queue check that uses visible job evidence rather than whoever asks loudest.","gold_reply":"Compare material needs, orientation previews, and stated use before ordering the jobs; those visible constraints are more relevant than request volume.","pause_after":"short"},
+        {"kind":"narration","text":"A student used search to locate the gear by filename; finding its row did not set priority. The row itself showed that the part was needed for the next morning's lesson.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"The gear used the least material and already lay flat in its preview. The knob needed a support column, while the tree base could rotate sideways and remain for later without affecting a scheduled activity.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The gear printed first and passed a hand-turn test before the classroom tray closed. Its file and outcome stayed together in the queue record.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The knob followed with its support attached, and the tree base moved to the later open slot. No job disappeared; the sequence reflected use, readiness, and material rather than urgency performed at the printer.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"By evening, all three thumbnails had matching finished objects. The first position had carried a reason that remained visible after the room grew quiet.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-028","persona":"everyday-technology-companion","domain":"technology","register":"calm-plainspoken",
+      "segments":[
+        {"kind":"narration","text":"A registration form placed a required name field, a visible toggle labeled “Add optional biography,” and the submit button in one column. With the biography closed, keyboard focus followed that same order: name, optional toggle, submit.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The toggle exposed both its optional label and collapsed state in screen-reader output. Nothing in the label made opening it a condition of submission.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could including the toggle in normal order force everyone to write a biography? I was separating reachability from activation: users encounter the control but choose whether to open it.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Explain the keyboard-flow principle shown by the closed form.","gold_reply":"Keep every visible control in the same logical order as the page—name, optional toggle, submit—while making activation and biography entry genuinely optional.","pause_after":"short"},
+        {"kind":"narration","text":"One tester entered a name, tabbed to the optional toggle, left it closed, and reached submit next. The visible control was neither skipped nor turned into a required field.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A second tester activated the toggle. The biography field appeared directly after it, so the next Tab entered that field and the following Tab reached submit; closing the section returned the short path.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Repeated passes preserved the name and reflected the toggle's changed state. The closed path remained name to optional toggle to submit, while the expanded path inserted the biography exactly where its visible position promised.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-029","persona":"everyday-technology-companion","domain":"technology","register":"curious-practical",
+      "segments":[
+        {"kind":"narration","text":"A new kitchen mixer arrived with an emailed receipt, a photographed serial plate, and a service page reached through a temporary store link. The receipt showed purchase date and model but not the serial number printed beneath the machine.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The serial photograph included the full plate and one corner of the mixer body, tying the number to the appliance without requiring the heavy machine to be turned over again.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The retailer's warranty email warned that the service link would expire after thirty days, while downloaded receipt files would remain valid for requests.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"The family saved the receipt file and serial photograph in one appliance folder, then added the manufacturer's stable service address as plain text inside a short note.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"From a second phone, they opened the saved receipt and enlarged the serial plate enough to read every digit. The temporary store page was not needed for either check.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"State the durable warranty bundle supported by those checks.","gold_reply":"Keep the downloaded receipt, the readable serial-plate photo, and the stable manufacturer service address together rather than relying on the expiring store link.","pause_after":"short"},
+        {"kind":"narration","text":"The folder then moved into the household document archive and reopened with the same three pieces intact. The useful record belonged to the family now, not to the lifetime of one email button.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-terra-c-08-030","persona":"everyday-technology-companion","domain":"technology","register":"observant-friendly",
+      "segments":[
+        {"kind":"narration","text":"Before retiring an old phone, a family tested access to a shared photo folder from a new phone and a laptop. The new phone opened current albums, while the laptop still held the only locally saved copy of an older folder named by year.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The account page listed both new devices as signed in and showed the old phone separately. A printed recovery code remained sealed in the household document box, unused during ordinary access.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"They copied the older laptop-only folder into the shared library and opened three images from the new phone. File dates and the year folder remained visible after the copy.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Next, the laptop signed out and returned through the normal account prompt. It reopened both current albums and the newly shared older folder without relying on the old phone.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The family checked the sealed recovery-code envelope without opening it, confirming that the fallback existed independently of any device. No one treated an already signed-in screen as proof that recovery would work later.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Set the retirement sequence supported by those access and backup checks.","gold_reply":"Confirm the older folder is shared and opens on the new phone, verify normal sign-in on another device, preserve the sealed recovery code, and only then remove the old phone from the account.","pause_after":"short"},
+        {"kind":"narration","text":"The old phone was removed from the signed-in device list. The new phone and laptop remained listed, and both still opened the same sample images afterward.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Only after that final check did the old phone receive a local erase. The family kept access through two current devices, one independent recovery path, and a folder whose history no longer depended on forgotten storage.","traps":[],"pause_after":"long"}
+      ]
+    }
+  ]
+}

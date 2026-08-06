@@ -1,0 +1,1502 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-b",
+    "tranche": 6
+  },
+  "records": [
+    {
+      "id": "d1-sol-b-06-001",
+      "persona": "commute-story-swapper",
+      "domain": "neighborhood",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "On my walk home, I watched a neighbor lift a wind-tipped geranium pot from the pavement and settle it back on a stranger’s sill.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give that quiet rescue the warmth it deserves.",
+          "gold_reply": "It was a lovely piece of passing care—brief, practical, and offered without needing credit.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She gathered the spilled soil with an old bus ticket and tucked it around the roots.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The curtain behind the window stayed closed, so no thanks arrived from inside.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She brushed her hands on her coat and continued toward the corner without looking back.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By dusk, the geranium stood upright beside one crescent of clean pavement.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-002",
+      "persona": "household-routine-negotiator",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The neighborhood bus has matching stop buttons at adult shoulder height and beside the priority-seat armrest.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Which button would you show a child who cannot reach the upper one?",
+          "gold_reply": "The lower button—it gives the same visible signal without asking the child to stretch into the aisle.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A child traced the lower bell symbol before climbing into the window seat.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Her brother wondered, \"Will this button remind the driver too?\"",
+          "traps": [
+            "quoted_question",
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Both buttons lit the same red sign above the aisle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The child kept her hand in her lap until their stop came into view.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-003",
+      "persona": "commute-story-swapper",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our kitchen timer now sits inside a striped teacup because its broken back clip makes it topple on the counter.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Niko mentioned that the cup was the only holder that survived three rounds of vigorous dough mixing.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "What should the timer pay as rent for occupying a teacup?",
+          "gold_reply": "One perfectly timed pot of tea each week seems like a fair household arrangement.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The timer still rings clearly above the rim.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has accidentally poured tea over it yet.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We return both objects to the shelf after baking.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-004",
+      "persona": "household-routine-negotiator",
+      "domain": "neighborhood",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The ledge outside our building entrance is barely wide enough for two people, yet it has become the lane’s unofficial resting place after the uphill walk.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Most afternoons, two teenagers leave their scooters beneath it while they trade songs through one pair of headphones.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Yesterday an older neighbor arrived with a full market trolley and paused at the curb, looking from the scooters to the empty end of the ledge.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The teenagers lifted both scooters against the wall and shifted closer together before she had to ask for space.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What might that small rearrangement have felt like from her side?",
+          "gold_reply": "Like being noticed before becoming an inconvenience—the kind of welcome that preserves dignity.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She sat for only a minute, then steadied herself on the trolley handle and continued home while they kept the music low.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-005",
+      "persona": "commute-story-swapper",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A roof vent on the old tram brought in cool river air, but the draft kept lifting the loose route maps from the shelf beneath it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Choose what you would protect first: the fresh air or the readable maps.",
+          "gold_reply": "Keep the vent partly open and secure the paper; the carriage can have air without donating its maps to the river.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The conductor caught one map against her sleeve and weighed the stack with a spare ticket punch.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Who wants perfect ventilation if every map tries to leave at the next curve?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Passengers near the vent kept their coats on while the warmer rear seats slowly filled.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The vent stayed half open, and two clips held the maps flat without silencing the breeze.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-006",
+      "persona": "household-routine-negotiator",
+      "domain": "household",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We started filling the glass water carafe before bed and leaving two clean tumblers beside it on the kitchen table.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The arrangement replaces our old dawn routine of opening three cupboards while half awake and pretending the noise is delicate.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Predict which part of tomorrow morning becomes easier.",
+          "gold_reply": "The first drink happens without a cupboard search, so everyone starts with less clatter and fewer decisions.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "On the first morning, my sister called from the doorway, \"Did the kitchen prepare breakfast without us?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody knocked a mug from the crowded shelf, and the kettle remained the only loud object before sunrise.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The last person awake now refills the carafe and turns one tumbler upside down as a quiet sign that the table is ready.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-007",
+      "persona": "commute-story-swapper",
+      "domain": "neighborhood",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The loose drain cover outside number twelve clacked under every bicycle wheel at noon, and three upstairs windows opened almost in sequence.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Why did the windows open even though nobody knocked?",
+          "gold_reply": "A sharp, repeated clack echoed like a knock, so several residents mistook the same street noise for someone at their doors.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each double clack bounced between the narrow walls like a brisk knock.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Residents leaned out, spotted one another, and laughed at the shared mistake.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After traffic cleared, a neighbor tucked a thin rubber shim beneath the loose corner.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The next bicycle crossed quietly, and the windows stayed closed.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-008",
+      "persona": "household-routine-negotiator",
+      "domain": "public-transit",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The ferry crew turned every loose deck bench inward before the afternoon crossing.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Gusts were pushing spray over the rail, but the ticket scanner at the gangway remained lit.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Passengers kept their bags zipped and stood beneath the canopy rather than leaving the pier.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the inward benches mean the crossing was canceled? I kept my ticket out and watched the crew secure the last rope.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep your ticket in hand or head home?",
+          "gold_reply": "Keep it in hand—the crew is preparing for wind, and the active scanner gives no sign of cancellation.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Boarding began once the benches were strapped to the center posts.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-009",
+      "persona": "commute-story-swapper",
+      "domain": "household",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our single rice cooker became the center of a breakfast dispute when one housemate soaked sticky rice overnight and another arrived with oats, apples, and a promise of quick porridge. Both had early starts, and neither wanted to carry a saucepan through the crowded kitchen while lunch boxes, coffee cups, and bicycle keys already covered the counters.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The sticky rice needed the longer cycle but could rest afterward under a folded towel. The porridge cooked faster and tasted best straight from the pot, so beginning with either dish favored a different clock. We wrote departure times beside the two bowls instead of arguing from hunger.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What compromise keeps both breakfasts possible without pretending the clocks are equal?",
+          "gold_reply": "Cook the sticky rice first, let it rest under a towel, then use the shorter second cycle for porridge while the later departures are still home.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Mina said the faded instruction card read \"wait for two clicks before lifting the lid,\" and she set it beside the cooker so nobody would rush the release.",
+          "traps": [
+            "reported_speech",
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We chose the sticky rice first, using its resting time for the porridge cycle, and cleared one corner for a saucepan only as backup. The earliest rider packed fruit and took a smaller portion rather than pressing everyone else into a faster but messier plan.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Both breakfasts reached the table before the last coat came off its hook. The cooker handled the two textures in sequence, and the handwritten times stayed on the fridge for the next morning when appetite might again pretend to be the only schedule that mattered.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-010",
+      "persona": "household-routine-negotiator",
+      "domain": "neighborhood",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After the first warm rain, the lane smelled of sun-heated brick cooling under water and jasmine shaken from the hedge. The two scents met near the drain, one earthy and mineral, the other sweet enough to seem almost visible in the damp air.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with the brick and jasmine before the lane fills with other smells.",
+          "gold_reply": "I have them: warm mineral brick cooling under rain, with bruised jasmine rising sweetly beside it.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "People emerged slowly from doorways to lift sandals, close scooter seats, and rescue a paper parcel from a low wall. Every movement stirred another layer: wet dust beneath a broom, soap from an upstairs balcony, and the peppery leaves of a herb pot knocked by the rain.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A bakery window opened at the far corner, releasing steam from the final tray of rolls. The bread smell did not erase the brick or jasmine; it traveled between them in brief warm pockets whenever the wind turned toward the houses.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Water threaded along the curb carrying two yellow petals and the reflection of a red awning. Children stepped over the stream, then doubled back to float the petals beneath the parked bicycles while adults talked across the narrow lane.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By the time the clouds thinned, the brick had cooled and the jasmine had softened. The lane kept only bread, wet leaves, and the clean metallic smell of railings after rain, as though the neighborhood had changed rooms without moving.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-011",
+      "persona": "commute-story-swapper",
+      "domain": "public-transit",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A violinist beside the tram platform began matching the three-note door chime whenever a carriage arrived.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first answer came softly, but by the third tram she had turned the mechanical notes into a bright little flourish.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A passenger at the ticket machine laughed and asked, \"Does the tram know it has joined the band?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Even the platform attendant looked up before giving the departure signal.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That accidental duet deserves a proper reaction.",
+          "gold_reply": "It is charming—the tram supplies three practical notes, and she sends them back with personality.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The violinist bowed toward the closing doors, then returned to her own melody.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-012",
+      "persona": "household-routine-negotiator",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A bulk grocery delivery left four wooden crates inside our narrow vestibule just as everyone came home carrying wet coats, laptop bags, and opinions about where food belongs. The crates were not heavy, but together they reduced the entrance to a sideways shuffle past onions, jars, and a heroic quantity of rice.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We could unpack everything immediately and turn the kitchen into a second obstacle course, or move only the chilled food first and leave the sealed pantry goods until the floor was clear. Nobody wanted another permanent household rule born from one crowded evening.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give us one rule for clearing the entrance without assigning blame.",
+          "gold_reply": "Move perishables first, restore a safe walking path, and postpone ownership debates until the doorway works again.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Who needs a welcome mat when a fortress of chickpeas already guards the door?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We carried milk, yogurt, and greens straight to the refrigerator, then stacked the sealed crates against the dining wall with every handle facing outward. Coats reached their hooks, the entrance reopened, and the remaining food could be sorted without six people crossing the same strip of floor.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The empty crates went beside the recycling shelf before bedtime. We kept one modest agreement from the episode: perishables move first, walking space comes second, and debates about the ideal jar cupboard can begin only after nobody is trapped outside with the rain.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-013",
+      "persona": "commute-story-swapper",
+      "domain": "neighborhood",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At sunset, an upstairs window threw a bright rectangle onto the blank wall across our lane. The glass was slightly warped, so the reflected light trembled at the edges and turned every passing hand into a giant, wavering silhouette.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two children discovered the wall while carrying bread home. One shaped a rabbit with her fingers; the other raised a paper bag like a mountain, and the rabbit immediately acquired a dramatic place to live.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Neighbors began pausing beneath the projection without blocking the lane. A cyclist contributed spinning wheel shadows, a grandfather offered a slow crocodile, and someone upstairs tilted a watering can just enough to send a brief silver ripple through the scene.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The show lasted only while the sun cleared the roofline. No one controlled the order, and every shadow disappeared as soon as its owner continued home, leaving room for the next improvised creature.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Add one playful rule to tonight’s wall show.",
+          "gold_reply": "Every performer gets one shadow and one graceful exit; the lane must stay open for the audience that is still going home.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The rectangle climbed the wall, thinned to a gold strip, and vanished before anyone could over-organize it. The children bowed to the ordinary bricks, then carried the bread through the same patch of shade that had held their whole theater.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-014",
+      "persona": "household-routine-negotiator",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "An older rider remained standing beside her folded market trolley near the rear doors even though two seats were open across the aisle. She kept one hand on the trolley frame and shifted easily with each curve, looking settled rather than stranded.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Read her choice generously.",
+          "gold_reply": "She may value control of the trolley and an easy exit more than the open seat; offering once is kind, insisting would not be.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A student rose and pointed to the nearer seat, but she smiled, touched the trolley handle, and stayed where she was. The exchange ended without embarrassment, and the student left his bag off the empty cushion in case she changed her mind.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "At the next stop, three passengers entered with shopping bags. They formed a loose arc around the same pole, leaving the trolley wheels clear and keeping the door path open without turning her choice into a public discussion.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Could standing be comfort rather than sacrifice in this particular moment? I watched her posture and the easy distance to the doors instead of treating an empty seat as the only evidence of care.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She rolled the trolley onto the platform at the market stop in one smooth movement. The student gave a small wave, and she returned it before joining the stream of shoppers beneath the station clock.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-015",
+      "persona": "commute-story-swapper",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our shared table had to hold a geometry worksheet, a tray of dumpling wrappers, and four people who all believed their task required the exact center.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Would you divide the table or make everyone take turns?",
+          "gold_reply": "Divide it: a washable food half and a dry study half let both routines continue without competing for the center.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We laid a washable runner across one half and kept pencils, rulers, and books on the dry side.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Was the table truly too small, or were our elbows simply negotiating with unnecessary drama?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Flour stayed inside the runner’s stitched border, while the student used a hard book as a drawing board.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A bowl of filling moved only when everyone reached a natural stopping point.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Homework finished before the last dumpling was folded.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-016",
+      "persona": "household-routine-negotiator",
+      "domain": "neighborhood",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Three dogs on our block now wear small clip-on lights during the final evening walk.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "One glows amber, one blue, and one blinks white beneath a very serious raincoat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Their owners can spot one another before the dogs reach the dark bend by the garages.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Predict what changes on tonight’s last walk.",
+          "gold_reply": "People will see the dogs before the leashes cross, and familiar neighbors can greet one another without a dark-corner surprise.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The lights stay low on the leashes instead of shining into windows.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Even the shy terrier approaches the corner without surprising anyone.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The last walk has become easier to recognize from half a block away.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-017",
+      "persona": "commute-story-swapper",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The temporary shuttle stop beside the theater had an official yellow flag folded tightly around its pole after the morning wind.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Someone had also tied a red cloth loop lower down, but it faced the pavement and was invisible from the road.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first shuttle slowed, continued past the cloth, and stopped twenty meters ahead where the yellow edge finally opened in the breeze.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A rider beside me asked, \"Will the red loop remind the next driver where we are?\"",
+          "traps": [
+            "quoted_question",
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "From the curb, only pedestrians could see the red loop; the driver’s approach lined up with the yellow flag.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Why did the driver miss the red loop but find the yellow flag?",
+          "gold_reply": "The cloth faced pedestrians, while the official flag opened toward approaching traffic and matched the driver’s expected marker.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We unfolded the flag fully and removed nothing from the marked boarding area.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-018",
+      "persona": "household-routine-negotiator",
+      "domain": "household",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A woven basket marked “guest towels” holds folded cloths gathered after weekend visitors.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Lena said half came straight from the dryer, while Amir remembered adding dry-looking bathroom towels after the visitors left.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "No tag records which stack has actually been washed.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The basket is full enough for tonight’s overnight guests.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Both people who filled it are away until tomorrow.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Can we put them out tonight as clean towels?",
+          "gold_reply": "Not confidently—the basket has a purpose label but conflicting wash histories, so a quick wash is safer than treating neat folds as proof.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We started a short wash and left the basket label for sorting tomorrow.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-019",
+      "persona": "commute-story-swapper",
+      "domain": "neighborhood",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A folding drying rack from the upstairs courtyard toppled twice into the downstairs herb bed, flattening one parsley edge and raising two very different voices at the fence.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Give both sides an opening sentence that lowers the temperature.",
+          "gold_reply": "Rack owner: “We damaged the parsley, and we want to prevent another fall.” Gardener: “I want your laundry to dry without the herb bed becoming the rack’s landing place.”",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The rack’s owner came downstairs and saw the bent stems before defending its usual position.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The gardener moved the surviving pots away from the lowest section of wall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One neighbor found two sturdy clips left from a balcony project.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "They clipped both feet to the railing and tugged the empty rack while the gardener watched from the path.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The next gust left the rack upright and the parsley untouched.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-020",
+      "persona": "household-routine-negotiator",
+      "domain": "public-transit",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The morning tram smelled heavily of wet wool from a row of dark coats.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A passenger peeled an orange near the center doors, sending its sharp scent down the aisle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Warm brake dust entered when the carriage paused on the hill.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Which smell cuts through the heavier ones in that carriage?",
+          "gold_reply": "The orange peel—it cuts through wet wool and warm metal with one sharp, bright note.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could one orange outsing an entire wet carriage? I kept catching its bright peel between the heavier smells.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The doors opened and rain-cooled air thinned everything.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Only the orange stayed distinct to the next stop.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-021",
+      "persona": "commute-story-swapper",
+      "domain": "household",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I came home after midnight to find a covered bowl on the stove and the smallest spoon balanced across its lid.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A note beside it listed reheating time, then added a crooked moon in place of a signature.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The others had eaten hours earlier and left the kitchen clean except for my portion.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Who says care has to stay awake until the front door opens?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The soup still smelled of ginger when I lifted the lid.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "That midnight kindness landed exactly where it needed to.",
+          "gold_reply": "It did—the measured portion, tiny spoon, and silly moon made an empty kitchen feel companionable.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I washed the bowl quietly and left the moon note on the fridge.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-022",
+      "persona": "household-routine-negotiator",
+      "domain": "neighborhood",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our Saturday fabric swap began with one clothesline stretched between two courtyard posts, but winter coats and folded blankets soon dragged its center toward the lane. People kept arriving with tote bags, and each new hanger narrowed the path used by bicycles, prams, and neighbors carrying groceries home.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody wanted to end the swap just as strangers had begun comparing sleeve lengths and telling stories about weddings, first jobs, and children who had outgrown bright jackets. At the same time, a cyclist had to duck under one scarf, and a pram wheel brushed a blanket corner.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved the heaviest coats onto two benches and grouped shoes beneath them in pairs. The line rose slightly, yet the middle still sagged whenever someone slid hangers aside to inspect a shirt.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A second unused line lay coiled beside the laundry-room door inside the courtyard. Two wall hooks there could carry light clothes without reaching the lane or blocking the entrance.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Volunteers held the remaining hangers while we walked the route at pram height and bicycle-handle width. The swap still felt lively from inside the courtyard, and the open strip outside looked like a street again rather than the back of a crowded wardrobe.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Offer one change that keeps the swap welcoming without borrowing the whole lane.",
+          "gold_reply": "Use the second courtyard line for light clothes, keep heavy coats on benches, and preserve one clearly open route for people passing through.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "By late afternoon, every coat had a place on a bench, every light garment hung within the posts, and people could stop to browse without forcing passersby to join the event. The final scarf left with the cyclist who had ducked beneath it earlier.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-023",
+      "persona": "commute-story-swapper",
+      "domain": "public-transit",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Five umbrellas opened at once beneath the station canopy when a sideways shower reached the bus queue.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Their wet spokes crossed like an argument nobody had intended.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A rider at the center asked, \"Is there a graceful way out of an umbrella knot?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Turn that five-umbrella tangle into one line of comedy.",
+          "gold_reply": "Five polite porcupines entered a queue and discovered that manners require taking turns with the weather.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Everyone lowered one canopy before raising the next.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A station worker offered a tall drip bag for the largest umbrella.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The queue recovered without sacrificing anyone’s hair. The porcupine joke survived the rain.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-024",
+      "persona": "household-routine-negotiator",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My housemate reaches past four unmarked bowls every morning to choose the shallow one with a small chip beneath its rim. The chip faces away from her hand, and the bowl sits level on the table despite its worn edge.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Why might the chipped bowl still win against four newer ones?",
+          "gold_reply": "Because comfort can live in familiar proportions and practiced handling; spotless condition is not the only kind of usefulness.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She mentioned that the broad rim cools porridge quickly enough for her early departure, while the deeper bowls keep breakfast hot long after she needs to leave.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A pale spoon mark circles the inside, and one blue flower remains visible beneath years of fine scratches. I found a matching saucer in the back cupboard, but she preferred the bowl alone.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The newer bowls stack neatly and survive the dishwasher without special placement. This one gets washed by hand, dried on a folded cloth, and returned to the front of the shelf before the next morning.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "When a guest chose it by accident, my housemate traded bowls without making a speech and checked the chipped edge with her thumb. She then filled it only halfway, exactly as she does for herself.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing about the object is rare or formally inherited. Its value lives in the familiar depth, the quick-cooling rim, and a hand that knows where the small rough place will be.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-025",
+      "persona": "commute-story-swapper",
+      "domain": "neighborhood",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The plum tree over the corner wall dropped six ripe fruits onto the footpath.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two were firm enough to eat, while the others had split on the paving.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Ants had reached the softest plum near the drain.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A clean bowl already sat on the wall beneath the branches.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The evening walking rush would begin within half an hour.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would you offer the good fruit or clear every plum before dark?",
+          "gold_reply": "Do both: place sound fruit in the clean bowl and remove the split pieces before the path becomes sticky.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I swept the broken fruit aside and left the sound plums in the bowl.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-026",
+      "persona": "household-routine-negotiator",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Fog covered the ferry landing while a portable board beside the ticket hut displayed only the words “wait by the blue post.” The post stood ten steps from the usual gangway, and people formed a tight crescent around it with bags, bicycles, and two sleepy children.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What do you expect riders to do with a board that gives only that instruction?",
+          "gold_reply": "They will gather tightly around the post and watch one another for clues, because the board gives a place but no duration or boarding shape.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The river was audible before it was visible. A bell rang somewhere beyond the white air, gulls answered from the roof, and every face turned toward the sound even though no vessel appeared at the expected edge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could that brief instruction be doing too much work on the board? I watched newcomers join the crescent without knowing whether the delay was minutes, an hour, or a change of landing.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A crew member emerged from the mist carrying a coil of rope and placed a second board several meters downstream. Its arrow gave the crowd room to lengthen instead of pressing more bicycles around the post.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Families moved first, then cyclists rolled behind them with handlebars turned sideways. The original crescent opened into a line that left the ticket-hut door clear and gave the children a dry bench beneath the awning.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The ferry horn sounded twice, closer now, and a dark bow appeared beside the downstream board. People who had arrived after the arrow no longer needed to copy a cluster whose shape had begun as uncertainty.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Boarding started in small groups while the blue post remained visible as the meeting point. The word on the first board had kept people nearby; the arrow and crew presence finally showed them how to occupy the space.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-027",
+      "persona": "commute-story-swapper",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our stovetop kettle took nearly twice as long to whistle even though it held the usual two mugs of water.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A thin ribbon of steam escaped beside the lid instead of through the spout.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The small alignment arrow on the lid sat one notch left of the handle mark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What caused the slow whistle this time?",
+          "gold_reply": "The lid was misaligned, so steam leaked at the rim instead of building pressure toward the whistle.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why blame the quiet burner when steam is already sneaking out the side?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I turned the lid until both marks met and kept the flame unchanged.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The whistle arrived before the toast finished.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We now check the two arrows when filling the kettle.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-028",
+      "persona": "household-routine-negotiator",
+      "domain": "neighborhood",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A red ribbon appeared around the plane tree at the end of our lane on Monday morning. By breakfast, one neighbor believed the tree was marked for removal, another thought it signaled a festival route, and a third had already begun photographing the branches as if saying goodbye.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The ribbon carried no writing, seal, or date. It was tied loosely above a patch of old bark, and the knot faced the houses rather than the road where work crews usually place notices.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Children added no decorations, and the nearby lamp post remained bare. The tree’s crown still shaded the same two windows, with one long branch brushing neither wire nor roof.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "At noon, a gardener arrived carrying a measuring tape and a notebook. She checked the distance between the trunk and a new curb edge, then moved around the tree without using a saw, ladder, or paint.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She untied the ribbon after measuring and placed it in her bag. No paper notice appeared, and the tree remained exactly as it had been except for a pale band where the cloth had shielded dust.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Keep the red ribbon from becoming a verdict.",
+          "gold_reply": "The ribbon marks attention, not an outcome; until a real notice or action appears, removal is only a neighborhood theory.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The neighbors’ theories softened into jokes before dinner. Someone printed a tiny card reading “still here” and leaned it against the wall rather than fastening anything to the bark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "For the rest of the week, the plane tree returned to being ordinary shade. The photographs remained useful, but none had needed to become a farewell album.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-029",
+      "persona": "commute-story-swapper",
+      "domain": "public-transit",
+      "register": "quick-witted-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two riders reached the only working charging socket just as the bus entered a forty-minute express section.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give them one sentence that makes sharing easy.",
+          "gold_reply": "Split the forty minutes evenly: one phone charges now, then they trade after twenty minutes.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One phone showed twelve percent and the other showed nine.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first rider asked, \"Could I charge until the bridge, then pass it over?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The second rider placed both cables beside the socket.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A route screen showed the bridge at the halfway point.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "They swapped without unplugging anyone’s headphones.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Both phones survived to the terminal.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-06-030",
+      "persona": "household-routine-negotiator",
+      "domain": "household",
+      "register": "calm-cooperative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After dinner, the kitchen held three strong smells at once: garlic crisping in the small pan, cardamom steam from a pot of tea, and rain cooling the stone sill beneath the open window. None stayed in one corner; every draft rearranged the room.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The garlic clung low around the stove and followed plates toward the sink. Cardamom rose with the kettle, sweet and woody, while the rain came in as a dark mineral breath that briefly cleared both before the warm air gathered again.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We wiped the table with lemon peel left from dessert. Its sharp oil flashed across the center, then faded quickly, leaving the older smells to settle into curtains, dish towels, and the sleeves of anyone still talking.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a room remember dinner through scent alone? I stood in the doorway after the dishes were stacked and found the whole evening compressed into garlic, wet stone, tea, and one bright trace of lemon.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The window stayed open just wide enough for the rain air without spotting the floor. Someone lowered the stove flame, another poured the final tea, and conversation moved from the table to the counter without breaking.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Which smell changes the room most abruptly?",
+          "gold_reply": "The lemon peel: its sharp oil flashes across the center and fades quickly, unlike the slower garlic and cardamom.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "At bedtime, the garlic had softened and the lemon was gone. Cardamom remained nearest the cups, while the sill kept the cool smell of water on stone and the curtain carried a faint mixture of everything.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "In the morning, only the tea pot and damp sill made the evening recognizable. The kitchen had cleared itself slowly, keeping the gentlest two notes after the louder ones had finished.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

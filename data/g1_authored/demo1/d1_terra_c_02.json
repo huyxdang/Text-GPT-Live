@@ -1,0 +1,1516 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 2
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-02-001",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I talk a small repair through with you as I begin?",
+          "gold_reply": "Yes—take me through what you see before you touch anything.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A cane basket arrived with one rim splint snapped beside the handle.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I dampened a matching reed and eased it under two intact crossings.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The new strip darkened as it absorbed water, so the repair stayed easy to track.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Three clothespins held the curve while I tucked the final end.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By lunch the rim carried an empty jar without opening again.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-002",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I opened a bakery ledger from 1938 and found flour purchases written in violet pencil.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Please keep me cautious while I examine this flour ledger.",
+          "gold_reply": "Start by supporting the binding and documenting each page before considering any surface treatment.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A grease mark crossed the page for the week of the town fair.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The totals rose sharply on Friday, then returned to their usual narrow column.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Two loaf names in the margin no longer appear in our catalog.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed a loose sheet beneath the cover before closing the book.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-003",
+      "persona": "maker-journalist",
+      "domain": "nature",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Could you keep me company while I inspect something living in a jar?",
+          "gold_reply": "Of course—describe the jar as you turn it, and we can stay close to what is actually visible.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My jar terrarium grew a silver patch across the cushion moss overnight.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The workshop leader explained that fresh growth often looks paler before it deepens.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Is that little fork a new shoot?” Bea asked, pointing through the glass.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I turned the jar a quarter turn so the forked tip faced the window.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A bead of condensation slid down without touching the moss.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-004",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The archive box held four enamel street signs removed during the river-road renaming.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with me while I sort these four old street signs.",
+          "gold_reply": "I’m here; start with their colors, lettering, and any physical differences you can see.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I matched each chipped corner to a photograph of its former junction.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "One blue sign still carried a faint rectangle where a householder had taped a festival notice.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The mounting holes lined up differently after the spelling reform.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I logged both versions of the road name on the same index card.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-005",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The dye pot turned onion skins into a copper broth before the cloth went in.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Will the yellow stay this bright?” Nari asked while lifting one corner with tongs.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What color was the dye bath before the cloth went in?",
+          "gold_reply": "Copper—the onion skins had already turned the liquid into a copper-colored broth.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Who expects kitchen scraps to produce such a clear field of color?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I rinsed one sample early and left the second immersed for another ten minutes.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The two squares dried as pale gold and burnt apricot.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-006",
+      "persona": "museum-volunteer",
+      "domain": "nature",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Along the cliff path, we found a fern-shaped fossil pressed into gray shale.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The guide said the fine leaflets were easier to see under light from the side.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our field card used the word “highlight” for the ridge we were meant to trace.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Give me a practical way to sketch those fine leaflets without touching the fossil.",
+          "gold_reply": "Use the side light as a guide and draw the outer stem first, then add the visible leaflet shadows.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I tilted the stone until every leaflet cast a hair-thin shadow.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We left the fossil in place and marked its location on the shared paper map.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-007",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Six embroidered name panels formed a ring around an empty quilt square.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why push the smallest panel outward when it fits the center?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How many name panels ringed the center?",
+          "gold_reply": "Six panels, forming a complete ring around the empty center square.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I rotated the smallest panel; its seam allowances lay flatter on the inner edge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could short basting prevent puckers? I tested a scrap cut to the same curve.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The short stitches held, so I pinned the panel at the center.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-008",
+      "persona": "museum-volunteer",
+      "domain": "nature",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I laid the harbor tide cards in month order across the nature-room table.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The highest spring tides clustered around two penciled moon symbols.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A coffee ring covered one morning reading but left the date visible.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The keeper had drawn a tiny boat beside every canceled survey.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Just react to the tiny boats marking every canceled survey.",
+          "gold_reply": "They make the old record feel unexpectedly human—practical disappointment turned into a small private symbol.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I sleeved the cards without flattening their curled corners.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-009",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I folded a concertina recipe folio from one long sheet of rag paper.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “correct” appeared only in a copied note about oven temperature.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Can the spice list live inside the flap?” Jo asked, testing the crease.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I pierced two sewing holes away from the fold so the paper would not split.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The closed folio fit exactly inside the tin reserved for family cards.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Where is the spice list now?",
+          "gold_reply": "I can’t tell yet. Jo suggested the flap, but you haven’t said where the spice list finally went.",
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-010",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our survey reached a stone milepost half buried beside the abandoned rail cutting.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The local historian mentioned that the carved zero faced the former station.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the tilt reveal which side had settled first? I checked the soil line against the moss band.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The downhill face showed three more centimeters of exposed stone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Write me a plain one-line field note using only what we observed.",
+          "gold_reply": "Milepost leans downhill, with three additional centimeters exposed below the moss band on that face.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We measured the lean twice and photographed the ruler in place.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-011",
+      "persona": "maker-journalist",
+      "domain": "nature",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "I want a second set of eyes while I start a windowsill observation.",
+          "gold_reply": "Go ahead; establish the objects, their positions, and the first measurements before anything changes.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I set three pinecones on the sill after the morning rain and marked their starting widths.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "By noon, the cone nearest the warm pane had opened two rows of scales while the shaded pair stayed tight.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A narrow strip of paper beneath each cone kept stray seeds from disappearing into the radiator cover.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved the open cone away from the glass but kept its orientation unchanged.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The room smelled faintly resinous whenever sunlight reached the sill.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At sunset, I measured all three again and drew their silhouettes beside the numbers.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-012",
+      "persona": "museum-volunteer",
+      "domain": "crafts",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My first pearwood stamp looked like a beetle until the final corner came away.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Did that final missing corner really make the beetle shape readable?",
+          "gold_reply": "That is what your first observation indicates: before the corner came away, the stamp only resembled a beetle.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why does one missing sliver suddenly make a carved shape readable?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I inked the block lightly, pressed it on scrap, and found a white notch under the left wing.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A second shallow cut widened the gap without shortening the antenna.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The next proof showed two separate wings and an oval body, with ink still reaching both wing tips cleanly.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I numbered both proofs so the tiny change would remain visible.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-013",
+      "persona": "maker-journalist",
+      "domain": "history",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I describe a museum drawer to you before I draw any conclusions?",
+          "gold_reply": "Yes—start with whatever is physically visible in the drawer, then keep later interpretation separate.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Inside the textile drawer, a child-sized velvet jacket lay beneath a sheet of unbuffered tissue.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Why is one cuff shinier?” a visitor asked without leaning over the barrier.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The catalog card used “search” descriptively in a note about locating the missing braid.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I angled the drawer light and saw that only the right cuff pile had been flattened.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A studio photograph nearby showed the wearer resting that wrist on a chair arm.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I added the wear pattern to the condition note without claiming it came from the pose.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-014",
+      "persona": "museum-volunteer",
+      "domain": "nature",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I placed a mushroom cap gill-side down on half black and half cream paper.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Is the mushroom cap resting gill-side down on two colors of paper?",
+          "gold_reply": "Yes. It is positioned across black and cream paper with the gills facing downward.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The foray leader explained that the two colors help pale and dark spores show equally well.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the print reveal a hidden color? I covered the cap with a bowl so air currents would not scatter it.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Four hours later, fine cinnamon lines radiated across the cream half.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The black half showed only the outer edge where the deposit was thickest.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I lifted the cap straight upward and wrote the collection location beside the paper.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-015",
+      "persona": "maker-journalist",
+      "domain": "history",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Will you help me compare three old views without rushing the differences?",
+          "gold_reply": "Yes—describe one stable feature and one changing feature at a time.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The postcard table contained three views of the same market square taken decades apart.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A clock appeared above the pharmacy in the middle card and vanished again in the newest one.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Isn’t the missing clock more noticeable once the three rooflines sit together?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I aligned the cards by the fountain because the shop fronts had all changed width.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The oldest image showed horse troughs where bicycle racks stand now.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "On the reverse, different senders had underlined the square’s name in nearly the same place.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-016",
+      "persona": "museum-volunteer",
+      "domain": "crafts",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I floated the first marbling colors on thickened water and watched them spread into soft-edged circles.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep watching these marbling colors spread with me.",
+          "gold_reply": "I’m watching the soft-edged circles on the thickened water; continue when the pattern changes.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A comb drawn once through the surface turned the circles into a row of narrow feathers.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I lowered the paper from one corner, keeping the opposite edge above the tray until the air escaped.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The print lifted with one blank crescent where a bubble had remained.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Rather than cover it, I penciled the batch number inside the pale gap.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The second sheet lay flatter because I bowed it slightly before contact.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-017",
+      "persona": "maker-journalist",
+      "domain": "nature",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our creek survey used ten numbered squares along a gravel bar instead of collecting stones.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Square four contained mostly flat slate chips, while square five held rounded quartz and one piece of brick.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Suggest a clean way to compare square four with square five later.",
+          "gold_reply": "Tally shape and material in separate columns; the visible contrast is flat slate in square four versus rounded quartz and brick in square five.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The field sheet used “translate” only in an instruction about converting millimeters to centimeters.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed each square from directly above before anyone stepped across the boundary string.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A kingfisher passed upstream and briefly reflected blue in the shallow water beside square seven.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We packed the string last, leaving every stone where the current had placed it.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-018",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "In the costume store, a tray of loose buttons was grouped by the production that had used them.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Did this brass one belong to the captain’s coat?” Mina asked, holding its tag rather than the button.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the thread fragment settle the match? I compared its green twist with the stitching still visible in the coat.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Please name the clue I am actually checking at this point.",
+          "gold_reply": "You are checking whether the loose green thread matches the green twist still visible in the captain’s coat.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The colors agreed under neutral light, but the button diameter was two millimeters smaller than the empty mark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second brass button from the same tray fitted the mark precisely.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept both candidates linked in the catalog and recorded why only one physically aligned.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-019",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I bent copper wire around a pencil to make the segmented body of a damselfly sculpture.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The workshop tutor told us thin sheet metal could crack if folded twice along the same line.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "In one sentence, what material failure did the tutor warn us about?",
+          "gold_reply": "Thin sheet metal can crack when it is folded twice along the same line.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I cut two narrow wings from a tea tin and smoothed every edge before shaping them.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first wing sat higher because its wire loop had one extra turn.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After unwinding that turn, both wings balanced above the body without glue.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A scrap of blue enamel remained visible near one wing tip like an accidental marking.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-020",
+      "persona": "museum-volunteer",
+      "domain": "nature",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the seasonal pond, I counted six water beetles surfacing inside a square of floating cord.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One beetle returned three times to the shaded edge, so I marked the position rather than counting it as new.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why would the shaded edge attract repeated visits on the warmest afternoon?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Was it reasonable to mark the repeated edge visits instead of counting each one as a new beetle?",
+          "gold_reply": "Yes. Recording the repeated position avoids inflating the count when the same beetle may be resurfacing.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A thin film of duckweed drifted across the opposite corner while the cord stayed anchored.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I paused the count when two dogs entered the shallows and resumed only after the water cleared.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The final sheet separated definite individuals from uncertain repeat sightings.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-021",
+      "persona": "maker-journalist",
+      "domain": "history",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The town museum displayed a school slate covered with arithmetic, initials, and a tiny drawing of a steamer.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “remind” appeared in a curator’s old note about the harbor image, not as an instruction to us.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "I’m uneasy about identifying the tiny steamer drawing too quickly; give me a little reassurance.",
+          "gold_reply": "Holding back is responsible. A tiny drawing and an old note are not enough by themselves to establish a vessel’s identity.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I traced the steamer’s position on a transparent overlay without touching the slate.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A timetable in the next case showed two vessels with similarly tall paired funnels.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The drawing lacked a readable name, so I recorded both candidates and left the identification open.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Under raking light, an earlier sum became visible beneath the steamer’s hull.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-022",
+      "persona": "museum-volunteer",
+      "domain": "crafts",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the loom, I tightened the indigo sash only after checking that all twelve warp ends carried equal tension.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first white weft line curved upward near the selvedge, revealing that my left hand was pulling harder.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I loosened two edge threads and passed the shuttle again without beating the row into place.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The second white line stayed level across the full width.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me at the loom for one more row; I finally understand what the curved line was showing.",
+          "gold_reply": "Stay with the lighter left-hand pull and check the next line before tightening anything else.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A cardboard spacer protected the unwoven fringe while I rolled the finished section forward.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By late afternoon, four blue bands and three white lines sat square against the loom frame.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-023",
+      "persona": "maker-journalist",
+      "domain": "nature",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The lichen walk began on a shaded wall where gray rosettes overlapped orange pinhead dots.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed the wall with a ruler at its base, then stepped back for a view that included the leaking downpipe.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the moisture pattern explain the color boundary? I followed the darker mortar downward before comparing the dry bricks.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The orange dots clustered on the drier outer edge, while broad gray lobes occupied the damp center.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We recorded texture and location without assigning species names in the field.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What observation supports moisture as a factor without proving it is the only cause?",
+          "gold_reply": "The gray lobes occupy the damp center while orange dots cluster at the drier edge; that supports moisture as a factor without excluding others.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second wall across the lane reversed the pattern where afternoon sun reached the bricks.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-024",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I spent the afternoon indexing a harbor manifest whose paper changed texture halfway down the passenger list. The upper section was crisp and cream-colored; the lower section had softened into a gray band with feathered ink.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The clerk’s hand also changed at that boundary, moving from compact upright capitals to wider letters that leaned toward the binding. I treated the paper and handwriting shifts as separate observations rather than assuming a new clerk.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A torn corner removed the final digit from three ages, but the occupations remained intact: cooper, sailmaker, and domestic servant. I entered each age as incomplete and copied the visible strokes into the transcription note.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Beside one family, a faint vertical bracket joined four names even though only the first surname was written. The spacing supported a family group, yet I avoided filling the missing surnames automatically.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "When side light crossed the page, a blind impression appeared where someone had ruled the next sheet while this one lay underneath. The lines did not belong to the manifest, so I described them under physical condition.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Before rehousing the leaf, I checked the vessel date against the bound index and found the same departure day. That agreement verified the page sequence, not the uncertain ages or relationships.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "No guesswork here—summarize which facts are secure and which remain open.",
+          "gold_reply": "Secure: the occupations, visible name grouping, departure date, and page sequence. Open: the three damaged ages, the unwritten surnames, and whether the handwriting change marks a different clerk.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-025",
+      "persona": "maker-journalist",
+      "domain": "crafts",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A leather notebook reached the conservation bench with its front board detached, two sewing supports exposed, and a pressed grass stem caught near the hinge. I photographed all three conditions before moving the stem.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The first three gatherings still opened freely, but the fourth tugged against a broken linen thread. I supported that section with a folded cradle and turned no further than the paper allowed.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Was the grass placed here deliberately?” the owner asked from the viewing side of the table.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing on the adjacent pages referred to a plant, and the stem sat partly beneath loose leather dust. I recorded its location without deciding whether it had been saved, used as a marker, or trapped by accident.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Did the evidence establish why the grass stem was inside?",
+          "gold_reply": "No. Its position was documented, but the pages and surrounding material did not establish whether it was intentional or accidental.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A strip of toned Japanese tissue matched the hinge closely enough to support the joint while remaining distinguishable under magnification. I tested the paste on a detached leather crumb before applying any near the board.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After the repair dried beneath light weights, the cover opened to a safe angle and the original linen supports remained visible. The grass stem went into a labeled paper enclosure beside the notebook.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-026",
+      "persona": "museum-volunteer",
+      "domain": "nature",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the bark-rubbing survey, I chose three mature trees along the old canal path and measured each sheet before wrapping it around a trunk. The paper touched only dry, intact bark; wet or flaking patches were left alone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The plane tree produced broad pale islands separated by dark grooves, while the rain tree left a finer network of shallow ridges. I marked each rubbing with the tree number immediately after lifting it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our coordinator reported that maintenance crews had washed the lower trunks two days earlier.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Because cleaning could affect loose dust and contrast, I photographed an untouched section above shoulder height for comparison. I did not treat the cleaner lower pattern as a natural difference.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A third trunk beside the lock gate carried old wire scars beneath new bark growth. The rubbing made the scars look sharper than they appeared in ordinary light, so the photograph remained the primary context.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Help me state the main caution before anyone compares these three rubbings.",
+          "gold_reply": "The textures are not directly comparable without context: species differ, lower trunks were recently cleaned, and rubbing can exaggerate scars and contrast.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Back at the table, I stored every rubbing with its measurement card and image number. The paper records captured texture, but the notes preserved height, recent cleaning, moisture, and the limits of the method.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-027",
+      "persona": "maker-journalist",
+      "domain": "history",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The factory gallery tested a restored lunch whistle using compressed air rather than the original boiler. I stood behind the marked line while the technician increased pressure in small, documented steps.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the second setting, the whistle gave a rough double tone and the display-case glass across the room vibrated faintly. A sound meter at the center aisle captured the level, but the side alcove was not measured.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why call the double tone a flaw when former workers remembered it as the factory’s signature?",
+          "traps": [
+            "rhetorical_question",
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Their recollections mattered to interpretation, although today’s air rig, repaired valve, and indoor acoustics differed from the historical conditions. I kept those differences visible in my notes.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The third setting produced a cleaner pitch, yet the technician stopped there because the valve temperature rose faster than expected. No attempt was made to chase the loudest possible result.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After the test, we replayed two oral-history clips describing the noon signal. One speaker imitated the rough beat between tones; another remembered only a single long blast, leaving room for variation over time.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Could both memories remain useful even though they disagree?",
+          "gold_reply": "Yes. They document different experiences, and the controlled test cannot determine how the whistle sounded at every point in its working life.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-028",
+      "persona": "museum-volunteer",
+      "domain": "crafts",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I began the felting session with washed gray wool, a bamboo mat, and three dry seedpods collected from the garden path. The pods stayed on the reference tray; only their shapes were copied.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Warm soapy water loosened the fibers enough for me to wrap a thin layer around a cork form. I rotated the form after every few rolls so one side would not become dense and flat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The instruction card used “correct” to describe the water temperature listed in the original workshop notes.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My first pod split at the tip when I pinched it too early. Instead of hiding the opening, I widened it into three points and added a darker tuft inside for depth.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Just acknowledge the split becoming three points; that accident made me laugh.",
+          "gold_reply": "It deserves the laugh—the failure did not vanish, it turned into the most specific feature on the piece.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A second form received less pressure near its neck and kept a rounded silhouette. I placed both pieces beside the real pods and wrote down which rolling change produced the difference.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After rinsing, the gray fibers contracted enough that each cork form slid out cleanly. The two felt pods dried on a mesh rack, visibly related but not pretending to be botanical replicas.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-029",
+      "persona": "maker-journalist",
+      "domain": "nature",
+      "register": "animated-observational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At low tide, our beach-wrack survey began with a fifty-meter line above the wet sand. We counted only material deposited by the water, leaving footprints, picnic litter, and fixed vegetation outside the tally.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The first section held eelgrass ribbons, two cuttlefish bones, and a knot of blue synthetic rope. I photographed the rope in place before moving it to the separate debris bag.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the rope still count as wrack if people manufactured it? I was separating the source of an object from the fact that the tide had deposited it.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We logged it in both categories: deposited material for the transect and human-made debris for removal. That preserved the ecological observation without leaving plastic on the beach.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Farther along, tiny amber egg cases clung to a branch of red weed. We counted the branch once, then recorded the attached cases in a note rather than pretending each was an independent find.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Why did we log the blue rope in two categories?",
+          "gold_reply": "The tide deposited it within the transect, but it was also human-made debris that needed removal.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A rising wash erased two chalk boundary marks before the final pass. We stopped at the last verified marker and recorded the shortened distance instead of estimating what the water had covered.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-02-030",
+      "persona": "museum-volunteer",
+      "domain": "history",
+      "register": "thoughtful-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The museum received a box of ceramic house-number tiles salvaged from three adjoining streets before demolition. Each tile carried mortar on the back, and several showed earlier numerals beneath later blue paint.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I arranged them by documented address rather than by color, which revealed that one street changed from black lettering to blue in a single decade. The neighboring street retained black much longer.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A newspaper photograph dated the repainting of the corner shop, but only its number twelve was legible. I linked the image to that tile and left the rest of the street sequence supported by directory dates.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “highlight” appeared on a 1970s display caption describing the bright border around civic buildings.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Under magnification, tile eighteen showed a hand-painted serif beneath a later stencil. The layers established an order of finishes, although neither layer carried its own date.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed transparent dividers between stacked tiles so loose mortar would not abrade the glazed faces. The arrangement preserved address order and let the color transition remain visible without reconstruction.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Continue with me from tile eighteen; the hidden serif feels like the start of another chapter.",
+          "gold_reply": "I’m following. The serif establishes an earlier design layer, and the next chapter is finding dated evidence that can anchor it.",
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

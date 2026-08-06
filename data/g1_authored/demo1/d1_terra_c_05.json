@@ -1,0 +1,1504 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 5
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-05-001",
+      "persona": "sketchbook-keeper",
+      "domain": "illustration",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I set a striped watering can on a low crate and drew the empty spaces around it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Talk me through what should stay fixed as I continue the page.",
+          "gold_reply": "Leave the can and crate where they are, hold the same viewpoint, and compare the surrounding gaps.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The handle enclosed a narrow oval while the spout cut a triangle from the wall behind it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the crate edge level instead of following the can’s tilted stripes.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Only after the gaps aligned did I add the outer contour.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A small arrow in the margin preserved the viewing direction.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-002",
+      "persona": "community-archive-guide",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Would a visitor-friendly tree summary be more useful here than a raw inventory list?",
+          "gold_reply": "A brief explanation of what was measured and why will be easier to follow than unexplained rows of values.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Three loose cloth bands circled the schoolyard hornbeam at ankle, waist, and shoulder height.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each band sat beside a tiny chalk dash rather than covering the bark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The lowest circumference was widest because the trunk flared near the soil.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I copied all three heights and values into separate rows.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The bands came off before the afternoon visitors arrived.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-003",
+      "persona": "sketchbook-keeper",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The flattened matchbook showed a silver cup above a partly erased address.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The donor turned it twice and asked, “Was this from the blue café or the station kiosk?”",
+          "traps": [
+            "quoted_question",
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No surviving line named either place.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I drew the torn address edge without completing the letters.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can we caption the matchbook without choosing between the café and kiosk?",
+          "gold_reply": "Yes—name both as the donor’s possibilities and leave the erased address unresolved.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The caption retained both possible origins as alternatives.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-004",
+      "persona": "community-archive-guide",
+      "domain": "illustration",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "An illustrated pump leaflet used solid arrows for hand movement and dotted arrows for water flow.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Can you give me the leaflet’s two arrow meanings in plain language?",
+          "gold_reply": "Solid arrows show hand movement; dotted arrows show water flow.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Panel one placed a palm on the long handle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Panel two sent a dotted line through the chamber toward the spout.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A fold crossed the picture but left both arrow styles readable.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I indexed the legend separately from the pictured sequence.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-005",
+      "persona": "sketchbook-keeper",
+      "domain": "trees",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "On one gray alder twig, two unopened buds sat a finger-width apart. The upper bud was narrow and pointed; the lower one was round, with coppery scales catching the window light.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why name the round bud dead when its scales still shine and hold tightly together?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which difference would you put down first if this were your sketchbook?",
+          "gold_reply": "I’d begin with the pointed upper shape beside the round, copper-scaled lower bud.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "At arm’s length the pair looked simply dark and light, but close up a dry brown tip appeared only on the narrow bud. I added that tip with one hard pencil mark.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could warmth settle the difference? I left the twig by the cool window and drew both buds at the same scale, letting shape and surface carry the comparison.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Facing boxes on the page held the two profiles, the copper sheen, and the single dry tip. Nothing in the caption predicted which bud would open first.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-006",
+      "persona": "community-archive-guide",
+      "domain": "memory-objects",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A wooden laundry peg carried three knife notches along one flat side.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Help me phrase the first catalog line for this peg.",
+          "gold_reply": "Try: a wooden laundry peg with three knife notches along one flat side.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The donor described each notch as one wash load hung during a flood-night blackout.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The intake card used “remind” descriptively in its handling note.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Gray soap lodged in the deepest cut, but no date appeared on the wood.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The catalog entry split physical description from family account.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-007",
+      "persona": "sketchbook-keeper",
+      "domain": "illustration",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I folded a cream card into a shallow ridge beneath one desk lamp.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The physical fold rose diagonally while its shadow ran almost level.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Am I looking at one diagonal line here or two?",
+          "gold_reply": "Two: the folded ridge is one line, and the shadow it casts is another.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A harder pencil marked the paper edge and a softer one marked the shadow.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The two lines met only at the ridge’s highest point.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I drew a tiny lamp symbol beside the study to retain light direction.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-008",
+      "persona": "community-archive-guide",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Stay with me while I check an old survey question against the tree.",
+          "gold_reply": "I’m with you—read the card first, then tell me what the tree shows now.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "An old aluminum tag hung loosely beneath the fork of a riverside ash.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The youth survey card carried the penciled question, “Which storm split this fork?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its file label used “correct” descriptively beside a leaf-angle entry.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A raised bark ridge continued below the fork on both sides.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I entered the storm wording as an earlier question, not a finding.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-009",
+      "persona": "sketchbook-keeper",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the memory table, I unwrapped a small wooden spinning top from an old library call slip. One purple crayon arc crossed its shoulder, and its point had worn blunt enough to wobble in my palm.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me what your eye goes to first.",
+          "gold_reply": "The purple arc—it flashes across the worn wood before I notice the paper wrapped around it.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A display label used “highlight” descriptively for that flash of color. The call slip itself offered only a shelf number and a surname in soft pencil.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I spun the top once inside a shallow tray. Its purple arc became a wavering ring, while the folded call slip stayed open beside it like a quiet square.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why turn that purple ring into a journey when neither wood nor paper names where the top went?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My sketch caught the top twice: still, with the blunt point and crayon edge visible, then spinning, with the color stretched into a ring. The library slip remained beside both drawings rather than becoming scenery.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-010",
+      "persona": "community-archive-guide",
+      "domain": "illustration",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A folded maintenance sheet pictured a courtyard drinking fountain in five black-and-orange panels. Its first panel showed the cover lifted clear of the basin.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The second panel placed a washer over the valve stem, using an orange ring to distinguish it from the metal parts.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can you repeat the first two pictures before I unfold the rest?",
+          "gold_reply": "First lift the cover; next place the orange-ringed washer over the valve stem.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A numbered arrow then led from the seated washer to the handle screw. A grease smudge covered only the screw head, not the number.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The fold concealed most of panel four, so I did not bridge its two broken line ends. Panel five remained legible as a closed cover above a dry basin.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The catalog sketch boxed the missing panel instead of reconstructing it. A separate legend preserved the orange washer symbol.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-011",
+      "persona": "sketchbook-keeper",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A low iron loop emerged from the bark of an old plane tree beside the former tram yard. Wood curled over its upper edge like a thick lower eyelid.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me why you put the iron loop before the wood that curls over it.",
+          "gold_reply": "The wood has grown over the loop’s upper edge, so the loop was already there when that overlap formed.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The lower edge remained exposed, leaving a rust streak that ended above the root flare. I drew the wood overlap and metal outline separately.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A paper scale beside the loop fixed its visible width at four centimeters. The sketch did not extend the hidden metal beneath the bark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing on the trunk dated the first contact between tree and loop. My page preserved sequence without assigning a year or former use.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A final inset showed the rust streak ending above the soil rather than entering it.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-012",
+      "persona": "community-archive-guide",
+      "domain": "memory-objects",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A white porcelain drawer knob arrived in a cotton pouch, its face crossed by one green glaze line. The brass screw remained fixed in the back.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The donor described it as the knob from a dispensary cabinet in the old neighborhood clinic.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A stamped seven appeared beneath the collar, while the pouch carried a later accession number. Neither mark named a room or cabinet.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Help me introduce this knob to a visitor in two voices.",
+          "gold_reply": "Begin with the porcelain, green line, brass screw, and stamped seven; then add that the donor links it to a clinic cabinet.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed the provenance sentence after the physical description, not inside it. A side view showed that the screw had not been removed for display.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The object card retained the clinic association as attributed information and left the stamped seven uninterpreted.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-013",
+      "persona": "sketchbook-keeper",
+      "domain": "illustration",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two tracing sheets showed alternate versions of a hand passing a bowl across a community-kitchen mural. The first kept the wrist behind the rim.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The second sheet carried the printed margin question, “Should the hand overlap the bowl?” Its fingers crossed the rim by nearly a thumb’s width.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "When I aligned the corner crosses, the bowl itself remained in the same position. Only the forearm angle and finger overlap shifted.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A red crop line touched neither version, so it offered no answer to the margin question. I copied both alternatives into facing sketchbook boxes.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Help me choose which version reads more like a handoff than a grip.",
+          "gold_reply": "The first one: its wrist stays behind the rim, so the bowl looks as though it is being offered forward.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The page label called them versions A and B rather than first and final.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-014",
+      "persona": "community-archive-guide",
+      "domain": "trees",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A ring of pin-sized holes crossed the south side of an elm beside the community reading room. The holes stopped well below the first branch.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I counted fourteen openings across a band twenty centimeters wide. Five held clear resin beads, and the rest looked dry at the surface.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No loose insect, tool mark, or fresh bark chip appeared around the band. A shaded ruler fixed the spacing in the field image.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Say this aloud on a tree walk without guessing what made the holes.",
+          "gold_reply": "I’d say there are fourteen tiny holes in a twenty-centimeter band, with clear resin in five of them.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The inventory map used dots for holes and small open circles for resin. That key described appearance rather than severity.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A follow-up date went beside the map so a later visit could compare the same band.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-015",
+      "persona": "sketchbook-keeper",
+      "domain": "memory-objects",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "One handkerchief corner held blue running stitches beneath a red patch.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Red thread crossed over blue at two points; red knots also sat above the blue ends on the back.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could darker color prove the order? I used the crossings instead, since either dye might have faded.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which color crosses on top twice?",
+          "gold_reply": "Red crosses over blue at both points, so that local red layer came later.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I drew front and back with two arrows at the crossings.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The cloth gave no date or interval between the two repairs.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing was cut from the handkerchief; the page kept only the drawings.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-016",
+      "persona": "community-archive-guide",
+      "domain": "illustration",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A base drawing mapped the community fairground in thin black lines, with gates, paths, and the central pavilion fixed on one sheet.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A green acetate overlay placed food stalls along the east path. Its corner key used squares for stalls and circles for water points.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can you walk me through what a visitor sees on the first two layers?",
+          "gold_reply": "The base shows gates, paths, and the pavilion; the green sheet adds stalls and water points.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A blue overlay carried accessible routes and two resting areas. Registration crosses appeared at all four corners of every layer.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "When the top crosses aligned, one blue route ended beside a green stall rather than entering it. I preserved that offset in the composite.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The lower-right cross on the green sheet sat three millimeters wide of the base. A small side note recorded the skew without shifting the artwork.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "All three layers went into separate sleeves so later readers could inspect the source and the composite.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-017",
+      "persona": "sketchbook-keeper",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "One horse-chestnut leaf held two pale tunnels: a narrow winding line near the tip and a broad blotch beside the central vein.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The winding tunnel widened gradually, while the blotch began at full width. Both remained enclosed between the leaf surfaces.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me the sketchbook caption you would use at this point.",
+          "gold_reply": "One leaf with a narrow winding tunnel near the tip and a broad pale blotch beside the central vein.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why call every pale tunnel the same kind of damage before comparing its width and path?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I traced each outer edge on a transparent page and marked the central vein as a fixed reference. No leaf tissue was peeled apart.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The narrow line ended at a torn tip, so its full length remained unknown. The broad blotch ended before reaching any leaf edge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My legend named path shapes and limits, leaving the maker unidentified.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-018",
+      "persona": "community-archive-guide",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A folding wooden ruler opened across ten brass joints, with blue paint caught beside the third hinge and cream paint near the eighth.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Its centimeter marks remained legible except where the fourth section had been sanded smooth. The wood there was slightly thinner.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The repair card used “wait” descriptively in a note about glue-setting time; no glue residue appeared on the ruler itself.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "If a visitor asked what caught my eye, what would you mention first?",
+          "gold_reply": "I’d mention the ten brass joints, two paint colors, and the fourth section sanded thinner than the rest.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I opened every joint to the same shallow angle rather than forcing the ruler flat. A padded block supported the weakened fourth section.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The paint colors might relate to different jobs, but the object named neither place nor task. They remained surface observations.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The storage drawing showed the ruler partly folded around its support block.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-019",
+      "persona": "sketchbook-keeper",
+      "domain": "illustration",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Four hand-signal cards used thick navy outlines against yellow fields for a noisy community workshop. Each card showed one wrist and hand.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Card three carried the printed question, “Does the thumb stay outside the loop?” A punched tracing hole covered the thumb tip.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Say the problem with card three in everyday language.",
+          "gold_reply": "A punched hole hides the thumb tip, so we cannot see which side of the finger loop it takes.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The other three cards kept every fingertip visible. Their lower corners carried matching numbers but no verbal instruction.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I copied card three at full size and left the covered thumb area blank. A dotted circle marked the extent of the paper loss.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The navy line reappeared below the hole but did not reveal which side of the loop it followed. Both possible continuations stayed off the source drawing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A condition note now accompanies the card set so the missing gesture is not mistaken for intentional ambiguity.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-020",
+      "persona": "community-archive-guide",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Five spring cards tracked the first open leaves on the same courtyard lime tree. Their dates ranged from March twenty-eighth to April ninth.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each card defined an open leaf as a blade unfolded wider than its bud scales. That definition appeared unchanged across all five years.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One year lacked entries for four days before April ninth, so its first observed leaf could have opened during that gap.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What date span should I say aloud, and where do I add a pause?",
+          "gold_reply": "Say March 28 to April 9, then pause over the four-day gap before the April 9 entry.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Small branch diagrams pointed to the same south-facing limb each year. Two cards also included midday temperature, while three did not.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the temperature values visible but excluded them from the five-year comparison. Their incomplete coverage made a balanced pairing impossible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The archive guide now states the shared leaf definition, date span, observed limb, and four-day gap together.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-021",
+      "persona": "sketchbook-keeper",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A palm-sized mirror sat inside a black paper case whose flap had softened into a curve. Three shallow scratches crossed the silvered back.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Its former owner recalled carrying the mirror in an apron pocket while ushering at the neighborhood theater.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A faint 62 had been scratched near the hinge, but its line width differed from the three longer marks. No theater name appeared on mirror or case.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Powder residue gathered in the paper seam, and one corner carried a crescent-shaped polish from repeated opening. I drew both at twice size.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The sketchbook spread placed the owner’s recollection in a shaded side column. Solid leader lines connected only the visible scratches and wear to the drawing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me your first impression after hearing where she carried this mirror.",
+          "gold_reply": "It feels like an everyday working companion—small, worn, and opened often enough to soften its case.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The number remained transcribed as 62 with a question mark because its purpose was unknown.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-022",
+      "persona": "community-archive-guide",
+      "domain": "illustration",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A black linocut proof showed six market awnings in a row, but a thin white break crossed only the fourth awning. The paper remained flat around it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "On the block, the matching ridge carried a shallow nick at the same horizontal position. Ink filled the ridge on both sides of that nick.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two registration crosses aligned the proof with a transparent tracing. The tracing continued the awning edge straight through the white break.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the break come from a paper crease? I checked the reverse under side light and found no fold or raised fiber at that point.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second proof carried the same white break, slightly wider at its lower end. Both sheets used ink from the same labeled batch.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Does the repeated white break look more like a printing clue or a paper accident?",
+          "gold_reply": "A printing clue: it repeats on both proofs, lines up with the block’s nick, and has no crease beneath it.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the display table, I set the proof beside the nicked block so visitors could follow the same white break by eye. No date or maker was assigned to the damage.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-023",
+      "persona": "sketchbook-keeper",
+      "domain": "trees",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After heavy rain cut a shallow channel beside the woodland path, three beech roots stood exposed across its outer bank. I drew from the path edge, keeping my boots off the loose soil and numbering the roots from uphill to downhill.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Root one curved smoothly into intact leaf litter, while root two crossed the channel above a fresh vertical soil face. Root three disappeared beneath a mat of old brown needles before reaching the channel, so its connection to the cut remained hidden.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A pale band of clean wood showed on the underside of root two, with darker bark still wrapping its top and sides. Small crumbs from the new bank rested on the pale surface, but no snapped fibers or torn end were visible from my position.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why treat every exposed curve as proof of storm damage when the path washout itself has removed the surrounding soil? I marked the cut bank, litter line, and visible root surfaces before describing any relation among them.",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I measured the channel only where a board could bridge it without touching a root. Its depth changed from nine to thirteen centimeters across the drawing frame, so one number could not represent the whole washed edge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The finished spread used solid lines for visible root edges, dotted lines for portions hidden by litter, and a gray wash for the cut soil face. A margin sentence recorded heavy rain and fresh erosion as context while leaving the roots’ earlier exposure unknown.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "If someone blamed the rain for breaking root two, what would you push back on?",
+          "gold_reply": "I’d point out that the underside is newly exposed but unbroken; the rain washed soil away, not necessarily the root.",
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-024",
+      "persona": "community-archive-guide",
+      "domain": "memory-objects",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A blue cash tin from the old community hall carried five paper labels across its lid. The lowest visible layer was cream, followed by green, two whites, and a narrow pink strip that stopped before the hinge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The inventory sheet used “search” descriptively in the heading for a past catalog exercise. Its typed box number matched the pencil number inside the tin, while none of the lid labels repeated it.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the torn left corner, green paper lay directly over cream and directly under the first white label. The second white crossed only the first white, and the pink strip covered the upper edge of both.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Faded pencil formed a partial word on the cream layer, but lifting the green paper would have enlarged the tear. I transcribed only the two exposed letters and drew the covered boundary as a broken line.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Read the labels from bottom to top, then place the cream lettering as far as the overlaps allow.",
+          "gold_reply": "Cream, then green, white, white, and pink. The exposed pencil letters are on cream, but because green was not lifted, we cannot tell whether the word predates green or continues beneath it.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The hinge had been replaced with two mismatched screws, one bright and one dark. That repair did not overlap any paper edge, so it offered no relative order for the labels on the lid.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The condition map showed each overlap with a small arrow and placed the screws in an unsequenced side box. The tin stayed closed after the interior number was checked, preserving loose contents that were outside this lid study.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-025",
+      "persona": "sketchbook-keeper",
+      "domain": "illustration",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At Saturday’s open drawing table, a roll of paper stretched across three joined tables and already held a black-ink street of empty shopfronts. I took the far end with my sketchbook while neighbors gathered along both sides with pencils, crayons, and cups of diluted paint.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "An older visitor drew a green chair outside the bakery doorway, pressing so hard that the legs became four dark grooves. Across from him, two sisters filled the upstairs windows with orange curtains and left one pale face peeking between them.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A child then planted a red umbrella in the middle of the road, wide enough to cover half a bicycle that someone else had drawn moments earlier. The bicycle’s front wheel still showed on one side and its striped basket showed on the other.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Give me your first reaction to that umbrella landing over the bicycle.",
+          "gold_reply": "It feels bold and playful—the bicycle still peeks out on both sides, as if the street scene has surprised itself.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "People leaned in around that patch of red. One added blue drops above the umbrella, another extended a puddle beneath it, and a third curved a row of tiny footprints around the hidden bicycle rather than drawing through the child’s shape.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "From my end of the table, the street no longer read as a row of separate contributions. The chair pulled the bakery outward, the curtains gave the upper floor occupants, and the umbrella turned an empty roadway into a small weather scene that everyone worked around.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Before the paper was rolled, I sketched that crowded section once more: four hands still rested near its edges, the child’s red crayon lay uncapped, and the bicycle remained partly visible beneath a picture that had grown through shared attention rather than a planned sequence.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-026",
+      "persona": "community-archive-guide",
+      "domain": "trees",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Five old lime trees stood beside the former library steps, each with a knuckled crown above the curb.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our walking group stopped beneath them and looked up together. One crown sent six shoots straight up; another split into two lopsided fans.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The sign by the first trunk asked, “Were these five crowns once cut to one shape?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Two visitors lined themselves up with the curb and noticed that the swollen heads sat at nearly the same height.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Up close, the resemblance softened. Tree two held a dark hollow, tree three had twin heads, and only the end trees showed pale old cut faces.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We walked the whole row twice, once under the curb side and once beneath the path side, letting each crown change against the sky.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Do they still feel like five copies of one pruning shape?",
+          "gold_reply": "Not anymore—the shared height links them, but the hollows, twin heads, shoots, and old cuts give each crown its own shape.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the last tree, the group turned back toward the steps and could finally see the family resemblance and the differences at once.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-027",
+      "persona": "sketchbook-keeper",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A drawstring pouch of striped mattress cloth arrived with chalk dust packed into its lower seam. The rounded base held four shallow bulges, while one side carried a rectangular grease shadow.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Two wooden toggles closed the mouth on mismatched cords. The blue cord passed through older hand-sewn eyelets, and the newer brown cord entered through a metal ring added beside them.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its former owner recalled that the pouch began as a marble bag and later carried bicycle tools during a factory commute.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The four rounded bulges resembled stored spheres, and the grease shadow fit a small flat object. Neither impression identified a marble, spanner, route, or workplace on its own.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I opened the empty pouch over a clean tray and drew the interior seams without brushing away the chalk. A narrow reinforcement patch lay beneath the metal ring but not beneath the older eyelets.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How would you tell the pouch’s two-life story without making the stains do all the talking?",
+          "gold_reply": "Say its owner remembers marbles first and bicycle tools later, then describe the old eyelets, newer ring, chalk, bulges, and grease on their own.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The sketchbook divided the page into construction, residue, deformation, and owner account. Arrows connected the brown cord to the reinforcement patch, while no arrow connected a bulge to a particular former content.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The final caption gives both remembered uses in sequence but leaves the residues and impressions unassigned. The pouch returned to its support with the chalk still held in the seam.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-028",
+      "persona": "community-archive-guide",
+      "domain": "illustration",
+      "register": "patient-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the archive open house, we unrolled a three-meter illustrated panorama of the old riverside road across the longest wall. Painted shop signs, bicycles, food carts, and tiny figures ran from a yellow bus stop at one end to the ferry landing at the other.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Walk beside me from the painted bus stop toward the river.",
+          "gold_reply": "I’m beside you—start with the yellow bus stop and take the street one cluster at a time.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The first cluster held three schoolchildren beneath a striped awning. One carried a paper pinwheel, another balanced a lunch tin, and the third leaned toward a window full of round loaves while real visitors slowed down to find those tiny details.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Halfway along, the illustrator repeated a yellow scarf on three different figures: a woman beside a fruit cart, a cyclist crossing the lane, and someone waving from an upstairs balcony. The repetition made several visitors trace an imagined path with their fingers.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the scarf belong to one person moving through the whole street? I looked closer and found different shoes, hair, and clothing around every yellow shape, so I let the playful possibility remain a visitor’s game.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Near the center, a painted dog pulled toward a fish stall while its owner’s feet pointed the other way. Children at the open house copied that crooked leash in the air, and the adults behind them began noticing other small tugs and turns in the crowd.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The road widened as we approached the painted ferry landing. Blue brushstrokes broke around baskets and ankles like shallow water, and the last figure held one shoe above the ripples while waiting on a plank that seemed barely wide enough.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By the time we reached the river end, the visitors had formed a loose procession along the wall. Some doubled back for the scarf, some returned to the dog, and others stood at the bus stop again to see how much street had unfolded from that first patch of yellow.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-029",
+      "persona": "sketchbook-keeper",
+      "domain": "trees",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "From the center of a small square, three rain-tree crowns nearly met above me yet left crooked blue channels between their outer leaves. I drew the sky shapes first, using the fountain rim as my fixed standing point.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The widest channel ran northeast and narrowed to a finger-width gap near one crossing branch. Leaf clusters from two trees overlapped visually at the channel’s far end, making their actual spacing impossible to read from below.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved to a paving joint four meters west and drew the same crowns again. The narrow crossing opened into a broad patch of sky, while a different pair of branches now appeared to touch near the fountain lamp.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why turn one patch of visible sky into proof that neighboring crowns avoid contact? The shift between viewpoints showed how strongly projected gaps depended on my position.",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A third drawing from the opposite curb preserved the trunk order but changed every sky channel again. I numbered the trunks on all pages so apparent branch crossings could be compared without swapping tree identities.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Give me the honest one-line takeaway from those three sky sketches.",
+          "gold_reply": "The gaps change when I move, so the drawings show three ground views rather than the true distance between upper branches.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No fallen twig, abrasion patch, or reachable branch junction supplied direct evidence about contact. The drawings established crown projections from three ground points, not distances between upper branches.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The final spread overlays the three sky-shape outlines in blue, red, and gray around a shared trunk diagram. A caption names each standing point and keeps the geometry separate from any biological explanation.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-05-030",
+      "persona": "community-archive-guide",
+      "domain": "memory-objects",
+      "register": "image-rich-direct",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A community time-capsule box opened into three cloth compartments containing a chalk stub, a brass fare token, and a sealed seed envelope. The lid inscription gave the square’s name but no closing year.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The chalk was wrapped in blackboard paper bearing half of a multiplication table. Its broken end left white powder inside the first compartment, while the surrounding cloth remained free of rust.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The token carried a punched star and the number twelve but no transport company. A circular orange transfer on the second cloth pocket matched its diameter and sat directly beneath it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The seed envelope remained sealed by a blue paper strip. On its face, block letters named scarlet runner beans; a penciled quantity had faded until only the final zero remained legible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "An inventory card lay beneath all three compartments. It listed chalk, token, and beans in that order, but its date line was blank and its signature had been reduced to two initials.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the envelope closed and lifted only the removable cloth dividers. Their undersides carried no extra writing, and the box base showed one pale rectangle where the inventory card had rested.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The object register transcribed every visible word, number, and initial, then separated them from inferred purpose. It linked the orange transfer to the token by shape and position without naming a route or year.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What would you tell a visitor who asks what was in the box and when it was sealed?",
+          "gold_reply": "It held wrapped chalk, a star-punched token numbered twelve, and a sealed runner-bean envelope; the inventory has no date, so the sealing year is unknown.",
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

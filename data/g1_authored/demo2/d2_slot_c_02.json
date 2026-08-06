@@ -1,0 +1,1821 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "sonnet-5",
+    "slot": "d2-slot-c",
+    "tranche": 2
+  },
+  "records": [
+    {
+      "id": "d2-slot-c-009",
+      "mode": "corrections",
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Keep an ear out for slip-ups while I write about the family tonight.",
+        "ack": "Absolutely, I'll flag any slip the moment it lands.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Grandpa still waters the tomatoes before sunrise no matter how cold the morning feels.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Our mailbox flag stayed up all afternoon, though no one had mailed anything at all.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Grandpa took his usual nap in the recliner right after a big lunch today.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The dog curled up under the porch table and refused to move for hours.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "My sister packed teh picnic basket while Uncle Ray kept grilllng the corn beside the porc swing outside.",
+          "errors": [
+            {
+              "wrong": "packed teh picnic",
+              "right": "packed the picnic",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            },
+            {
+              "wrong": "grilllng the corn",
+              "right": "grilling the corn",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "porc swing",
+              "right": "porch swing",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "By evening someone had strung  lights across the fence, and Its always the youngest cousin who stays out latest.",
+          "errors": [
+            {
+              "wrong": "strung  lights",
+              "right": "strung lights",
+              "subtype": "spacing",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its always",
+              "right": "It's always",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-010",
+      "mode": "corrections",
+      "persona": "office-diarist",
+      "domain": "work",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Quietly clean up any sentence that reads wrong while I finish this log, please.",
+        "ack": "Will do, anything that reads wrong gets cleaned up right away.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "the projector finally worked on the first try today, which nobody in the room quite trusted after last week's outage.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I keep noticing my own errors after I send these notes, so ignore the delay in fixing them.",
+          "mentions": [
+            "errors"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Priya london the client early because the flight schedule shifted overnight without much warning.",
+          "errors": [
+            {
+              "wrong": "Priya london the client",
+              "right": "Priya called the client",
+              "subtype": "capitalization",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Marcus asked when the invoice will arrive last week, but nobody has answered him yet.",
+          "errors": [
+            {
+              "wrong": "will arrive last week",
+              "right": "would arrive last week",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Every intern on the floor were asked to submit their badge photo again by Friday.",
+          "errors": [
+            {
+              "wrong": "intern on the floor were",
+              "right": "intern on the floor was",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone left spreadsheet open on the shared drive with three weeks of stale figures inside.",
+          "errors": [
+            {
+              "wrong": "left spreadsheet open",
+              "right": "left a spreadsheet open",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "We shipped two invoice today instead of the one everyone had originally expected.",
+          "errors": [
+            {
+              "wrong": "shipped two invoice",
+              "right": "shipped two invoices",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-011",
+      "mode": "corrections",
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Straighten out any mistake that shows up while I write today's field notes.",
+        "ack": "Understood, any mistake gets straightened out as it shows up.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "A fox slipped between two parked cars and disappeared before the crossing light changed.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "repair",
+          "text": "Two raccoons crossed the alley behind the bakery just after the streetlights came on.",
+          "repair": {
+            "wrong": "raccoos",
+            "right": "raccoons",
+            "subtype": "spacing",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The towpath lamps flickered on early as the sky dimmed behind the trees.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A jogger passed twice along the same stretch within about ten minutes total.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The squirel darted along the wall, unsure of the joggers passing close by tonight.",
+          "errors": [
+            {
+              "wrong": "The squirel darted",
+              "right": "The squirrel darted",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "unsure of the joggers",
+              "right": "unsure about the joggers",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A gull picked over scrap near the bin, and Its rare to see two herons here.",
+          "errors": [
+            {
+              "wrong": "picked over scrap",
+              "right": "picked over scraps",
+              "subtype": "plural",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its rare",
+              "right": "It's rare",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "monday's steady rain had turned the whole towpath into a long stretch of mud.",
+          "errors": [
+            {
+              "wrong": "monday's steady rain",
+              "right": "Monday's steady rain",
+              "subtype": "capitalization",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-012",
+      "mode": "corrections",
+      "persona": "family-chronicler",
+      "domain": "weather",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Sort out any awkward line while I log the weather this week, if you would.",
+        "ack": "Sure, awkward lines get sorted the second they land.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Monday opened grey and still, the kind of morning that makes coffee taste better than usual.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "By midweek a  thin fog sat over the street, and Its been unusually warm for October this year.",
+          "errors": [
+            {
+              "wrong": "a  thin fog",
+              "right": "a thin fog",
+              "subtype": "spacing",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its been unusually",
+              "right": "It's been unusually",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "friday brought a short hailstorm, and the kids keep asking when it snow again this week.",
+          "errors": [
+            {
+              "wrong": "friday brought",
+              "right": "Friday brought",
+              "subtype": "capitalization",
+              "occurrence": 1
+            },
+            {
+              "wrong": "when it snow again",
+              "right": "when it will snow again",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Every gutter along the roof were finally cleared before the next storm arrived.",
+          "errors": [
+            {
+              "wrong": "roof were finally",
+              "right": "roof was finally",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-013",
+      "mode": "corrections",
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Fix any clumsy sentence you spot while I write about tonight's dinner, quietly please.",
+        "ack": "Noted, clumsy sentences get fixed quietly as we go.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The casserole came out exactly on time tonight.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "My nephew arguing about dessert while both of the twin was upset about the pie.",
+          "errors": [
+            {
+              "wrong": "nephew arguing about",
+              "right": "nephew argued about",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "of the twin was",
+              "right": "of the twins was",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Grandma set out photo album while Dad kept insiting on more pepper again.",
+          "errors": [
+            {
+              "wrong": "set out photo album",
+              "right": "set out the photo album",
+              "subtype": "article",
+              "occurrence": 1
+            },
+            {
+              "wrong": "kept insiting",
+              "right": "kept insisting",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The dog waited   by the door tonight.",
+          "errors": [
+            {
+              "wrong": "waited   by",
+              "right": "waited by",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-014",
+      "mode": "corrections",
+      "persona": "office-diarist",
+      "domain": "family",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "If a line in tonight's log trips over itself, tidy it before you move on.",
+        "ack": "Fair enough, tripping lines get tidied before we move on.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Bath time ran long again, mostly because nobody could agree on which toy came first.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "An upstairs landing light flickered twice before finally staying on for good.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone left the porch door unlocked again, though nothing seemed out of place.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The dog trotted past twice without stopping to investigate anything unusual at all.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The toddler refuse to eat dinner, the dog wandered form the hallway, and two forts collapsed befor bedtime tonight.",
+          "errors": [
+            {
+              "wrong": "toddler refuse to eat",
+              "right": "toddler refuses to eat",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "wandered form the hallway",
+              "right": "wandered from the hallway",
+              "subtype": "preposition",
+              "occurrence": 1
+            },
+            {
+              "wrong": "collapsed befor bedtime",
+              "right": "collapsed before bedtime",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone had lined up every stuffed animall along the shelf, and Its clear naptime is over for today.",
+          "errors": [
+            {
+              "wrong": "stuffed animall along",
+              "right": "stuffed animal along",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its clear",
+              "right": "It's clear",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-015",
+      "mode": "corrections",
+      "persona": "office-diarist",
+      "domain": "work",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Watch for anything grammatically off while I finish typing up the sprint notes tonight.",
+        "ack": "Got it, anything grammatically off gets caught right away.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Half the team stayed late tonight to finish the release notes before the client call scheduled for tomorrow morning.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I misspell definately every single time I type it, so just skip flagging that one word.",
+          "mentions": [
+            "definately"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The whiteboard still shows numbers from Tuesday, none of which anyone bothered  to erase yet.",
+          "errors": [
+            {
+              "wrong": "bothered  to erase",
+              "right": "bothered to erase",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Jordan submited the report an hour early, which nearly broke the whole team's routine.",
+          "errors": [
+            {
+              "wrong": "Jordan submited the report",
+              "right": "Jordan submitted the report",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "We closed two ticket before lunch and reopened one of them right after, unfortunately.",
+          "errors": [
+            {
+              "wrong": "closed two ticket",
+              "right": "closed two tickets",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Nobody expect the outage to last as long as it eventually did today, apparently.",
+          "errors": [
+            {
+              "wrong": "Nobody expect the",
+              "right": "Nobody expected the",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone propped open fire door near the loading dock for most of the afternoon.",
+          "errors": [
+            {
+              "wrong": "propped open fire door",
+              "right": "propped open the fire door",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-016",
+      "mode": "corrections",
+      "persona": "office-diarist",
+      "domain": "family",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Keep half an eye on my grammar tonight while I write up the kids' day.",
+        "ack": "Happy to, I'll keep half an eye on it as you type.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Both kids fell asleep before we got home.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "She could stayed up later while one of the twins keep leaving wet socks around.",
+          "errors": [
+            {
+              "wrong": "could stayed up later",
+              "right": "could stay up later",
+              "subtype": "tense",
+              "occurrence": 1
+            },
+            {
+              "wrong": "twins keep leaving",
+              "right": "twins keeps leaving",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Bedtime storys took forever, and someone left a juice cupp balanced on the counter.",
+          "errors": [
+            {
+              "wrong": "Bedtime storys took",
+              "right": "Bedtime stories took",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "juice cupp balanced",
+              "right": "juice cup balanced",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone left toy car in the living room again.",
+          "errors": [
+            {
+              "wrong": "left toy car",
+              "right": "left a toy car",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-017",
+      "mode": "corrections",
+      "persona": "office-diarist",
+      "domain": "work",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Smooth out any rough sentence you catch while I wrap up today's notes, thanks.",
+        "ack": "Sure thing, rough sentences get smoothed the moment they show.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Lunch ran long because half the floor showed up for the free bagels at once.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The vending machine ate someone's change again right before the afternoon meeting.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Facilities finally replaced the broken chair in the third-floor conference room.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone brought donuts to the standup, which nobody objected to at all today.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The printer jamed twice while the deploy waited on approval, and Its strange how quiet the office got after.",
+          "errors": [
+            {
+              "wrong": "printer jamed twice",
+              "right": "printer jammed twice",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "waited on approval",
+              "right": "waited for approval",
+              "subtype": "preposition",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its strange how",
+              "right": "It's strange how",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Meeting notes from monday still await review, and the intern finaly submitted the report today.",
+          "errors": [
+            {
+              "wrong": "notes from monday",
+              "right": "notes from Monday",
+              "subtype": "capitalization",
+              "occurrence": 1
+            },
+            {
+              "wrong": "intern finaly submitted",
+              "right": "intern finally submitted",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-018",
+      "mode": "corrections",
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Gently patch up any wobbly sentence while I write down what I saw on the walk.",
+        "ack": "Of course, wobbly sentences get patched up gently as we go.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The morning air still smelled faintly of rain even though the sky had cleared by dawn.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Near the footbridge two magpie squabbled while a fox trotted along fence line nearby.",
+          "errors": [
+            {
+              "wrong": "two magpie squabbled",
+              "right": "two magpies squabbled",
+              "subtype": "plural",
+              "occurrence": 1
+            },
+            {
+              "wrong": "trotted along fence line",
+              "right": "trotted along the fence line",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A squirrel buried something and then forgotten exactly where while two duck was paddling nearby.",
+          "errors": [
+            {
+              "wrong": "then forgotten exactly",
+              "right": "then forgot exactly",
+              "subtype": "tense",
+              "occurrence": 1
+            },
+            {
+              "wrong": "two duck was",
+              "right": "two ducks were",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A hedgehog crept form the hedge into the quiet garden this week.",
+          "errors": [
+            {
+              "wrong": "crept form the",
+              "right": "crept from the",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-019",
+      "mode": "corrections",
+      "persona": "nature-logger",
+      "domain": "weather",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Nudge me toward the correct wording anytime I fumble a sentence in these notes.",
+        "ack": "Will nudge you the moment a sentence gets fumbled.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Sunrise came late again today.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A light drizzle folowed me down the towpath.",
+          "errors": [
+            {
+              "wrong": "drizzle folowed me",
+              "right": "drizzle followed me",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "By noon the wind had pick up again.",
+          "errors": [
+            {
+              "wrong": "wind had pick up",
+              "right": "wind had picked up",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Every gull along the shoreline were suddenly quiet.",
+          "errors": [
+            {
+              "wrong": "shoreline were suddenly",
+              "right": "shoreline was suddenly",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The forecast keeps promising sun tomorrow, which nobody quite believes.",
+          "errors": [
+            {
+              "wrong": "promising sun tomorrow",
+              "right": "promising suns tomorrow",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The towpath  emptied out by noon today.",
+          "errors": [
+            {
+              "wrong": "towpath  emptied",
+              "right": "towpath emptied",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-020",
+      "mode": "corrections",
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Whenever this log slips into bad grammar, quietly set it right and carry on.",
+        "ack": "Noted, bad grammar gets set right quietly as we continue.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Traffic along the ring road stayed light for most of the walk, which made the notes easier.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A heron stood so stil near the culvert that a cyclist nearly rode straight past it.",
+          "errors": [
+            {
+              "wrong": "stood so stil near",
+              "right": "stood so still near",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "repair",
+          "text": "Just after dawn a pigeon pecked at crumbs someone had scattered near the footbridge steps.",
+          "repair": {
+            "wrong": "pigen",
+            "right": "pigeon",
+            "subtype": "letter-swap",
+            "occurrence": 1
+          },
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A crow landed near the bin lid, tilted its head, then flapped off toward the rooftops finally.",
+          "errors": [
+            {
+              "wrong": "flapped off toward the rooftops",
+              "right": "flapped off towards the rooftops",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "By dusk the whole car park had emptyed out except for one battered delivery van.",
+          "errors": [
+            {
+              "wrong": "had emptyed out",
+              "right": "had emptied out",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Two crows near the bin lid was arguing loudly over a dropped chip for ages.",
+          "errors": [
+            {
+              "wrong": "bin lid was arguing",
+              "right": "bin lid were arguing",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A single duck paddled past three floating leaf near the culvert entrance this evening.",
+          "errors": [
+            {
+              "wrong": "floating leaf near",
+              "right": "floating leaves near",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-021",
+      "mode": "corrections",
+      "persona": "family-chronicler",
+      "domain": "weather",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Could you smooth out any typo while I write up this week's weather for the kids?",
+        "ack": "Of course, any typo gets smoothed the moment it lands.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Tuesday brought the first real frost of autumn, thin and sparkling across the whole garden.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "repair",
+          "text": "We had a short hailstorm Friday, first one this year, and it left dents on the shed roof.",
+          "repair": {
+            "wrong": "hailstrom",
+            "right": "hailstorm",
+            "subtype": "doubled-letter",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The garden fence sagged slightly after last week's wind but held up just fine.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Birds gathered early on the wire, waiting out the last of the morning chill.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The kids refuse to go past the back step whenever thunder starts rolling  in from the west, and every kid spilled onto the porch by evening.",
+          "errors": [
+            {
+              "wrong": "rolling  in from",
+              "right": "rolling in from",
+              "subtype": "spacing",
+              "occurrence": 1
+            },
+            {
+              "wrong": "every kid spilled",
+              "right": "every kid spills",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "One rainbow stretched clean across whole valley while every puddle along the lane were still frozen.",
+          "errors": [
+            {
+              "wrong": "across whole valley",
+              "right": "across the whole valley",
+              "subtype": "article",
+              "occurrence": 1
+            },
+            {
+              "wrong": "lane were still",
+              "right": "lane was still",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Its lovely how calm the whole garden looks right after a proper storm passes by.",
+          "errors": [
+            {
+              "wrong": "Its lovely",
+              "right": "It's lovely",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-022",
+      "mode": "corrections",
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Iron out any bumpy line while I finish tonight's little family update, would you.",
+        "ack": "Sure, bumpy lines get ironed out before we move along.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Nobody agreed on a movie tonight.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The twins buildt a blanket fort again.",
+          "errors": [
+            {
+              "wrong": "twins buildt a blanket",
+              "right": "twins built a blanket",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Later my niece kept asking for more marshmallow tonight.",
+          "errors": [
+            {
+              "wrong": "asking for more marshmallow",
+              "right": "asking for more marshmallows",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The cat kept pacing the hallway befor bed.",
+          "errors": [
+            {
+              "wrong": "pacing the hallway befor",
+              "right": "pacing the hallway before",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "One cousin still insist on staying up late.",
+          "errors": [
+            {
+              "wrong": "One cousin still insist",
+              "right": "One cousin still insists",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The cat curled up besides the fireplace tonight.",
+          "errors": [
+            {
+              "wrong": "curled up besides the",
+              "right": "curled up beside the",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-023",
+      "mode": "highlights",
+      "category": "container",
+      "category_words": [
+        "box",
+        "jar",
+        "crate",
+        "bucket",
+        "basket"
+      ],
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Mark any container word that turns up while I write about the garage cleanup.",
+        "ack": "Got it, every container word gets marked as it turns up.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Our garage door stuck halfway again, which meant hauling everything out by hand today.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "My neighbor's terrier, everyone calls her Basket, trotted past an old wooden crate outside.",
+          "marks": [
+            {
+              "word": "Basket",
+              "literal": false
+            },
+            {
+              "word": "crate",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A dusty jar of buttons sat beside a cardboard box full of tangled cords.",
+          "marks": [
+            {
+              "word": "jar",
+              "literal": true
+            },
+            {
+              "word": "box",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "By the door someone left a bucket of paintbrushes, and later I noticed another small box nearby.",
+          "marks": [
+            {
+              "word": "bucket",
+              "literal": true
+            },
+            {
+              "word": "box",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-024",
+      "mode": "highlights",
+      "category": "container",
+      "category_words": [
+        "box",
+        "jar",
+        "crate",
+        "bucket",
+        "basket"
+      ],
+      "persona": "office-diarist",
+      "domain": "work",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Flag any container word you spot while I get through today's log entries.",
+        "ack": "Sure, container words get flagged the moment they show up.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The elevator stalled twice this morning, which nobody bothered to report to facilities.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I sometimes double up on notes by mistake, so tell me if I flag something twice.",
+          "mentions": [
+            "flag"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone stacked a cardboard box of old cables right next to the printer overnight.",
+          "marks": [
+            {
+              "word": "box",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A crate of spare monitors finally got wheeled out, and a basket of cords appeared instead.",
+          "marks": [
+            {
+              "word": "crate",
+              "literal": true
+            },
+            {
+              "word": "basket",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Facilities left a bucket under the leak near reception, which is somehow still dripping.",
+          "marks": [
+            {
+              "word": "bucket",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A chipped jar of paperclips sat forgotten on the windowsill beside the filing cabinet.",
+          "marks": [
+            {
+              "word": "jar",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-025",
+      "mode": "highlights",
+      "category": "container",
+      "category_words": [
+        "box",
+        "jar",
+        "crate",
+        "bucket",
+        "basket"
+      ],
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Please note any container word that appears while I log today's walk.",
+        "ack": "Noted, any container word gets logged as it appears.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The towpath was quiet today near the market.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A fox nosed around a knocked-over crate today.",
+          "marks": [
+            {
+              "word": "crate",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone had left a jar of birdseed nearby.",
+          "marks": [
+            {
+              "word": "jar",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A squirrel dug through an overturned basket outside.",
+          "marks": [
+            {
+              "word": "basket",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Near the bins a gull tipped over a bucket today.",
+          "marks": [
+            {
+              "word": "bucket",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Someone left a flattened box by the bench.",
+          "marks": [
+            {
+              "word": "box",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-026",
+      "mode": "highlights",
+      "category": "building-part",
+      "category_words": [
+        "doorway",
+        "staircase",
+        "chimney",
+        "hallway",
+        "balcony"
+      ],
+      "persona": "family-chronicler",
+      "domain": "weather",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Point out any building-part word that turns up while I log this stormy week.",
+        "ack": "Sure, any building-part word gets pointed out as it turns up.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Monday started grim and grey, the sort of morning that makes tea taste stronger somehow.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Our neighbor's cat, oddly enough named Balcony, refused to come in from the wet ledge.",
+          "marks": [
+            {
+              "word": "Balcony",
+              "literal": false
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The bins outside rattled twice in the wind but nothing actually blew away today.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A stray cat sheltered under the porch roof for most of the afternoon storm.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Wind rattled the old chimney while rain pooled at the doorway, and water crept up the staircase outside.",
+          "marks": [
+            {
+              "word": "chimney",
+              "literal": true
+            },
+            {
+              "word": "doorway",
+              "literal": true
+            },
+            {
+              "word": "staircase",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The kids raced down the narrow hallway before rain pushed through the open doorway again.",
+          "marks": [
+            {
+              "word": "hallway",
+              "literal": true
+            },
+            {
+              "word": "doorway",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-027",
+      "mode": "highlights",
+      "category": "building-part",
+      "category_words": [
+        "doorway",
+        "staircase",
+        "chimney",
+        "hallway",
+        "balcony"
+      ],
+      "persona": "office-diarist",
+      "domain": "family",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Track any building-part word while I write up what happened at home this evening.",
+        "ack": "Will do, any building-part word gets tracked right away.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Dinner ran late tonight because the oven timer never actually went off as expected.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The kids raced down the hallway while a stray cat waited by the doorway nearby.",
+          "marks": [
+            {
+              "word": "hallway",
+              "literal": true
+            },
+            {
+              "word": "doorway",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The old staircase creaked while you could see the school playground from the small balcony today.",
+          "marks": [
+            {
+              "word": "staircase",
+              "literal": true
+            },
+            {
+              "word": "balcony",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Smoke curled from the neighbor's chimney long after the fire died down.",
+          "marks": [
+            {
+              "word": "chimney",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-028",
+      "mode": "highlights",
+      "category": "building-part",
+      "category_words": [
+        "doorway",
+        "staircase",
+        "chimney",
+        "hallway",
+        "balcony"
+      ],
+      "persona": "nature-logger",
+      "domain": "weather",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Would you mark every building-part word while I write up today's storm notes?",
+        "ack": "Absolutely, every building-part word gets marked as we go.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Wind picked up sharply around noon today.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Smoke from a nearby chimney flattened sideways.",
+          "marks": [
+            {
+              "word": "chimney",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A gull sheltered inside a doorway nearby.",
+          "marks": [
+            {
+              "word": "doorway",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Rain streamed down the outside staircase today.",
+          "marks": [
+            {
+              "word": "staircase",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Fog settled low over every balcony tonight.",
+          "marks": [
+            {
+              "word": "balcony",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The hallway light flickered during the storm.",
+          "marks": [
+            {
+              "word": "hallway",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-029",
+      "mode": "highlights",
+      "category": "insect",
+      "category_words": [
+        "beetle",
+        "wasp",
+        "cricket",
+        "moth",
+        "dragonfly"
+      ],
+      "persona": "office-diarist",
+      "domain": "work",
+      "register": "affectionate-casual",
+      "instruction": {
+        "text": "Could you mark any insect word while I finish up this afternoon's log entries?",
+        "ack": "Of course, any insect word gets marked as we go along.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The office windows stayed open all afternoon since the air conditioning finally quit.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "One of the new interns, everyone already calls him Cricket after some old joke, laughed.",
+          "marks": [
+            {
+              "word": "Cricket",
+              "literal": false
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A wasp got trapped between the blinds and buzzed there for most of the meeting.",
+          "marks": [
+            {
+              "word": "wasp",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A moth kept circling the desk lamp long after everyone else had gone home for the night.",
+          "marks": [
+            {
+              "word": "moth",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Near the window ledge a beetle wandered slowly across a stack of unread memos.",
+          "marks": [
+            {
+              "word": "beetle",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A dragonfly skimmed low across the puddle collecting near the loading dock outside.",
+          "marks": [
+            {
+              "word": "dragonfly",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Outside the window a cricket chirped steadily through the whole quiet conference call.",
+          "marks": [
+            {
+              "word": "cricket",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-c-030",
+      "mode": "highlights",
+      "category": "insect",
+      "category_words": [
+        "beetle",
+        "wasp",
+        "cricket",
+        "moth",
+        "dragonfly"
+      ],
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Note down any insect word that shows up while I log this stretch of the canal.",
+        "ack": "Understood, any insect word gets noted the moment it shows up.",
+        "mentions_error": null
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The canal path was mostly empty today, save for one determined dog walker at dawn.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A dragonfly hovered over the still water while a wasp circled a dropped sandwich crust nearby.",
+          "marks": [
+            {
+              "word": "dragonfly",
+              "literal": true
+            },
+            {
+              "word": "wasp",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A large beetle crossed the towpath slowly while a moth settled on the lamp post nearby.",
+          "marks": [
+            {
+              "word": "beetle",
+              "literal": true
+            },
+            {
+              "word": "moth",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A cricket chirped somewhere in the reeds long after the towpath emptied.",
+          "marks": [
+            {
+              "word": "cricket",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "note": "Slot d3-slot-c tranche one: gallery-walker / weekend-hiker across arts, nature, travel.",
+  "author": {
+    "model": "claude-sonnet-5",
+    "slot": "d3-slot-c",
+    "tranche": 1
+  },
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "d3-slot-c-self-review",
+    "reviewed_at": "2026-08-01",
+    "note": "Chinese references are machine-reviewed only; no human on this project reads Chinese."
+  },
+  "records": [
+    {
+      "id": "d3c-001",
+      "persona": "gallery-walker",
+      "domain": "arts",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Whatever I type from here on, turn it into Chinese for me.",
+        "gold_ack": "好的，我会把你写的都翻成中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Inside the gallery there was exactly one bench,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and a guard who took his job very ser",
+          "trap": "half_clause",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": "iously, or so he'd have us believe.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " I counted four paintings of the zzqxxk",
+          "trap": "none",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 6,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "same bridge, unless I miscounted.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody else seemed to find that odd.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Its gift shop sold postcards of the parking lot.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody bothered pointing that out to the staff.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Inside the gallery there was exactly one bench,",
+          "reference": "画廊里正好有一条长椅，"
+        },
+        {
+          "english": "and a guard who took his job very seriously, or so he'd have us believe.",
+          "reference": "还有一个把工作看得很重的保安，反正他自己是这么说的。"
+        },
+        {
+          "english": "I counted four paintings of the same bridge, unless I miscounted.",
+          "reference": "我数了数，同一座桥的画有四幅，除非是我数错了。"
+        },
+        {
+          "english": "Nobody else seemed to find that odd.",
+          "reference": "似乎没有别人觉得这有什么奇怪的。"
+        },
+        {
+          "english": "Its gift shop sold postcards of the parking lot.",
+          "reference": "礼品店卖的是停车场的明信片。"
+        },
+        {
+          "english": "Nobody bothered pointing that out to the staff.",
+          "reference": "没有人费心把这事告诉工作人员。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-002",
+      "persona": "weekend-hiker",
+      "domain": "nature",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Please render each line I write here in Chinese.",
+        "gold_ack": "收到，我会把每一行都译成中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "A ranger passing by called out 小心台阶 as a warning.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " Moss had crept halfway across the trailhead sign,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " so we checked the map on our phones instead.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Last night's rain had left the steps slick.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We reached the overlook just before noon.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A thin layer of fog still sat over the valley.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Moss had crept halfway across the trailhead sign,",
+          "reference": "苔藓已经爬满了步道入口告示牌的一半，"
+        },
+        {
+          "english": "so we checked the map on our phones instead.",
+          "reference": "于是我们改看手机上的地图。"
+        },
+        {
+          "english": "Last night's rain had left the steps slick.",
+          "reference": "昨晚的雨让台阶变得很滑。"
+        },
+        {
+          "english": "We reached the overlook just before noon.",
+          "reference": "我们中午前就到了观景台。"
+        },
+        {
+          "english": "A thin layer of fog still sat over the valley.",
+          "reference": "山谷上方还笼罩着一层薄雾。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-003",
+      "persona": "gallery-walker",
+      "domain": "travel",
+      "register": "quietly-enthusiastic",
+      "instruction": {
+        "text": "Follow along and give me a Chinese line for each part I finish.",
+        "gold_ack": "没问题，我写完一段就给你中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "By dawn the overnight train had already gotten us into the city,‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " and the first museum opened before we'd even ",
+          "trap": "half_clause",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": "had coffee, or found where to buy some.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A small crowd was already waiting by the doors.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " I liked that they let us in early anyway.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Faint traces of last night's rain still lingered throughout the place.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Even the museum guards seemed unbothered by the smell.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "By dawn the overnight train had already gotten us into the city,",
+          "reference": "天亮的时候，夜车已经把我们送进了城里，"
+        },
+        {
+          "english": "and the first museum opened before we'd even had coffee, or found where to buy some.",
+          "reference": "第一家博物馆在我们喝上咖啡之前，或者说在我们找到咖啡之前，就已经开门了。"
+        },
+        {
+          "english": "A small crowd was already waiting by the doors.",
+          "reference": "门口已经有一小群人在等着了。"
+        },
+        {
+          "english": "I liked that they let us in early anyway.",
+          "reference": "我很喜欢他们还是提前放我们进去了。"
+        },
+        {
+          "english": "Faint traces of last night's rain still lingered throughout the place.",
+          "reference": "整个地方还隐约带着昨晚雨水的味道。"
+        },
+        {
+          "english": "Even the museum guards seemed unbothered by the smell.",
+          "reference": "连博物馆的保安似乎都不在意这股味道。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-004",
+      "persona": "weekend-hiker",
+      "domain": "arts",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "Turn every sentence I type below into Chinese right away.",
+        "gold_ack": "行，我这就把你写的每句翻成中文。",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Someone had left a folding chair on the summit trail,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " right next to a carved wooden sign about litter.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A hiker had propped a tiny painting against a rock.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Someone had left a folding chair on the summit trail,",
+          "reference": "有人在登顶步道上留了一把折叠椅，"
+        },
+        {
+          "english": "right next to a carved wooden sign about litter.",
+          "reference": "就摆在一块关于乱扔垃圾的木牌旁边。"
+        },
+        {
+          "english": "A hiker had propped a tiny painting against a rock.",
+          "reference": "一个徒步者把一幅小画靠在石头上摆着。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-005",
+      "persona": "gallery-walker",
+      "domain": "nature",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Type out my notes and hand me back the Chinese as you go.",
+        "gold_ack": "明白，我会边看边给你中文版本。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "A stretch of wetland runs behind the sculpture park,‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " and herons nest somewhere zzqxxk",
+          "trap": "none",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 6,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "near the reeds by the far fence.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " One bronze figure was almost invisible in the grass.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " We only noticed it because a heron landed on its head.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Walking back to the entrance, the path loops past three more.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " None of them were labeled with the sculptor's name.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "A stretch of wetland runs behind the sculpture park,",
+          "reference": "雕塑公园背后是一片湿地，"
+        },
+        {
+          "english": "and herons nest somewhere near the reeds by the far fence.",
+          "reference": "苍鹭就在远处围栏边的芦苇丛里筑巢。"
+        },
+        {
+          "english": "One bronze figure was almost invisible in the grass.",
+          "reference": "有一尊青铜雕像藏在草丛里几乎看不见。"
+        },
+        {
+          "english": "We only noticed it because a heron landed on its head.",
+          "reference": "我们注意到它，只是因为一只苍鹭落在了它头上。"
+        },
+        {
+          "english": "Walking back to the entrance, the path loops past three more.",
+          "reference": "走回入口的路上，小路还会经过另外三尊雕像。"
+        },
+        {
+          "english": "None of them were labeled with the sculptor's name.",
+          "reference": "它们都没有标注雕塑家的名字。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-006",
+      "persona": "weekend-hiker",
+      "domain": "travel",
+      "register": "quietly-enthusiastic",
+      "instruction": {
+        "text": "Keep translating each bit I type into Chinese, please.",
+        "gold_ack": "好嘞，我会把你写的一段段译成中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "He greeted every passenger with a cheerful 你好 through the window.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " We swapped the bus for a shared van at the border,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and by then the driver knew every switchback by heart.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Almost two hours of steady climbing followed.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " By the top, half the van was asleep.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Reaching the pass, the view made up for the whole climb.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "We swapped the bus for a shared van at the border,",
+          "reference": "我们在边境把大巴换成了拼车小巴，"
+        },
+        {
+          "english": "and by then the driver knew every switchback by heart.",
+          "reference": "而且没多久，司机就对每一个发夹弯都了如指掌了。"
+        },
+        {
+          "english": "Almost two hours of steady climbing followed.",
+          "reference": "接下来是将近两个小时的持续爬升。"
+        },
+        {
+          "english": "By the top, half the van was asleep.",
+          "reference": "到山顶时，车里一半人都睡着了。"
+        },
+        {
+          "english": "Reaching the pass, the view made up for the whole climb.",
+          "reference": "到达垭口时，眼前的风景让这一路爬升都值了。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-007",
+      "persona": "gallery-walker",
+      "domain": "arts",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Give me a Chinese line every time I finish a sentence.",
+        "gold_ack": "好的，我每写完一句就给你中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "A small placard by the door read 施工中请绕行 in stenciled red letters.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Fresh paint still hung in the air of the new wing,‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " and half the wall labels hadn't been ",
+          "trap": "half_clause",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": "mounted yet, as far as I could tell.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Staff kept pointing visitors toward a side entrance.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Fresh paint still hung in the air of the new wing,",
+          "reference": "新展厅里还弥漫着新刷油漆的味道，"
+        },
+        {
+          "english": "and half the wall labels hadn't been mounted yet, as far as I could tell.",
+          "reference": "一半的墙面说明牌看样子都还没装上去。"
+        },
+        {
+          "english": "Staff kept pointing visitors toward a side entrance.",
+          "reference": "工作人员一直在引导游客走侧门。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-008",
+      "persona": "weekend-hiker",
+      "domain": "nature",
+      "register": "wry-understated",
+      "instruction": {
+        "text": "From this point on, just hand me back a Chinese version.",
+        "gold_ack": "没问题，从现在起我都给你中文版。",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "According to the trail map, this was a gentle loop,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " which turned out to mean three unmarked hills.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A squirrel followed us for nearly a mile.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "According to the trail map, this was a gentle loop,",
+          "reference": "按照步道地图的说法，这本该是一圈平缓的环线，"
+        },
+        {
+          "english": "which turned out to mean three unmarked hills.",
+          "reference": "结果原来是三座没有标记的小山。"
+        },
+        {
+          "english": "A squirrel followed us for nearly a mile.",
+          "reference": "一只松鼠跟着我们走了差不多一英里。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-009",
+      "persona": "gallery-walker",
+      "domain": "travel",
+      "register": "quietly-enthusiastic",
+      "instruction": {
+        "text": "I'll type in bursts -- send back Chinese for each finished bit.",
+        "gold_ack": "行，我一段段给你对应的中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The owner waved and said 慢慢看 before returning to his work.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " We found the print shop tucked behind a zzqxxk",
+          "trap": "none",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 6,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "noodle stall, half-hidden from the street,‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " with woodblock prints stacked floor to ceiling.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We ended up staying for almost an hour.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " I left with three prints I hadn't planned on buying.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Before we left, the owner wrapped each one in old newspaper.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " We promised to come back the next time we were in town.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Neither of us really believed we would.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " The alley outside still smelled like fried dough the whole time.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "We found the print shop tucked behind a noodle stall, half-hidden from the street,",
+          "reference": "我们在一家面摊后面找到了那家版画店，几乎藏在街边不显眼的地方，"
+        },
+        {
+          "english": "with woodblock prints stacked floor to ceiling.",
+          "reference": "木版画从地板一直堆到天花板。"
+        },
+        {
+          "english": "We ended up staying for almost an hour.",
+          "reference": "我们最后在那儿待了将近一个小时。"
+        },
+        {
+          "english": "I left with three prints I hadn't planned on buying.",
+          "reference": "我最后买了三幅原本没打算买的版画。"
+        },
+        {
+          "english": "Before we left, the owner wrapped each one in old newspaper.",
+          "reference": "临走前，老板把每一幅都用旧报纸包了起来。"
+        },
+        {
+          "english": "We promised to come back the next time we were in town.",
+          "reference": "我们答应下次来这座城市时还会再来。"
+        },
+        {
+          "english": "Neither of us really believed we would.",
+          "reference": "我们俩其实都不太相信自己会做到。"
+        },
+        {
+          "english": "The alley outside still smelled like fried dough the whole time.",
+          "reference": "外面的巷子里，那股炸面团的味道一直没散。"
+        }
+      ]
+    },
+    {
+      "id": "d3c-010",
+      "persona": "weekend-hiker",
+      "domain": "arts",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "Type as usual -- I want the Chinese for each piece you finish.",
+        "gold_ack": "好，照常打字，我会给你每段的中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "A handwritten note under one photo just said 谢谢参与.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " Just three plywood panels made up the trailside gallery,‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " each one covered with photos from past ",
+          "trap": "half_clause",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": "hikers, going back years.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " We added our own photo before heading back down.‖",
+          "trap": "none",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Someone had taped a pencil to the panel on a string.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " It still worked, somehow.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A few of the photos had already faded past recognition.‖",
+          "trap": "none",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody had bothered to replace them.‖",
+          "trap": "none",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Just three plywood panels made up the trailside gallery,",
+          "reference": "步道边的画廊其实就是三块胶合板，"
+        },
+        {
+          "english": "each one covered with photos from past hikers, going back years.",
+          "reference": "每一块上面都贴满了往届徒步者的照片，年份可以追溯到很久以前。"
+        },
+        {
+          "english": "We added our own photo before heading back down.",
+          "reference": "我们下山前也贴上了自己的照片。"
+        },
+        {
+          "english": "Someone had taped a pencil to the panel on a string.",
+          "reference": "有人用一根绳子把一支铅笔绑在了木板上。"
+        },
+        {
+          "english": "It still worked, somehow.",
+          "reference": "不知道为什么，它居然还能用。"
+        },
+        {
+          "english": "A few of the photos had already faded past recognition.",
+          "reference": "有几张照片已经褪色到认不出来了。"
+        },
+        {
+          "english": "Nobody had bothered to replace them.",
+          "reference": "没有人费心去换掉它们。"
+        }
+      ]
+    }
+  ]
+}

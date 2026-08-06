@@ -1,0 +1,290 @@
+{
+  "schema_version": "g1-authored-demo4-1",
+  "demo": "demo-4",
+  "author": {"model": "claude-sonnet-5", "slot": "d4-slot-a", "tranche": 1},
+  "requests": [
+    {
+      "id": "d4a-req-01",
+      "text": "Can you whip me up a fun little dashboard for harbor arrivals?",
+      "task": "generate a UI to visualize harbor arrival activity",
+      "persona": "dashboard-tinkerer",
+      "domain": "maritime",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-req-02",
+      "text": "Could you chart overdue library books for the slide deck?",
+      "task": "generate a UI to visualize overdue library book counts",
+      "persona": "teacher-prepping-slides",
+      "domain": "libraries",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-req-03",
+      "text": "Make me a breakdown of our board game collection by genre.",
+      "task": "generate a UI to visualize the board game collection by genre",
+      "persona": "hobby-data-collector",
+      "domain": "board-games",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-04",
+      "text": "Build me a snappy little panel of today's bus delays!",
+      "task": "generate a UI to visualize today's bus route delays",
+      "persona": "dashboard-tinkerer",
+      "domain": "public-transit",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-req-05",
+      "text": "Whip up a chart of cargo ship arrival times for class.",
+      "task": "generate a UI to visualize cargo ship arrival times",
+      "persona": "teacher-prepping-slides",
+      "domain": "maritime",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-req-06",
+      "text": "Put together a view of checkout trends across branches.",
+      "task": "generate a UI to visualize library checkout trends across branches",
+      "persona": "hobby-data-collector",
+      "domain": "libraries",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-07",
+      "text": "Throw together a scoreboard for our game night results!",
+      "task": "generate a UI to visualize game night score results",
+      "persona": "dashboard-tinkerer",
+      "domain": "board-games",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-req-08",
+      "text": "Sketch a map of subway ridership by line for the lesson.",
+      "task": "generate a UI to visualize subway ridership by line",
+      "persona": "teacher-prepping-slides",
+      "domain": "public-transit",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-req-09",
+      "text": "Mock up a panel of buoy weather readings I logged.",
+      "task": "generate a UI to visualize buoy weather readings",
+      "persona": "hobby-data-collector",
+      "domain": "maritime",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-10",
+      "text": "Draft me a fun little chart of new library memberships!",
+      "task": "generate a UI to visualize new library memberships",
+      "persona": "dashboard-tinkerer",
+      "domain": "libraries",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-req-11",
+      "text": "Spin up a leaderboard for the board game tournament results.",
+      "task": "generate a UI to visualize board game tournament results",
+      "persona": "teacher-prepping-slides",
+      "domain": "board-games",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-req-12",
+      "text": "Pull together a view of tram punctuality I've been tracking.",
+      "task": "generate a UI to visualize tram punctuality data",
+      "persona": "hobby-data-collector",
+      "domain": "public-transit",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-13",
+      "text": "Set up a dashboard of fishing fleet catch totals.",
+      "task": "generate a UI to visualize fishing fleet catch totals",
+      "persona": "dashboard-tinkerer",
+      "domain": "maritime",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-req-14",
+      "text": "Design a chart tracking rare book request patterns.",
+      "task": "generate a UI to visualize rare book request patterns",
+      "persona": "teacher-prepping-slides",
+      "domain": "libraries",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-15",
+      "text": "Assemble a fun panel comparing our favorite board games!",
+      "task": "generate a UI to visualize favorite board game comparisons",
+      "persona": "hobby-data-collector",
+      "domain": "board-games",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-req-16",
+      "text": "Wire up a view of ferry crossing times I collected.",
+      "task": "generate a UI to visualize ferry crossing times",
+      "persona": "dashboard-tinkerer",
+      "domain": "public-transit",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-req-17",
+      "text": "Knock together a lively dashboard of lighthouse maintenance logs!",
+      "task": "generate a UI to visualize lighthouse maintenance logs",
+      "persona": "teacher-prepping-slides",
+      "domain": "maritime",
+      "register": "animated-casual"
+    }
+  ],
+  "progress_pairs": [
+    {
+      "id": "d4a-check-01",
+      "kind": "check",
+      "question": "how's it going?",
+      "reply": "Still working on it — not there yet.",
+      "persona": "dashboard-tinkerer",
+      "domain": "maritime",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-check-02",
+      "kind": "check",
+      "question": "is it done yet?",
+      "reply": "Not yet, still piecing it together.",
+      "persona": "teacher-prepping-slides",
+      "domain": "libraries",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-check-03",
+      "kind": "check",
+      "question": "any progress?",
+      "reply": "Making progress, but it's not finished.",
+      "persona": "hobby-data-collector",
+      "domain": "board-games",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-check-04",
+      "kind": "check",
+      "question": "almost done?",
+      "reply": "Getting closer, just needs a bit more time.",
+      "persona": "dashboard-tinkerer",
+      "domain": "public-transit",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-check-05",
+      "kind": "check",
+      "question": "still working?",
+      "reply": "Yep, still chugging along on it.",
+      "persona": "teacher-prepping-slides",
+      "domain": "maritime",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-check-06",
+      "kind": "check",
+      "question": "made progress?",
+      "reply": "Some progress made, nothing ready to show.",
+      "persona": "hobby-data-collector",
+      "domain": "libraries",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-check-07",
+      "kind": "check",
+      "question": "how far along?",
+      "reply": "Partway there — needs a few more minutes.",
+      "persona": "dashboard-tinkerer",
+      "domain": "board-games",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-check-08",
+      "kind": "check",
+      "question": "any update yet?",
+      "reply": "Almost, but it's not quite finished yet.",
+      "persona": "teacher-prepping-slides",
+      "domain": "public-transit",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-check-09",
+      "kind": "check",
+      "question": "ready yet?",
+      "reply": "In progress still, not ready just yet.",
+      "persona": "hobby-data-collector",
+      "domain": "maritime",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-nudge-01",
+      "kind": "nudge",
+      "question": "did you see it?",
+      "persona": "dashboard-tinkerer",
+      "domain": "libraries",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-nudge-02",
+      "kind": "nudge",
+      "question": "you catch that?",
+      "persona": "teacher-prepping-slides",
+      "domain": "board-games",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-nudge-03",
+      "kind": "nudge",
+      "question": "got my request?",
+      "persona": "hobby-data-collector",
+      "domain": "public-transit",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-nudge-04",
+      "kind": "nudge",
+      "question": "you there?",
+      "persona": "dashboard-tinkerer",
+      "domain": "maritime",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-nudge-05",
+      "kind": "nudge",
+      "question": "still with me?",
+      "persona": "teacher-prepping-slides",
+      "domain": "libraries",
+      "register": "practical-terse"
+    },
+    {
+      "id": "d4a-nudge-06",
+      "kind": "nudge",
+      "question": "did that land?",
+      "persona": "hobby-data-collector",
+      "domain": "board-games",
+      "register": "curious-methodical"
+    },
+    {
+      "id": "d4a-nudge-07",
+      "kind": "nudge",
+      "question": "you get my ask?",
+      "persona": "dashboard-tinkerer",
+      "domain": "public-transit",
+      "register": "animated-casual"
+    },
+    {
+      "id": "d4a-nudge-08",
+      "kind": "nudge",
+      "question": "hear me okay?",
+      "persona": "teacher-prepping-slides",
+      "domain": "maritime",
+      "register": "practical-terse"
+    }
+  ]
+}

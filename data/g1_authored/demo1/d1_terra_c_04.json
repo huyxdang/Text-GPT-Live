@@ -1,0 +1,1531 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 4
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-04-001",
+      "persona": "amateur-photographer",
+      "domain": "photography",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I taped a pinhole camera to the studio window and aimed it at the sunlit fence.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first paper negative stayed inside for twenty seconds and came out nearly white.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give that nearly white first negative a fair reading before I expose another sheet.",
+          "gold_reply": "Twenty seconds barely registered the fence, so it is a useful underexposed baseline rather than a failed page.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A second exposure lasted eighty seconds under the same cloudless patch. Its fence posts appeared as soft gray bars, with the sky much darker.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I wrote both durations on the envelopes before the light changed.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-002",
+      "persona": "neighborhood-historian",
+      "domain": "gardens",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The compost thermometer read fifty-eight degrees at the center of the new pile.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me careful while I describe this first compost reading.",
+          "gold_reply": "Start with the probe location and temperature, then keep surface observations separate.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Steam rose only when I opened a narrow pocket with the fork.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The outer layer remained cool and smelled mostly of dry leaves.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I closed the pocket and marked the probe depth with tape.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second center reading matched the first within one degree.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-003",
+      "persona": "amateur-photographer",
+      "domain": "oral-history",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I clipped the recorder below the market awning before the fruit seller began her story.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Can you still hear me over the ice crusher?” she asked, leaning toward the microphone.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does the first setup give her voice a fair chance against the ice crusher?",
+          "gold_reply": "The close recorder and her lean toward it help, although the crusher may still mask some words.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The level meter peaked whenever the metal scoop struck the bin. I moved neither the recorder nor the seller during the first minute.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Her quieter sentences remained audible between the impacts.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-004",
+      "persona": "neighborhood-historian",
+      "domain": "photography",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The contact sheet held twelve frames of a baker shaping one loaf from start to finish.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with the sequence while I read it from frame one onward.",
+          "gold_reply": "Got it—the twelve contact-sheet frames stay in their shooting order.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Frames four and five repeated almost the same hand position.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The only flour cloud appeared in frame seven, just after the dough struck the board.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I circled no favorites and numbered every frame in shooting order.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The sequence ended with the loaf entering the oven on a wooden peel.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-005",
+      "persona": "amateur-photographer",
+      "domain": "gardens",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I reason through this garden-web image with you?",
+          "gold_reply": "Yes—describe the web, the light, and what changed when you altered the background.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "At sunrise, dew outlined half an orb web between two rosemary stems.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why assume its lower spokes are broken when pale gravel hides them?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "From the side, droplets still hung on threads below the visible spiral.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a plain backdrop separate missing silk from poor contrast? I held a blue envelope behind the web without touching it.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Against the blue paper, the lower spokes appeared intact and undisturbed.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-006",
+      "persona": "neighborhood-historian",
+      "domain": "oral-history",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The interview centered on a neighborhood cinema that closed before the current shops were built.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Will you keep this cinema account open while I begin with the setting?",
+          "gold_reply": "I’m following the closed cinema and the interview context without adding details yet.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The transcript used “remind” descriptively in the title of the speaker’s childhood section.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Were the wooden seats really red?” her grandson asked from beside the recorder.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She described peeling paint but did not name a shade.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the color blank in the summary rather than borrowing it from the question.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-007",
+      "persona": "amateur-photographer",
+      "domain": "photography",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Keep the photographic observation separate from anything I learn outside the frame.",
+          "gold_reply": "I’ll keep direct visual observations separate from anything learned through another source.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I held a polarizing filter over the lens while photographing the greenhouse pond from one fixed spot. A dark oval remained visible near the reeds beneath the reflected greenhouse windows.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Without the filter, window reflections covered most of the water surface.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could rotation reveal the oval more clearly? I marked the filter ring before turning it.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At ninety degrees, the reflection weakened and the oval edge became visible.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-008",
+      "persona": "neighborhood-historian",
+      "domain": "gardens",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The pear tree’s four trained branches were tied horizontally along two garden wires.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Just react to those four branches holding such a strict horizontal line.",
+          "gold_reply": "They sound remarkably disciplined, with every branch tied into the same deliberate plane.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One upright shoot could draw vigor away from the carefully spaced horizontal frame.",
+          "traps": [
+            "none"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I found that shoot rising from the second branch near the trunk.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A paper tag marked it for winter pruning; nothing was cut in summer.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The remaining fruiting spurs stayed undisturbed along the horizontal wood.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-009",
+      "persona": "amateur-photographer",
+      "domain": "oral-history",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I walk you through one difficult transcription term from the beginning?",
+          "gold_reply": "Yes—start with what you heard before you describe any replay or spelling decision.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "While transcribing the potter’s interview, I reached a clay term pronounced three different ways.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “correct” appeared descriptively in my note about preserving the speaker’s own pronunciation.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Should I spell it the way it sounds?” the assistant asked from the next desk.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I replayed the phrase at half speed and kept the local spelling in brackets.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The glossary entry linked all three pronunciations to the same tool.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-010",
+      "persona": "neighborhood-historian",
+      "domain": "photography",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I set the camera on a tripod beside the tram stop for a twenty-second night exposure.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me company while I hold this first night exposure at one viewpoint.",
+          "gold_reply": "I’m with you at the fixed tripod position beside the tram stop.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The route board marked a scheduled driver change for the last tram.",
+          "traps": [
+            "none"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first tram crossed the frame without stopping and left one continuous white line.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The final tram paused midway, creating a bright rectangular block over the rails.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept both frames because they recorded different movements at the same viewpoint.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-011",
+      "persona": "amateur-photographer",
+      "domain": "gardens",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I describe this two-ring soil test to you before the timing begins?",
+          "gold_reply": "Yes—identify the two surfaces and keep their starting conditions explicit.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Two metal rings held water on the community plot: one over mulched soil and one over bare soil.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Both started with the same measured depth and were pressed equally far into the ground.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Each ring received water from the same marked jug, with the surface aligned to the ring’s lower scratch.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After four minutes, the mulched ring had emptied while water still covered the bare-soil ring.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No roots or stones were visible inside either test circle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I stopped the bare-soil timer when its last reflective patch vanished.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The two elapsed times went into separate rows rather than a single average.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-012",
+      "persona": "neighborhood-historian",
+      "domain": "oral-history",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The retired cook began with the smell of toasted rice from her mother’s kitchen.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with the first sensory detail before I continue her account.",
+          "gold_reply": "I’m holding onto the smell of toasted rice from her mother’s kitchen.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She traced the grinding motion on the table but named no quantities.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The recorder captured a long pause before she described the first time she cooked it alone.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the pause in the transcript and did not turn her gestures into measurements.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A cousin’s voice entered briefly to identify the village where that kitchen stood.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The speaker then returned to the sound of the stone grinder at dawn.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-013",
+      "persona": "amateur-photographer",
+      "domain": "photography",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the macro series, I photographed the same weathered gate hinge at three focusing distances under flat morning light.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The field card described a bright wear line along the pin.",
+          "traps": [
+            "none"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What subject am I photographing, and at how many focusing distances?",
+          "gold_reply": "A weathered gate hinge at three focusing distances.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the closest distance, only a patch of rust flakes stayed sharp.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The middle frame held both the pin edge and two screw heads in focus.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The farthest frame brought the full hinge plate into focus but reduced the wear line to a thin pale mark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the tripod height unchanged and moved only the focusing rail.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Dust near the lens mount appeared in none of the finished frames.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-014",
+      "persona": "neighborhood-historian",
+      "domain": "gardens",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A shade-cloth trial covered half the lettuce bed with a loose green mesh held above the outer leaves.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would you expect the raised mesh to soften direct sun without pressing on the lettuce?",
+          "gold_reply": "Yes—the loose mesh should reduce direct light while its raised position leaves the outer leaves free.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One continuous drip line supplied both halves of the lettuce bed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "At noon, leaves under the mesh felt cool and held no scorched edges.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The uncovered half had two pale edge patches on the outermost plants.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Soil beneath both halves was damp at a finger’s depth.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I recorded leaf condition separately from the shared watering setup.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-015",
+      "persona": "amateur-photographer",
+      "domain": "oral-history",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The speaker arrived with a small suitcase carried during her first move across the province.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "An old railway tag and a strip of blue repair tape remained on the lid throughout the interview.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Did everything you owned fit in there?” I asked after she placed it on the table.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What assumption did my question make about the suitcase?",
+          "gold_reply": "It assumed the suitcase might have held everything she owned.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She laughed, then listed a coat, school papers, and two enamel cups.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the list be complete? I realized that my question had encouraged a totalizing answer.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She later called the suitcase the things she could carry, not everything she owned.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I revised the summary to preserve that distinction.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-016",
+      "persona": "neighborhood-historian",
+      "domain": "photography",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "In the darkroom, I printed one negative three times with the same base exposure.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why assume the bright window must stay blank when a brief burn can recover its frame?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The second print received five extra seconds through a small card opening.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me the first local exposure change without judging the print.",
+          "gold_reply": "The window area received five extra seconds through a small card opening.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Its window frame appeared, but the curtain edge remained pale.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A third print received two more seconds only along that curtain.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I labeled each test strip before switching on the room light.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-017",
+      "persona": "amateur-photographer",
+      "domain": "gardens",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The tomato row received a strip of white shade cloth after three fruit showed sunscald.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “suggest” appeared descriptively in a copied label from last year’s trial.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Which detail from last year appears only on the copied label?",
+          "gold_reply": "The word “suggest”; it appears descriptively in the copied trial label.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I tied the cloth above the foliage so air could pass beneath it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Morning sun still reached the eastern leaves before the cloth cast shade.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No fruit was removed, and the three damaged areas were marked with soft pencil on their tags.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The next check was scheduled for the same hour two days later.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-018",
+      "persona": "neighborhood-historian",
+      "domain": "oral-history",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The dockworker’s recording began with the squeal of handcart wheels on wet planks.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "He told us the morning fish auction could be recognized from three streets away.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He imitated the auctioneer’s rising cadence without repeating any actual prices.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "React to his imitation of the auction cadence without adding any prices.",
+          "gold_reply": "The rising cadence carries the memory of the auction while respecting that he repeated no actual price.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A ferry horn entered the background and he paused until it faded.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The level stayed steady, so I added no gain during the pause.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "He resumed by describing how voices overlapped under the iron roof. His hands marked two separate directions on the table: buyers near the quay and porters beside the scales. I kept those gestures in the observation notes rather than converting them into a floor plan. Near the end, he repeated the rising cadence more softly and contrasted it with the flat calls used after the auction closed. The recording preserved both demonstrations, the background horn, and the limits of what he chose to recreate.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-019",
+      "persona": "amateur-photographer",
+      "domain": "photography",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I photographed a family outside the corner shop after asking where they wanted to stand.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Help me honor the family’s chosen position before I compose the rest of the frame.",
+          "gold_reply": "Keep their requested place as the starting point, then frame around it without inventing a pose or story.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A family-supplied caption identified the closed doorway as the former workshop entrance.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I framed the group to one side so the doorway and number tile both stayed in view.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "No reenactment or old-tool pose was introduced.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The youngest child looked away during the first frame, then faced the lens on her own.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept both images and attached the doorway request to the caption notes.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-020",
+      "persona": "neighborhood-historian",
+      "domain": "gardens",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The bean trellis leaned six centimeters toward the path after a night of strong wind.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why tighten every tie if the lowest anchor is the only one that shifted?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I measured the lean at the top crossbar and checked each knot by hand.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What exactly did I measure and check before making any repair?",
+          "gold_reply": "You measured the top-crossbar lean and checked each knot by hand.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The upper ties were firm; the bottom stake had lifted from wet soil.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A temporary brace held the crossbar while I reset that single stake.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The trellis returned to within one centimeter of its original line. I left the temporary brace in place while the reset soil was pressed gently around the stake. A reference string between the two end posts made the remaining lean visible without relying on memory. The leaves had twisted during the night but no stem was pinched beneath a tie. I photographed the base, the measured top bar, and the intact upper knots as separate views. The repair note identified the lifted stake as the intervention point and kept wind exposure as context rather than proof of cause.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-021",
+      "persona": "amateur-photographer",
+      "domain": "oral-history",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The archive held three interviews about a former public bathhouse, each recorded decades after it closed. I made a table for details that appeared independently rather than merging the accounts into one story.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "All three speakers placed the ticket window beside the entrance, but they disagreed about whether the men’s pool was on the left or right. I retained both orientations with speaker identifiers.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One speaker described blue wall tiles; another remembered green. Neither recording included a dated photograph or sample that could settle the color.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “correct” appeared only in my memo about avoiding a single supposedly correct composite memory.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Which detail is shared across all three interviews, and which remains disputed?",
+          "gold_reply": "Shared: the ticket window stood beside the entrance. Disputed: the men’s pool side and the remembered wall-tile color.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A fourth source, a plumbing plan, showed two pools but labeled them by depth rather than users. It supported the building layout without resolving the speakers’ left-right disagreement.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I linked the plan and interviews at the collection level, then kept every uncertain detail attached to its source.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-022",
+      "persona": "neighborhood-historian",
+      "domain": "photography",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I photographed a lightning-split cedar stump through one full rotation, keeping the camera on a marked circle two meters away. The purpose was coverage, not a dramatic single angle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Each frame included a gray card near the base and a numbered marker just outside the bark. I moved those markers clockwise before shifting the tripod.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the southern face, resin reflected the sky and clipped to white in the first exposure. I reduced exposure by one stop and repeated only that position.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The second southern frame retained amber streaks inside the split while the gray card stayed readable. I logged both files rather than deleting the failed exposure.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Ferns obscured the stump’s northwestern base, so I photographed the obstruction as found and made no attempt to bend them away.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Continue around the stump with me; I want the coverage record to stay more important than any single frame.",
+          "gold_reply": "I’m following the numbered positions, the repeated southern exposure, and the untouched fern obstruction.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The completed sequence covered every marked position and used the word “correct” descriptively for the repeated southern exposure.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-023",
+      "persona": "amateur-photographer",
+      "domain": "gardens",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The irrigation check began where a buried line divided into three garden beds. I placed shallow cups at the head, middle, and end of each bed before opening the valve.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Blue food coloring entered only the header tank, never the soil. Its first appearance in each cup made travel time visible without changing the emitters.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Bed one reached all three cups within forty seconds, while bed three’s end cup remained clear after two minutes. The head cups in both beds filled normally.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a blocked end emitter explain that pattern? I checked the final tube for kinks before touching the outlet.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A tight bend appeared beneath the mulch ten centimeters before the last emitter. Straightening it restored blue flow to the end cup.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I repeated bed three’s timing from an empty-cup reset and labeled the restored-flow entry “correct,” with the bend location and valve setting attached to both entries.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "State the evidence that located the problem before the final emitter.",
+          "gold_reply": "The head cup filled, the end cup stayed clear, and a tight bend was visible ten centimeters upstream; straightening it restored flow.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-024",
+      "persona": "neighborhood-historian",
+      "domain": "oral-history",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The oral-history box contained two cassettes from the same 1984 neighborhood festival, one recorded near the stage and one inside a food stall. Their labels used different spellings of the event name.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A volunteer reported that the stage cassette had been copied once during an earlier preservation project.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The stage copy carried steady hiss and a clipped opening, while the stall original began with five seconds of room tone. I documented those media differences before comparing stories.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Both recordings captured the same parade drum at approximately the midpoint. That shared sound offered a rough alignment point, not proof that the recorders started together.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can the shared parade drum prove that the two recorders started at the same time?",
+          "gold_reply": "No. It provides one alignment point, but the unknown starts, copying history, and possible drift prevent that conclusion.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "After alignment, a vendor’s account of a power cut began thirty seconds before the stage announcer referenced darkness. The lag could reflect location, editing, or clock drift.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I preserved each timeline and listed those possibilities instead of forcing the tapes into one exact synchronized sequence.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-025",
+      "persona": "amateur-photographer",
+      "domain": "gardens",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the grafting bench, I compared an old plum scion with two rootstock branches of similar thickness. All cut surfaces were fresh and protected from direct sun.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The label tied to the scion used “remind” descriptively in a note about its donor tree’s harvest month.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I made matching sloping cuts and aligned the green cambium along one side rather than centering the unequal stems.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The binding tape covered the union from below upward, shedding water away from the cut. A small bud remained exposed above the wrap.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed the alignment before adding wax, because the cambium edge would disappear beneath the seal.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Why was one cambium edge aligned instead of centering the two stems?",
+          "gold_reply": "The stems were unequal, so matching one living edge gave the tissues direct contact rather than misaligning both sides.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The finished graft received a date tag and light shade; no claim of success went into the record before growth appeared. The unused scion offcut went into a labeled bag so its diameter and cambium color remained available for comparison.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-026",
+      "persona": "neighborhood-historian",
+      "domain": "oral-history",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The retired projectionist brought a brass lens gauge and placed it beside the recorder before speaking. Scratches along its widest opening caught the table light.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He explained that the gauge traveled in his shirt pocket during every evening shift.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed the object in place, then invited him to demonstrate his grip without reproducing a full work routine.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "His thumb settled naturally into a darkened groove on the rim. I described the contact point but did not claim that the groove came only from his hand.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The interview moved from the gauge to the smell of hot dust near the projectors, and his pace slowed before he named the final cinema where he worked.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the object photograph, gesture note, and sensory recollection linked while preserving their different kinds of evidence. The lens gauge remained visible beside the recorder throughout, anchoring the interview without standing in for the speaker’s whole working life.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Please name the limit on what the darkened thumb groove proves.",
+          "gold_reply": "It shows repeated contact at that spot, but it does not establish whose hand caused all of the wear.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-027",
+      "persona": "amateur-photographer",
+      "domain": "photography",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For a water-drop study, I placed a clear dish beneath one fixed flash and marked the dropper height with a clamp. The room lights stayed off for every exposure.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The timing card listed the interval between drops beside the run number.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first frame caught a flat crown; the second caught a narrow column rising from the center. I changed timing by milliseconds without moving the dish.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A third frame showed two droplets because residue had formed at the dropper tip. I cleaned the tip and recorded that maintenance before continuing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What problem appeared in the third water-drop frame?",
+          "gold_reply": "Two droplets appeared because residue had formed at the dropper tip.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The next exposure returned to a single column at the same delay. I retained the double-drop frame as evidence of the altered release, not as a failed image to hide.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "All filenames carried delay, flash power, and run number so visual comparisons would not depend on memory.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-028",
+      "persona": "neighborhood-historian",
+      "domain": "gardens",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After rain, I mapped snail trails across three raised beds using a low side light. The silver lines appeared only where the lamp met them at a shallow angle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why call the shortest trail the least active when its beginning may be hidden beneath a leaf?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I marked visible endpoints without lifting foliage and photographed every leaf that covered a trail.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Bed two had the most visible crossings, but its bare soil also exposed more surface than the mulched beds.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A fresh nibble on one lettuce leaf sat near two crossing trails. I recorded the proximity without assigning the damage to a particular snail.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Could visible trail length rank snail activity across these beds reliably?",
+          "gold_reply": "No. Leaves, mulch, and exposed soil change how much of each trail can be seen, so the beds are not directly comparable.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By sunrise, the reflective lines had faded, so the photographs remained the only complete view of the night pattern.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-029",
+      "persona": "amateur-photographer",
+      "domain": "oral-history",
+      "register": "sensory-grounded",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A retired barber placed a worn leather strop beside the recorder and traced the width of his first shop with both hands. He began at the doorway and moved inward, locating two chairs, a mirror, and the washbasin.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He recalled opening before sunrise on market days and warming a towel kettle near the back wall. His account stayed with his own routine rather than representing every barber in the district.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "To demonstrate the morning setup, he drew the strop once across his palm without attaching it to a chair. The dry leather made a soft rasp that the microphone captured clearly.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Did that sound begin the working day?” the interviewer asked after the demonstration.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "He answered that the kettle usually clicked first, followed by the strop and then the metal shutters. I kept his sequence attached to the market-day context he had already established.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Near the end, he imitated the shutters rising with two palms sliding across the table, then laughed at how quiet the gesture sounded indoors. The strop remained beside the recorder throughout the interview.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Summarize his market-day opening sequence without making it universal.",
+          "gold_reply": "In his first shop, the kettle clicked before the leather strop sounded, and the metal shutters followed; this is his own market-day routine.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-04-030",
+      "persona": "neighborhood-historian",
+      "domain": "photography",
+      "register": "warm-inquisitive",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A faded wall advertisement covered three brick bays behind the old bus depot. I set the camera parallel to the wall and included a scale bar at both ends of the first frame.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The painted lettering crossed mortar joints that had been patched in two different colors. I made a full-facade image before moving closer to any individual letter.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Oblique morning light revealed a second product name beneath the upper blue layer. I photographed the same bay again under a white diffusion sheet so surface relief and pigment color would not be confused.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A drainpipe hid the final two letters at the eastern edge. I recorded the obstruction as found and took no photograph from private land behind the pipe.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep the photographic record tied to what the wall actually reveals.",
+          "gold_reply": "I’ll keep the full facade, layered lettering, lighting change, scale bars, and drainpipe obstruction separate from any interpretation of the brands.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The detail sequence moved left to right with overlapping frames, and every filename carried bay number, light condition, and lens distance.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Before leaving, I repeated the full-facade view from the original tripod marks. The two wide frames matched in coverage despite the stronger late-morning light.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    }
+  ]
+}

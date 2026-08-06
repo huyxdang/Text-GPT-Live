@@ -1,0 +1,127 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "author": {"model": "claude-sonnet-5", "slot": "d5-slot-a", "tranche": 1},
+  "bank": [
+    {
+      "id": "demo5-d5a-req-every-01",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Ping every {interval}s to stir dinner!",
+      "gold_ack_template": "Got it — a stir reminder every {interval} seconds!",
+      "fire_message": "Stir the pot!",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "animated-casual"
+    },
+    {
+      "id": "demo5-d5a-req-once-01",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Remind me once to send the invoice.",
+      "gold_ack_template": "Noted — one reminder to send the invoice.",
+      "fire_message": "Send the invoice!",
+      "persona": "desk-worker",
+      "domain": "work",
+      "register": "practical-terse"
+    },
+    {
+      "id": "demo5-d5a-req-every-02",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Every {interval} seconds, nudge me to check the seedlings, please.",
+      "gold_ack_template": "Will do — I'll nudge you to check the seedlings every {interval} seconds.",
+      "fire_message": "Check the seedlings!",
+      "persona": "plant-waterer",
+      "domain": "gardening",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "demo5-d5a-req-once-02",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Just remind me once about the trash!",
+      "gold_ack_template": "Got it — one nudge about the trash, coming up!",
+      "fire_message": "Take the trash out!",
+      "persona": "kitchen-notetaker",
+      "domain": "household",
+      "register": "animated-casual"
+    },
+    {
+      "id": "demo5-d5a-req-every-03",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Set a reminder every {interval} seconds to save my draft.",
+      "gold_ack_template": "Set — a save reminder every {interval} seconds.",
+      "fire_message": "Save your draft!",
+      "persona": "desk-worker",
+      "domain": "work",
+      "register": "practical-terse"
+    },
+    {
+      "id": "demo5-d5a-req-once-03",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Could you remind me once, sometime soon, to mist the ferns? I keep forgetting since the light in here is so inconsistent lately.",
+      "gold_ack_template": "Sure thing — one reminder to mist the ferns, coming up.",
+      "fire_message": "Mist the ferns!",
+      "persona": "plant-waterer",
+      "domain": "gardening",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "demo5-d5a-cancel-01",
+      "kind": "cancellation",
+      "text": "Stop the trash reminders, thanks.",
+      "gold_ack": "Understood — trash reminders are off.",
+      "persona": "kitchen-notetaker",
+      "domain": "household",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "demo5-d5a-cancel-02",
+      "kind": "cancellation",
+      "text": "Cancel the save reminders, I've got it from here.",
+      "gold_ack": "Done — save reminders cancelled.",
+      "persona": "desk-worker",
+      "domain": "work",
+      "register": "practical-terse"
+    },
+    {
+      "id": "demo5-d5a-filler-01",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Okay the sauce is simmering, smells like it needs more garlic.",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "animated-casual"
+    },
+    {
+      "id": "demo5-d5a-filler-02",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Back to the spreadsheet now.",
+      "persona": "desk-worker",
+      "domain": "work",
+      "register": "practical-terse"
+    },
+    {
+      "id": "demo5-d5a-filler-03",
+      "kind": "filler",
+      "trap": "none",
+      "text": "The tomato vines are climbing well this week, might need to add another stake soon.",
+      "persona": "plant-waterer",
+      "domain": "gardening",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "demo5-d5a-filler-04",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Folding laundry now, going to sort the towels from the sheets first, then fold the kids' clothes into separate piles before dinner.",
+      "persona": "kitchen-notetaker",
+      "domain": "household",
+      "register": "practical-terse"
+    }
+  ]
+}

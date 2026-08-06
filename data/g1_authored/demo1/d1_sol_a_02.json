@@ -1,0 +1,357 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {"model": "gpt-5.6-sol", "slot": "d1-sol-a", "tranche": 2},
+  "records": [
+    {
+      "id": "d1-sol-a-02-001", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"I sowed radishes in a window box using the spacing marked on a wooden ruler.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Does that sound unusually organized for me?","gold_reply":"Very; a marked ruler is a serious upgrade from scattering seeds by instinct.","pause_after":"short"},
+        {"kind":"narration","text":"Three days later, one corner had a green crowd while the rest showed bare soil.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I had tilted the watering can toward that corner without noticing.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I thinned the cluster and moved the strongest seedlings into the empty gaps.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The ruler stayed, but next time I will measure the water as carefully as the seeds.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-002", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"address","text":"Stay with me while I place this corner in time.","gold_reply":"I'm with you; begin with the first detail that fixes the place in your mind.","pause_after":"short"},
+        {"kind":"narration","text":"The bakery on our old street had a striped awning that turned the pavement orange at noon.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My sister once asked the owner, “Why does the shadow look warmer than the sun?”","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"He gave us two heel slices and let us compare the colors from inside the doorway.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Years later, the cloth was replaced by a plain gray canopy, and the odd light vanished.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"I still locate that part of childhood by the warm square where we ate bread standing up.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The corner looks smaller now, but remembering the colored shadow restores its old scale.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-003", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"I found a cassette mixtape in my father's desk, wrapped in the thin paper from a long-closed record shop and labeled only with a month, a year, and three tiny stars.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Dad mentioned that he had made several tapes for long overnight drives, but he could not remember whether the stars marked favorite songs, difficult roads, or cups of coffee.","traps":["reported_speech"],"pause_after":"short"},
+        {"kind":"address","text":"What are the three clues we have so far?","gold_reply":"A dated cassette, three drawn stars, and a possible link to the overnight-drive tapes your father remembers making.","pause_after":"short"},
+        {"kind":"narration","text":"The first side moved from a quiet piano piece into two bright dance tracks, then cut off halfway through a guitar solo where the magnetic tape had stretched.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"On the second side, a traffic bulletin survived between songs and named a mountain pass that our family crossed each winter to visit my grandparents before the highway opened.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"That fragment tied the recording to one route, and the three stars began to look less like a rating than a rough marker for the three steep sections everyone used to count aloud.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"We copied the playable music without repairing the broken solo, keeping the abrupt silence because it belongs to the object as surely as the songs and my father's uncertain explanation.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-004", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"My balcony tomato opened plenty of flowers but produced exactly one stubborn green fruit.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Please appreciate the insult contained in that single tomato.","gold_reply":"One fruit after a full display of flowers is impressively rude.","pause_after":"short"},
+        {"kind":"narration","text":"The balcony has little wind, and insects rarely climb this high between the buildings.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I tapped each flower cluster at lunchtime for a week to shake the pollen loose.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Several petals dropped, then small green beads appeared behind the remaining blossoms.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The plant apparently needed less encouragement and more vibration from someone willing to look foolish at lunchtime.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-005", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"A parcel for apartment fourteen landed outside our door at number forty-one during the rain.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The label was blurred at one edge, but the recipient's surname matched the tailor downstairs.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Would you make the same connection from that surname?","gold_reply":"Yes—the matching surname makes the downstairs tailor the best first person to ask.","pause_after":"short"},
+        {"kind":"narration","text":"He recognized the name as his aunt, who lives in the next building rather than ours.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"We crossed the courtyard under one umbrella and found her checking every dry doorstep.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"She opened the box upstairs and produced a knitted yellow hat she had ordered for him.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Who expects a mistaken number to turn delivery into a family visit? We still had tea before either of us left.","traps":["rhetorical_question","elaborating_question"],"pause_after":"short"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-006", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"The piano bench at my aunt's house still carries two shallow dents where my cousin and I wedged ourselves together for a duet at a winter gathering nearly twenty years ago.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Neither of us could reach the middle pedal comfortably, so our uncle crouched underneath and pressed it with one hand while holding a plate of cake in the other.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A penciled note above the difficult bar uses the word ‘wait’ to describe our planned pause, not an instruction meant for anyone listening to this memory now.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"We missed the pause anyway, collided at the keyboard, and laughed so hard that the melody dissolved while the relatives continued clapping in a rhythm that did not help.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The sheet music has since disappeared, but the bench dents remain visible whenever afternoon light crosses the polished wood and catches their uneven edges.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Laugh with me at the uncle under the piano.","gold_reply":"The cake plate in one hand while operating the pedal with the other is perfect family engineering.","pause_after":"short"},
+        {"kind":"narration","text":"That awkward performance became the version everyone recalls, not because it sounded good, but because four people tried to make two children's ambitious arrangement work at once.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-007", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"address","text":"Give me a little optimism about this cutting.","gold_reply":"There is still a chance; show me what condition the stem is in and what you tried.","pause_after":"short"},
+        {"kind":"narration","text":"I put a basil stem in a jam jar after pinching off the lower leaves.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"It leaned dramatically for two days and shed one perfectly healthy leaf.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"On the third morning, white root threads appeared below the waterline.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I moved it into soil beside the parent plant and kept the pot out of direct sun.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The cutting recovered enough to supply three leaves for a bowl of noodles.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-008", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"A hand-drawn cat flyer appeared on every lamp post after the orange cat from the corner house vanished.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The child who made it wrote, “Have you seen the white tip on his tail?” beneath a very orange rectangle.","traps":["quoted_question"],"pause_after":"short"},
+        {"kind":"address","text":"Can you see why that tiny tail detail mattered?","gold_reply":"Yes—it gives neighbors one specific feature to distinguish him from other orange cats.","pause_after":"short"},
+        {"kind":"narration","text":"Could the drawing alone have identified him? I kept thinking about that because several similar cats cross the alley.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"That evening, the baker noticed a white-tipped tail under the empty newspaper stand.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The cat refused tuna but followed the child's voice home without needing to be carried.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"One careful detail had done more work than the bright paper and all our hurried guesses.","traps":[],"pause_after":"short"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-009", "persona": "recipe-experimenter", "domain": "music", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"Our neighborhood brass group rehearsed in a mechanic's garage because the community hall ceiling was being repaired, leaving trumpets, oil cans, and stacked tires in one echoing room.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Picture that garage sound with me for a second.","gold_reply":"Bright brass among oil cans and stacked tires must have made the room feel enormous.","pause_after":"short"},
+        {"kind":"narration","text":"The conductor explained that the metal doors would throw the loudest notes straight back at us, so the percussion section moved behind a row of hanging work blankets.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"I had brought rosemary crackers for the break, and each quiet passage filled the garage with their toasted smell while everyone counted rests and tried not to watch the tray.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A passing bus set three cymbals humming without anyone touching them, which startled the clarinet player and gave the conductor an effect he immediately wanted in the final piece.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"By the last run, blankets had softened the worst reflections, the bus vibration had become an intentional opening, and the crackers were reduced to crumbs beside the socket wrenches.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The temporary room changed both the arrangement and the rehearsal snack, since everyone later insisted the rosemary tasted better with a faint background smell of rubber and machine grease.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-010", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"I brewed a jar of compost tea for the herbs and forgot it beside the back door overnight.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"By morning, the smell had crossed two rooms and apparently developed its own address.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Is that description vivid enough without further detail?","gold_reply":"Completely; a smell that seems to have its own address needs no extra explanation.","pause_after":"short"},
+        {"kind":"narration","text":"I diluted the dark liquid outside and poured it around the rosemary, not on the leaves.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The jar received a lid, a balcony location, and a large date written on masking tape.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The herbs looked unchanged, but the household rules improved immediately: fermentation now lives outdoors.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-011", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"The young street trees survived summer because six households quietly passed a green watering can from gate to gate.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Who could look at those curled leaves and assume somebody else would handle them? The question became our unspoken reason for keeping the can moving.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"We marked each watered trunk with a loop of blue string, though rain sometimes removed the evidence before the next person checked.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Mrs. Vale began leaving the can upside down when it was empty and upright when it was ready for the next garden.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"That small code worked better than our message thread, which everyone read at different hours and interpreted generously.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Give the upside-down-can system its due.","gold_reply":"It deserves credit: one visible position communicated more clearly than a whole message thread.","pause_after":"short"},
+        {"kind":"narration","text":"By autumn, the trees had new leaves and the can had acquired three repairs, a bent handle, and a permanent place beside the corner gate.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-012", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"My mother remembers the shape of a lullaby her grandmother sang, but only two lines of melody have stayed clear enough for her to hum without hesitating or filling the gaps with another tune.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could you hold those two clear lines in mind with me?","gold_reply":"Yes—two remembered melodic lines, with the rest blurred by time and other songs.","pause_after":"short"},
+        {"kind":"narration","text":"An old notebook contains the word ‘remind’ beside a list of family songs, where it describes a note to ask an aunt years ago rather than a present request to anyone hearing the story.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"We called that aunt and hummed the fragment over the phone; she recognized its descending ending but supplied a middle phrase that pulled the tune into a completely different key.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A cousin then found a holiday recording with children talking over the beginning, plates clattering through the verse, and one older voice carrying the missing rise beneath all that domestic noise.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The recording did not restore every note, yet it showed that Mum's two lines belonged together and that the aunt had remembered a variation from another branch of the family.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"We saved both versions with names and dates, treating the differences as part of the inheritance rather than forcing one uncertain performance to become the official song.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-013", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"Slugs found the lettuce box before the leaves were large enough for one sandwich.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I wrapped copper tape around the rim and wiped away every bridge of damp soil.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Tell me that sounds less ridiculous than guarding lettuce at midnight.","gold_reply":"It does; a clean copper barrier is more sustainable than nocturnal lettuce patrol.","pause_after":"short"},
+        {"kind":"narration","text":"The next morning held two silver trails outside the box and none across the leaves.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"One slug had reached the watering tray, so I moved that accidental ladder away.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The lettuce finally grew faster than the neighborhood appetite for it.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-014", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"address","text":"Can you listen for why this little notice stayed with me?","gold_reply":"I'm listening; tell me what the notice carried beyond practical information.","pause_after":"short"},
+        {"kind":"narration","text":"Our old elevator carried a handwritten notice after it began stopping a few centimeters below the fourth-floor landing.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Someone had written, “Can everyone lift their feet when the doors open?” in thick blue marker above three translations.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Could a warning feel welcoming? I kept thinking about that because each translation used a different little drawing of a shoe stepping upward.","traps":["elaborating_question"],"pause_after":"short"},
+        {"kind":"narration","text":"Neighbors added initials beneath the version they had checked, until the page looked like a small agreement made by the whole building.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The elevator was repaired within a week, but the manager left the notice up through winter.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"It reminded me that safety can sound communal when everyone helps make the same warning understandable.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-015", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"The black metronome on my shelf belonged to a great-aunt I never met, and its wooden case bears a pale rectangle where a paper label must have protected the varnish for decades.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My grandmother told me the metronome had governed morning piano practice so strictly that everyone at breakfast learned to chew in time with its heavy click.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"The spring still winds, but the pendulum accelerates slightly toward the right, turning a steady exercise into something that feels impatient even when the tempo scale remains fixed.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I placed a phone timer beside it and counted the drift across three minutes, mostly to distinguish a repairable mechanical fault from the charming irregularity I wanted it to have.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The click gained almost four beats by the end, enough to confuse any student and far too much to treat as a harmless quirk inherited with the family stories.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Help me name what feels worth preserving here.","gold_reply":"The worn case, breakfast story, and heavy click matter; the inaccurate timing does not need to remain broken.","pause_after":"short"},
+        {"kind":"narration","text":"A repairer cleaned the mechanism without replacing the scarred case, so it now keeps honest time while still looking like the object that once organized an entire household's mornings.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-016", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"Two chili plants shared one balcony pot, although their labels promised very different heat.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I saved seeds from the milder plant after tasting three fruits from separate branches.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The seedlings grew well, but their first peppers were hotter than either parent had seemed.","traps":[],"pause_after":"medium"},
+        {"kind":"address","text":"Confirm that my seed-saving confidence deserved this correction.","gold_reply":"It did; nearby chili varieties can make saved seeds less predictable than the tasted fruit.","pause_after":"short"},
+        {"kind":"narration","text":"I turned the surprise batch into a small jar of sauce with extra roasted fruit.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Next season, the pots will be separated and every seed envelope will name its neighbors.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-017", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"The porch light across the lane switched on each evening before its owner came home.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Would you have noticed the timing after a few nights?","gold_reply":"Probably; a light that reliably comes on before anyone arrives would become part of the street's rhythm.","pause_after":"short"},
+        {"kind":"narration","text":"Why did that small glow make the whole row feel occupied? It reached the pavement before dusk had fully settled.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"During one power cut, the dark doorway looked more surprising than the silent traffic lights.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Three neighbors placed battery lanterns along their steps until the electricity returned.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The familiar porch light came back last, drawing a small cheer from people still outside.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"I had never met the owner, yet the lamp had quietly become part of how I recognized home.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-018", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"A folded program from my brother's first school concert lists every student in alphabetical order, but our family copy is covered with arrows showing the actual sequence of last-minute seat changes.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Beside the second piece, Dad wrote the word ‘correct’ in the margin to describe a corrected title, not to request any change from whoever might read the page years later.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"A coffee ring hides two names, and a crease runs through the conductor's note because Mum folded the paper into her pocket when the hall became too warm.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The printed order places my brother near the back, while Dad's arrow moves him beside the aisle where a taller student had apparently blocked his view of the baton.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"None of us remembers the music clearly, yet everyone recalls him lifting his clarinet too early after the seat change and producing one startled note before the group began.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Give that accidental solo the gentle reaction it deserves.","gold_reply":"One eager clarinet note before the ensemble begins is exactly the kind of mistake a family remembers fondly.","pause_after":"short"},
+        {"kind":"narration","text":"The marked program preserves the concert better than a clean copy could, because its arrows, stain, and corrected title hold the nervous adjustments surrounding a performance no one can replay.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-019", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"At the seed swap, I chose a paper packet labeled only ‘purple climber.’","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Accept that this was irresistible evidence-free shopping.","gold_reply":"Accepted; ‘purple climber’ is exactly vague enough to defeat sensible restraint.","pause_after":"short"},
+        {"kind":"narration","text":"The beans grew up the balcony string and opened pale violet flowers.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Their pods turned deep green rather than purple, which felt like a minor betrayal.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Inside, the dry beans carried purple speckles and finally justified the label.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"I saved a better-named packet for next year: green pods, speckled beans, tall vine.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-020", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"Faded hopscotch squares appeared beneath loose asphalt when the alley was resurfaced.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"An older neighbor asked, “Do you remember when we used bottle caps instead of stones?”","traps":["quoted_question"],"pause_after":"short"},
+        {"kind":"address","text":"Can you tell what her question unlocked for me?","gold_reply":"It connected the uncovered chalk grid to a specific childhood habit: throwing bottle caps.","pause_after":"short"},
+        {"kind":"narration","text":"Could one small object recover a whole game? I kept picturing caps skittering farther than stones and everyone arguing over the line.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"We photographed the grid before the crew covered it with a smooth new surface.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The neighbor placed a blue bottle cap at square one for the picture.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"By afternoon the marks were gone again, but the old throwing piece sat on her windowsill.","traps":[],"pause_after":"short"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-021", "persona": "recipe-experimenter", "domain": "music", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"The portable record player slowed every chorus during our supper, stretching familiar voices while a tray of onion tart cooled untouched beside the speakers.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My neighbor reported that the same model usually needed a new rubber belt when its pitch began sinking, and she remembered replacing hers with an ordinary sewing-machine belt in an emergency.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"I measured the loose loop, found a proper replacement at the repair stall, and cleaned a dark ring of residue from the small metal pulley before fitting it.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The first test played at the right speed but revealed a soft scraping noise that had been disguised by the dramatic slowdown and came from the platter edge touching a crumb.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Once the crumb was gone, the chorus held its pitch and the room stopped sounding as though every singer had become exhausted halfway through the meal.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Please acknowledge that the onion-tart crumb was the comic villain.","gold_reply":"Absolutely—the grand musical malfunction ending with one tart crumb is wonderfully anticlimactic.","pause_after":"short"},
+        {"kind":"narration","text":"We reheated the tart and replayed the first side, relieved that both the record and dinner recovered without needing the improvised sewing-machine solution.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-022", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"address","text":"Keep the drainpipe bend in mind while I work this out.","gold_reply":"Got it—the drainpipe bend is the feature to track.","pause_after":"short"},
+        {"kind":"narration","text":"My rain barrel overflowed even though the gauge showed room below the lid.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A leaf had lodged inside the drainpipe bend and redirected water over the rim.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I cleared it with a flexible brush and covered the opening with fine mesh.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The next storm filled the barrel evenly without creating a small waterfall by the wall.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The gauge was innocent; the plumbing had simply invented a different route, and the wall was standing where that stray water wanted to go.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-023", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"Someone built a weatherproof book box beside the bus stop from a cabinet with one glass door.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Why did six shelves of worn paperbacks make the delay feel shorter before anyone even opened one? The box changed the stop from empty space into a shared room.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Do you understand what I mean by a shared room there?","gold_reply":"Yes—the accessible books gave waiting strangers a common place and activity without adding walls.","pause_after":"short"},
+        {"kind":"narration","text":"A child began arranging the lowest shelf by cover color while commuters traded mysteries above it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The cabinet fogged during rain, so a retired carpenter added two tiny vents beneath the roof.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"People now leave bus tickets as bookmarks, each stamped with a route that briefly carried its reader.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"I photograph those tickets before they disappear because they map a neighborhood through borrowed stories.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-024", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"Inside my grandparents' wedding album, we found a folded dance card with eight bars of melody across the top and four sets of shoe prints drawn underneath in blue fountain pen.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The word ‘highlight’ appears beside the third step to describe a highlighted turn in the diagram, not a request aimed at anyone handling the card now.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"We copied the footprints onto masking tape across the kitchen floor, leaving the fragile paper under glass while my cousin worked out the handwritten tune on the upright piano.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The first two steps fit the melody easily, but the drawn turn placed both feet together on the same beat and sent three relatives bumping shoulders beside the refrigerator.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My aunt rotated the diagram and discovered we had treated the partner's footprints as a second sequence instead of the matching half of one shared movement.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Celebrate the rotated-paper discovery with us.","gold_reply":"Turning the diagram and realizing the footprints belonged to two partners is a satisfying family breakthrough.","pause_after":"short"},
+        {"kind":"narration","text":"Once paired correctly, the steps carried us around the kitchen in a modest square, and the old card became a live dance lesson rather than another delicate page nobody touched.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-025", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"address","text":"Witness my unreasonable excitement about this cardboard box.","gold_reply":"Witnessed; show me what has made an ordinary box this exciting.","pause_after":"short"},
+        {"kind":"narration","text":"The windowsill mushroom kit looked unchanged for nine days after its first soaking.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Then a cluster of white pins appeared overnight beside the torn corner.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I misted the opening twice daily and turned the box away from direct sun.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The caps doubled in width each morning until they overlapped like pale roof tiles.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"They became dinner with garlic before the kit produced its second, smaller cluster.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-026", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"Three blue paints looked identical indoors and different in morning sun on the mural wall.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A volunteer asked, “Which blue belongs behind the painted swallows?” while holding two wet brushes that already disagreed with their labels.","traps":["quoted_question"],"pause_after":"short"},
+        {"kind":"narration","text":"Could the darker stripe become sky? We kept discussing it after the question, comparing the paint beside old tiles from the houses represented along the bottom edge.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Which clue settled the blue?","gold_reply":"The sunlit paint beside the old house tiles.","pause_after":"short"},
+        {"kind":"narration","text":"The tile comparison favored the middle shade, while the darkest bucket became narrow shadows beneath roofs and wings instead of a broad piece of sky.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Children added tiny windows in colors mixed from the leftover blues, making the accidental variation look like an intentional evening moving across the street.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"By sunset, the wall held three different hours of blue, all useful once we stopped insisting that one bucket had to be the single best answer.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-027", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"After a long family lunch, my youngest cousin began tapping two wooden spoons against an empty water jug, and three adults answered without planning to from different ends of the table.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My sister suggested dividing the table into a low rhythm on bowls, a dry rhythm on placemats, and a single bright beat from one glass kept safely near the center.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"The first attempt accelerated immediately because every group treated its own entrance as the main pulse, while the cousin with the spoons watched us lose the simple pattern he had started.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"We let him lead again, counted four silent beats before joining, and found that the bowls could carry the steady base while the placemats filled only the spaces between.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The glass player missed one entrance and waited through the whole cycle rather than chasing it, which kept the rhythm intact and earned an exaggerated bow from everyone else.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Give our improvised table ensemble a brief review.","gold_reply":"The child-led pulse, restrained glass beat, and family learning to leave space make it sound playful and genuinely musical.","pause_after":"short"},
+        {"kind":"narration","text":"By the time we cleared the dishes, the pattern had a beginning and ending all ages could remember, turning leftover tableware into the first music that gathering made together.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-028", "persona": "recipe-experimenter", "domain": "gardening", "register": "wry-conversational",
+      "segments": [
+        {"kind":"narration","text":"A forgotten garlic bulb sprouted six green shoots in the pantry before I found it.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Keep me honest while I turn this accident into lunch.","gold_reply":"I'm here; the pantry garlic has six green shoots and needs a practical use.","pause_after":"short"},
+        {"kind":"narration","text":"Could the shoots replace scallions? I was testing their flavor, not asking anyone else to decide.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Raw, they tasted sharper than scallions but softer than the cloves beneath them.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I sliced half into eggs and wilted the rest through hot noodles at the final minute.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The eggs kept the bite; the noodles turned it sweet, so both halves taught me something useful about the same shoots.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-029", "persona": "family-memory-keeper", "domain": "neighborhood", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"During the evening power cut, people carried candles into the apartment stairwell and discovered how rarely we saw one another between closed doors.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Why had it taken darkness to make everyone pause on the landings? The absurdity of that question stayed with me while children counted steps by candlelight.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"A neighbor brought a battery radio, another produced a bowl of mandarins, and the building manager checked each floor while we kept the center rail clear.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Can you feel warmth in that blackout?","gold_reply":"Yes—neighbors brought light, fruit, music, and care into the stairwell.","pause_after":"short"},
+        {"kind":"narration","text":"When the lights returned, nobody moved immediately; the sudden brightness made our candle circle look temporary in a way it had not felt seconds earlier.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Someone left the mandarin bowl on the lobby shelf the next morning with a note thanking the sixth floor for the radio and the second floor for extra candles.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"People referred to that brief outage all winter whenever they lingered on the stairs.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-a-02-030", "persona": "family-memory-keeper", "domain": "music", "register": "warm-plainspoken",
+      "segments": [
+        {"kind":"narration","text":"For my grandmother's birthday, relatives in three apartments facing the same courtyard planned a live morning serenade from their balconies so she could hear everyone without climbing stairs.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My uncle proposed lowering the song by two notes for the older voices and giving the first line to the balcony nearest her kitchen window, where the words would arrive most clearly.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"The rehearsal sheet uses the word ‘wait’ above the second entrance to describe a musical pause, not an instruction for anyone encountering this account after the birthday.","traps":["descriptive_command_word"],"pause_after":"short"},
+        {"kind":"narration","text":"Because sound crossed the courtyard unevenly, we agreed to follow one raised red scarf instead of listening for the farthest balcony and accidentally slowing every phrase.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Our first quiet trial broke apart when a delivery scooter covered the opening line, but everyone kept watching the scarf and rejoined together at the chorus without calling across the windows.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Acknowledge the red scarf as our unlikely conductor.","gold_reply":"The scarf gave three separated balconies one visible beat, which is simple, practical, and rather lovely.","pause_after":"short"},
+        {"kind":"narration","text":"The birthday performance began on time, and Grandmother stepped into the courtyard during the chorus, laughing upward as the song reached her from three directions at once.","traps":[],"pause_after":"medium"}
+      ]
+    }
+  ]
+}

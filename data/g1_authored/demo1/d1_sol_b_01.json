@@ -1,0 +1,1565 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-b",
+    "tranche": 1
+  },
+  "records": [
+    {
+      "id": "d1-sol-b-01-001",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Reception had stepped away when the courier brought our prototype.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The driver returned the crate to the van rather than leaving it unattended.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I found the loading-bay extension and the name of the colleague authorized to sign.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "If reception answers now, what detail should I give them first?",
+          "gold_reply": "Lead with the missed prototype delivery, then give the signer’s name and loading-bay extension.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Jae said another delivery round would pass our building after lunch.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-002",
+      "persona": "group-chat-drafter",
+      "domain": "school",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two labels peeled off our geology samples in transit.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Marta asked, \"Could the striped piece be the missing shale?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Striped rock or patient waiting—which camp are you in?",
+          "gold_reply": "Wait—the missing labels leave both rocks uncertain.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The field photo places shale in a darker tray.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We set both uncertain rocks aside.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Could sunlight have distorted the tray color? I am checking the mineral guide.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-003",
+      "persona": "meeting-note-taker",
+      "domain": "household",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A chirp woke me before dawn, and its echo made the source hard to place.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Replacing the smoke-alarm battery did not stop it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "That smoke-alarm detour was a frustrating start.",
+          "gold_reply": "Very. At least it ruled out the first suspect.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I crouched near the laundry room and saw an end-of-life code on the carbon-monoxide unit.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why keep chasing the ceiling sound after finding that display?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A replacement is in stock at the shop beside my brother's office.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The old unit remains powered, and there is no active gas warning.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-004",
+      "persona": "group-chat-drafter",
+      "domain": "work",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Sumi entered the date picker by keyboard and the focus ring disappeared.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Forward Tab returned her to the month arrow, although Shift-Tab still moved backward.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The same route worked in the build saved last week.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Name the failure in the fewest words you can.",
+          "gold_reply": "Keyboard focus gets trapped in the date picker.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Screen-reader output continues to name each calendar control.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Version 4.2 entered the lockfile between those two builds.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Does that version account for the change? I am tracing its release notes before assigning cause.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Form-copy work remains separate because it never loads this widget.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-005",
+      "persona": "meeting-note-taker",
+      "domain": "school",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I prepared a long introduction before our guest poet requested no biography.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The teacher asked, \"Can you just welcome everyone and name the collection?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "I keep wanting to add the anecdote—talk me out of it?",
+          "gold_reply": "Let the poet's preference win; the anecdote can wait for another occasion.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My two-minute opening now needs twenty seconds.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Who needs a preface when the poet wants the poems heard first?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I cut my book-discovery anecdote.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The surname pronunciation cue stays on my card.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My final line hands over the room without previewing themes.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I must practice stopping before I start explaining.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-006",
+      "persona": "group-chat-drafter",
+      "domain": "household",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The freezer drawer stopped short against a ridge of ice behind its panel.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I transferred the food to an insulated bag and disconnected the appliance.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "The thaw is finally underway over here.",
+          "gold_reply": "A slow victory, but a victory nonetheless.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Meltwater has begun gathering slowly along the bottom channel.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A plastic scraper is waiting for the ice to release without force.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-007",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We joined the client call with an intake-and-approval demonstration prepared.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Their procurement lead asked, \"Can we begin with contract tiers?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No commercial specialist was present to answer pricing accurately.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What can this group still discuss without bluffing?",
+          "gold_reply": "The intake flow and approval path they came prepared to demonstrate.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We acknowledged the mismatch and offered to stay with the workflow material.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Procurement chose Thursday morning for a separate pricing conversation.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-008",
+      "persona": "group-chat-drafter",
+      "domain": "school",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The rover traced a leftward arc on every run across the gym floor.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Exchanging its two motors left the curve on the same side.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "I am starting to distrust the left side itself.",
+          "gold_reply": "Same—the unchanged drift after a motor swap points away from either motor.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The control code and battery readings have not changed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A ruler then revealed a two-millimeter offset at the left axle.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We loosened the bracket rather than altering calibration.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A washer now holds the wheels at equal distances from the chassis.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-009",
+      "persona": "meeting-note-taker",
+      "domain": "household",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The neighbor upstairs said she heard a repeating low thump beneath her bedroom.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Our speakers had been off, but the washer was running at the time.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "The music explanation is losing ground, isn't it?",
+          "gold_reply": "It is; the washer timing now deserves attention.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "During the next spin cycle, one loose foot tapped against the tile.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My roommate asked, \"Could a lighter load confirm that this is the source?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We leveled the appliance before running any test.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One uncertainty survives the leveling: will an empty cycle still vibrate if the drum is uneven? That result would separate a leveling problem from an internal imbalance.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The message upstairs acknowledges the disturbance and explains what we found.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-010",
+      "persona": "group-chat-drafter",
+      "domain": "work",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "One regional workbook broke the consolidated total because its amounts were stored as text.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I preserved that submission and converted only a working copy.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Decimal commas required a different rule from the other rows.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The converted subtotal landed twelve cents below the amount in the cover email.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Line-by-line rounding accounts for the entire difference.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Where would you file that twelve-cent difference mentally?",
+          "gold_reply": "With documented line rounding, since the arithmetic now reconciles.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The cleaned result now reconciles under that stated method.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Both source files remain beside the transformed copy.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The audit entry lists the conversion and rounding rules separately.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-011",
+      "persona": "meeting-note-taker",
+      "domain": "school",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A prop door jammed with an actor behind it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We removed the open back panel and freed her.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The revised staging leaves the door ajar throughout the scene.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That actor getting stuck was scary.",
+          "gold_reply": "It was. Keeping the door ajar turns a frightening failure into a safe scene.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I wrote \"highlight\" beside the jammed latch so nobody overlooks the carpenter check.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-012",
+      "persona": "group-chat-drafter",
+      "domain": "household",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Tiny tracks crossed flour beside the pantry.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "They ended at a gap behind the dishwasher.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A gecko remained plausible because the food bags had no bite marks.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Gecko tracks would be the nicer surprise, honestly.",
+          "gold_reply": "Much nicer—and watching the gap may settle the mystery without harming anything.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A reference photo makes the toes look lizard-like.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I cleaned the flour and sealed dry goods.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-013",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Marketing and research discovered that their filmed interviews occupied the same studio hour.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Research requires the mounted camera and teleprompter; marketing needs only lights and a quiet wall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why abandon either recording when the library room meets the lighter brief?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Marketing accepted that room after seeing a quick phone-camera test.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Which room gets which interview?",
+          "gold_reply": "Research keeps the studio rig; marketing takes the library wall and portable lights.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Facilities said the portable lights could move, but the camera rig could not.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A single operator has twenty minutes between sessions to reset equipment.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-014",
+      "persona": "group-chat-drafter",
+      "domain": "school",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Tuesday's frog count happened near sunset, when the pond edge was calm.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Today's team arrived at noon in warmer, windy conditions.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our field protocol calls the sweep through shoreline plants a \"search the reeds\" pass.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What should we refuse to claim from these frog counts?",
+          "gold_reply": "Any real population change; the observation conditions were too different.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Does the hour explain the lower count by itself? Weather remains a competing factor in my notes.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Next week's repeat will use the same hour and route for both teams.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Until then, the two totals remain in separate columns.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our conclusion line says the conditions are not yet comparable.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-015",
+      "persona": "meeting-note-taker",
+      "domain": "household",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The bookshelf fits the alcove width but blocks half of the wall switch.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A radiator prevents shifting the unit to the left.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The receipt includes free pickup for an unassembled return.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A narrower model leaves the switch clear but sacrifices one shelf.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Two empty woven bins already under the desk can absorb the displaced paperbacks.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "I can live with one fewer shelf.",
+          "gold_reply": "So can the room; those two bins make the storage loss manageable.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The narrower model is in stock for exchange tomorrow.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Every panel and fastener remains inside its original sleeve.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No electrical work is part of the plan.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-016",
+      "persona": "group-chat-drafter",
+      "domain": "work",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The webinar room reached its participant ceiling a few minutes after noon.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Late arrivals saw an access error while the session continued for those already inside.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me your honest reaction to the locked-out attendees.",
+          "gold_reply": "Frustrating for them; prompt recording access helps, but it cannot restore live participation.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The platform does not allow its room cap to change midstream.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Ari proposed releasing the recording before the day ended.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-017",
+      "persona": "meeting-note-taker",
+      "domain": "school",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A thin crack appeared along my ceramic bowl as it cooled after firing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Water does not leak immediately, though the line reaches close to the rim.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Planter, pencil cup, or just art object?",
+          "gold_reply": "Pencil cup for now, pending the instructor’s guidance on safe use.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our instructor said glaze could disguise the mark without making the bowl food-safe.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I no longer plan to eat from it.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a drainage hole widen the crack? I am checking before considering it as a planter.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-018",
+      "persona": "group-chat-drafter",
+      "domain": "household",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Sunday lunch somehow attracted three separate offers of soup.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The sign-up still had empty spaces beside rice, fruit, and drinks.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A table of three soups and no sides sounded more comic than balanced.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I thanked each cook before mentioning the gaps.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Three soups is almost a theme party.",
+          "gold_reply": "Only if everyone brings a spoon and calls it a tasting menu.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One cousin kept pumpkin soup; the others switched to fruit and iced tea.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing on the revised menu is too spicy for the children.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-019",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Conference badges arrived with last year's date baked into our supplied background art.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A reprint of every badge would miss tomorrow's packing cutoff.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "An opaque year sticker fully covers the old digits in bright light.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Staff badges sit below the camera line and are checked only at entry.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Speaker badges appear in close-up photographs and on the stage feed.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which badges deserve the scarce reprint slot?",
+          "gold_reply": "The speaker set; those badges will be photographed close-up.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We therefore reserved the morning reprint slot for all forty speakers.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Staff stock is being stickered and inspected piece by piece.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-020",
+      "persona": "group-chat-drafter",
+      "domain": "school",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our economics group had already divided the draft when a transfer student joined.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Assigning only citations would have kept her outside the actual argument.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "She said she had previously compared public-transit systems.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our pricing-and-access section still lacked a policy perspective.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Ken brought survey data, so the two of them took that section together.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Each now owns slides and a speaking turn.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Friday's calendar uses \"remind\" as the heading for the slide-merge checkpoint.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "If you were the new student, would this role feel real?",
+          "gold_reply": "Owning analysis and presentation time would feel substantive, not like leftover work.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The group reviewed the redistribution before ending the meeting.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-021",
+      "persona": "meeting-note-taker",
+      "domain": "household",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A parcel labeled 6B appeared outside our door in 6D.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I will not call its printed number late at night.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Reception is closed, and rain reaches the corridor.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved it inside and photographed its original spot.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "I will slide the note under 6B's door now.",
+          "gold_reply": "Good call; the photo and morning reception contact complete the trail.",
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-022",
+      "persona": "group-chat-drafter",
+      "domain": "work",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The translated safety leaflet keeps the emergency number as 1-1-2.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A right-to-left paragraph style reverses its visual order in one preview.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Say the emergency number back to me once.",
+          "gold_reply": "One-one-two.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The translator asked, \"Should the whole sentence change direction?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Engineering confirmed that only the number span needs a left-to-right override.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The translated words themselves display correctly.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-023",
+      "persona": "meeting-note-taker",
+      "domain": "school",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The student art-show catalog lists Maya's linocut under a second, misspelled surname.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "That stray spelling created a duplicate artist entry in the index.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Her title card in the gallery has the proper name and artwork title.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That duplicate could have erased her credit.",
+          "gold_reply": "Exactly; matching the catalog to the gallery card restores clear authorship.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The catalog editor backed up the layout before merging both entries.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Maya's page now carries the same name as her title card.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The revised index points to her single page without losing the artwork credit.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-024",
+      "persona": "group-chat-drafter",
+      "domain": "household",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our balcony door began scraping after humid days.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Its hinges are tight and the frame looks sound.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Wooden doors in this building often swell during the rainy season.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Immediate sanding could create a dry-season draft.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Candle wax eased the contact temporarily.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I still wonder whether the frame shifted; comparing both side gaps after dry weather should answer that.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The latch closes without force.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "For now I am choosing wax and patience.",
+          "gold_reply": "Reasonable—the dry-week gap check will tell you whether sanding is even relevant.",
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-025",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The candidate's microphone failed halfway through her remote interview.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "She kept the presentation open on her laptop and rejoined audio by phone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We restored the ten minutes lost to reconnection.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The chair said the outage would not influence scoring.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Panelists continued recording evidence against the usual rubric.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What did the panel do that protected her chance to perform?",
+          "gold_reply": "They restored the lost time and kept everyone on the same rubric.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Only genuinely inaudible answers qualified for a short follow-up.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Clearly heard opening answers remained in the record without repetition.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She chose to continue rather than reschedule.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-026",
+      "persona": "group-chat-drafter",
+      "domain": "school",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Volunteer tomato seedlings appeared in the bed planned for native flowers.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The younger students have already measured them for three weeks.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A spare deep planter stands empty beside the greenhouse door.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Can the tomatoes and native bed both keep their fan clubs?",
+          "gold_reply": "They can—the empty planter gives the tomatoes a separate home.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Moving the seedlings there would free the bed without ending the measurements.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-027",
+      "persona": "meeting-note-taker",
+      "domain": "household",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We reached the picnic without a jar opener.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A dry towel could not loosen the sauce lid.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My sister asked, \"Could warm water release the seal?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The café offered hot water though the campsite tap was cold.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Hot water for a stubborn lid feels like campsite science.",
+          "gold_reply": "Exactly—warm the metal, protect the glass, and hope lunch cooperates.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We warmed only the metal lid.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-028",
+      "persona": "group-chat-drafter",
+      "domain": "work",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A new hire can reach the shared drive but not the folder used in today's workshop.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The trainer has enough printed packets for her to begin with everyone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A colleague offered to share a screen during the live exercise.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What can I tell her while IT fixes the account?",
+          "gold_reply": "Her printed packet and a colleague's shared screen will keep her in the exercise.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "IT found contractor-group permissions attached to her employee account.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The correction can preserve the setup she already completed.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She will revisit the digital files independently once access appears.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-029",
+      "persona": "meeting-note-taker",
+      "domain": "school",
+      "register": "concise-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our astronomy log initially names a bright moving object as Venus.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its path crosses too much sky for Venus during a twenty-minute observation.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Flight records show no aircraft along that bearing.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A high satellite remains plausible because its apparent speed can change with angle.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We kept the original identification visible but added a question mark.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Stars at both frame edges stay aligned, so the tripod did not settle.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What belongs in the identification field tonight?",
+          "gold_reply": "Unidentified moving light, with satellite still listed as a possibility.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The evidence narrows the options without proving a single identity.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-01-030",
+      "persona": "group-chat-drafter",
+      "domain": "household",
+      "register": "collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our new hallway rug curls at both short edges.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "It caught my heel, so I removed it from the walkway.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The seller recommends reverse-rolling before using tape.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Those curled edges have lost hallway privileges.",
+          "gold_reply": "Sensibly so. They can earn their way back after the reverse-roll test.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We wrapped it loosely around the shipping tube.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No furniture presses into its weave.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Tomorrow we will check whether edges relax.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Rug tape remains a fallback, pending a check that its adhesive suits the floor finish.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A return remains possible because nothing was altered.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

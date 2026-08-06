@@ -1,0 +1,357 @@
+{
+  "schema_version":"g1-authored-1",
+  "demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":3},
+  "records":[
+    {
+      "id":"d1-sol-a-03-001","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"A fern saucer left a perfect damp ring on the newly painted windowsill.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Does the fern deserve legal representation here?","gold_reply":"Only weak representation; the wet saucer is fairly compelling evidence.","pause_after":"short"},
+        {"kind":"narration","text":"The pot itself was dry outside, so condensation had collected beneath the cold ceramic.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I added three cork feet and left a small gap for air under the base.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The ring faded after a day with the window open and no new moisture appeared.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The fern kept its place; the saucer lost direct contact privileges.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-002","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"While preparing the reunion lunch, we found two spice tins with the same red lid and labels faded down to a few brown letters.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My cousin lifted one and asked, “Should this be the correct blend for the grilled fish?” before anyone opened it.","traps":["quoted_question","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"address","text":"Help me keep the evidence separate from her guess.","gold_reply":"Matching lids and faded labels are evidence; the fish blend is only your cousin's guess.","pause_after":"short"},
+        {"kind":"narration","text":"One tin smelled of toasted cumin and citrus peel, while the other carried fennel and dried chili.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"An older recipe card matched the cumin mixture to fish and the fennel mixture to braised vegetables.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"We relabeled both tins with ingredients and a date before the grill was hot enough to need either.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The careful pause kept a familiar meal from depending on confident guesses about identical red lids.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-003","persona":"apartment-gardener","domain":"public-transit","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"I carried a flat-packed bamboo plant shelf onto the tram during a quiet Sunday morning, holding the narrow bundle upright between my knees so it would not occupy another seat.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The driver announced that long items had to remain behind the yellow floor line, and my shelf extended just far enough to make that rule personally relevant at the first turn.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"I moved to the open area by the center doors, rotated the bundle horizontally below the windows, and used my tote as padding where one corner touched the metal rail.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At each stop, I lifted the shelf clear of the doorway while passengers passed, an arrangement that worked until a stroller and two grocery carts arrived together.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could you summarize the transit problem without blaming the shelf?","gold_reply":"Safe positioning worked until several large items needed the shared door space together.","pause_after":"short"},
+        {"kind":"narration","text":"A passenger steadied one end while I stepped off for a moment, let the carts leave, and boarded again before the doors closed, preserving both the shelf and everyone's shins.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-004","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The cabinet under my seed trays began dropping one door by a few millimeters.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Observe the thrilling domestic drama of a loose hinge.","gold_reply":"Observed; a door sinking by millimeters is exactly the sort of quiet problem that becomes loud later.","pause_after":"short"},
+        {"kind":"narration","text":"Why own four screwdrivers if none fits the one screw currently misbehaving?","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"A shorter driver reached the upper hinge once I removed the tray above it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I tightened both plates and shifted the lower one slightly toward the frame.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The door now closes evenly and has stopped shaving soil from nearby pots.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Three unsuitable screwdrivers returned to their ceremonial drawer.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-005","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"For the family lunch, I tested the pomegranate molasses before mixing it into the roasted vegetables.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The first spoonful tasted sharply sour, followed by a deep sweetness that stayed after the fruit flavor faded.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Will you reflect that flavor sequence back to me?","gold_reply":"It starts sharply sour, then settles into a deep, lingering sweetness.","pause_after":"short"},
+        {"kind":"narration","text":"I thinned it with warm water and olive oil instead of adding sugar immediately.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"On roasted carrots, the acidity became brighter and the sweetness no longer dominated the finish.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The dressing went into a small bowl beside the platter so relatives could add their own amount.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-006","persona":"family-event-planner","domain":"public-transit","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"The bus carrying half our wedding guests turned away from the riverside avenue because a weekend market had closed the road earlier than the printed invitation route expected.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Our group message contained, “Is the next stop still closest to the hall?” I kept adding landmarks after that question so people could follow the detour without needing a street name.","traps":["quoted_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"From the windows, guests could see the clock tower behind them, a red footbridge ahead, and market tents filling the usual road between those two points.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I called the hall entrance and arranged for one cousin in a green jacket to stand beside the footbridge, where both the diverted bus and walking guests would pass.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The driver stopped after the bridge, and the group followed the green jacket through a covered arcade that reached the hall from the opposite side of the blocked avenue.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Give the green jacket its moment of credit.","gold_reply":"One visible person at a shared landmark turned a confusing detour into a route the whole group could follow.","pause_after":"short"},
+        {"kind":"narration","text":"Everyone arrived before the ceremony, and the market closure became a small procession through flower stalls rather than the transport failure it first appeared to be.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-007","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The kitchen pipe tapped whenever the upstairs tap shut off.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The manager reported that a loose clip had caused the same noise before.","traps":["reported_speech"],"pause_after":"short"},
+        {"kind":"address","text":"Would you call that a useful lead rather than a diagnosis?","gold_reply":"Useful, but provisional: a known loose clip still needs to be checked at the source.","pause_after":"short"},
+        {"kind":"narration","text":"A note used ‘wait’ for the pause between tests, not as a present request.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"The clip above the cupboard moved visibly when the upstairs water stopped.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Once tightened, it reduced the pipe's percussion section to ordinary plumbing.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"My watering can is again the loudest object near the ceiling.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-008","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"The first flatbread for our courtyard supper blistered beautifully and blackened underneath before anyone smelled smoke.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Please offer the bread a dignified sentence before judgment.","gold_reply":"It achieved an excellent blistered top and an unfortunately absolute bottom crust.","pause_after":"short"},
+        {"kind":"narration","text":"Who has not mistaken dramatic charring for rustic confidence at least once?","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"We shaved away the darkest layer and cut the usable center into strips for the dips.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The pan moved one rack higher, and later breads cooked with softer bottoms and the same bubbles.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Guests finished the rescued strips first because they were already sized for sharing.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-009","persona":"apartment-gardener","domain":"public-transit","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The most direct metro route to the community greenhouse involved an interchange whose station map showed three exits with nearly identical names and no visible mention of the garden district.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I traced the line from platform level to street level and noticed that exit B connected to a covered walkway marked by a leaf symbol, while exits A and C opened beside office towers.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Which grounded clue should I carry upstairs?","gold_reply":"Exit B and its leaf-marked covered walkway are the clearest clues tied to the garden district.","pause_after":"short"},
+        {"kind":"narration","text":"At the concourse, the letter signs disappeared behind renovation boards, but the same leaf symbol reappeared on a temporary arrow taped near the service desk.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The walkway emerged beside a nursery loading bay, where stacks of empty seed trays made the route unmistakable compared with another abstract station diagram.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I reached the greenhouse with enough time for the seedling sale and photographed the temporary arrow for neighbors taking the same trip later that week.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The journey depended less on memorizing three similar exit names than on following one modest leaf that survived every level of the station's visual confusion.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-010","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"Cold air slipped under the balcony door and bent seedling stems.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A strip of paper fluttered along the lower corner, locating the strongest part of the draft.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I cleaned the frame and pressed a narrow foam seal into the uneven gap.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The door still latched easily, and the paper stopped moving when the wind rose.","traps":[],"pause_after":"medium"},
+        {"kind":"address","text":"Please mark this as a rare victory over invisible air.","gold_reply":"Marked: paper found the gap, foam stopped the draft, and the latch still works.","pause_after":"short"},
+        {"kind":"narration","text":"The seedlings now lean toward sunlight rather than away from the door.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Home maintenance has briefly achieved a measurable outcome.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-011","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"For the memorial lunch, my aunt proposed one large pot of coconut rice so every table would begin with the same familiar aroma.","traps":["reported_speech"],"pause_after":"none"},
+        {"kind":"address","text":"What was she trying to create there?","gold_reply":"She wanted one shared sensory beginning, with coconut-rice aroma reaching every table.","pause_after":"short"},
+        {"kind":"narration","text":"Would the folding tables hold the heavy serving pots? She kept measuring their centers after asking, more concerned with safe placement than with changing the menu.","traps":["reported_speech","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"We placed smaller bowls on cork mats and arranged two people to refill them from the kitchen between courses.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The first bowls reached each table warm, and nobody had to carry a full pot through the narrow aisles.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The rice remained one shared dish even though it traveled in lighter, safer portions.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Her original intention survived because the serving method changed around it.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-012","persona":"family-event-planner","domain":"public-transit","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"On the way to the family picnic, my niece watched the bus's next-stop display cycle between a street name, a clock, and a line of service information she could not read quickly.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"She pointed at the screen and asked, “Will our stop show the little bridge picture too?” because the printed picnic map used a bridge as its main landmark.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Keep the bridge symbol central while I explain the route.","gold_reply":"Got it—the bridge picture is the landmark your niece knows from the picnic map.","pause_after":"short"},
+        {"kind":"narration","text":"The transit display showed only text, so we counted two stops after the library and watched for the real footbridge through the right-hand windows.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A blue railing appeared before the stop announcement, matching the map's drawing closely enough that she recognized it without needing the street name.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"We rang the bell, stepped off beside the bridge, and found the park entrance directly beyond the far end where the rest of the family had tied ribbons to the gate.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The route worked because an abstract symbol became a visible object at the right moment, giving a child one stable clue while every screen around it changed.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-013","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"A wall patch beside the plant shelf dried warmer white than its surroundings.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The empty paint tin lid still carried three handwritten codes.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"One code had the word ‘correct’ beside it as a past annotation, not a present request.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"A sample card matched the middle code once both were viewed in afternoon light.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Would you trust that daylight match over the first painted patch?","gold_reply":"Yes—the sample viewed beside the surrounding wall in afternoon light is stronger evidence than the mismatched first patch.","pause_after":"short"},
+        {"kind":"narration","text":"The new coat dried into the wall instead of announcing itself beside every fern.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The three dated codes now resemble competence.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-014","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"At the engagement meal, the oldest aunt poured tea for the couple first and then moved clockwise around the table.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Younger cousins quietly rotated empty cups so their handles faced her as she approached.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Notice how much coordination happened without an announcement.","gold_reply":"The pouring order and turned cup handles show everyone supporting the ritual without interrupting it.","pause_after":"short"},
+        {"kind":"narration","text":"When the pot grew light, someone exchanged it for a warm one from the side table.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Conversation continued while the same small movements carried tea through three generations.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The couple later remembered the quiet circle of cups more clearly than the formal toast.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Hospitality became visible through sequence, attention, and hands making room for one another.","traps":[],"pause_after":"short"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-015","persona":"apartment-gardener","domain":"public-transit","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"I boarded the crosstown bus with a tray of six herb seedlings and discovered that my fare card still held the transfer from the earlier subway trip, though the reader displayed only a green light and no remaining time.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Will you keep the green light distinct from proof of time?","gold_reply":"The green light confirms acceptance, but it does not reveal how much transfer time remained.","pause_after":"short"},
+        {"kind":"narration","text":"Was the ride free because the transfer remained active? I was checking the fare history afterward, not asking anyone to decide from the light alone.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The receipt screen near the rear door showed the original subway charge and a zero-value bus entry stamped forty-three minutes later, which established what the reader had omitted.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I moved the seedling tray onto my lap before the next turn and photographed the receipt only after reaching a straight section, keeping both evidence and basil upright.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The transfer had applied correctly; the green light was merely confirmation without detail, while the receipt supplied the timing needed to understand why.","traps":[],"pause_after":"short"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-016","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The plant rack arrived with one small hex key inside its hardware bag.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My drawer already contained six similar keys, none labeled and all emotionally identical.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Acknowledge the drawer as a failed archive.","gold_reply":"Acknowledged; six unlabeled near-matches preserve only clutter.","pause_after":"short"},
+        {"kind":"narration","text":"Why does every flat-pack object donate the one tool nobody can identify later?","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"I matched the new key to one duplicate and tied both to the rack's paper instructions.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The remaining keys received size labels instead of another decade of anonymity.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The drawer now contains alarming information.","traps":[],"pause_after":"short"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-017","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"For the welcome meal, we lined the center of each table with banana leaves and placed small portions where everyone could reach without passing heavy platters.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My uncle explained that his childhood gatherings began with elders placing rice at the center before sauces and vegetables formed a circle around it.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"We kept that order but used several smaller rice mounds so the long tables did not force anyone to lean across candles or stand during the first serving.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The leaves joined the portions visually, and cousins began adding dishes from both ends until the separate mounds read as one shared arrangement.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Do you see how the form survived the practical change?","gold_reply":"The central rice and surrounding dishes remained, while smaller portions made the long tables easier to share safely.","pause_after":"short"},
+        {"kind":"narration","text":"By the second course, people were moving sauces along the leaf line rather than lifting plates over one another, and the meal settled into the rhythm my uncle remembered.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-018","persona":"family-event-planner","domain":"public-transit","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"Rain arrived while our family picnic group stood at an uncovered tram stop with folded chairs, paper decorations, and three umbrellas meant for almost twice that many people.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Two commuters shifted beneath the narrow shelter and made a dry strip along the back wall, while we stacked the chairs upright so their legs no longer occupied the standing space.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Recognize the quiet cooperation already happening there.","gold_reply":"The commuters made shelter space, and your group reduced its footprint by stacking the chairs.","pause_after":"short"},
+        {"kind":"narration","text":"We opened one umbrella sideways above the paper decorations, used another for the youngest children, and shared the third across the exposed end of the shelter where water blew in.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"When the tram arrived, everyone passed the folded chairs forward in a short chain rather than crowding the door, and the commuters held the damp decorations clear of the closing panels.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Inside, our group took the open multipurpose area and left the nearest seats for the people who had already given us room during the storm.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Nothing dramatic happened; a crowded stop simply became workable because strangers noticed one another's objects, children, and available inches before the tram came.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-019","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The bathroom fan rattled with the window closed and mister running.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Can you hold those two conditions together for the diagnosis?","gold_reply":"Yes—the rattle appears with a closed window while the mister is running.","pause_after":"short"},
+        {"kind":"narration","text":"A manual note used ‘highlight’ to mark the removable grille, not to request any new marking.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"Dust along one clip made the grille vibrate when the fan pulled harder against the sealed room.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I cleaned both clips and reseated the grille until its corners sat level.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The fan now moves damp air without providing percussion for the ferns.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The mister has lost another accomplice.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-020","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"Our tasting table held seven small bowls of rice from relatives who had each prepared the grain in a different regional style.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My aunt laughed, “Who needs seven kinds of rice?” and kept describing the scent of each bowl, so the joke clearly invited attention rather than dismissal.","traps":["quoted_question","rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Treat her joke as affection, not a complaint.","gold_reply":"It sounds affectionate—she questioned the abundance while carefully noticing every bowl.","pause_after":"short"},
+        {"kind":"narration","text":"We placed plain cards beside the bowls and let each cook add a place name and one preparation detail.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Guests compared texture and aroma without ranking the dishes or declaring one version definitive.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"By dessert, the cards carried family names too, linking each style to the person who brought it.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"Seven bowls became a map of relationships rather than an excessive menu choice.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-021","persona":"apartment-gardener","domain":"public-transit","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The weekend plant market occupied a plaza above the central station, and I arrived with an empty folding cart just as renovation work closed the escalator nearest the advertised exit.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A station attendant suggested using the east lift and crossing the upper walkway, which would avoid two flights of stairs and bring the cart out beside the market's loading entrance.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"Temporary arrows led to the lift through a retail corridor, but one arrow had rotated on its stand and pointed directly into a closed shoe shop rather than toward the next junction.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I followed the fixed ceiling signs instead, reached the upper walkway, and found a wide ramp where vendors were already moving trolleys of pots in the opposite direction.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The route added four minutes but kept the cart level, which mattered considerably more on the return trip when it held two citrus trees and a bag of wet compost.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Would you credit the attendant's route despite the rebellious arrow?","gold_reply":"Yes—the east lift and upper walkway worked; the rotated temporary arrow was the misleading part.","pause_after":"short"},
+        {"kind":"narration","text":"I turned the arrow back toward the corridor before leaving and used the same accessible path home, with the citrus leaves arriving less shaken than I did.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-022","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The silicone bead behind the kitchen sink split where the planter shelf meets the wall.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I removed the loose strip, dried the gap, and applied a thinner continuous line.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Keep me from testing it before the cure time ends.","gold_reply":"I'll keep you honest; the fresh seal needs its full cure time before contact with water.","pause_after":"short"},
+        {"kind":"narration","text":"A spare tray caught watering drips while the sink stayed clear for the afternoon.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"By evening the bead felt firm and no longer pulled away at the corner.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The shelf returned without immediately volunteering for another leak test.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-023","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"One appetizer for the anniversary dinner paired mild cucumber with a tiny amount of fermented tofu, whose aroma was stronger than its flavor once spread thinly.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Am I making the intensity difference clear?","gold_reply":"Yes—the aroma is strong, while a thin layer keeps the actual flavor milder.","pause_after":"short"},
+        {"kind":"narration","text":"Could we serve it without startling people? I was thinking about labels and portion size after asking, not seeking a simple approval.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"We placed one sample plate near the kitchen and wrote both ingredients plainly beside it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Relatives who enjoyed the sample carried small portions to the tables, while the cucumber remained available on its own.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Clear naming made the unfamiliar ingredient an invitation rather than a surprise hidden beneath garnish.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The plate emptied slowly through curiosity, which suited the dish better than a dramatic reveal.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-024","persona":"family-event-planner","domain":"public-transit","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"Our printed itinerary for the graduation dinner used gate C as the meeting point because three bus routes served it, but the station had temporarily moved that gate behind a construction wall.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A handwritten note from the planning call read, “Should we wait by gate C?” where the word ‘wait’ recorded the family's old question rather than directing anyone in the present stream.","traps":["quoted_question","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"address","text":"Separate the obsolete meeting point from the useful route logic.","gold_reply":"Gate C is obsolete, but choosing a point served by all three bus routes remains useful logic.","pause_after":"short"},
+        {"kind":"narration","text":"The temporary map showed that all three routes now stopped beside the north information column, whose large clock could be seen from both entrances and the taxi lane.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"We changed the group message to the clock column, attached a photograph, and placed one relative there ten minutes early with the same yellow folder shown in the image.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Guests arrived from separate routes without walking toward the closed gate, and drivers collecting older relatives could identify the clock from the curb without entering the station.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The successful update preserved the original principle—one shared transit landmark—while replacing a lettered gate that no longer physically existed for travelers that evening.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-025","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The radiator began knocking in short bursts after the building heat restarted.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"My neighbor explained that trapped air had made hers sound similar the previous winter.","traps":["reported_speech"],"pause_after":"short"},
+        {"kind":"narration","text":"The top stayed cooler than the bottom even after the pipe became warm.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Maintenance opened the small valve until air stopped hissing and water appeared.","traps":[],"pause_after":"medium"},
+        {"kind":"address","text":"Can we retire the radiator's knocking career now?","gold_reply":"It looks promising—the trapped air is gone and the radiator can heat evenly without the noise.","pause_after":"short"},
+        {"kind":"narration","text":"The next heating cycle arrived quietly from top to bottom.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The plants have lost their least talented drummer.","traps":[],"pause_after":"none"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-026","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"At the naming ceremony lunch, each shared dish arrived with one serving spoon resting on a small plate.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Children watched adults return each spoon to its own plate instead of leaving it inside another bowl.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Notice the etiquette being taught without a lesson.","gold_reply":"The adults model it by returning every spoon to the plate beside its own dish.","pause_after":"short"},
+        {"kind":"narration","text":"Soon the children copied the motion and began straightening plates that had shifted along the table.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"No one interrupted the meal to state a rule, yet the shared dishes stayed orderly through several courses.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Care moved through imitation, with small hands learning where communal utensils belonged.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-027","persona":"apartment-gardener","domain":"public-transit","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"I boarded an air-conditioned bus with a shallow tray of freshly rooted coleus cuttings, and the only open seat placed their exposed leaves directly beneath a strong overhead vent.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"What risk is already visible before the bus moves?","gold_reply":"Strong vent exposure could dry or chill the cuttings during the ride.","pause_after":"short"},
+        {"kind":"narration","text":"I lowered the tray to the sheltered space beside my feet, kept it clear of the aisle, and folded the top of a paper shopping bag into a loose collar around the leaves.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"At the next stop, sunlight crossed the floor and warmed one side of the tray, so I rotated it without lifting the plants back into the stream of cold air above the seat.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"One outer leaf curled slightly while the stems remained upright, giving me an early sign that the paper reduced the draft without trapping enough heat to make the tray damp.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"I loosened the collar for the final ten minutes and checked the soil with one finger rather than watering on a moving vehicle and creating a public experiment in slippery flooring.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"All six cuttings reached the apartment upright, and the paper bag earned a second life as transport equipment instead of becoming compost immediately.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-028","persona":"apartment-gardener","domain":"home-maintenance","register":"dry-humorous",
+      "segments":[
+        {"kind":"narration","text":"The grout behind the herb sink darkened along one narrow seam after watering days.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A dry paper towel stayed clean everywhere except that corner joint.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Treat the paper towel as our least glamorous witness.","gold_reply":"It is useful testimony: only the corner joint transferred moisture.","pause_after":"short"},
+        {"kind":"narration","text":"Who knew grout could conduct such a focused investigation? I marked the seam and watched it through one more watering cycle.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"A cracked edge admitted one thin line of water, which stopped after resealing.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The paper towel has returned to less distinguished duties.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-029","persona":"family-event-planner","domain":"food-culture","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"For the gathering, we set out guava, green mango, pineapple, and three salts flavored with chili, citrus leaf, or sesame.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Each salt sat in a shallow dish with a separate spoon, and the fruit remained unseasoned so people could build familiar combinations or taste it plain.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Older relatives reached first for mango with chili salt, while children began with pineapple and touched only a few grains of the citrus mixture to one corner.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Nobody needed an explanation once one plate showed small separate piles rather than fruit already covered in a seasoning someone might not know.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The sesame salt drew the most questions because its aroma resembled roasted nuts while its flavor stayed mild enough for the sweeter guava.","traps":[],"pause_after":"long"},
+        {"kind":"address","text":"Can you name the hospitality built into that arrangement?","gold_reply":"It keeps the fruit plain, separates the salts, and lets each person choose a familiar or exploratory combination.","pause_after":"short"},
+        {"kind":"narration","text":"By the end, the shared table held many different plates without treating any one pairing as the proper way to eat the fruit.","traps":[],"pause_after":"medium"}
+      ]
+    },
+    {
+      "id":"d1-sol-a-03-030","persona":"family-event-planner","domain":"public-transit","register":"gentle-reflective",
+      "segments":[
+        {"kind":"narration","text":"Before the family conference, I rode the bus route from the station to the venue carrying a folded chair and an empty stroller, using the same bulky objects relatives would bring the next morning.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The planning sheet used ‘delegate’ as a column heading for who would handle tickets, chairs, and signs; it described assignments already made rather than requesting a new task from anyone now.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"address","text":"Track the chair and stroller as route tests, not random luggage.","gold_reply":"Understood—they are stand-ins for the bulky items relatives will actually carry on the event route.","pause_after":"short"},
+        {"kind":"narration","text":"The station lift opened onto the opposite side of a busy road from the bus bay, but a covered crossing connected the two without requiring the chair to be unfolded or the stroller lifted.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"On the bus, the multipurpose area held both objects when the chair stood vertically behind the stroller brakes, leaving the aisle clear and one hand free for the stop button.","traps":[],"pause_after":"long"},
+        {"kind":"narration","text":"The venue stop had a high curb at the front door and a level exit at the rear, so the final instruction sheet named the rear door and included a photograph of the covered crossing.","traps":[],"pause_after":"short"}
+      ]
+    }
+  ]
+}

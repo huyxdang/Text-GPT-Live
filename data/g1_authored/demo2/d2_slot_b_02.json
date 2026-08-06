@@ -1,0 +1,1855 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "claude",
+    "slot": "d2-slot-b",
+    "tranche": 2
+  },
+  "records": [
+    {
+      "id": "d2-slot-b-c6",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Snag every typo you spot while I bang out this road trip plan!",
+        "ack": "Locked in, I'll snag anything that slips through!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Two rental cars are waiting for us at the airport counter tomorrow.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Yesterday we drive past three lookout points before stopping for lunch near the ridge.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "we drive past",
+              "right": "we drove past",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Gas prices along this stretch of highway are cheeper than back home.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "cheeper",
+              "right": "cheaper",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Nobody remembered to grab a extra blanket for the overnight leg of the drive.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "a extra blanket",
+              "right": "an extra blanket",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Every driver need to check tire pressure before we hit the mountain pass tomorrow.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "driver need",
+              "right": "driver needs",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Once we reach the coast the plan is to campout near the lighthouse for two nights.",
+          "pause_after": "long",
+          "errors": [
+            {
+              "wrong": "campout",
+              "right": "camp out",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c7",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "school",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Keep an eye on my wording and straighten it out as these notes come together.",
+        "ack": "Understood, wording gets straightened out along the way.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "repair",
+          "text": "This term, attendance for the seminar dropped a little after the midterm break.",
+          "repair": {
+            "wrong": "attendence",
+            "right": "attendance",
+            "subtype": "letter-swap",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "During lab today the results was inconsistent across every single group.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "results was",
+              "right": "results were",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Two graduate assistant graded the quizzes before returning them at the end of class.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "graduate assistant graded",
+              "right": "graduate assistants graded",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Please dont forget to bring your calculator to the review session on Monday.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Please dont forget",
+              "right": "Please don't forget",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Students walk into the auditorium slow before settling into their assigned seats.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "auditorium slow",
+              "right": "auditorium slowly",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The syllabus outlines wich topics appear on the final exam next week.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "wich",
+              "right": "which",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Half the class arrived late because construction blocked the usual entrance near the quad.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c8",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Straighten out any wording trouble in this recap while I type it up.",
+        "ack": "Confirmed, wording trouble gets straightened out as it appears.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "aside",
+          "text": "I always garble occassion in these recaps, so ignore that particular slip tonight.",
+          "mentions": [
+            "occassion"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Vendors setup their tables an hour earlier than the schedule listed.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Vendors setup",
+              "right": "Vendors set up",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Nearly forty people showed up despite the rain that started right before doors opened.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Three volunteer helped carry the folding tables back to the storage shed.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Three volunteer helped",
+              "right": "Three volunteers helped",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Last week the committee decide to move next month's meetup to the larger hall.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "committee decide",
+              "right": "committee decided",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Raffle tickets sold out faster then anyone on the committee had expected.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "faster then",
+              "right": "faster than",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "A organizer from the north chapter offered to help run next quarter's event.",
+          "pause_after": "long",
+          "errors": [
+            {
+              "wrong": "A organizer",
+              "right": "An organizer",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c9",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "music",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Pounce on any slip while I map out this trip!",
+        "ack": "Deal, slips get pounced on the instant they show up!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Three bands we're chasing plays back to back Friday. Parking near the fairgrounds fills up quick at noon.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "bands we're chasing plays",
+              "right": "bands we're chasing play",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "fills up quick",
+              "right": "fills up quickly",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We already resærved two campsites nearby. Neither opener have announced a setlist yet.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "resærved",
+              "right": "reserved",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            },
+            {
+              "wrong": "opener have announced",
+              "right": "opener has announced",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The app says the shuttle arrivees every fifteen minutes.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "arrivees",
+              "right": "arrives",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c10",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "travel",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Track my phrasing carefully and adjust it the moment this travel log wanders off.",
+        "ack": "Agreed, phrasing gets adjusted the moment it wanders.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Border crossings on this route rarely take longer than twenty minutes at midday.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Currency exchange counters near the terminal chrage a steep fee for small amounts.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "chrage",
+              "right": "charge",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Both drivers agreed to swap seat's halfway through the long stretch of desert road.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "swap seat's",
+              "right": "swap seats",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Signal drops out for a stretch, so the map app freeze right before the canyon overlook.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "map app freeze",
+              "right": "map app freezes",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We plan on stopping near a a small overlook before the final descent into town.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "near a a small",
+              "right": "near a small",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Fuel stops along this stretch grow sparse, so we should top off before continuing on.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "grow sparse",
+              "right": "grow sparser",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c11",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "school",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Iron out any rough wording in this club roster while I finish typing it.",
+        "ack": "Noted, rough wording gets ironed out along the way.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "repair",
+          "text": "Every semester, membership dues are collected during the first meeting.",
+          "repair": {
+            "wrong": "membershp",
+            "right": "membership",
+            "subtype": "letter-swap",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Officers meets every other Tuesday to review budget requests from smaller clubs.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Officers meets",
+              "right": "Officers meet",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The treasurer submited the spending report two days before the deadline this term.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "submited",
+              "right": "submitted",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "New member need to complete the intake form before attending their first event.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "member need",
+              "right": "members need",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Elections happen on the last friday of the spring semester every single year.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "last friday",
+              "right": "last Friday",
+              "subtype": "capitalization",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Roster updates get emailed to advisors once the officer list is finalize for the term.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "is finalize",
+              "right": "is finalized",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c12",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Grab any slip the second it shows up while I sketch out this fair itinerary!",
+        "ack": "Absolutely, slips get grabbed the second they land!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "aside",
+          "text": "Fair warning, I botch itinerery constantly, so let that particular one slide tonight.",
+          "mentions": [
+            "itinerery"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Food trucks line up along the east entrance starting around eleven each morning.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Volunteer badges for the fair get handed out at the info booth each morning.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I regularly misspell carnival in these fair recaps, so overlook that slip tonight.",
+          "mentions": [
+            "carnival"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Half the rides shutt down early on weeknights once the crowd thins out. Whoever bring the cooler this year gets first pick of the shaded picnic spots.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "shutt down",
+              "right": "shut down",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Whoever bring",
+              "right": "Whoever brings",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We should of booked the pavilion earlier, since it filled up within a week. Fireworks starts on nine sharp, right after the last band finishes its set. Weekend parking passes for the fair goes on sale two weeks before opening night.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "should of booked",
+              "right": "should have booked",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "starts on nine",
+              "right": "starts at nine",
+              "subtype": "preposition",
+              "occurrence": 1
+            },
+            {
+              "wrong": "passes for the fair goes",
+              "right": "passes for the fair go",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c13",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "music",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Watch closely for wording missteps while I write out these ensemble notes.",
+        "ack": "Will do, missteps get caught as they surface.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Rehearsal notes from today cover the second movement's tempo changes near the coda.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Each cellist tune their instrument slightly differently before the conductor arrives.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "cellist tune",
+              "right": "cellist tunes",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The section leader handed out three new score befor the sight reading began.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "befor",
+              "right": "before",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We spent twenty minutes comparing this passage against it's earlier draft from last week.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "against it's earlier",
+              "right": "against its earlier",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Woodwind players arrived to the hall a full ten minutes ahead of everyone else.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "arrived to the hall",
+              "right": "arrived at the hall",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Three trombonist stayed after rehearsal to work through the tricky final passage.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Three trombonist stayed",
+              "right": "Three trombonists stayed",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c14",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "travel",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Fix any wording that goes sideways as I draft this group outing plan.",
+        "ack": "Copy that, sideways wording gets fixed as it happens.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Trailhead signage for the outing got updated earlier this week.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I usually misspell trailhead in these outing plans, so overlook that slip.",
+          "mentions": [
+            "trailhead"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Carpool assignments for the trip get posted two days before departure.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Anyone missing the six oclock van will have to arrange there own ride to the trailhead.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "arrange there own",
+              "right": "arrange their own",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Members who bringing extra water get first pick of the shaded rest stops.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "who bringing extra",
+              "right": "who bring extra",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The group leader confrimed the campsite reservation late last night.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "confrimed",
+              "right": "confirmed",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Every hiker carry a whistle in case the trail groups get separated on the ridge.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "hiker carry",
+              "right": "hiker carries",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Our guide for the coastal section speak two languages fluently, which helps at the border stops.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "guide for the coastal section speak",
+              "right": "guide for the coastal section speaks",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c15",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "school",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Chase down any slip while I bang out this campus tour schedule!",
+        "ack": "On it, slips get chased down the instant they land!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "repair",
+          "text": "Parking for visitors is available in the north lot near the admissions office.",
+          "repair": {
+            "wrong": "vistors",
+            "right": "visitors",
+            "subtype": "letter-swap",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Tour guides walked us threw the science building before lunch on the first stop.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "walked us threw",
+              "right": "walked us through",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Both dormitorys we toured had renovated common rooms on the ground floor.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "dormitorys",
+              "right": "dormitories",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Students in the group ask a ton of questions about meal plans and housing costs.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "group ask",
+              "right": "group asked",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Its going to be a packed afternoon once the admissions panel wraps up.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "Its going",
+              "right": "It's going",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Next we head towards the library annex before the shuttle loop starts again.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "head towards",
+              "right": "head toward",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c16",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "local-events",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Note any wording that drifts off course while I record this town hall summary.",
+        "ack": "Understood, drifting wording gets corrected as it happens.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "aside",
+          "text": "I regularly mangle municiple in summaries like this, so overlook that one specifically.",
+          "mentions": [
+            "municiple"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Nearly sixty residents attended the meeting, filling most of the folding chairs.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The agenda packet was emailed to every household two days before the meeting.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I keep misspelling ordinance in these summaries, so overlook that slip tonight.",
+          "mentions": [
+            "ordinance"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The council member argued the new proposal need more public comment before a vote. Two resident spoke against the zoning change during the public comment period.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "proposal need",
+              "right": "proposal needs",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Two resident spoke",
+              "right": "Two residents spoke",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Minutes from last months session are posted on the town website by Friday. The clerk read allowed the amended agenda before the vote was called. Earlier tonight the board discuss the budget request for nearly twenty minutes.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "last months session",
+              "right": "last month's session",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            },
+            {
+              "wrong": "read allowed",
+              "right": "read aloud",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "board discuss",
+              "right": "board discussed",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c17",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "music",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Sort out any wording error as I put together this recital program.",
+        "ack": "Acknowledged, wording errors get sorted as they appear.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Ticket sales for the recital opened online two weeks ago.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I regularly misspell rehearsal in these program notes, so let that one slide.",
+          "mentions": [
+            "rehearsal"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Each performer submitted a short bio for the printed program last week.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Two accompanist agreed to split the second half of the recital program.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "Two accompanist agreed",
+              "right": "Two accompanists agreed",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Doors opens at six thirty, thirty minutes before the first performer takes the stage.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "Doors opens",
+              "right": "Doors open",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The program committee finalise the running order sometime next week.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "committee finalise",
+              "right": "committee finalizes",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Ushers hand out programs on the entrance before the house lights dim.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "programs on the entrance",
+              "right": "programs at the entrance",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We recieved the final headcount from the box office late yesterday afternoon.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "recieved",
+              "right": "received",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c18",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Smooth out any wording bump while this backcountry route comes together.",
+        "ack": "Sure, wording bumps get smoothed out as we go.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Trailhead permits are checked at the ranger station before sunrise most weekends.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Melting snow means the creek crossing near mile four run higher than usual this month.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "mile four run higher",
+              "right": "mile four runs higher",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Two ranger warned us about loose rock along the upper switchbacks yesterday.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "Two ranger warned",
+              "right": "Two rangers warned",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We packed a extra liter of water for the exposed ridge section near the summit.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "a extra liter",
+              "right": "an extra liter",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Last winter storms damaged the bridge, so hikers now waded across the shallow ford.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "now waded across",
+              "right": "now wade across",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The permit office closes on five, so plan to arrive with time to spare.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "closes on five",
+              "right": "closes at five",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c19",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Snap up any wording hiccup while I scribble out this open-mic recap!",
+        "ack": "Easy, hiccups get snapped up the moment they show!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The venue for tonight's open mic seats about sixty people.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I always misspell audience in these recaps, so ignore that slip tonight.",
+          "mentions": [
+            "audience"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "repair",
+          "text": "Tonight, signups for the open mic close an hour before the doors open.",
+          "repair": {
+            "wrong": "signupps",
+            "right": "signups",
+            "subtype": "doubled-letter",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Every performer get exactly five minutes before the host cuts the mic.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "performer get",
+              "right": "performer gets",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Two comedian dropped out at the last minute, shortening the whole lineup.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "Two comedian dropped",
+              "right": "Two comedians dropped",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The host read through the lineup on before introducing the very first act.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "lineup on before",
+              "right": "lineup before",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Last nights crowd stayed later than usual, packing the back tables until close.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "Last nights crowd",
+              "right": "Last night's crowd",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The show usually wraps up around midnight on saturday nights during festival season.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "saturday nights",
+              "right": "Saturday nights",
+              "subtype": "capitalization",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h4",
+      "mode": "highlights",
+      "category": "vehicle",
+      "category_words": [
+        "bicycle",
+        "scooter",
+        "wagon"
+      ],
+      "persona": "club-organizer",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Light up anything I mention that counts as a wheeled vehicle tonight!",
+        "ack": "Deal, every vehicle you name gets lit up!",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Marco showed up dragging a rusty old bicycle with a flat back tire.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "bicycle",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Someone parked a bright red scooter right in front of the main entrance.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "scooter",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Our neighbor Wagon, believe it or not, has never actually owned a wagon in his life.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "Wagon",
+              "literal": false
+            },
+            {
+              "word": "wagon",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The volunteer table near the gate still needs two more folding chairs set up.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Kids pulled a squeaky wagon full of blankets while chasing after a borrowed scooter near the gate.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "wagon",
+              "literal": true
+            },
+            {
+              "word": "scooter",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h5",
+      "mode": "highlights",
+      "category": "fabric",
+      "category_words": [
+        "cotton",
+        "denim",
+        "velvet"
+      ],
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Flag any fabric word that shows up while I sketch out this packing list.",
+        "ack": "Will do, fabric words get flagged as they turn up.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The coastal leg of the route passes through several quiet fishing villages first.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "I packed a light cotton shirt for the warmer days near the coast.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "cotton",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "A denim jacket should cover the cooler evenings up in the hills.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "denim",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We also brought a folded velvet blanket for the overnight train.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "velvet",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "By the coast the denim jacket felt too warm, so we switched to the cotton shirt instead.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "denim",
+              "literal": true
+            },
+            {
+              "word": "cotton",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "aside",
+          "text": "I keep spelling drizzle wrong on every packing list I draft, so let that particular slip go tonight.",
+          "mentions": [
+            "drizzle"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h6",
+      "mode": "highlights",
+      "category": "metal",
+      "category_words": [
+        "copper",
+        "bronze",
+        "nickel"
+      ],
+      "persona": "class-notetaker",
+      "domain": "school",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Mark any metal word in these shop notes.",
+        "ack": "Confirmed, metal words will be marked as they turn up.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Today's shop unit covers basic soldering technique.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Our instructor Copper teaches woodworking, not metals.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "Copper",
+              "literal": false
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The demo piece used a thin sheet of copper for joints. A bronze fitting was passed around to examine.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "copper",
+              "literal": true
+            },
+            {
+              "word": "bronze",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Students preferred the nickel sample over the bronze one.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "nickel",
+              "literal": true
+            },
+            {
+              "word": "bronze",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h7",
+      "mode": "highlights",
+      "category": "vehicle",
+      "category_words": [
+        "bicycle",
+        "scooter",
+        "wagon"
+      ],
+      "persona": "club-organizer",
+      "domain": "music",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Point out any vehicle word you spot while I write up this tour recap.",
+        "ack": "Understood, vehicle words get pointed out as they turn up.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Load-in for tonight's show took nearly two hours because of the narrow stairwell.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The sound tech spent an extra hour untangling cables behind the mixing board.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I always misspell tambourine in tour recaps like this, so ignore that slip tonight.",
+          "mentions": [
+            "tambourine"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Merch sales stayed steady even after the opener's set ran long tonight.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The drummer's gear arrived strapped to a rusty bicycle trailer of all things. Someone borrowed a folding scooter to ferry cables between the loading dock and the stage. A wagon loaded with amp cases rolled down the ramp right before doors opened.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "bicycle",
+              "literal": true
+            },
+            {
+              "word": "scooter",
+              "literal": true
+            },
+            {
+              "word": "wagon",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "After the show the scooter and the wagon both got left behind near the loading dock.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "scooter",
+              "literal": true
+            },
+            {
+              "word": "wagon",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h8",
+      "mode": "highlights",
+      "category": "fabric",
+      "category_words": [
+        "cotton",
+        "denim",
+        "velvet"
+      ],
+      "persona": "trip-planner",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Call out any fabric word as I plan this stall.",
+        "ack": "Noted, fabric words get called out as they appear.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Booth assignments get posted the week before the event.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Our table will display cotton scarves and hats.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "cotton",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "A denim apron hangs by the register nearby. The velvet runner keeps sliding off the table.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "denim",
+              "literal": true
+            },
+            {
+              "word": "velvet",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "By closing time cotton scarves had sold out, unlike velvet today.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "cotton",
+              "literal": true
+            },
+            {
+              "word": "velvet",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h9",
+      "mode": "highlights",
+      "category": "metal",
+      "category_words": [
+        "copper",
+        "bronze",
+        "nickel"
+      ],
+      "persona": "class-notetaker",
+      "domain": "travel",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Shout out any metal word in this souvenir list!",
+        "ack": "Deal, metal words get shouted out the second they land!",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The market stalls near the harbor stretch for a mile.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "A small copper pot caught my eye nearby. Our guide Bronze has never bought a bronze trinket here.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "copper",
+              "literal": true
+            },
+            {
+              "word": "Bronze",
+              "literal": false
+            },
+            {
+              "word": "bronze",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Vendors sell nickel bracelets in glass jars.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "nickel",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We bought the copper pot instead of nickel bracelets.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "copper",
+              "literal": true
+            },
+            {
+              "word": "nickel",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h10",
+      "mode": "highlights",
+      "category": "vehicle",
+      "category_words": [
+        "bicycle",
+        "scooter",
+        "wagon"
+      ],
+      "persona": "trip-planner",
+      "domain": "school",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Mark any vehicle word that appears while I draft this campus safety memo.",
+        "ack": "Confirmed, vehicle words will be marked as they appear.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Campus security reminded students to register any parking permits by Friday.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Facilities crews repainted the crosswalk lines near the gym this week.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I regularly misspell pedestrian in these safety memos, so overlook that slip today.",
+          "mentions": [
+            "pedestrian"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Evening shuttle routes changed slightly to avoid the construction near the gym.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Students who ride a bicycle to campus use the racks near the science hall. A scooter left near the library blocked half the walkway this morning. The maintenance wagon rolled through the quad before classes started.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "bicycle",
+              "literal": true
+            },
+            {
+              "word": "scooter",
+              "literal": true
+            },
+            {
+              "word": "wagon",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Campus staff moved both the scooter and the wagon before the morning rush began.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "scooter",
+              "literal": true
+            },
+            {
+              "word": "wagon",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h11",
+      "mode": "highlights",
+      "category": "metal",
+      "category_words": [
+        "copper",
+        "bronze",
+        "nickel"
+      ],
+      "persona": "club-organizer",
+      "domain": "local-events",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Note any metal word as I plan this table.",
+        "ack": "Agreed, metal words get noted as they come up.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Setup for the craft fair begins two hours early.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Our table features hammered copper earrings up front. Next to those sits a tray of bronze pendants.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "copper",
+              "literal": true
+            },
+            {
+              "word": "bronze",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "A few nickel rings round out the display.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "nickel",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "By midafternoon copper had outsold both bronze and nickel this year.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "copper",
+              "literal": true
+            },
+            {
+              "word": "bronze",
+              "literal": true
+            },
+            {
+              "word": "nickel",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1501 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-b",
+    "tranche": 5
+  },
+  "records": [
+    {
+      "id": "d1-sol-b-05-001",
+      "persona": "coworker-storyteller",
+      "domain": "office-routines",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our lift stopped on every floor this morning even though only three people were riding.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me a reaction to our needless ceremonial stops.",
+          "gold_reply": "I would grumble at the delay, then laugh at how formally the lift visits every floor.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Each stop collected one more sleepy coworker and a different breakfast smell.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By level eight, nobody could remember who had pressed which button.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The doors finally opened to a burst of applause from the back corner.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We all reached the office before the daily check-in.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-002",
+      "persona": "reading-group-host",
+      "domain": "literature",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The first sentence of our novel begins with a lowercase word, as if another page vanished before it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Lea asked, \"Are we entering halfway through someone's thought?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The page number is one, and the binding looks untouched.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The sentence reaches a full stop three lines later.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Would you enjoy being dropped into a sentence already moving?",
+          "gold_reply": "Yes; it makes the book feel impatient for us to catch up.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our group has not read beyond that opening page.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-003",
+      "persona": "coworker-storyteller",
+      "domain": "municipal-life",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The clock above the municipal market is five minutes slower than every vendor's phone.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A caretaker said its minute hand had begun sticking near the top of the hour.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The morning bell still rings from a separate timer.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "No stall has closed early because of the clock.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "How would you announce five borrowed minutes to the market?",
+          "gold_reply": "Use them generously: one last orange, one last chat, then trust your phone.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A small ladder is already beside the maintenance office.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-004",
+      "persona": "reading-group-host",
+      "domain": "office-routines",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A lunch container with a purple lid and a smiling-onion label has been circling the office fridge for three days.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would you admit ownership if your label was a smiling onion?",
+          "gold_reply": "Immediately; that onion has too much personality to abandon.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The drawing sits beneath a blank line where its owner's name should be.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The container is clean, empty, and tightly closed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has connected themselves to the onion drawing in our chat.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed it on the lost-items shelf beside the fridge.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-005",
+      "persona": "coworker-storyteller",
+      "domain": "literature",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our essay collection includes footnotes that argue with the main text in a much ruder voice.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Whose side would you join first, paragraph or footnote?",
+          "gold_reply": "The footnote, purely because that rude little voice has more nerve.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why behave politely in the margins when the author clearly came there to quarrel?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One footnote calls the previous paragraph \"convenient nonsense.\"",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The disagreement stays focused on the idea, not a person.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I now read every tiny number with suspicion.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-006",
+      "persona": "reading-group-host",
+      "domain": "municipal-life",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A parking meter uses \"respond\" in the scrolling slogan beneath its payment instructions.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Can you give that earnest meter a personality?",
+          "gold_reply": "Helpful, slightly formal, and very proud of its municipal response time.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The full line reads, \"Report damage; we respond quickly.\"",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My parking session already shows thirty paid minutes.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The card slot and coin slot both remain available.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No damage appears on this meter.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-007",
+      "persona": "coworker-storyteller",
+      "domain": "office-routines",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Someone placed a tiny paper crown on the shared stapler overnight.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Have you ever respected a ruler this efficient?",
+          "gold_reply": "Never; this monarch binds documents and asks for no taxes.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The crown fits perfectly between its hinge and metal top.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Three coworkers have bowed before borrowing it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The stapler still works without disturbing the crown.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No rival office supply has challenged its rule.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-008",
+      "persona": "reading-group-host",
+      "domain": "literature",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two poems in tonight's collection share the title \"Rain,\" but one is six words and the other fills four pages.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Give the six-word poem a job in tonight's discussion.",
+          "gold_reply": "Let it place one clear image on the table before the longer poem complicates the weather.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The short poem sits earlier in the book.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Both use the word window exactly once.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Omar asked, \"Should we read the tiny storm before the long one?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Our opening reader brought both pages marked.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-009",
+      "persona": "coworker-storyteller",
+      "domain": "municipal-life",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A bronze pigeon has appeared on the low wall outside city hall, complete with a numbered tag on one foot.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What title would you give our bronze newcomer?",
+          "gold_reply": "The Bronze Mayor of the Low Wall.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A groundskeeper said it belonged to this month's public-art trail.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The bird faces the real pigeons gathering near the fountain.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Its tag matches the trail brochure's missing number twelve.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has mistaken the bronze bird for a live one up close.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-010",
+      "persona": "reading-group-host",
+      "domain": "office-routines",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The coat hooks outside our meeting room now carry three identical black jackets.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Help me prevent a three-jacket comedy with everyone's dignity intact.",
+          "gold_reply": "Call all three owners over and make identification a group effort.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each pocket contains a different harmless clue: mint wrappers, a bus receipt, or a red pen.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Their owners are still inside the same workshop.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I left all three jackets hanging rather than playing detective.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The workshop ends before the building closes.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-011",
+      "persona": "coworker-storyteller",
+      "domain": "literature",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The play gives its quietest character a twelve-second pause, the longest in the entire script.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How brave would you be about holding all twelve seconds?",
+          "gold_reply": "Brave enough to try once; the discomfort may be the point.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would a twelve-second silence feel longer than the speech before it?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The pause follows a simple question about going home.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "No stage direction explains the character's expression.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Our group can hear the scene without assigning motives first.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-012",
+      "persona": "reading-group-host",
+      "domain": "municipal-life",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The town newsletter uses \"translate\" as the title of a column about how old street names changed over time.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Give that oddly named column a one-line promise to its readers.",
+          "gold_reply": "How a familiar place collects new names without losing its old footsteps.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "This month's column follows Orchard Road through three historical names.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A hand-drawn map places all four labels on the same route.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The current name appears in the largest type.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The article continues on the next page.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-013",
+      "persona": "coworker-storyteller",
+      "domain": "office-routines",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our handoff notebook contains a pressed yellow leaf between yesterday's page and today's blank sheet.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has written a name or message beside it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The leaf lies flat without hiding any task entry.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Would you preserve the little surprise for the next shift?",
+          "gold_reply": "I would; it harms nothing and makes the notebook feel briefly human.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved the ribbon marker around it rather than lifting it out.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The next person can choose whether the leaf stays.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-014",
+      "persona": "reading-group-host",
+      "domain": "literature",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The detective in our novella solves the case, then spends the final page describing a sandwich in loving detail.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The sandwich never appeared during the investigation.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does that sandwich ending feel cheeky or unforgivable?",
+          "gold_reply": "Cheeky to me; the detective has earned one page of ridiculous appetite.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One reader asked, \"Why a sandwich now?\" Its ingredients occupy more lines than the culprit's confession.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody in our group expected lunch to claim the ending.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I closed the book laughing rather than annoyed.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-015",
+      "persona": "coworker-storyteller",
+      "domain": "municipal-life",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Leaf-collection sacks appeared along our street in three colors, but the delivery sheet explains only two of them.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Blue sacks match dry leaves, and green sacks match small branches.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A municipal worker said the orange sacks were extras from a park cleanup and could hold either material.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "How would you stop orange from becoming the neighborhood's mystery category?",
+          "gold_reply": "Label it as flexible before anyone invents a third kind of garden waste.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I tied one sample label to each color before neighbors began filling them.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The orange labels mention both accepted materials in plain language.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No filled sack has reached the curb yet.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-016",
+      "persona": "reading-group-host",
+      "domain": "office-routines",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The desk fan beside our shared planning table squeaks only when it turns toward the whiteboard, giving every diagram a tiny dramatic soundtrack.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "It stays quiet while facing the windows or the empty wall, and its airflow remains steady in every direction.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you miss our accidental whiteboard soundtrack?",
+          "gold_reply": "Only as comic punctuation; the useful angles deserve a quiet turn.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I rotated the base by a few centimeters so the squeak now happens between useful angles rather than during discussion.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The next planning round finished without anyone imitating the noise over a colleague's explanation.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A small maintenance tag is clipped to the fan cord for the facilities round tomorrow.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has lost the breeze before that visit.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-017",
+      "persona": "coworker-storyteller",
+      "domain": "literature",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our reading group tried five silent minutes before discussing the chapter, and the room became so still that turning a page sounded like opening a tent in a storm.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The pause gave two usually quiet members time to mark passages before faster voices shaped the conversation.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Was silence doing more work than another opening question would have done?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What would you protect if we try that silence again?",
+          "gold_reply": "Its lack of pressure; no one should have to produce a note just because the room is quiet.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "When the timer ended, nobody rushed to fill the first second.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The first comment came from someone who had never opened a session before.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We kept the marked passages visible rather than collecting written answers.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-018",
+      "persona": "reading-group-host",
+      "domain": "municipal-life",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The public-laundry notice uses \"highlight\" in a sentence about marking machines that rattle during the spin cycle.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A resident circled machine four on the paper checklist and added the plain words \"loud but completes cycle.\"",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What does that handwritten description communicate well?",
+          "gold_reply": "It distinguishes an alarming sound from an actual failure: the machine is loud, but it still finishes the cycle.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The machine is empty now, with no warning light and no item left inside.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed the checklist on the attendant's counter rather than taping another sign to the machine door.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Machine three remains available beside it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The attendant's next round begins within the hour.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-019",
+      "persona": "coworker-storyteller",
+      "domain": "office-routines",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our supply cupboard has six boxes labeled \"miscellaneous,\" and every new delivery seems to choose that shelf as an excuse not to make a decision.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I opened only the front box and found badge clips, spare lanyards, and three rolls of removable tape rather than the chaos the label promised.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The remaining boxes still have their original packing slips tucked under the lids.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "I refuse to let \"miscellaneous\" win every naming argument.",
+          "gold_reply": "Good; one honest box label is a small victory against cupboard fog.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I renamed the front box \"event fasteners\" and left the others closed until someone needs their contents.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The new label fits on one line and names everything actually inside.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Nothing was thrown away or moved to another cupboard.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-020",
+      "persona": "reading-group-host",
+      "domain": "literature",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A character in our novel writes, \"Never trust a door that opens too easily,\" then immediately walks through one.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The line appears in her private list of survival rules, not in dialogue with another character.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me how much faith to place in her rules.",
+          "gold_reply": "Treat them as wishes about who she wants to be, not reliable predictions of what she will do.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She has already broken two earlier rules from the same list.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The easy door leads into a brightly lit kitchen; beside it, her notebook asks, \"Is comfort another kind of trap?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Her hand remains on the handle at the end of the chapter.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our group stopped there without reading the next scene.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-021",
+      "persona": "coworker-storyteller",
+      "domain": "municipal-life",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The crossing guard outside the civic nursery greets every child with a different weather forecast, even on days when the sky has made up its mind.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "This morning he called one arrival \"partly giggly with a chance of puddles\" and another \"sunny after breakfast.\"",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A parent said the forecasts had become her son's favorite part of the walk.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Give me tomorrow's forecast for the most serious child.",
+          "gold_reply": "Mostly thoughtful, clearing into one enormous grin near the gate.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The guard still watches traffic through every joke and keeps both hands free for the stop sign.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Children remain behind the painted line until he signals.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The actual forecast is posted inside the nursery entrance.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-022",
+      "persona": "reading-group-host",
+      "domain": "office-routines",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The shared scissors vanished from their magnetic hook, and a paper trail of oddly shaped stars led from the copier to the training room.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Inside, a coworker was cutting name cards for tomorrow's welcome session with the missing scissors beside a pile of silver scraps.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That star trail solved the mystery with unnecessary flair.",
+          "gold_reply": "Exactly; the culprit left both evidence and festive decorations.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The hook label includes the training room as the first place to check during event preparation.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the scissors there until the final card was cut and placed a spare pair on the hook for ordinary use.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The coworker plans to return both pairs after cleanup.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No one has had to tear open a package by hand.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-023",
+      "persona": "coworker-storyteller",
+      "domain": "literature",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The newest chapter retells an earlier argument from the sister's viewpoint, preserving every spoken line while changing what the silences around them mean.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "In the first version, her pause looked cold; in her own version, she is counting slowly because anger has made speech feel dangerous.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why appoint either sister the judge when each can see only half the room? I am trying to hold the mismatch instead of forcing a verdict.",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The room, weather, and sequence of dialogue match across both chapters.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Only the private thoughts and interpretation of pauses differ.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Why might reliability be the wrong contest between the sisters?",
+          "gold_reply": "Reliability may be the wrong contest; each sister reveals the limits of her own view.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our discussion cards place the two passages side by side.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-024",
+      "persona": "reading-group-host",
+      "domain": "municipal-life",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The town square's new drinking fountain has two buttons marked with identical blue circles, one for a low bowl and one for a bottle spout.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "From standing height, the lower bowl is hidden behind the stone pedestal, so visitors press both buttons and laugh when water appears near their knees.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A small dog discovered the low stream before its owner understood what the second button controlled.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I added nothing to the fixture, but I placed the existing illustrated instruction card upright instead of flat on the nearby information table.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Blue arrows on the picture highlight a bottle, a hand, and a dog at the two different heights.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Name the hidden lower button for us.",
+          "gold_reply": "The surprise dog fountain—clearer than a mysterious second blue circle.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Several visitors have used the intended button on their first try since the card became visible.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-025",
+      "persona": "coworker-storyteller",
+      "domain": "office-routines",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our morning coffee machine has begun playing a cheerful three-note melody after every cup, and one coworker now conducts the final note with a wooden stirrer.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The tune is part of a new cleaning cycle alert, but it plays after ordinary brewing too, so the machine sounds proud of achievements it has not actually completed.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Muting it might steal the office's smallest concert. I am weighing peace against the fact that three people already gather for the stirrer finale.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The volume control offers low rather than only on or off, and the low setting remains audible to the person standing at the machine.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We tried one round at low volume, and the conductor simply leaned closer without losing the beat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Choose a side in our tiny coffee concert dispute.",
+          "gold_reply": "Keep the melody low; rituals survive better when they do not recruit the whole floor.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The cleaning alert still sounds twice, which keeps it distinct from the single brewing melody.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-026",
+      "persona": "reading-group-host",
+      "domain": "literature",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our group stopped three pages before the end of a section because the next page begins with a letter whose first line already sounds like a confession.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would that first line tempt you to keep reading?",
+          "gold_reply": "Yes—the promise of a confession makes one more page feel almost unavoidable.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Should the promise of a confession outweigh a clean stopping point? I can feel the room leaning toward the next page, but one shared question may be a better ending than five separate half-scenes.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The stopping point is not a chapter break, but the current page ends with the unopened envelope resting on a table.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Half the room wanted to continue, while the other half argued that a week of wondering would make the letter more interesting.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has read ahead in this edition; I collected the copies for our usual tea break.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We wrote one prediction each on folded slips without opening or comparing them.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The slips will stay sealed until after the letter is read next week.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-027",
+      "persona": "coworker-storyteller",
+      "domain": "municipal-life",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A temporary walkway through the municipal garden bends around a tree whose roots lifted the original paving, and the first directional board points visitors toward a row of flowering shrubs.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The second board is visible only after the bend, so newcomers pause at the shrubs and wonder whether the path has ended inside a very polite hedge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A gardener moved one potted fern aside, revealing the painted arrow on the path surface without adding another sign to the garden.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the ground arrow carry enough of the route? I am watching whether people follow it naturally before asking for a forest of boards around one protected tree.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Three families took the bend correctly while I was there, and one child called the arrow a secret trail marker.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Let the child rename this detour for us.",
+          "gold_reply": "The Secret Fern Turn—follow the ground arrow and protect the tree roots.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The tree remains fenced at the root zone, with the temporary path keeping shoes and wheels beyond the barrier.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The shrubs are untouched and still form the garden's entrance display.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-028",
+      "persona": "reading-group-host",
+      "domain": "office-routines",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A new coworker shadowed me through the morning mail routine and watched me sort envelopes into six trays whose labels make perfect sense only if you have worked here for years.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I caught myself saying \"the usual blue tray\" before realizing there are three blue trays and none contains the word usual.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She laughed at the ambiguity and focused on the decision each tray represents instead of memorizing where my hands happen to move.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I replaced my tour of tray colors with three plain tests: whether an envelope needs a signature, belongs to a team, or requires same-day attention.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We sorted the next batch together, and she challenged one envelope I had placed by habit; her reasoning showed that the team tray fit better.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What did she understand that my color tour missed?",
+          "gold_reply": "She learned the decisions behind the trays, so she can handle unfamiliar envelopes instead of copying your hands.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "By lunch, she could explain the choices without copying my route across the table, which felt more useful than a flawless imitation.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the old tray labels in place for now because changing the system before hearing from the rest of the office would turn one good lesson into a private redesign.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-029",
+      "persona": "coworker-storyteller",
+      "domain": "literature",
+      "register": "chatty-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our reading group has reached a novel whose chapters shrink from thirty pages to twelve, then six, then a single paragraph as the narrator approaches the day she has avoided describing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The shorter chapters are not summaries; each one slows down around one object—a train ticket, a cracked cup, a wool coat—and refuses to move beyond it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I noticed that our own discussion became quieter with each chapter, as though the blank page after the paragraph had entered the room before anyone named it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One member read the single paragraph twice and placed the book face down without offering an interpretation.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Does the shrinking form make the narrator more honest or more evasive? I can argue either way because she is finally touching the memory while giving us less language to hold.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Offer me an interpretation that keeps both honesty and evasion alive.",
+          "gold_reply": "She is approaching the truth honestly while controlling its size; the narrowing form can be courage and defense at once.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We let the silence stand, then each chose one object from the sequence and described only what the text attaches to it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No one tried to expand the paragraph into a full account the narrator had deliberately withheld.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-05-030",
+      "persona": "reading-group-host",
+      "domain": "municipal-life",
+      "register": "practical-warm",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the municipal open house, residents are building a model street from cardboard shops, trees, bus shelters, and little paper people, and one child has placed the bakery directly in the middle of the road.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How would the road bakery defend its impossible address?",
+          "gold_reply": "\"I belong where everyone can see me, even if the traffic has to bend around my ovens.\"",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Her father started to move it, but she explained that every bus should stop for bread because drivers get hungry too.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The table kept impossible ideas visible for the first round, so the road currently holds a bakery, a fountain, and one extremely ambitious vegetable garden.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Would clearing the road too early erase the useful wish inside the joke? I am listening for what each impossible placement wants before turning any piece into a practical location.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The bakery wish became a request for food near the transit stop, while the vegetable garden opened a conversation about shade and seating beside the route.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved duplicate pieces onto a second board labeled \"needs behind the idea\" rather than throwing them back into the supply box.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The child's bakery remains in the road until the table chooses a nearby corner that keeps both buses and hungry drivers in the story.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    }
+  ]
+}

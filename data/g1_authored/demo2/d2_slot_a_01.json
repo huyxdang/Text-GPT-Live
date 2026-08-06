@@ -1,0 +1,638 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "claude-sonnet-5",
+    "slot": "d2-slot-a",
+    "tranche": 1
+  },
+  "records": [
+    {
+      "id": "d2-slot-a-001",
+      "mode": "corrections",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Whenever you spot a typo or grammar slip while I'm journaling, just fix it.",
+        "ack": "Sounds good, I'll smooth out slips as they show up."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The kitchen still smelled like garlic long after I had finished washing every pot and pan from dinner.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Somehow I forgot to buy the noodels, so I will haveto try again tomorrow before the shop closes.",
+          "errors": [
+            {
+              "wrong": "noodels",
+              "right": "noodles",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            },
+            {
+              "wrong": "haveto",
+              "right": "have to",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "By midnight the broth had already cool down, and I wont admit how long I stood there stirring it for no reason.",
+          "errors": [
+            {
+              "wrong": "already cool down",
+              "right": "already cooled down",
+              "subtype": "tense",
+              "occurrence": 1
+            },
+            {
+              "wrong": "wont admit",
+              "right": "won't admit",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Even after all that effort, the noodles was barely warm enough to eat comfortably by the time I sat down.",
+          "errors": [
+            {
+              "wrong": "noodles was",
+              "right": "noodles were",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "repair",
+          "text": "I wiped down the counters again before finally turning off the kitchen light for the night.",
+          "repair": {
+            "wrong": "countters",
+            "right": "counters",
+            "subtype": "doubled-letter",
+            "occurrence": 1
+          },
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-002",
+      "mode": "corrections",
+      "persona": "workshop-notetaker",
+      "domain": "home-maintenance",
+      "register": "practical-terse",
+      "instruction": {
+        "text": "Catch any typos in these repair notes as I go, please.",
+        "ack": "Will do, typos get caught the moment they land."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Overnight the furnace filter looked worse than expected after months of dust.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Yesterday I relaced the hinge and hammerred the new bracket into place.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "relaced",
+              "right": "replaced",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "hammerred",
+              "right": "hammered",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Finally maple street had the screws, so I grabbed extra for next project soon.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "maple street",
+              "right": "Maple Street",
+              "subtype": "capitalization",
+              "occurrence": 1
+            },
+            {
+              "wrong": "extra for next project",
+              "right": "extra for the next project",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Meanwhile the truck arrived to the driveway two hours late.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "arrived to the driveway",
+              "right": "arrived at the driveway",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "aside",
+          "text": "I always misspell definately no matter what.",
+          "mentions": [
+            "definately"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-003",
+      "mode": "corrections",
+      "persona": "recipe-writer",
+      "domain": "crafts",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Smooth out any wording mistakes while I write this pattern down.",
+        "ack": "Happy to, I'll tidy up mistakes as they pop up."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The yarn I picked was softer than I expected, a warm oatmeal color that photographed beautifully in the light.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Twice I laid out all the pieces on the table twice before deciding the border needed one more round of single crochet.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Quickly I picked the wrong colro thread and had to start again fromscratch on the second skein of yarn.",
+          "errors": [
+            {
+              "wrong": "colro",
+              "right": "color",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            },
+            {
+              "wrong": "fromscratch",
+              "right": "from scratch",
+              "subtype": "spacing",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Next I finished the edge worked quick and grabbed two skein of yarn for the next project before I forgot.",
+          "errors": [
+            {
+              "wrong": "worked quick",
+              "right": "worked quickly",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "two skein",
+              "right": "two skeins",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "By the end of the evening my hands was aching from all the frogging and re-stitching I had done.",
+          "errors": [
+            {
+              "wrong": "hands was aching",
+              "right": "hands were aching",
+              "subtype": "agreement",
+              "occurrence": 1
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-004",
+      "mode": "corrections",
+      "persona": "journal-keeper",
+      "domain": "gardening",
+      "register": "practical-terse",
+      "instruction": {
+        "text": "Nudge me toward correct grammar anytime I slip while logging the garden.",
+        "ack": "Got it, I'll nudge you the moment something slips."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Dew clung to the garden leaves this morning.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Still the soil felt cool under my boots.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Birdsong drifted across the quiet yard.",
+          "pause_after": "short",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Meanwhile the tomatoes went in besides the fence, and the seedlings had allready doubled since I water them daily.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "besides the fence",
+              "right": "beside the fence",
+              "subtype": "preposition",
+              "occurrence": 1
+            },
+            {
+              "wrong": "had allready doubled",
+              "right": "had already doubled",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "I water them",
+              "right": "I watered them",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Its been a slow season, but the vines started climbing steady this week.",
+          "pause_after": "long",
+          "errors": [
+            {
+              "wrong": "Its been",
+              "right": "It's been",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            },
+            {
+              "wrong": "climbing steady",
+              "right": "climbing steadily",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-005",
+      "mode": "corrections",
+      "persona": "workshop-notetaker",
+      "domain": "cooking",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Keep polishing my grammar as I jot down this recipe, okay?",
+        "ack": "Sure thing, I'll keep polishing as you jot it down."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Soon the kitchen smelled like toasted cumin the moment the pan heated up.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Quickly I wisked the egg whites and grabbed spoon from the drawer.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "wisked",
+              "right": "whisked",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "grabbed spoon",
+              "right": "grabbed a spoon",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Originally the recipe came from my aunt maria, who used two egg for this batch.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "aunt maria",
+              "right": "Aunt Maria",
+              "subtype": "capitalization",
+              "occurrence": 1
+            },
+            {
+              "wrong": "two egg",
+              "right": "two eggs",
+              "subtype": "plural",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Next I stirred the batter careful so it wouldn't overmix today.",
+          "pause_after": "long",
+          "errors": [
+            {
+              "wrong": "stirred the batter careful",
+              "right": "stirred the batter carefully",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-006",
+      "mode": "highlights",
+      "category": "tool",
+      "category_words": [
+        "wrench",
+        "hammer",
+        "chisel",
+        "screwdriver",
+        "drill"
+      ],
+      "persona": "recipe-writer",
+      "domain": "home-maintenance",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Point out every tool I mention while I write up this repair log.",
+        "ack": "On it, I'll point out every tool as it comes up."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The garage smelled like fresh sawdust this afternoon.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Boxes of spare parts lined the far wall of the workshop.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Sunlight came through the window and warmed the workbench.",
+          "pause_after": "short",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "In the workshop today I used a wrench, a hammer, a chisel, a screwdriver, and finally a drill for the job.",
+          "pause_after": "long",
+          "marks": [
+            {
+              "word": "wrench",
+              "literal": true
+            },
+            {
+              "word": "hammer",
+              "literal": true
+            },
+            {
+              "word": "chisel",
+              "literal": true
+            },
+            {
+              "word": "screwdriver",
+              "literal": true
+            },
+            {
+              "word": "drill",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-007",
+      "mode": "highlights",
+      "category": "color",
+      "category_words": [
+        "amber",
+        "cobalt",
+        "crimson",
+        "ochre",
+        "indigo"
+      ],
+      "persona": "journal-keeper",
+      "domain": "crafts",
+      "register": "practical-terse",
+      "instruction": {
+        "text": "Mark any color word I use while I describe this stained glass piece.",
+        "ack": "Will do, every color gets marked the instant it appears."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Today I chose a deep cobalt for the border glass since it caught the light so well this afternoon.",
+          "marks": [
+            {
+              "word": "cobalt",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "My neighbor's cat Amber kept batting at the scrap pieces on the table the whole afternoon.",
+          "marks": [
+            {
+              "word": "Amber",
+              "literal": false
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The soldering iron took forever to heat up properly in the cold garage this morning.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The last panel needed a thin line of crimson running along the top edge to balance the piece.",
+          "marks": [
+            {
+              "word": "crimson",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Later I mixed in a touch of ochre to warm up the background before the final firing tomorrow.",
+          "marks": [
+            {
+              "word": "ochre",
+              "literal": true
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A thread of indigo glass tied the whole window together once it caught the afternoon sun.",
+          "marks": [
+            {
+              "word": "indigo",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Finally I still needed one more strip of amber glass to finish the corner before calling it done.",
+          "marks": [
+            {
+              "word": "amber",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-a-008",
+      "mode": "highlights",
+      "category": "bird",
+      "category_words": [
+        "heron",
+        "finch",
+        "sparrow",
+        "robin",
+        "warbler"
+      ],
+      "persona": "workshop-notetaker",
+      "domain": "gardening",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Call out any bird you catch me mentioning in this planting log.",
+        "ack": "Got it, birds get called out the moment they show up."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Slowly the compost pile finally stopped steaming as the weather cooled off for the season this week.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A heron stood motionless at the edge of the pond for almost twenty minutes this morning.",
+          "marks": [
+            {
+              "word": "heron",
+              "literal": true
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "I spotted a finch pulling fibers from the old rope trellis to line its nest again.",
+          "marks": [
+            {
+              "word": "finch",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Overnight the tomato cages needed straightening again after last night's wind knocked half of them sideways.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A sparrow kept landing on the fence post every time I filled the feeder this afternoon.",
+          "marks": [
+            {
+              "word": "sparrow",
+              "literal": true
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Meanwhile the robin from last spring seems to have come back to the same corner of the yard.",
+          "marks": [
+            {
+              "word": "robin",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "A warbler flitted through the hedge so fast I almost missed it entirely this time.",
+          "marks": [
+            {
+              "word": "warbler",
+              "literal": true
+            }
+          ],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

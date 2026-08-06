@@ -1,0 +1,448 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {"model": "gpt-5.6-sol", "slot": "d1-sol-b", "tranche": 7},
+  "records": [
+    {
+      "id": "d1-sol-b-07-001",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "At Sunday lunch, our broken doorbell stayed silent, but everyone looked up when a spoon rang twice against the balcony rail, the family’s rainy-day arrival signal.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Why did two taps bring the whole table to its feet?", "gold_reply": "The family recognized a private arrival signal; the spoon on the rail carried more meaning than the broken bell.", "pause_after": "none"},
+        {"kind": "narration", "text": "My uncle had mentioned that the downstairs buzzer failed during the morning rain.", "traps": ["reported_speech"], "pause_after": "medium"},
+        {"kind": "narration", "text": "My cousin stood below with both hands full of bread and fruit.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Someone lowered the key in a cloth bag while the rest of us cleared a place.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The spoon returned to the table before the soup cooled.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-002",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "My brother packed identical blue weekend bags for his two children and tied one wooden bead to the younger child’s zipper.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "He uses the bead to remind himself which bag holds the night-light and picture book.", "traps": ["descriptive_command_word"], "pause_after": "none"},
+        {"kind": "address", "text": "Give the tiny bead its proper job title.", "gold_reply": "Chief Bag Identifier, with additional responsibility for preventing bedtime confusion.", "pause_after": "none"},
+        {"kind": "narration", "text": "The older child chose a smooth shell for the other zipper.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Both markers stayed quiet enough for the train ride.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "At the hotel, nobody opened three pockets to find the book.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-003",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Four generations fit on the porch step for a photograph, with the youngest child holding the remote.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The child watched the remote instead of the camera.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Aunt Lien placed a paper pinwheel beside the lens.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The next frame caught every face turned toward the same spinning color.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Was the pinwheel a distraction or the thing that finally joined the picture?", "gold_reply": "Both: it drew the child’s eyes up and gave everyone one shared point of attention.", "pause_after": "none"},
+        {"kind": "narration", "text": "Could a toy count as part of the portrait? I kept it because the child still gripped the remote.", "traps": ["elaborating_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "We printed the version with one blurred pinwheel blade.", "traps": [], "pause_after": "none"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-004",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "Two cousins emptied a puzzle onto the rug and took opposite corners.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Assign me a peacekeeping role before the blue pieces become a border dispute.", "gold_reply": "You can run the shared sky tray: collect blue pieces for both corners without granting either cousin ownership of the clouds.", "pause_after": "none"},
+        {"kind": "narration", "text": "One sorted straight edges; the other grouped roof tiles.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "A baking sheet became neutral territory for sky pieces.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Who would search the rug for one cloud when diplomacy has a tray?", "traps": ["rhetorical_question", "descriptive_command_word"], "pause_after": "none"},
+        {"kind": "narration", "text": "The two corners met first along a row of chimneys.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Neither remembered which blue piece started the argument.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The finished sky occupied the center without belonging to anyone.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-005",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "A wide green serving plate appears at every family gathering, although nobody remembers buying it. This year two households arrived carrying dishes that both needed its broad, shallow rim.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The roasted vegetables could move to a deep bowl without losing their shape, while the layered fruit tart would crack if lifted twice. Both cooks had spent the morning arranging their food, and neither had treated the plate as personal property.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Which dish gets the green plate without turning tradition into ownership?", "gold_reply": "Give it to the fragile tart and move the vegetables once into the deep bowl; the plate serves the meal, not a particular branch of the family.", "pause_after": "none"},
+        {"kind": "narration", "text": "We slid the vegetables into the bowl with two broad spoons and left the tart where it had cooled.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "At dessert, someone found an old photograph showing the same plate beneath a completely different cake.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The plate returned to the shared cupboard after washing, still carrying no name underneath.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-006",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "During a crowded family call, my niece began holding up colored cards instead of trying to speak over twelve adults. Yellow meant she had a story, green meant she could hear us, and a red card meant the camera had frozen again.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The system worked until three relatives copied her and nobody knew whether Uncle Bao’s yellow square meant a story or a lighting experiment.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "My aunt announced that yellow belonged to the children for the rest of the call.", "traps": ["reported_speech"], "pause_after": "long"},
+        {"kind": "narration", "text": "My nephew raised his card and asked, “Does a joke count as a story?”", "traps": ["quoted_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "Everyone lowered their own cards while he leaned closer to the microphone.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Give him the floor with a little ceremony.", "gold_reply": "The yellow card is recognized; the family call now yields the floor to one officially announced joke.", "pause_after": "none"},
+        {"kind": "narration", "text": "His joke arrived clearly, followed by twelve separate waves instead of twelve overlapping replies.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-007",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "For our reunion banner, each relative was pressing a painted hand onto a long paper tree. My youngest cousin wanted her own leaf in the picture but kept both hands behind her back because she disliked the feel of wet paint.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Can she join the banner without putting paint on her skin?", "gold_reply": "Yes. Trace her hand on colored paper, let her decorate the cutout, and attach it as her leaf among the painted prints.", "pause_after": "none"},
+        {"kind": "narration", "text": "She chose orange paper and held one hand flat while an older cousin traced around it with pencil.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The paper hand received silver dots, a green cuff, and her name across the palm.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "We cut it out with a narrow white edge and placed it beside two blue painted prints.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Its crisp outline looked different without reading as separate from the tree.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "She carried the finished banner into the dining room by its dry corner.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-008",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "When my parents moved to a narrower apartment, we discovered that the embroidered curtains from their old living room were nearly a meter too wide for either new window. My mother loved the border because three relatives had added sections over different winters, but she did not want heavy folds blocking the morning light.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Cutting the cloth down would fit one window and remove most of the stitched names along the outer edge. Storing it untouched would preserve every mark but turn a living household object into a parcel nobody saw. We laid the panels across the floor with the border facing inward and measured the plain center twice.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "A note in the moving box used the word correct beside the old window width, but that measurement described the former room rather than a rule for the new one.", "traps": ["descriptive_command_word"], "pause_after": "none"},
+        {"kind": "address", "text": "Find a use that keeps the family stitching visible without making the new room obey the old windows.", "gold_reply": "Turn the embroidered border into a shallow wall hanging and use lighter plain curtains for the windows; the shared work stays visible without sacrificing daylight.", "pause_after": "none"},
+        {"kind": "narration", "text": "We folded the unstitched center behind the border instead of cutting it, then slid a removable rod through the original top channel. The hanging fit above the low bookcase, where every stitched name could be read at eye level and no fabric touched the radiator beneath the window.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "By evening, thin linen panels moved easily in the new windows while the older cloth occupied its own span of wall. My mother opened both windows, watched the lighter curtains lift, and then traced the embroidered edge as if introducing the old room to a place with different proportions.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-009",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "At the annual family lunch, the place cards put seventeen-year-old Minh at the children’s table for the third year in a row. He likes his younger cousins, but he had brought a list of questions for the older relatives about their first jobs and the neighborhood where they grew up.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The youngest children needed help passing heavy dishes during the first course, yet six other adults were seated within reach. Minh’s card was the only one that assigned an older cousin to their table for the whole meal, and his empty chair at the long table sat between two relatives he hoped to hear.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "My aunt had repeated last year’s layout because Minh was patient with children, not because she meant to exclude him from the older conversation.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "We could seat an adult at the children’s table for each course, letting responsibility rotate instead of attaching it to the youngest person considered capable. Minh offered to help everyone settle for soup, then move before the longer stories began.", "traps": ["reported_speech"], "pause_after": "short"},
+        {"kind": "narration", "text": "Two younger cousins wanted him nearby for the paper-airplane contest after dessert, but neither objected to another adult cutting food or pouring water. A spare chair beside their table could hold his place when he returned for games.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Can we change the seating plan without making the younger children feel rejected?", "gold_reply": "Yes. Let Minh help them settle, rotate an adult into the practical role, and keep his spare chair for dessert games while he joins the older conversation.", "pause_after": "none"},
+        {"kind": "narration", "text": "After soup, Minh carried his plate to the long table and an uncle moved into the spare seat beside the children. The younger cousins kept folding planes for later, while Minh opened his notebook and heard three different versions of how the old neighborhood market used to close at night.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-010",
+      "persona": "parent-group-story-sharer",
+      "domain": "family",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "My siblings and I found a sealed tin marked “open when the youngest leaves home” behind a stack of board games. The youngest had moved into a nearby apartment two months earlier, but still returned every Friday with laundry and an appetite large enough to make the phrase leaves home feel less precise than our parents expected.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The tin was light and made no sound when tilted. Its tape had yellowed evenly, and four initials crossed the lid in ink, including one written backward by a child. None of us remembered packing it, although the handwriting placed the moment sometime before the youngest learned to spell her own name.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Opening it without her would satisfy the label’s literal condition while excluding the person whose departure defined the occasion. Waiting for a more dramatic distance might preserve ceremony forever and miss the ordinary transition already happening a few streets away.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Set a fair threshold for opening the tin.", "gold_reply": "Open it when all four siblings can gather with the youngest present; her move has already changed the household, and distance need not be theatrical to count.", "pause_after": "none"},
+        {"kind": "narration", "text": "We carried the tin to Friday dinner and placed it beside her usual laundry bag. She recognized the backward initial before anyone described the label, cut the tape herself, and took one ceremonial privilege from leaving home.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Inside were four paper crowns, a packet of now-powdery sweets, and a list of predictions about adulthood. One sibling expected a flying car, another expected unlimited television, and the youngest had drawn four doors connected by a single purple path.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "We wore the fragile crowns until one split above an ear. The apartment keys beside the plates looked less like an ending than another object on the same path, and the weekly laundry no longer weakened the move’s meaning; it simply described the kind of family transition we actually had.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The empty tin returned to the shelf with a new date under the old instruction. This time everyone wrote forward, and nobody tried to predict when visiting home should stop counting as part of leaving it.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-011",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "At board-game night, our cardboard dice tower sent every roll bouncing beneath the snack table.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Would you retire the tower or give it one last repair?", "gold_reply": "Try one last repair: stabilize its base and add a shallow catch tray before replacing the whole tower.", "pause_after": "none"},
+        {"kind": "narration", "text": "Mara lifted it and asked, “Did the bottom flap fold inward again?”", "traps": ["quoted_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "One strip of removable tape flattened the flap.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A biscuit-tin lid became a catch tray beneath the exit.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The next six rolls stayed visible and off the floor.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-012",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "My cardboard kaleidoscope showed six bright triangles and one black wedge whenever I turned it toward the window.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The colors moved around the wedge, but the dark shape stayed in one place.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "I slid the paper collar back without separating the mirror bundle.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Give the stubborn dark wedge a mechanical explanation.", "gold_reply": "One mirror edge is probably out of alignment, leaving a fixed gap while the colored pieces continue rotating.", "pause_after": "none"},
+        {"kind": "narration", "text": "Who invited a permanent eclipse into a tube built for color?", "traps": ["rhetorical_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "A narrow mirror strip had slipped behind its cardboard stop.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "I reseated the strip, and the next turn closed the dark wedge.", "traps": [], "pause_after": "none"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-013",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Our stamp circle found one lighthouse printed in blue, gray, and accidental-looking green.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The catalog used highlight as a heading for unusual colors.", "traps": ["descriptive_command_word"], "pause_after": "short"},
+        {"kind": "narration", "text": "All three stamps shared the same perforation count.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The green copy carried a clear postmark from the cataloged town.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "A magnifier showed no ink bleeding beyond the engraved lines.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "We placed it beside the listed color range rather than in the error tray.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Give the green lighthouse a cautious catalog note.", "gold_reply": "Documented green variant: perforations and postmark align with the listed issue, with no visible evidence of later recoloring.", "pause_after": "none"},
+        {"kind": "narration", "text": "The note left room for later paper analysis.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-014",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "My first hand-bound notebook opened flat, but its final section sat three millimeters higher. The thread felt even, and every page turned freely.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Is that raised section a failure or simply visible handwork?", "gold_reply": "It is visible handwork, not a functional failure: the pages turn freely and the binding tension is even.", "pause_after": "none"},
+        {"kind": "narration", "text": "Our club leader explained that trimming the section now could narrow its outer margin without lowering the fold itself.", "traps": ["reported_speech"], "pause_after": "medium"},
+        {"kind": "narration", "text": "I pressed the book between smooth boards for an afternoon, then checked its edge in side light. The rise softened but remained visible near the back cover.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A pencil line and a wash of diluted blue crossed the high section without breaking at either fold. I wrote the binding date on the final page and left the outer edge uncut.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "By the next meeting, the book held notes, two ticket stubs, and enough handling that the raised section felt less like a verdict. It remained useful and unmistakably the first one I had sewn.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-015",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "I painted a pale blue wash across cold-pressed paper, then tipped the board so the wet edge moved toward one corner. A darker pool formed there while the upper half began losing its shine.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The temptation was to brush back through the drying area, but the surface already showed tiny fibers where I had tested it once.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A clean cloth touched only the swollen drop at the lowest corner and lifted most of it without crossing the wash.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Name the restraint that matters most right now.", "gold_reply": "Leave the drying wash alone; remove only the pooled drop and let the gradient settle without another pass.", "pause_after": "none"},
+        {"kind": "narration", "text": "Could one more stroke make the transition smoother? I kept the brush above the palette and watched the shine disappear instead.", "traps": ["elaborating_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "The corner dried one shade deeper, while the center retained an uninterrupted fade.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "I marked the sheet as a useful study rather than touching the fibers again.", "traps": [], "pause_after": "none"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-016",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "Six pottery test tiles came from the same clay slab, but their glazes broke differently over one stamped ridge. The cream glaze stayed opaque, the rust glaze thinned to gold, and the blue gathered almost black in the deepest line.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Each tile carried the same firing code on its bare foot. Their flat centers looked similar under the studio lamp, so the ridge held most of the useful comparison.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "I set the tiles upright against white card and turned them together until the stamped lines caught side light.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The rust tile revealed the ridge clearly without losing the warm body color around it. Blue produced the strongest contrast, but its dark pool hid the smallest notch.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A future bowl will carry a shallow carved band rather than one deep groove.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Which glaze would you test on that shallow band?", "gold_reply": "The rust glaze: it reveals raised detail while keeping enough warm color around the carving to read the whole band.", "pause_after": "none"},
+        {"kind": "narration", "text": "I circled the rust code and kept the blue tile as a comparison for deeper carving.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-017",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Our tabletop group built a market square from foam stalls, paper awnings, and a stone fountain, then discovered that the central path was too narrow for anyone to reach the figures without lifting three roofs. The scene looked wonderfully crowded from the doorway and behaved like a locked cupboard from the table edge.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Rescue the crowded square without flattening its atmosphere.", "gold_reply": "Move one stall into a removable corner cluster and leave a hand-width route to the fountain; the square can stay dense while becoming playable.", "pause_after": "none"},
+        {"kind": "narration", "text": "A planning card used delegate beside the list of scenery jobs, describing who had painted roofs rather than assigning any new work.", "traps": ["descriptive_command_word"], "pause_after": "medium"},
+        {"kind": "narration", "text": "One player held up the spice stall and asked, “Could this whole corner lift away as a single piece?”", "traps": ["quoted_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "We joined the spice stall, basket cart, and striped canopy on one thin base, then tested the opening with the largest hand at the table. The cluster settled into the same visual gap when returned, and its edge disappeared beneath scattered paper leaves.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "During play, the corner lifted twice for movement and dropped back without shifting the fountain or exposing bare foam. The market still read as a busy place, but nobody had to become a crane operator whenever a figure crossed the square.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-018",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "At our casual chess table, Ren spent ten minutes arranging an elegant attack and then noticed that his own knight blocked the only open route. The position was not lost, but every dramatic piece seemed to be pointing through the same stubborn square.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "He could retreat the knight to a quiet edge square, trade it for a bishop, or abandon the attack and protect the exposed king. The clock was off because this was a study night, and both players had agreed to talk through one turning point each.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Give the blocked knight a face-saving exit.", "gold_reply": "Send it to the quiet edge square and call the move preparation; it clears the route without pretending the original attack was flawless.", "pause_after": "none"},
+        {"kind": "narration", "text": "Ren moved the knight backward and immediately saw two lines reopen across the center. His opponent tapped the board once, not to mock the retreat but to mark the exact square whose congestion had hidden the rest of the position.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Three moves later, the attack had changed sides and the same knight guarded a pawn from the edge. Nobody called it heroic, yet the piece had stopped blocking one plan and quietly supported another.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "We recorded the position before and after the retreat. On paper, the backward move looked modest; at the board, it had created the first honest space in a plan crowded by its own ambition.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-019",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Our listening club compared three recordings of the same shortwave broadcast, each captured from a different balcony during one summer storm. The first held a clear voice under steady hiss, the second lost several words beneath thunder, and the third carried a faint second station drifting in and out behind the speaker.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "We aligned them by the six-note interval signal at the beginning. Once the tones matched, the thunder in one recording landed exactly where the clear voice in another supplied a missing place name.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The overlapping station never fully covered the main broadcast. Its music rose during pauses, then slipped away when the speaker’s signal strengthened.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Jae listened twice and asked, “Are we making one perfect broadcast that nobody actually heard?”", "traps": ["quoted_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "We kept the three tracks separate and built a listening note that identified which balcony supplied each audible phrase. The note described the alignment without replacing hiss, thunder, or interference with invented clean air.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Does the aligned version preserve the night or erase it?", "gold_reply": "It preserves the night if the sources remain separate and every recovered phrase stays tied to the balcony where it was actually audible.", "pause_after": "none"},
+        {"kind": "narration", "text": "At the final playback, we switched among the tracks instead of blending them. The same sentence traveled through three kinds of weather, and the gaps remained audible enough to show why no single listener had possessed the whole broadcast.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-020",
+      "persona": "hobby-club-companion",
+      "domain": "hobbies",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "Our quilting circle laid twenty-four scrap blocks across the floor and discovered that one maker had turned every striped triangle in the opposite direction. Her four blocks formed small windmills while the rest created long diagonal rivers, and removing them would leave a clean pattern with four obvious holes.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Defend the four contrary windmills before symmetry puts them on trial.", "gold_reply": "Keep them as a deliberate pause in the river pattern; four repeated turns read as a choice, not a lone mistake.", "pause_after": "none"},
+        {"kind": "narration", "text": "The maker had already gone home, so nobody could ask whether the rotation was planned. We grouped her blocks together first, then moved one toward each quarter of the layout to see whether repetition could make their difference legible without inventing an explanation for it.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Why prosecute a triangle for facing the weather from another direction?", "traps": ["rhetorical_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "With one windmill in each quarter, the diagonal rivers bent briefly and resumed. The eye no longer stopped at a single apparent error; it traveled between four related interruptions that gave the larger field a slower rhythm.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "We pinned the arrangement to a sheet and photographed it from above before sewing. The image preserved the evidence we actually had: four consistently reversed blocks, many directional neighbors, and no statement about intent.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "At the next meeting, the absent maker laughed at the quartered windmills and chose a dark thread to outline them. She did not settle whether the first turn had been accidental; instead, she helped the repeated difference become part of the finished surface.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The quilt eventually hung with four small currents pushing against the larger flow. Nobody needed to call the river broken, and nobody had to rewrite an uncertain beginning as a perfectly planned design.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-021",
+      "persona": "parent-group-story-sharer",
+      "domain": "school",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Morning sun reflected from a glass cabinet onto the lower half of the classroom whiteboard, hiding blue numbers from two side seats while the upper board stayed clear.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "How can the class keep daylight and make the numbers readable?", "gold_reply": "Lower the nearest blind only enough to remove the reflection, and keep the writing on the clear upper board.", "pause_after": "none"},
+        {"kind": "narration", "text": "The teacher lowered one blind halfway instead of darkening every window.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "A fresh blue equation remained visible from both side seats.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The reading tables beside the other windows kept their daylight.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The blind rose again after the sun moved above the cabinet.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-022",
+      "persona": "parent-group-story-sharer",
+      "domain": "school",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "The student council made book-drive posters for the return date, accepted book types, and a volunteer thank-you, but the hallway board held only two.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The librarian had noted that the return-date poster must remain beside the collection box.", "traps": ["reported_speech"], "pause_after": "none"},
+        {"kind": "address", "text": "Choose the second poster without ranking anyone’s artwork.", "gold_reply": "Use the poster showing accepted book types; it answers the other practical question at the box, while all three designs can rotate elsewhere.", "pause_after": "none"},
+        {"kind": "narration", "text": "The third poster became the library door sign for Monday.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Its illustrator added a small arrow toward the main display.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Every design appeared before the drive ended.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-023",
+      "persona": "parent-group-story-sharer",
+      "domain": "school",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "A balloon rubbed on wool lifted six paper squares but left the heavier foil square on the desk.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The class repeated the trial with a second balloon.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Both balloons lifted paper from the dry tray.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The foil moved only when one edge curled upward.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Could the shiny surface be canceling the charge? I am separating material from weight before choosing an explanation.", "traps": ["elaborating_question"], "pause_after": "short"},
+        {"kind": "address", "text": "State the careful claim the class can make.", "gold_reply": "Under these trials, the charged balloons reliably lifted the light paper; the foil result is mixed and needs a weight-matched comparison.", "pause_after": "none"},
+        {"kind": "narration", "text": "We cut equal-size samples for the next lesson.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-024",
+      "persona": "parent-group-story-sharer",
+      "domain": "school",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "The class measured one flagpole shadow at nine, ten, and eleven. The fixed pole cast a shadow that shortened by almost a meter across three chalk marks.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "What changed if the pole did not?", "gold_reply": "The sun’s position changed, shifting the angle and length of the pole’s shadow while the pole itself stayed fixed.", "pause_after": "none"},
+        {"kind": "narration", "text": "Students measured from one base point and wrote the time beside each endpoint. One group first used the concrete collar’s edge, then repeated from the marked center.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The revised set kept the same downward pattern. A cloud softened the final outline, so the class recorded a small range rather than one sharp centimeter.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Back inside, the three chalk lines became a scale drawing with the pole represented by one upright segment. The moving shadow made the courtyard data visible without requiring the real flagpole to lean across anyone’s page.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The next measurement was scheduled for noon with the same base mark still visible.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-025",
+      "persona": "parent-group-story-sharer",
+      "domain": "school",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "Two reading partners reached the final page at different speeds. One child finished early and began tracing the illustration border while the other still followed the last paragraph with a finger.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The early finisher knew the ending and wanted to talk immediately, but the partner wanted quiet until the bookmark moved to the back cover. A basket nearby held blank cards and colored pencils for anyone waiting.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The child chose a card and drew the story’s crooked bridge without writing what happened there.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Give that waiting activity a name that respects both readers.", "gold_reply": "Spoiler-free sketch time: one reader stays engaged while the other finishes at their own pace.", "pause_after": "none"},
+        {"kind": "narration", "text": "When the bookmark reached the back cover, the card moved between them and became the first topic. The slower reader recognized the bridge and began with a detail the drawing had preserved without revealing the conclusion.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Both cards and books returned to their baskets before the next pair sat down.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-026",
+      "persona": "hobby-club-companion",
+      "domain": "school",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "The class dropped two paper spinners from the same stair landing. One had long narrow wings; the other had short broad wings, and both carried the same paper clip at the base.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The long-winged spinner reached the floor later in the first two drops, but different students released them by hand and one spinner began several centimeters higher.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Could longer wings always mean a slower fall? I kept wing shape separate from the uneven releases.", "traps": ["elaborating_question"], "pause_after": "long"},
+        {"kind": "narration", "text": "Who awards a flight trophy when the starting line keeps moving?", "traps": ["rhetorical_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "A ruler across two chair backs became one release bar. Five paired drops from that line gave the long-winged spinner four slower landings and one tie.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "State a conclusion that respects both the pattern and the small sample.", "gold_reply": "With equal release height, the long-winged spinner usually fell more slowly in five trials; more shapes and drops are needed before generalizing.", "pause_after": "none"},
+        {"kind": "narration", "text": "The next table kept paper mass fixed and tested a middle wing length.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-027",
+      "persona": "hobby-club-companion",
+      "domain": "school",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "For a classroom materials test, three paper-towel brands arrived in sheets of different sizes. The largest sheet lifted the whole puddle, but it used almost twice as much paper as the smallest sample, so the first result mixed absorbency with area.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "How can the class compare the towels without rewarding the biggest sheet?", "gold_reply": "Cut equal-size samples, apply the same water volume, and compare how much each sample retains before dripping.", "pause_after": "none"},
+        {"kind": "narration", "text": "Students cut ten-centimeter squares with one cardboard template and weighed each dry sample in a shallow tray. A dropper delivered the same number of drops to the center while a timer kept the soaking period equal.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Who crowns a giant sheet for winning a contest its extra corners entered?", "traps": ["rhetorical_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "After thirty seconds, each square moved to a clean tray. The class recorded wet mass, then held the sample over its tray for five seconds and counted only drops that fell after lifting.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "One brand retained more water in all three equal-area trials, while another dripped less but also gained less mass. The final chart kept retention and dripping in separate columns instead of turning two useful properties into one unexplained winner.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-028",
+      "persona": "hobby-club-companion",
+      "domain": "school",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "The cafeteria opened a small table near the windows for students who wanted a quieter lunch, but its first sign read “silent table” in red capitals. Several students slowed beside it, then chose noisier seats rather than risk looking as if they had been assigned there for breaking a rule.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The table itself had good daylight, ordinary chairs, and room for eight. A card basket at the center offered drawing prompts and small puzzles, yet the warning-like sign made those welcoming details feel secondary.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Rewrite the setup so quiet remains available without labeling the students who choose it.", "gold_reply": "Call it an optional low-conversation table, use a welcoming sign, and let students move in or out freely without teacher assignment.", "pause_after": "none"},
+        {"kind": "narration", "text": "A new green sign read “Quiet Lunch—join for calm conversation, drawing, or reading.” The rules beneath it covered only shared needs: low voices, open seats, and freedom to leave whenever another table felt better.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "On the next day, two friends brought books and spoke softly between pages. Another student completed one puzzle, carried the card back to the basket, and joined a louder table before dessert without explaining the move.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "By Friday, the table was sometimes full and sometimes empty. Its purpose stayed visible without becoming anyone’s identity, and ordinary movement between tables kept quiet from reading as punishment or permanent membership.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-029",
+      "persona": "hobby-club-companion",
+      "domain": "school",
+      "register": "friendly-candid",
+      "segments": [
+        {"kind": "narration", "text": "The student newspaper tested three heading colors on the same gray recycled paper. Bright teal looked lively on the screen, dark blue looked restrained, and black seemed ordinary until all three proofs passed through the school’s aging copy machine.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A layout sheet used highlight as a column heading for decorative color choices. It did not instruct anyone to mark the current page, and the team kept that note separate from the printed proofs.", "traps": ["descriptive_command_word"], "pause_after": "long"},
+        {"kind": "narration", "text": "On the copies, teal lost the thin strokes inside several letters. Dark blue remained readable but became uneven where the paper fibers were darkest, while black kept every letter opening clear at arm’s length.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Who needs brilliant color if half the heading disappears on the copy handed to readers?", "traps": ["rhetorical_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "The team also printed one black heading with a narrow teal rule beneath it. The rule softened on the copier without interfering with the words, and the screen version still carried a visible touch of the issue’s chosen color.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Set the production rule supported by both screen and photocopy trials.", "gold_reply": "Use black for heading text and reserve teal for nonessential rules or accents, so copied words remain legible while the screen edition keeps its color.", "pause_after": "none"},
+        {"kind": "narration", "text": "The final template stored text and accent colors as separate styles. The next issue could change its decorative rule without risking the letterforms that every printed and copied edition needed to preserve.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-07-030",
+      "persona": "hobby-club-companion",
+      "domain": "school",
+      "register": "lightly-humorous",
+      "segments": [
+        {"kind": "narration", "text": "For the end-of-term showcase, a class built a walk-through model of the local water cycle using blue string, paper clouds, a hand pump, and three clear containers at different heights. The model worked from the front, but the return tube crossed the only aisle wide enough for a wheelchair.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Moving the whole display against the wall would shorten the route but hide the pump from visitors. Raising the tube overhead would keep the floor open, although the existing cardboard arch bent when anyone touched its top.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Two students tested a side return behind the lowest container. Water still reached the pump, but the tube bulged into the neighboring project’s table space and pressed against a paper model of the town hall.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Choose a route for the tube that keeps both access and the neighboring project intact.", "gold_reply": "Support the tube overhead on a sturdier freestanding frame: the aisle stays clear, the pump remains visible, and no tube enters the next table.", "pause_after": "none"},
+        {"kind": "narration", "text": "The class replaced the cardboard arch with two weighted display poles and a light crossbar borrowed from the exhibition kit. The tube clipped beneath the bar above adult shoulder height, with enough slack at each end for the pump and upper container.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "A student rolled a library cart through the aisle while another operated the pump. Nothing touched the cart, the water kept circulating, and the neighboring town hall retained its roof and municipal dignity.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The display card described the overhead return as part of the exhibition setup rather than part of the natural cycle. Visitors could follow the blue string from cloud to ground while recognizing that one visible tube served the model’s mechanics.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "After the showcase, the poles returned to the kit and the tube coiled beside the containers. The accessible route had required extra structure, but it let every project keep its space and every visitor approach the working pump from the same open aisle.", "traps": [], "pause_after": "long"}
+      ]
+    }
+  ]
+}

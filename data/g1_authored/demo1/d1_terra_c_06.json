@@ -1,0 +1,1506 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 6
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-06-001",
+      "persona": "back-lane-nature-noticer",
+      "domain": "urban-wildlife",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At dusk, one tiny bat looped through the moths trembling around the laundrette sign.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does the glowing sign feel like an accidental supper table?",
+          "gold_reply": "It does—the light gathers moths into one bright patch, and the bat turns that patch into an easy evening meal.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "It vanished above the gutter, then returned at the same sharp angle.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Three moths scattered like ash while the rest kept circling the blue letter L.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The washing machines thumped behind the glass, unheard in the small rush of wings.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "When the sign clicked off, both hunter and supper vanished into the lane.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-002",
+      "persona": "family-photo-story-sharer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My niece blew soap bubbles across the courtyard while a rain puddle held a second, wavering copy of her yellow coat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I lowered the camera until the real coat and its reflection met along the puddle edge, leaving one bubble between them.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep the puddle in the portrait or let the bubble carry the whole picture?",
+          "gold_reply": "Keep the puddle; it gives her yellow coat a playful echo while the single bubble still holds the eye.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She tilted the wand toward the pale sky and asked, “Will the highlight stay on the bubble if I move this way?”",
+          "traps": [
+            "quoted_question",
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The bright spot slid across the bubble, but the puddled coat remained steady enough to anchor the frame.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A breeze broke the bubble just after the shutter clicked, leaving only rings on the water and her delighted open hand.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-003",
+      "persona": "back-lane-nature-noticer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Grandma began her milk-cart memory with the bell that reached the courtyard before the horse did.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She could still imitate its two uneven notes by tapping a cup with her ring.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The tap made her smile before she remembered any street name.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I wanted to stay with that sound instead of pulling her toward a date.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Offer me one gentle follow-up that keeps the bell in the room.",
+          "gold_reply": "Ask who usually appeared in the courtyard when those two notes arrived.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Her fingers stayed around the cup, ready to tap again.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-004",
+      "persona": "family-photo-story-sharer",
+      "domain": "urban-wildlife",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A row of house sparrows found the only dry soil in our courtyard inside a broad basil planter whose outer corner the roots had not reached.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "They lowered their breasts into that bare patch, flicking pale dust through the leaves without snapping a stem.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Suggest a way to leave their dust bath without surrendering the whole planter.",
+          "gold_reply": "Keep one shallow corner bare and dry, then guide the basil toward the other side instead of filling every gap with soil or mulch.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My nephew watched one bird disappear into its own dust and asked, “Do sparrows really wash in dirt?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We shifted one trailing basil shoot onto a small cane ring, keeping the birds' corner open while the fragrant leaves still caught the morning sun.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The next sparrow rolled once, rose in a powdery burst, and left three perfect toe marks beside the damp rim.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-005",
+      "persona": "back-lane-nature-noticer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "From the last bus seat, I photographed one red shop sign stretched into a ribbon by rain on the window.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give that blurred red ribbon a title before the bus turns.",
+          "gold_reply": "Call it “A Street Trying to Write Its Name in Water.”",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A clear drop split the ribbon into two bright tails.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The camera held the glass sharp and let the shop dissolve behind it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the corner, the red mark slid out of frame before I could make a second picture.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The wet window kept writing with every lamp we passed.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-006",
+      "persona": "family-photo-story-sharer",
+      "domain": "oral-history",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Uncle Minh remembered the ice seller arriving under a blanket of wet sawdust, with only the silver corner of the block visible on his cart.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Children guessed the block's size from that shining corner and crowded closer whenever the saw began its low rasp.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me why the guessing belongs in his memory as much as the ice itself.",
+          "gold_reply": "The guesses turned an ordinary delivery into a shared game, so the memory holds the children's anticipation as well as the cold block.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Was the sawdust part of the magic? I listened as he described pressing one cheek near the cart and feeling cold leak through without seeing the whole block.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "He tapped the table twice for the saw, then swept both hands outward for the moment the white slab finally appeared.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "His palms ended far apart, preserving the enormous size the ice had carried when he was eight.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-007",
+      "persona": "back-lane-nature-noticer",
+      "domain": "urban-wildlife",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After the rain, three pill bugs sheltered beneath a curled bougainvillea leaf near the middle of our courtyard.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The caretaker said a breeze had nudged the leaf away from the wall, though all three pill bugs still clung to its drier underside.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Who would expect one fallen leaf to become a traveling roof?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Another gust pushed the curled leaf across two wet paving stones, carrying the pill bugs with it while their small legs appeared beneath the moving edge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give that mobile shelter the warm acknowledgment it deserves.",
+          "gold_reply": "A gentle cheer for three tiny travelers keeping their curled roof while the courtyard breeze carries the whole home onward.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The leaf stopped against a watering-can foot, and the pill bugs stayed underneath until the paving began to dry.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-008",
+      "persona": "family-photo-story-sharer",
+      "domain": "photography",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The night-blooming cactus opened on our apartment landing while neighbors arrived in slippers, carrying stools, tea glasses, and three different ideas about where my camera should stand. Its white petals caught the yellow stair lamp, but the inner folds remained the soft gray of folded linen.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A neighbor explained that the flower might close before dawn, so I made one frame from the stair rail before moving anything. The rail entered as a dark diagonal, and two tea glasses glowed at the lower edge where their owners had forgotten them.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I tried the landing light alone, accepting a slower shutter while everyone held still. The petals kept their warm cream color, the central filaments separated cleanly, and a child's slipper remained beside the pot like a small blue comma.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Who needed a spotless studio when half the building had come downstairs to watch one flower breathe?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep the warm stair light even though it leaves the deepest petals quieter?",
+          "gold_reply": "Keep the warm light; it belongs to the landing gathering, and the visible outer petals still give the flower enough shape.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The final picture held the flower, the diagonal rail, the abandoned glasses, and three patient knees at the frame edge. Nobody looked staged; they simply leaned toward the pot as the lowest petal loosened another fraction and the building settled around us.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-009",
+      "persona": "back-lane-nature-noticer",
+      "domain": "oral-history",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Great-aunt Lan began her sewing-shop memory with hot starch and the charcoal iron breathing on its stand.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does the breathing charcoal iron feel like a second character in her shop memory?",
+          "gold_reply": "It does—the iron contributes heat, smell, and a living rhythm beside her work instead of sitting there as a silent tool.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My cousin lifted the cold iron and asked, “Was charcoal really burning inside this?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Lan laughed and shaped a small cloud above it with both hands.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The remembered shop grew warm before it acquired a street.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Only then did she place the window beside a tamarind tree.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-010",
+      "persona": "family-photo-story-sharer",
+      "domain": "urban-wildlife",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Grandfather's courtyard broom brushed the damp planter edges, stirring tiny insects from the leaf litter while a wagtail followed two hops behind the bristles.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Let the wagtail explain why Grandfather's broom is worth following.",
+          "gold_reply": "“Every sweep lifts a tiny breakfast from hiding, so I follow the bristles and let him turn the leaves for me.”",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each soft stroke sent one or two insects skittering into the open, and the bird darted forward before they reached the next pot.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Grandfather worked around the basil tubs in a slow curve; the wagtail copied that curve in quick black-and-white steps.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Whenever the broom lifted, the bird paused beside his sandal, flicked its tail, and watched the next patch of leaves.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The clean path widened behind them, one sweeping ahead and the other collecting what the sweep revealed.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-011",
+      "persona": "back-lane-nature-noticer",
+      "domain": "photography",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A tumbler of water on my kitchen table threw a faint rainbow across the blank edge of a handwritten recipe, but the colored band nearly disappeared into the cream paper.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Could a sheet of white card make that small rainbow clearer without moving the glass?",
+          "gold_reply": "A white card should give the colored band a cleaner surface while preserving the glass and its angle.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I slid the card beneath the recipe edge and kept one corner of my grandmother's handwriting inside the frame.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The yellow highlight widened first, then a thin blue rim appeared where the card curved upward near the salt jar.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A second frame held the same quiet glass, now casting enough color to touch the first letter of the recipe title.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "When the sun slipped behind the neighboring roof, the rainbow left before the water or the handwriting did.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-012",
+      "persona": "family-photo-story-sharer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Mother's first bakery job began with square paper bags for warm rolls.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Her first fold sprang open; the forewoman silently refolded one corner and returned the bag for another try.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Did that quiet demonstration feel more encouraging than formal feedback?",
+          "gold_reply": "Yes—the forewoman showed one manageable change, then trusted your mother with another attempt instead of turning the mistake into a judgment.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Mother opened that corner once, copied the sharper angle, and pressed it flat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The bag stayed shut around its warm rolls.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She remembered receiving a second bag before anyone spoke.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-013",
+      "persona": "back-lane-nature-noticer",
+      "domain": "urban-wildlife",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Beneath the bus shelter, a split lychee had fallen sticky-side down beside the curb, and a dark ant line approached it from a crack under the timetable post. Shoes landed on both sides without touching the fruit, yet every footfall broke the line into startled commas.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The ants first used the shortest path across the pale paving. When the noon queue thickened, they shifted into the narrow rain groove along the curb, where the concrete lip sheltered them from heels but added a long bend around a drain cover.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Their search widened whenever a bus sighed to a stop, then tightened again after the passengers moved away. One ant climbed the ridged drain cover three times before finding the lower groove that carried the line beneath it.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By early afternoon, tiny amber crumbs traveled through the protected channel while the empty route across the paving faded. The detour was longer, but it stayed continuous through two arriving buses, a folded stroller, and a suitcase set down near the timetable.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Give that curbside detour the dignity of a miniature city plan.",
+          "gold_reply": "It trades the shortest route for a sheltered corridor, using the curb groove and a lower passage around the drain to keep traffic moving.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A cleaner eventually lifted the lychee with a leaf and placed it in the soil beneath a nearby tree. The line loosened at once, spilled from the curb in several uncertain directions, and then formed again toward the darker patch beyond the shelter, carrying its map with it rather than leaving one on the pavement.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-014",
+      "persona": "family-photo-story-sharer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Hot soup clouded my cousin's round glasses just as she looked up from the bowl.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She laughed, leaving two clear fingertip arcs where she tried to wipe them.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the steam rising between the bowl and her face.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The lenses cleared at their edges while both centers stayed milky white.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep the fogged glasses instead of waiting for a cleaner portrait?",
+          "gold_reply": "Keep them—the fog, fingertip arcs, and rising steam preserve the heat and laughter that made the moment worth photographing.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The shutter caught one eye through a clear crescent and the other still hidden in soup cloud.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-015",
+      "persona": "back-lane-nature-noticer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My mother learned her first dance step between the kitchen table and a radio balanced on the flour tin.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Give that cramped first lesson the warmth it deserves.",
+          "gold_reply": "It sounds intimate and joyful: a narrow strip of kitchen floor became enough room for music, patience, and one remembered step.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Her older sister held out one hand and asked, “Can you turn without bumping the rice jar?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Who needs a ballroom when the soup pot keeps time?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Mother slid one foot along the cool tile and tucked her elbow whenever the cupboard door opened.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "She remembered missing the turn twice, then finding it when the radio singer held a final note.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At our table, both sisters demonstrated the same tiny turn with their shoulders.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-016",
+      "persona": "family-photo-story-sharer",
+      "domain": "urban-wildlife",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two small solitary bees began carrying pale plant fibers into a round hole beside our courtyard drainpipe.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "They used loose strands from a coir doormat, never the intact center where shoes landed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Could we offer loose fiber without inviting feet into the bees' flight path?",
+          "gold_reply": "Place a small bundle away from the doorway and close to their wall route, while leaving the landing clear for people.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The downstairs neighbor said the sunny wall corner stayed untouched by the door and the evening mop.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We tucked a thumb-sized coil of dry coir beneath that corner's brick ledge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One bee took a strand while the other circled the drainpipe twice.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By evening, the doormat lay flat and the wall hole carried a soft cream fringe.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-017",
+      "persona": "back-lane-nature-noticer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A hollow cicada shell clung to our neighbor's peeling blue gate, its hooked feet fixed between two flakes of paint and its split back facing the morning lane. I framed enough of the gate to keep the rusted latch and one chalk flower beside the small amber body.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep the peeling gate around the shell instead of isolating it?",
+          "gold_reply": "Keep the gate in view; its paint flakes, latch, and chalk flower give the delicate shell scale and a lived place in the lane.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The gate owner explained that a painter would begin on the inner panels that afternoon, then left the outer panel untouched while I worked. Her red dustpan remained propped below the latch, adding a flat bright triangle far beneath the shell.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I made one picture from across the lane, where the shell looked like a loose stitch beside the heavy latch, and another close enough for the papery leg joints to show. The blue paint shifted from turquoise to gray around it without hiding the chalk petals.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A breeze moved the gate inward by a finger's width. The shell traveled with the metal while its empty front claws stayed raised, and a narrow strip of shadow opened behind the split back, making the abandoned shape look briefly occupied again.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept my hands away and used the gate's own movement for the final frame. The latch softened at the edge, the chalk flower remained clear, and the shell's fine antenna cases cast two hair-thin shadows over a crescent of missing paint.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By noon, the shell still held its place above the dustpan while brushes and a paint tin arrived on the far side of the doorway. My photographs kept it exactly where the insect had left it: not on a blank field, but between old blue, household chalk, and the gate people touched every day.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-018",
+      "persona": "family-photo-story-sharer",
+      "domain": "oral-history",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Auntie Phuong remembered the courtyard sewing circle by the school bags piled under the guava tree before the new term. Buckles knocked against the low bench, waxed thread caught the afternoon light, and every repair seemed to arrive with a child waiting nearby.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "She explained that her mother handled torn straps while a neighbor replaced stiff zippers, but the women traded bags whenever one repair needed two pairs of hands. Nobody owned a single station; needles, pliers, and jokes moved around the circle together.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The sharpest memory was not a finished bag but the tiny cakes of beeswax children rolled between their palms. Phuong rubbed finger and thumb together as she recalled the sweet smell rising whenever thread dragged through a warm lump.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Did every child leave with the same neat stitches? I kept listening while she laughed about one crooked blue repair that became a source of pride because its owner could recognize his bag from the far end of a classroom.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "She traced that crooked line across the table with one finger, then mimed testing a strap by pulling it against her knee. The gesture brought back the children's impatient hopping more clearly than any description of the finished seams.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does the crooked blue repair sound like the heart of this memory rather than a flaw in it?",
+          "gold_reply": "It does—the recognizable crooked seam holds the shared work, the child's pride, and the circle's warmth better than a perfectly uniform repair would.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Phuong ended by placing an imaginary bag on her shoulder and walking two fingers across the tabletop. Around that small journey, the guava shade, warm wax, rattling buckles, and busy hands returned as a lived afternoon rather than a lesson in sewing.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-019",
+      "persona": "back-lane-nature-noticer",
+      "domain": "urban-wildlife",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A small lizard reached the hot drain cover at noon.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "It crossed only the thin shadows cast by the railing.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Each dark bar carried it a few centimeters sideways.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The direct route would have been shorter but fully sunlit.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its zigzag ended beneath the cool newspaper box.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Explain the lizard's crooked route in one warm sentence.",
+          "gold_reply": "It stitched together every narrow piece of shade, choosing a cooler zigzag over the shortest path.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Only its tail remained visible beside the folded papers.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-020",
+      "persona": "family-photo-story-sharer",
+      "domain": "photography",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My disposable camera layered birthday candles over an empty garden chair.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Both images stayed readable, but neither owned the frame.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Help me decide whether this accident deserves a place in the family set.",
+          "gold_reply": "Keep it—the candles and waiting chair make an accidental but tender bridge between the party and its quiet aftermath.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the overlap look intentional? I turned the print sideways and found the chair back holding the flames like a rack.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "My thumb hid one candle but left the seat clear.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I slid the odd print behind the formal group portrait.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Its small mistake felt more like the evening than the perfect frame did.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-021",
+      "persona": "back-lane-nature-noticer",
+      "domain": "oral-history",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My mother's two older sisters remembered the courtyard well by opposite sounds. Thu carried the bright clank of the bucket handle striking stone, while Mai began with the rope's dry whisper over the wooden roller and pressed her palm flat as if smoothing that sound across the table.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Neither corrected the other. Thu lifted an invisible bucket with quick elbows; Mai pulled more slowly, leaning back until her chair creaked. Their separate rhythms placed two children at the same well, one eager for the splash and one careful of the full clay jar waiting beside her feet.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Sit with those two sounds for a moment and tell me what they hold together.",
+          "gold_reply": "The clank and rope-whisper hold two temperaments inside one shared chore: Thu's quick anticipation and Mai's careful steadying of the water.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Thu's memory moved outward from the first impact: wet sandals, cousins racing for cups, and sunlight flashing in the bucket before it disappeared below the wall. Mai's moved inward toward the roller, where frayed fibers warmed her hand and a dark groove showed how often the rope had passed.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "When I set a metal cup between them, Thu tapped its rim and Mai dragged one finger across the table. The sounds met without becoming identical, a little duet made from the same daily task and from the different places each sister had stood while doing it.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "They finally joined at the splash. Both hands opened at once, and both faces tightened against remembered droplets even though the room was dry. For one breath, the old courtyard seemed to contain quick metal, rough rope, and two girls bracing for the same cold water.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Mai finished by turning the imaginary jar toward Thu, who accepted its weight with both arms. The gesture closed the distance between their versions more gently than choosing one sound ever could.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-022",
+      "persona": "family-photo-story-sharer",
+      "domain": "urban-wildlife",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After a warm shower, frogs began calling from the grated drain beneath our lane, each voice entering the brick tunnel as a small wooden knock and returning from farther inside as a rounder note. The drain itself stayed dark, but the sound made its bends feel briefly visible.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Name that hidden tunnel choir without making the frogs sound grander than they are.",
+          "gold_reply": "Call them “The Drainpipe Knockers”—small voices using the tunnel's echo to fill more of the lane than their bodies could.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One caller kept a steady two-beat pulse near the grate. Another answered from beyond the first bend, where its lower note arrived a fraction later and seemed to lift through the pavement beside the bicycle shed rather than from the opening at my feet.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Their dusk search for partners crossed the lane as sound instead of movement. I stayed on the dry paving, listening, while a bead of water gathered under each iron bar and dropped into the tunnel between calls.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A scooter passed and silenced both voices for several seconds. The near frog returned first with one cautious knock, then the distant frog filled the echo behind it, restoring the odd sense that two tiny doors had opened below different parts of the street.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "As the bricks dried, the echoes shortened. The farther voice became harder to place, while the frog near the grate climbed high enough for its pale throat to flash once beneath the bars before it slipped back into the black channel.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By midnight the lane held only dripping water and the refrigerator hum from an open kitchen window. The temporary choir had left no stage behind, just two directions I could still hear in memory whenever I looked at the quiet grate.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-023",
+      "persona": "back-lane-nature-noticer",
+      "domain": "photography",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "During my cousin's birthday, an old slide projector cast her childhood beach picture across the dining-room wall behind the cake.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Candle smoke crossed the projected water while the present-day cousin leaned forward to blow, placing her profile inside the pale horizon.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I exposed one frame for her face and let the slide wash softly across her cheek rather than trying to make both images equally crisp.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The projector's bright edge entered above her shoulder, and two paper hats made small dark peaks along the lower wall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After the candles went dark, a thin ribbon of smoke still joined the old water to the current room.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you keep the projector flare even though it announces the trick?",
+          "gold_reply": "Keep it—the flare belongs to the room and makes the meeting between the childhood slide and her present profile feel honest rather than seamless.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "In the final frame, the visible beam felt less like an error than a bridge someone could actually point to.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-024",
+      "persona": "family-photo-story-sharer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Grandmother remembered a sudden rain sending schoolchildren home under banana leaves.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Offer a follow-up that invites the walk home rather than testing the weather.",
+          "gold_reply": "Ask who shared her leaf and what they could see or hear beneath it on the way home.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She cupped both hands overhead and asked, “Could two heads fit under one leaf?”",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Hoa took one side while muddy water curled around their sandals.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "They tilted the leaf at each gate and arrived with opposite shoulders wet.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "They laughed over which shoulder had been luckier.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Grandmother's hands stayed raised after the rain story stopped.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-025",
+      "persona": "back-lane-nature-noticer",
+      "domain": "urban-wildlife",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A small orb-weaver built its web between our laundry pole and the jasmine trellis after the final sheet came down.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The outer line touched the pole below the clothespin groove, leaving tomorrow's hanging space partly open.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the web survive a row of wet shirts? I watched the spider test that shared boundary with one foreleg before adding another spoke.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A second pole stood a handspan farther from the trellis and carried no web or washing line.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Moving tomorrow's first sheet there would preserve both the clear path and the spider's fresh anchor.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Is one small shift worth making for a web that appeared overnight?",
+          "gold_reply": "Yes—the empty pole offers an easy alternative, so the laundry can move without sweeping away the spider's work.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "At sunrise, dew made the spared web brighter than any shirt on the line.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-026",
+      "persona": "family-photo-story-sharer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "During our mango-pickling afternoon, I photographed my aunt's hands pressing green wedges beneath brine in a wide glass jar. The kitchen window laid a pale rectangle across the table, and salt crystals clung to one wet knuckle like grains of frost.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A second frame moved closer to the jar wall, where her fingers appeared wider through the curved glass and a trapped bubble trembled below her thumb. Behind it, my cousin's hands tied a red cloth over the first finished jar.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The yellow highlight on the brine traveled upward when the jar turned, briefly touching the cloth knot before breaking into three smaller reflections. I kept the wet table edge in view so the light still belonged to an ordinary kitchen rather than a polished display.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "For the third frame, my aunt lifted both hands clear. The mango wedges stayed pressed in a green spiral, her fingertips shone with brine, and one salt crystal remained on the table exactly where her smallest finger had rested.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My cousin slid the covered jar beside the open one, giving the sequence a beginning and an ending without asking anyone to pose. A red thread from the cloth lay across the table between them like a loose underline.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The last image caught both pairs of hands reaching for a towel from opposite sides. Their fingers never touched, but the shared motion echoed the earlier pressing and tying more warmly than a row of completed jars would have.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Treat the final shared reach as the family portrait of this afternoon.",
+          "gold_reply": "Both pairs of hands reach from opposite sides, turning an ordinary cleanup gesture into a portrait of shared work without asking anyone to pose.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "After the camera went away, the salt crystal dissolved under the towel and the two jars took different places on the shelf. What stayed with me was the red thread, the briny fingertips, and that small shared reach across the wet table.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-027",
+      "persona": "back-lane-nature-noticer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Mr. Binh remembered the old neighborhood bus by the parcel shelf above his conductor's seat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He said market baskets rode there beside school satchels, each tied with whatever string a passenger had brought.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Who could remember every owner once the bus filled?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Binh remembered by touch: smooth satchel straps, rough reed handles, and one cold metal lunch tin.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At each stop, he lowered the right parcel before its owner reached the door.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "His hands still sorted an invisible shelf while his eyes moved down an imaginary aisle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me what his parcel memory reveals about knowing a route through people.",
+          "gold_reply": "He knew the route as a chain of owners and familiar objects, anticipating each stop through the parcel that belonged there.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "He ended with the metal lunch tin cooling his palm near the river stop.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-028",
+      "persona": "family-photo-story-sharer",
+      "domain": "urban-wildlife",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A blackbird began weaving its nest into the fork of a plane tree above the alley recycling bins. Along with dry grass, it carried a narrow receipt strip whose blue numbers flashed whenever the paper turned between its beak and the morning light.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The fork sat just beyond the second-floor fire stair, close enough to see the bird push each strand beneath its breast but far enough that opening the stair door made it freeze with the paper held halfway into the cup.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "From the kitchen window, the nest remained partly hidden by new leaves. I could watch without crossing the landing or standing below the branch, and the blackbird resumed weaving after only one quick glance toward the glass.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Help me choose the kinder viewpoint even if it gives me less of the nest.",
+          "gold_reply": "Stay at the kitchen window; the leaves obscure part of the nest, but the bird keeps working and you avoid disturbing it from the fire stair or below.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I rested my elbows on the sill and let the leaves divide the scene into small green openings. Through one gap, grass curved along the rim; through another, the receipt vanished until only its torn white end showed beside a twig.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The bird returned with a root fiber, pressed it down with three turns, and settled briefly into the cup. Its tail rose above the leaves while the blue receipt numbers disappeared beneath its body, no longer a human message from this distance.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A collection truck rattled the bins below, but the fork barely moved. The blackbird lifted its head, waited through the loudest clatter, and then tucked the loose white paper end under a grass loop without leaving the branch.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By noon, shifting leaves covered the cup completely from my window. I closed the curtain halfway and kept the last incomplete view: one dark tail, a loop of grass, and a receipt becoming weatherproof in a language of beak and branch.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-029",
+      "persona": "back-lane-nature-noticer",
+      "domain": "photography",
+      "register": "sensory-playful",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "One frame remained in the picnic camera after everyone left the table.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would you spend it on the empty chairs and crushed paper crowns?",
+          "gold_reply": "Spend it there—the quiet chairs and flattened crowns can hold the gathering's afterglow without another posed face.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Four chairs leaned back from the cloth at different angles.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A pink crown rested inside a teacup.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I left one slice of late light across the rumpled table.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The final click sounded louder without conversation around it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I wound the camera closed before clearing the cups.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "That last picture belonged to everyone who had just stood up.",
+          "traps": [],
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-06-030",
+      "persona": "family-photo-story-sharer",
+      "domain": "oral-history",
+      "register": "warm-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A retired seamstress remembered sewing orange lining into a gray coat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Her quietest friend chose the color herself.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The hidden orange became the winter highlight whenever a cuff turned back.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She showed it by rolling her own sleeve.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She remembered no compliment, only her friend's quick private grin.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Her thumb stayed beneath the imaginary cuff as if guarding the color.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Does that hidden lining tell us something about their friendship?",
+          "gold_reply": "The lining suggests they shared a private brightness that did not need public praise to feel understood.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The gray coat left the story with one orange turn at the wrist.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

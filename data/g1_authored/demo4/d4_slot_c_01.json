@@ -1,0 +1,273 @@
+{
+  "schema_version": "g1-authored-demo4-1",
+  "demo": "demo-4",
+  "author": {"model": "sonnet-5", "slot": "d4-slot-c", "tranche": 1},
+  "requests": [
+    {
+      "id": "demo4-d4c-req-01",
+      "text": "Can you sketch out a little exhibit map for the gallery?",
+      "task": "generate a UI mapping the gallery exhibit layout",
+      "persona": "museum-docent",
+      "domain": "arts",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-req-02",
+      "text": "Could you whip up a board showing this week's recipes?",
+      "task": "generate a UI listing this week's recipe lineup",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-req-03",
+      "text": "Would you chart the fox sightings from the last month?",
+      "task": "generate a UI charting recent fox sightings",
+      "persona": "night-shift-diarist",
+      "domain": "urban-wildlife",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-req-04",
+      "text": "Mind building a panel of tonight's setlist?",
+      "task": "generate a UI displaying tonight's concert setlist",
+      "persona": "museum-docent",
+      "domain": "music",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-req-05",
+      "text": "Any chance you could draft a little board for the mural sketches?",
+      "task": "generate a UI organizing the mural sketch drafts",
+      "persona": "kitchen-notetaker",
+      "domain": "arts",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-req-06",
+      "text": "I'd love a small chart tracking the bread proofing times.",
+      "task": "generate a UI tracking bread proofing times",
+      "persona": "night-shift-diarist",
+      "domain": "cooking",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-req-07",
+      "text": "Let's get a dashboard going for the raccoon count.",
+      "task": "generate a UI summarizing raccoon sighting counts",
+      "persona": "museum-docent",
+      "domain": "urban-wildlife",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-req-08",
+      "text": "Think you could put together a little rehearsal schedule view?",
+      "task": "generate a UI showing the rehearsal schedule",
+      "persona": "kitchen-notetaker",
+      "domain": "music",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-req-09",
+      "text": "Fancy drawing up a panel of the sculpture inventory?",
+      "task": "generate a UI listing the sculpture inventory",
+      "persona": "night-shift-diarist",
+      "domain": "arts",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-req-10",
+      "text": "Might you build a little tracker for the spice rack?",
+      "task": "generate a UI tracking the spice rack inventory",
+      "persona": "museum-docent",
+      "domain": "cooking",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-req-11",
+      "text": "Up for sketching a board of the owl nest activity?",
+      "task": "generate a UI charting owl nest activity",
+      "persona": "kitchen-notetaker",
+      "domain": "urban-wildlife",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-req-12",
+      "text": "Got time to chart the busker earnings from the plaza?",
+      "task": "generate a UI charting busker earnings",
+      "persona": "night-shift-diarist",
+      "domain": "music",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-req-13",
+      "text": "How about a small panel tallying visitor sketches?",
+      "task": "generate a UI tallying visitor sketch submissions",
+      "persona": "museum-docent",
+      "domain": "arts",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-req-14",
+      "text": "One more thing, can you graph the fermentation batch notes?",
+      "task": "generate a UI graphing fermentation batch notes",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-req-15",
+      "text": "What about a little map of the heron roosting spots?",
+      "task": "generate a UI mapping heron roosting spots",
+      "persona": "night-shift-diarist",
+      "domain": "urban-wildlife",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-req-16",
+      "text": "Feel like building a board of the busking rotation?",
+      "task": "generate a UI displaying the busking rotation schedule",
+      "persona": "museum-docent",
+      "domain": "music",
+      "register": "wry-understated"
+    }
+  ],
+  "progress_pairs": [
+    {
+      "id": "demo4-d4c-check-01",
+      "kind": "check",
+      "question": "taking shape?",
+      "reply": "Still stitching it together — not quite ready.",
+      "persona": "museum-docent",
+      "domain": "arts",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-check-02",
+      "kind": "check",
+      "question": "still brewing?",
+      "reply": "Getting there, just not finished yet.",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-check-03",
+      "kind": "check",
+      "question": "nearly there?",
+      "reply": "Not quite — still piecing it together.",
+      "persona": "night-shift-diarist",
+      "domain": "urban-wildlife",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-check-04",
+      "kind": "check",
+      "question": "any word yet?",
+      "reply": "Making headway, but it isn't up yet.",
+      "persona": "museum-docent",
+      "domain": "music",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-check-05",
+      "kind": "check",
+      "question": "making headway?",
+      "reply": "It's coming along, just needs more time.",
+      "persona": "kitchen-notetaker",
+      "domain": "arts",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-check-06",
+      "kind": "check",
+      "question": "status update?",
+      "reply": "Almost there — hang on a little longer.",
+      "persona": "night-shift-diarist",
+      "domain": "cooking",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-check-07",
+      "kind": "check",
+      "question": "is it up yet?",
+      "reply": "Working through it still, not done yet.",
+      "persona": "museum-docent",
+      "domain": "urban-wildlife",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-check-08",
+      "kind": "check",
+      "question": "coming along?",
+      "reply": "Nearly finished, just polishing a few bits.",
+      "persona": "kitchen-notetaker",
+      "domain": "music",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-nudge-01",
+      "kind": "nudge",
+      "question": "still around?",
+      "persona": "night-shift-diarist",
+      "domain": "arts",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-nudge-02",
+      "kind": "nudge",
+      "question": "did you get it?",
+      "persona": "museum-docent",
+      "domain": "cooking",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-nudge-03",
+      "kind": "nudge",
+      "question": "landed okay?",
+      "persona": "kitchen-notetaker",
+      "domain": "urban-wildlife",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-nudge-04",
+      "kind": "nudge",
+      "question": "got that?",
+      "persona": "night-shift-diarist",
+      "domain": "music",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-nudge-05",
+      "kind": "nudge",
+      "question": "get all that?",
+      "persona": "museum-docent",
+      "domain": "arts",
+      "register": "wry-understated"
+    },
+    {
+      "id": "demo4-d4c-nudge-06",
+      "kind": "nudge",
+      "question": "hear all that?",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-d4c-nudge-07",
+      "kind": "nudge",
+      "question": "did it register?",
+      "persona": "night-shift-diarist",
+      "domain": "urban-wildlife",
+      "register": "careful-observational"
+    },
+    {
+      "id": "demo4-d4c-nudge-08",
+      "kind": "nudge",
+      "question": "you still here?",
+      "persona": "museum-docent",
+      "domain": "music",
+      "register": "wry-understated"
+    }
+  ]
+}

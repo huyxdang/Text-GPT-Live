@@ -1,0 +1,358 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {"model": "gpt-5.6-terra", "slot": "d1-terra-c", "tranche": 7},
+  "records": [
+    {
+      "id": "d1-terra-c-07-001", "persona": "journey-memory-teller", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"The river ferry left before sunrise, and one brass bell sounded as its rope came free.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Does that single bell make the departure feel ceremonial to you?","gold_reply":"That one clear note separates the boat from the quiet bank and gives an ordinary departure a small sense of occasion.","pause_after":"short"},
+        {"kind":"narration","text":"Diesel trembled through the bench while mist erased the warehouses behind us.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A deckhand coiled the wet rope into a dark circle by the gate.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The bell remained still when we passed the first buoy.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"By then, the waking city was a pale strip across the water.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-002", "persona": "community-arts-observer", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"At the minibus stop, parcel tags named each village; the route board listed the blue basket's village first.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A faded poster called the ridge route a “highlight,” and a passenger asked, “Will the blue basket get off before us?”","traps":["descriptive_command_word","quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Is the blue basket better kept near the door from that clue?","gold_reply":"Keeping it near the door fits: its village comes before the later stops, so the whole stack need not be unloaded first.","pause_after":"short"},
+        {"kind":"narration","text":"The driver tucked two farther-village sacks beneath it rather than on top.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At the first fork, the blue basket left without disturbing a single knot.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The empty doorway briefly smelled of pine needles and oranges.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-003", "persona": "journey-memory-teller", "domain": "travel", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"Condensation covered the night-train window until the station lamps became soft yellow squares.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Name the tiny act that lets the traveler borrow the view again.","gold_reply":"A sleeve clears one small circle in the fogged glass, enough to recover the lamps and platform outside.","pause_after":"short"},
+        {"kind":"narration","text":"She wiped one round opening with her cuff and found a porter under the nearest lamp.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Cold glass cooled the edge of that circle first.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The train moved, smearing the lamps into parallel lines.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The clear patch clouded over after the platform was gone.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-004", "persona": "community-arts-observer", "domain": "travel", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"At a desert rest stop, heat made a distant truck appear to float above the road.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A blue band lay beneath its wheels, though every nearer post stood in dry dust.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Was the highway borrowing a lake? I watched the shimmer contract as the truck came closer.","traps":["elaborating_question","rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The wheels met asphalt exactly where the blue band disappeared.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Can a mirage count as a real travel memory without becoming a real lake?","gold_reply":"The visual event was real even though the water was not; remembering the shimmer preserves the experience without misnaming its cause.","pause_after":"short"},
+        {"kind":"narration","text":"After the truck passed, heat laid the same impossible water across the empty lane.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-005", "persona": "journey-memory-teller", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"On the overnight ferry, wool blankets sat in a cedar chest between the sheltered benches. Salt had dried in pale fans across the lid, and the deck boards still held the day's warmth near the cabin wall.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Read that blanket chest as part of the passage rather than a hotel amenity.","gold_reply":"Its shared warmth lets travelers stay on deck through the cold crossing, so the chest quietly shapes how the night journey is experienced.","pause_after":"short"},
+        {"kind":"narration","text":"Passengers took one blanket each, leaving the lower stack folded for people who came outside after midnight.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A child slept with only his shoes showing, while two fishers kept their blanket across both knees and watched the black water.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Near the channel marker, wind lifted the loose corners but never emptied the benches.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At dawn, the folded wool smelled faintly of cedar, sea air, and the coffee carried up from the cabin.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The chest closed after the last blanket returned, just as the harbor roofs came into view.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-006", "persona": "community-arts-observer", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"My suitcase wheels rattled in the tiled market arcade but caught in the narrow lane of woven mats.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The center aisle stayed bare for handcarts, while shoppers moved slowly along both shaded edges.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could carrying the case along one edge be slower? I was choosing a predictable pace over blocking the lane whenever a wheel met a mat.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Does the edge route sound more considerate despite the extra turns?","gold_reply":"Routing the case along the edge keeps its wheels off the mats and leaves the central handcart lane clear.","pause_after":"short"},
+        {"kind":"narration","text":"I lifted the case past three spice stalls and set it down again on smooth stone.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A delivery cart passed without either of us needing to reverse.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"At the far arch, both wheels resumed their bright tiled chatter.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-007", "persona": "journey-memory-teller", "domain": "travel", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"Rain drummed on two guesthouse eaves: clay tiles gave a soft, uneven patter, while the newer metal strip answered each drop with a bright ping.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The host reported that a ledger heading, “search for leaks,” belonged to last monsoon; both eaves above the dry courtyard had since been checked.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"Guests moved three chairs toward the tiled side, where conversation sat beneath the rain instead of competing with it.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The metal eave stayed useful over the stair, its sharper sound marking every new burst before anyone saw the courtyard darken.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Summarize why the tiled side became the place to linger even though both eaves were dry.","gold_reply":"Its softer, irregular patter leaves room for conversation, while the metal strip's brighter ping remains useful as an audible rain signal by the stair.","pause_after":"short"},
+        {"kind":"narration","text":"When the storm softened, both roof voices thinned together, one murmuring and one counting.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-008", "persona": "community-arts-observer", "domain": "travel", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"The island water taxi carried six passengers, three crates of leafy vegetables, and a wrapped pane of glass. The pane stood in a padded slot along the cabin wall, while the vegetable crates occupied the flat stern deck where spray reached only the outer corners.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Is leaving the glass upright safer than laying it beneath the crates?","gold_reply":"Upright storage in the padded slot protects the fragile pane, while the sturdier crates can be distributed without loading it from above.","pause_after":"short"},
+        {"kind":"narration","text":"Two passengers shifted to the forward bench, balancing the crates that had been grouped near the engine cover. The boat settled level before the mooring line was released.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Across the first wake, the crates slid less than a finger's width against their rope stops. The glass remained vertical, its cloth corners visible above the slot.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At the smaller island, one vegetable crate left first. A passenger moved aft only after it crossed the dock, restoring the earlier balance without touching the pane.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The taxi entered the final inlet through short crosswaves. Leaves trembled through the crate slats, but the wrapped glass never struck the cabin ribs.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"On arrival, the pane lifted straight from its slot and caught the gray harbor in one clean reflection. The crates followed with damp corners and uncrushed greens.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-009", "persona": "journey-memory-teller", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"Our road crossed a dry plateau where every fuel stop sold the same bottled water, but one roadside table held apricots arranged on a faded red cloth. Dust had silvered the fruit nearest the road, while the inner rows kept their deep orange skin.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The vendor turned each apricot with a square of linen before setting it on the scale. Behind her, three shallow baskets held fruit at different softness, and a chalk mark named the firmest basket for travelers continuing another day.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A child beside the table asked, “Will these soft ones survive the pass?” The vendor placed those apricots in a small paper tray instead of the deep travel bag.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Choose the basket for tonight's stop and explain the clue you are following.","gold_reply":"Take the softer apricots in the shallow tray for tonight; their separate packing and softness show they are meant to be eaten before another long road day.","pause_after":"short"},
+        {"kind":"narration","text":"We bought the firm fruit for tomorrow and four soft apricots for the guesthouse courtyard. Their perfume filled the car before the plateau dropped toward the river.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At dusk, the soft fruit opened along its seams with thumb pressure and tasted faintly of the dust we had watched being wiped away. The travel bag remained cool in the tiled entry.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The next morning, the firm apricots still held their shape through the pass. One ripened beside the window, carrying the red-cloth table into a landscape that had already changed twice.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-010", "persona": "community-arts-observer", "domain": "travel", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"The sleeper train approached the eastern plain before dawn, with the corridor side facing low farm lights and the compartment side still holding the dark outline of hills. Frost feathered the lower corners of both windows.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At the first bend, the hills briefly caught a violet edge, but telegraph poles cut the view into quick vertical pieces. Across the corridor, open fields held a continuous band of pale sky above irrigation channels.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"I carried my cup to the folding corridor seat and watched the field light spread from gray to peach. The compartment window remained available behind me, its curtain tied back for anyone who preferred the hills.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A station passed on the shadowed side, showing blue enamel signs and one porter beneath a green lamp. On the field side, the sun's first rim appeared without a building in front of it.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Two other travelers joined the corridor one at a time, leaving space beside the door and returning cups to the rack before the train swayed into another curve.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Which side would you choose for sunrise despite the hill window's landmarks?","gold_reply":"The field side gives sunrise an uninterrupted horizon; the hill and station details remain a different view rather than evidence that one seat is wrong.","pause_after":"short"},
+        {"kind":"narration","text":"The sun cleared the plain as a round orange edge, reflected in three narrow channels. Behind us, the violet hills sharpened and then slid beyond the compartment frame.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"When breakfast arrived, everyone returned to their berths carrying a different piece of the same dawn: fields, hills, station lamps, or the sudden warmth on the corridor glass.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-011", "persona": "journey-memory-teller", "domain": "arts", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"A shadow-puppet bird lost one paper joint, so its left wing opened in a slow uneven arc.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could that uneven wing read as effort rather than damage in this scene?","gold_reply":"Its slower rise can make the bird's departure feel difficult, provided the loose joint stays controlled.","pause_after":"short"},
+        {"kind":"narration","text":"Would a perfect hinge look cleaner? I kept watching the silhouette because the hesitation matched the bird's farewell.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The puppeteer shortened the thread instead of replacing the paper during rehearsal.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The wing rose late but reached the lantern moon before the bird crossed it.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Its small delay stayed in the scene.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-012", "persona": "community-arts-observer", "domain": "arts", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"An etched glass panel left one clear circle inside a broad frosted wave.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Side light projected the circle as a sharp oval while the surrounding wave dissolved at its edges.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Does the clear circle interrupt the wave, or give its softness an anchor?","gold_reply":"It anchors the composition: one crisp oval gives the eye a resting point inside the diffuse frosted movement.","pause_after":"short"},
+        {"kind":"narration","text":"The artist rotated the panel until the oval sat just above the wave's lowest curve.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"A viewer moved sideways and watched the sharp center slide through the haze.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The wave kept one clear breath inside it.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-013", "persona": "journey-memory-teller", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"One mirror square in the courtyard mosaic faced backward, leaving a matte gray pause inside a fan of sunlit pieces.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Describe what the gray square does to the flashes around it.","gold_reply":"It separates the surrounding reflections, giving the fan a readable interval instead of one continuous glare.","pause_after":"short"},
+        {"kind":"narration","text":"The sketch called the gold outer arc the “highlight,” not the gray center.","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"Must every piece throw sunlight? The matte square made the surrounding reflections easier to separate.","traps":["rhetorical_question"],"pause_after":"none"},
+        {"kind":"narration","text":"Its grout stayed level and its corners held firmly.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The artist left one small silence in the fan.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-014", "persona": "community-arts-observer", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"Five dancers rehearsed with one long red ribbon threaded through their open hands. The first turn made a broad loop, while the second folded the ribbon into a sharp crossing near the floor.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"They repeated the phrase at half speed. The crossing appeared when the center dancer turned before the two ends had finished lifting their sections.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"On the next pass, the center waited for both end hands to reach shoulder height. The ribbon opened into two clean arcs and stayed above every ankle.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The dancers restored the original tempo without changing their spacing. A small breath before the center turn preserved the lifted ends.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Should that breath stay even if the audience never notices it?","gold_reply":"That brief breath coordinates the end lifts, prevents the low crossing, and lets the visible ribbon phrase remain fluid.","pause_after":"short"},
+        {"kind":"narration","text":"The final run showed one continuous red path, supported by a pause too small to announce itself.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-015", "persona": "journey-memory-teller", "domain": "arts", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"A clay figure emerged from the community table with twelve visible thumbprints across its coat. Each print tilted differently, yet all pointed toward the small face left smooth at the center.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"State which surface should remain smooth so the figure stays readable.","gold_reply":"Keep the small face smooth; the surrounding thumbprints can preserve each maker's contribution without obscuring the focal feature.","pause_after":"short"},
+        {"kind":"narration","text":"A child holding the last lump asked, “Should my mark go beside the collar?” before pressing the clay below an open shoulder.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The figure turned slowly on a board so nobody had to reach across another hand. Damp cloth covered the completed side while the base was joined.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"After firing, the shallow prints caught ash glaze at their lower edges. The smooth face stayed pale and readable from across the room.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"No maker could claim a whole sleeve, but several could find the pressure of one familiar thumb.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"The coat became a crowd gathered around a quiet face.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-016", "persona": "community-arts-observer", "domain": "arts", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"A hallway exhibition hung small paintings at two heights: adult eye level on one wall and a lower line beside the reading bench.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Children stopped at the lower line without stepping back into the doorway, while taller visitors bent briefly and then sat to look longer.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The coordinator explained that the lower hooks had first been installed for a school show and were still secure.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"address","text":"Can mixed hanging heights serve this hallway better?","gold_reply":"The lower line invites children and seated visitors to look closely, while the higher wall remains available without crowding the doorway.","pause_after":"short"},
+        {"kind":"narration","text":"Two wide works moved upward where their corners cleared the bench. Four intimate drawings remained below, separated by a hand's width.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Visitors began alternating between standing and sitting rather than forming one fixed row across the hall.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The uneven horizon made the exhibition feel inhabited at more than one scale.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-017", "persona": "journey-memory-teller", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"For a neighborhood print exchange, each participant carved one doorway remembered from a place they had left. The blocks varied from a narrow apartment grille to a farm gate wide enough for a cart, and no two makers chose the same scale.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"We printed every block on one long sheet in the order people arrived, leaving a palm-width gap between impressions. Dark doors gathered first at the left, followed by lighter cuts with steps, vines, and small house numbers.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A second sheet reversed the arrival order. The farm gate opened the sequence, the apartment grille became its final close, and several prints looked newly connected simply because their thresholds now faced different neighbors.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Neither arrangement reconstructed a real street. Both kept the same individual blocks and margins, but each created a different pace of enclosure and release across the paper.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Describe what the two orders reveal without choosing an official street.","gold_reply":"They show that shared sequence can change how separate memories meet: one order gathers toward openness, while the reverse moves from a broad gate toward an intimate grille. Neither needs to replace the individual doorway stories.","pause_after":"short"},
+        {"kind":"narration","text":"We hung both sheets across from the loose blocks, with makers' notes placed beside their own prints rather than beneath one combined title.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-018", "persona": "community-arts-observer", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"A courtyard sound piece suspended hollow bamboo lengths beneath three different eaves. The north row answered a breeze with dry clicks, while the lower west row gave a rounder knock after each gust had already passed.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Could the delayed west knock make the courtyard feel deeper rather than merely out of time?","gold_reply":"The later, rounder sound can act like a reply from farther away, extending the courtyard beyond the first dry clicks.","pause_after":"short"},
+        {"kind":"narration","text":"Would identical lengths make the pattern tidier? I was listening for distance and response, not asking every eave to speak with one voice.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"The artist shortened one west cord so the bamboo cleared the plaster during stronger wind. Its delay remained because the heavier tube still moved slowly.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"At noon, a single gust crossed the roofline from north to west. Three crisp contacts traveled first, followed by one low knock that seemed to arrive from beyond the wall.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"People in the doorway turned toward the west eave even after seeing the north row move. The delay redirected attention without needing greater volume.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"By evening, the courtyard held a loose call and answer made from wind, weight, and the small distances between roofs.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-019", "persona": "journey-memory-teller", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"The theater coat had torn beside one pocket during a touring season. Instead of hiding the repair, the wardrobe maker laid a crescent of copper cloth over the tear and repeated a smaller crescent at the opposite cuff.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Under stage light, the old navy wool absorbed the beam while both copper shapes flashed when the actor turned. The pocket remained deep enough for the letter used in the second scene.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Who says a repair must whisper from the back row? The matched cuff turned one necessary patch into a deliberate rhythm across the costume.","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Choose a lighting adjustment that keeps the pocket and cuff from flashing as one broad patch.","gold_reply":"Lower or angle one side light so the pocket catches first and the cuff glints a beat later.","pause_after":"short"},
+        {"kind":"narration","text":"During movement rehearsal, the repaired pocket held the letter through three quick turns. The copper edge stayed flat and never caught the actor's hand.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The lighting designer lowered one side lamp slightly so the cuff glinted after the pocket rather than at the same instant. Their separation kept the rhythm visible without producing one broad metallic flare.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"On opening night, the audience saw a coat that had traveled, been cared for, and returned to work. The repair carried age openly while the actor carried the letter exactly as before.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-020", "persona": "community-arts-observer", "domain": "arts", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"Thirty neighbors drew one frame each for a flipbook showing a paper boat crossing a flooded street. The boat's bow began as a sharp triangle, became rounded through the middle frames, and returned to a point near the final curb.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"We pinned the frames in sequence along a long table before binding them. The boat moved smoothly until frame eighteen, where it jumped upward by nearly its own height while the waterline remained steady.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The maker of frame eighteen asked, “Should I lower the whole boat or only its shadow?” The neighboring frames showed that both boat and shadow had shifted together.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"A tracing sheet carried the waterline and two fixed windows from frames seventeen and nineteen. Placed over eighteen, it showed the hull floating above the shared path while its shape still matched the maker's rounded drawing.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The artist slid the boat and shadow downward together without redrawing the bow. The corrected frame kept her particular curve but returned the hull to the common waterline.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"What must remain fixed in frame eighteen, and what may stay individual?","gold_reply":"The waterline and boat-shadow position must align with neighboring frames; the maker's rounded bow can remain.","pause_after":"short"},
+        {"kind":"narration","text":"Bound loosely, the first test flip carried the boat past shutters, buckets, and reflected signs. Small shape changes made the paper vessel tremble pleasantly rather than appear mechanically fixed.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"At frame eighteen, the boat now continued across the same water instead of leaping out of it. The flipbook ended with thirty different lines arriving together at one dry curb.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-021", "persona": "journey-memory-teller", "domain": "work", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"The library return cart held red tabs for books needed upstairs and green tabs for the ground-floor shelves.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Should destination come before call number in this first sort?","gold_reply":"Sorting by destination first prevents one carefully ordered stack from traveling through the building twice.","pause_after":"short"},
+        {"kind":"narration","text":"We placed two empty crates beside the cart and moved each color only once.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Call numbers formed short sequences inside their destination crates.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The lift carried the red crate while the green one rolled toward the reading room.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"No book returned to the sorting table.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-022", "persona": "community-arts-observer", "domain": "work", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"At the flower stall, yesterday's open lilies stood apart from today's tight buds.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Summarize the usefulness of that simple separation.","gold_reply":"It makes the ready blooms easy to sell first while protecting the newer buds for customers who need them later.","pause_after":"short"},
+        {"kind":"narration","text":"The chalk card beneath the bud bucket carried an old delivery note: “Remind Dara that Friday’s lilies go to the side gate.”","traps":["descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"The florist trimmed the open stems and kept their water shallow and fresh.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Two evening bouquets used the lilies already facing outward.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The buds remained cool for tomorrow.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-023", "persona": "journey-memory-teller", "domain": "work", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"The shared studio placed a small blue card on any table where wet varnish was drying.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"A new member pointed to an unmarked table and asked, “Can I cut paper here now?”","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Give the practical answer from the visible system.","gold_reply":"The absent blue drying card marks that table as available for clean paper work.","pause_after":"short"},
+        {"kind":"narration","text":"She brushed away two dry scraps and unrolled her cutting mat.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Across the room, a blue card stayed beside the only glossy surface.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The paper remained clean through the afternoon.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-024", "persona": "community-arts-observer", "domain": "work", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"In the bicycle repair shop, frequently used hex keys hung on a narrow magnetic strip above the central bench. Larger tire levers sat in a tray below, and specialty pullers remained in labeled drawers along the back wall.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"During three repairs, mechanics reached for the strip without turning. The tray handled every tire change; no specialty drawer opened before noon.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A spoke key vanished behind two hex keys whenever they snapped back. Its outline showed only when the bench was empty.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"We gave the spoke key one bright-edged slot at the strip's end. The change preserved reach for common tools and made the smallest piece visible before and after use.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"State what the tool layout is optimizing without pretending every tool deserves the same location.","gold_reply":"It keeps frequent tools visible and within one turn, gives the tiny spoke key a reliable edge slot, and reserves drawers for specialized tools used less often.","pause_after":"short"},
+        {"kind":"narration","text":"At closing, every strip outline was filled and the specialty drawers still held their slower, heavier work.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-025", "persona": "journey-memory-teller", "domain": "work", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"At a tailoring studio, high heat flattened a navy linen collar but left a shiny edge. A low-heat pass kept the cloth matte, yet the damp seam lifted again within a minute.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The presser placed a clean cotton cloth over a spare collar and used medium heat. The seam dried flat without taking on the hard shine of the first test.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could extra pressure rescue either extreme? I was comparing heat and a protective layer before asking force to solve two different problems.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Does the covered medium-heat pass offer the best production rule from these tests?","gold_reply":"It does: the cotton layer and medium heat produced a dry, flat seam without the shine caused by the hotter uncovered pass.","pause_after":"short"},
+        {"kind":"narration","text":"Five collars then went through the covered pass with the cloth reset smoothly each time.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Side light showed no glossy edges, and every seam remained flat after cooling.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The two rejected tests stayed by the iron as visible limits rather than becoming instructions for the batch.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-026", "persona": "community-arts-observer", "domain": "work", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"The neighborhood theater box office opened with three queues already forming: prepaid tickets, new purchases, and guests collecting accessibility headsets. One staff member had a card reader, while another held the alphabetized ticket envelopes.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Prepaid guests moved quickly until two envelope names required spelling checks. New purchases took longer at the card reader, and headset collection needed a signature beside each numbered case.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"The shift lead reported that headsets could be signed out at the side lectern as long as every case number stayed on the same sheet.","traps":["reported_speech"],"pause_after":"medium"},
+        {"kind":"narration","text":"We moved the headset sheet and cases to that lectern, leaving the card reader at the main window. A large letter H on the lectern matched the symbol printed on those guests' booking slips.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"One staff member then handled envelopes and spelling checks, while the other alternated only between card payments and brief directions toward the marked side station.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Explain why the side lectern reduces confusion without hiding headset service away.","gold_reply":"It separates a signed equipment handoff from ticket payment, keeps case numbers on one visible sheet, and uses the matching H symbol to guide guests directly there.","pause_after":"short"},
+        {"kind":"narration","text":"The headset queue cleared before the doors opened. Each case number had one signature, and the main window no longer shifted paperwork aside whenever someone needed equipment.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"Late arrivals saw the H from the entrance and collected their cases without joining the purchase line. The side station remained part of the room rather than becoming a whispered exception.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-027", "persona": "journey-memory-teller", "domain": "work", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"At the community kitchen, volunteers packed soup jars by a window while drivers entered opposite. A table held clean lids at one end and insulated crates at the other.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Set one working principle for that table before the rush.","gold_reply":"Keep filled jars moving from clean lids toward insulated crates so packing and pickup do not cross.","pause_after":"short"},
+        {"kind":"narration","text":"Who needs a crossroads made of hot soup? An empty tray at the lid end and a full crate by the driver door made the direction visible.","traps":["rhetorical_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"Labels went onto dry jars before filling. Each sealed jar then moved toward the crates, never back to the label stack.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Drivers counted from the far end without reaching across open jars. An early route's crate rested on a trolley by the exit.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"One spill stayed near the ladle and was wiped without stopping the crate line. Clean lids remained beyond it.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"By noon, eighty jars had moved one way. Volunteers and drivers met only at the closed-crate end.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-028", "persona": "community-arts-observer", "domain": "work", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"A landscaping crew reached the courtyard while dew still silvered the ornamental grasses. Their morning list included trimming seed heads and tying one young tree away from the delivery gate.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The grass stems bent under the wet weight and sprang only halfway back when touched. Beside the gate, the tree tie had loosened enough for the trunk to brush the latch in each breeze.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"One apprentice asked, “Should we cut the grass before the courtyard opens?” The crew leader held two wet stems together and left their length unchanged.","traps":["quoted_question"],"pause_after":"medium"},
+        {"kind":"narration","text":"They reset the tree tie with a broad soft loop, preserving two fingers of space around the trunk. The gate then opened fully without touching bark or cord.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"By late morning, sunlight had dried the grasses and most seed heads stood above the path again. Only three broken stems remained folded at their bases.","traps":[],"pause_after":"short"},
+        {"kind":"address","text":"Is postponing the broad trim while removing three broken stems proportionate?","gold_reply":"Postponing is proportionate: drying restored most stems, while the three broken ones are the limited damage that remains.","pause_after":"short"},
+        {"kind":"narration","text":"The crew clipped those three stems at the base and left the upright seed heads to move above the paving. Their morning work became one adjusted tie and three precise cuts rather than a flattened border.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-029", "persona": "journey-memory-teller", "domain": "work", "register": "sensory-conversational",
+      "segments": [
+        {"kind":"narration","text":"A small hotel laundry received white table linen, striped kitchen cloths, and guest towels through one narrow service hatch. Three wheeled bins waited beyond it, but damp bundles initially landed in one heap on the tiled floor.","traps":[],"pause_after":"none"},
+        {"kind":"address","text":"Define the first handoff so the hatch stops creating a mixed pile.","gold_reply":"Name one bin for each visible linen class and place every incoming bundle directly into its bin before anything moves toward washing.","pause_after":"short"},
+        {"kind":"narration","text":"The supervisor explained that an old board saying “sort and delegate” had described a former shift plan; today, its three painted stripes simply matched the available bins.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+        {"kind":"narration","text":"We turned the bins so white, blue-striped, and gray panels faced the hatch. Staff could match a bundle before reading the smaller wash cards clipped to each handle.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"Table linen rolled left toward the large washer, kitchen cloths remained for a hotter cycle, and guest towels waited under the gray panel until their machine cleared.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"When two bundles arrived together, both left the hatch ledge immediately. The floor stayed open for carts, and no striped cloth disappeared beneath a white sheet.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"At the next handoff, outgoing bins returned empty with their color panels still facing forward. The incoming attendant understood the categories before the supervisor finished the spoken summary.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"By evening, the hatch remained narrow but no longer behaved like a bottleneck. Sorting happened at the point of arrival, and every later wash decision began with a visible, recoverable grouping.","traps":[],"pause_after":"long"}
+      ]
+    },
+    {
+      "id": "d1-terra-c-07-030", "persona": "community-arts-observer", "domain": "work", "register": "gentle-direct",
+      "segments": [
+        {"kind":"narration","text":"A new bookshop clerk wrapped square novels neatly but struggled with a long art catalogue. The first end held its crease, while the second opened whenever the clerk shifted a hand to reach the remaining paper.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The trainer demonstrated one complete wrap at normal speed. The clerk copied the first end afterward but lost the fold order at the second, where keeping tension mattered most.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"Could another silent demonstration make the sequence stick? I noticed the clerk could identify every diagram on a six-step card, but setting the book down to read it released the paper tension.","traps":["elaborating_question"],"pause_after":"medium"},
+        {"kind":"address","text":"Set the next coaching trial from those two partial successes.","gold_reply":"Let the clerk keep both hands on the wrapper while the trainer holds the step card in view and points one fold ahead, combining live practice with a visible sequence.","pause_after":"short"},
+        {"kind":"narration","text":"For the next catalogue, the clerk controlled the paper while the trainer held the card upright beyond the parcel. One finger moved to the next diagram only after each crease was secure.","traps":[],"pause_after":"none"},
+        {"kind":"narration","text":"The second end closed without losing tension. On another long book, the trainer lowered the card after step three and named only the number of the next fold.","traps":[],"pause_after":"short"},
+        {"kind":"narration","text":"A third catalogue needed no spoken cue. The clerk glanced once at the upright card, completed both ends, and checked that neither corner pressed into the cover beneath the paper.","traps":[],"pause_after":"medium"},
+        {"kind":"narration","text":"By the final parcel, the card lay flat beside the counter rather than under the clerk's hands. The coaching had moved from demonstration to supported practice and then out of the way, leaving a firmly wrapped book instead of a memorized performance.","traps":[],"pause_after":"long"}
+      ]
+    }
+  ]
+}

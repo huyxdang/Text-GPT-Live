@@ -1,0 +1,267 @@
+{
+  "schema_version":"g1-authored-1","demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":5},
+  "records":[
+    {"id":"d1-sol-a-05-001","persona":"market-day-observer","domain":"street-food","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"The soy-milk seller sang the last word of each order above the market's breakfast clatter.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Customers echoed that word when a cup reached the counter, then passed it backward through the queue.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A sleepy child supplied the loudest echo and received his family's three warm cups without a spill.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Even newcomers understood the rhythm after hearing two orders travel.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Does that echo make the queue feel more like a chorus than a line?","gold_reply":"It does—the repeated words let strangers coordinate while giving breakfast a playful shared rhythm.","pause_after":"short"},
+      {"kind":"narration","text":"The seller grinned and began the next call before the answer had faded.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-002","persona":"shared-house-organizer","domain":"public-spaces","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"We carried blank postcards and six pencils to the fountain table, leaving half its surface open for the regular chess players.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Suggest a way to invite writers without claiming the whole table.","gold_reply":"Keep the supplies on one end, offer cards aloud, and let chess continue on the other half.","pause_after":"short"},
+      {"kind":"narration","text":"A girl composing a card to her uncle murmured, “Should I highlight the river smell?” before circling that phrase in blue.","traps":["quoted_question","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"One chess player borrowed a pencil between moves and drew a rook on the corner of his postcard.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"People wrote standing, seated, or leaning briefly against the fountain rim, so no formal workshop boundary appeared.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"By sunset, the table still held a chess endgame beside a small stack of messages waiting for stamps.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-003","persona":"market-day-observer","domain":"seasonal-customs","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"At the final market of the year, the calendar stall kept three formats apart: broad wall sheets with month grids, pocket almanacs with daily notes, and single-page lunar tables pinned flat beneath clear weights.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Does a wall calendar beside a pocket almanac feel like a useful split between shared and private time?","gold_reply":"That division works: the broad wall grid invites shared viewing, while the pocket book keeps daily notes close to one person.","pause_after":"short"},
+      {"kind":"narration","text":"The stall owner reported that returning families often brought an old top page to compare dimensions, because the familiar nail and narrow wall space mattered as much as the new illustrations.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"Could a pocket book carry every household date? I was watching one family divide birthdays between the wall grid and private notes in the almanac, rather than asking them to choose a single record.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"Shoppers opened calendars to school breaks, moon phases, and market days, comparing how each format gave a different shape to the same approaching year before folding purchases into paper sleeves.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Near closing, a woman tucked the pocket book into her coat and held the rolled wall sheet out to her daughter like a bright paper baton.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-05-004","persona":"shared-house-organizer","domain":"street-food","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"When rain narrowed the pavement, the dumpling cart lost half its standing room.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Our porch sat three doors away, so we carried two folding stools to its dry outer edge.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"An older customer used one while a parent steadied a paper bowl on the other.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We kept the doorway and delivery path clear, then folded both stools when the shower softened.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Tell me what made that help useful instead of intrusive.","gold_reply":"You added two dry seats, protected the doorway and bicycle path, and removed the stools when the crush eased.","pause_after":"short"},
+      {"kind":"narration","text":"The vendor handed us one hot dumpling for the walk home.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-005","persona":"market-day-observer","domain":"public-spaces","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"Beside the morning produce market, bottle caps lined the fig-tree chess tables to mark who played next.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Players glanced at the caps while vendors called out peaches across the path.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Give that bottle-cap tournament the amused respect it deserves.","gold_reply":"It deserves both—the tiny queue stays orderly while the serious games continue beside a noisy market.","pause_after":"short"},
+      {"kind":"narration","text":"Who needed a registration desk when yesterday's soda cap could hold a place?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A boy added a green cap and watched it advance as tables opened.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The winner left carrying tomatoes; the green cap finally reached the board.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-006","persona":"shared-house-organizer","domain":"seasonal-customs","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"For our year-end candle supper, each housemate brought one ordinary object that had somehow carried them through the year and set it near the central flame.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Does limiting everyone to one object keep the ritual personal without turning it into a speech contest?","gold_reply":"It does—one object gives each person a story while leaving enough quiet for everyone else around the candle.","pause_after":"short"},
+      {"kind":"narration","text":"Mina lifted a chipped mug and asked, “Should this come with us for one more winter?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Nobody voted on what deserved keeping; people simply shared a short story, passed the warm bread, and made room for the next object beside the wax.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Could every object explain itself so plainly? A bus ticket, a blunt pencil, and a repaired sandal gathered meaning only through the hands holding them.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"When the candle guttered, the chipped mug returned to Mina's cupboard with a fresh ring of soot beneath its handle. She rubbed the dark ring with one thumb, laughed when it held, and poured the remaining tea into that mug while the rest of us carried our objects back upstairs.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-007","persona":"market-day-observer","domain":"street-food","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"The sesame-brittle seller cut one warm sheet into wide family pieces and narrow pieces for people eating as they walked.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Tell me what the two cuts say about sharing now versus carrying sweetness home.","gold_reply":"The narrow piece suits the walk, while the wide piece leaves enough brittle to open later with other people.","pause_after":"short"},
+      {"kind":"narration","text":"He folded the wide pieces into brown paper and set the narrow ones upright in a tin.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A grandmother chose one of each and handed the small piece to her grandson.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"They left carrying the same sweet toward two different moments.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The cutting board held the quiet geometry of sharing now and saving some.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-008","persona":"shared-house-organizer","domain":"public-spaces","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"We set a free umbrella rack beneath the community-hall arcade, using the upper rail for dry loans and two floor tubs for wet returns.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Name the mix-up our two-level rack is trying to prevent.","gold_reply":"It keeps dry umbrellas ready to borrow instead of mixing them with dripping returns below.","pause_after":"short"},
+      {"kind":"narration","text":"The caretaker explained that the eastern tub caught the least wind-driven rain, so folded cloths and the sign-in pencil belonged beside it.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"Beside a cloudy sample patch, a faded varnish tag still read “wait until dry,” its last word feathered where old rain had reached the edge.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"narration","text":"People returned dripping umbrellas below and chose dry ones above without mixing the two flows.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"By evening, rainwater remained near the tiled edge instead of traveling across the hall floor.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-009","persona":"market-day-observer","domain":"seasonal-customs","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"When the first monsoon clouds built over the market, shopkeepers lifted woven doorway mats onto hooks, turned painted stools upside down, and stretched one shared cord beneath the awnings for customers' dripping outer layers.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you expect this lane to keep trading through the first downpour?","gold_reply":"Those preparations point toward staying open: mats are lifted, stools protected, and wet clothing given a shared place.","pause_after":"short"},
+      {"kind":"narration","text":"Was any official calendar as persuasive as twenty upside-down stools?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A fabric seller passed spare clips to the tea stall, whose owner extended the cord across a second gap and left the lowest section clear for children to reach their own jackets.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The first drops struck metal shutters, customers stepped under whichever awning was nearest, and cups shifted inward to free the dry edge for elbows and parcels.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Ten minutes later, rain drummed on joined awnings while a tea seller passed dry cups across the narrow gap to her neighbor, and customers kept their shoulders tucked beneath one continuous ribbon of shelter.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-010","persona":"shared-house-organizer","domain":"street-food","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"Road repairs displaced the soy-milk seller from her usual corner, so she needed a place beneath our shared-house awning for three mornings while the paving crew worked.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Tell me the boundary that lets us help without quietly taking over her stall.","gold_reply":"Offer shelter and keep the doorway clear, but let her choose the display, serve customers, and keep her familiar call.","pause_after":"short"},
+      {"kind":"narration","text":"We moved our bicycles into the rear court and swept the front step, leaving her cart handles, cups, and steaming pot exactly where she could reach them from the pavement.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"She kept her own morning call, and regular customers found the new spot by following the sound past the road barriers rather than reading a sign from us.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Housemates bought breakfast in the same queue as everyone else, then carried their cups inside instead of hovering beside the cart as unofficial hosts.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"On the third morning, the repaired corner reopened; she rolled away after leaving four warm sesame cakes on our doorstep, and the awning smelled faintly of soy until well past noon.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-011","persona":"market-day-observer","domain":"public-spaces","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"Before the fruit market opened, two water-calligraphers brushed poems onto the shaded plaza stones.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Shade kept the dark characters visible longer, though every line still dried away.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Would you call the fading part of the work rather than a failed result?","gold_reply":"Fading is part of it: shade offers a longer look, but disappearance is built into writing with water.","pause_after":"short"},
+      {"kind":"narration","text":"A fruit seller asked, “Will the last line vanish first?” while raising her awning.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Could sunlight reverse the order? I watched one bright corner pale ahead of the shaded opening.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"By the first melon sale, only wet brush tips remembered the poem.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-012","persona":"shared-house-organizer","domain":"seasonal-customs","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"On the first cold evening, our house put dark tea in a large pot and floral tea in a small one.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Wool cup sleeves sat between them for anyone joining the table.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Mara reported that the same basket had come out on the first cold night in her childhood home.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"We drank at different hours and left both pots ready for the next cold arrival.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Tell me why the shared sleeves matter more than the difference between teas.","gold_reply":"They make warmth available to everyone at the table, even when people choose different pots or arrive at different hours.","pause_after":"short"},
+      {"kind":"narration","text":"Near midnight, one blue sleeve remained around a cup beside the last lamp.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-013","persona":"market-day-observer","domain":"street-food","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"At the sugarcane cart, the seller fed each stalk through the rollers twice, and the metal frame answered with a rising squeak on the second pass.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Children near the market gate began imitating that squeak just before the pale juice spilled into the jug.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Notice how the machine gives the waiting crowd a cue to join in.","gold_reply":"The second-pass squeak tells them the juice is nearly ready, and copying it turns waiting into a shared joke.","pause_after":"short"},
+      {"kind":"narration","text":"The seller stretched the final sound whenever a child matched it, then dropped lime wedges into the foaming jug.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Adults pretended not to participate until one deep voice supplied a remarkably accurate third squeak.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A machine built for pressure briefly became the market's least dignified instrument.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-014","persona":"shared-house-organizer","domain":"public-spaces","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"For an evening film on the apartment lawn, we marked a front strip for floor cushions, a middle band for low stools, and the back edge for chairs with full-height backs.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Two clear side lanes connected the gate to the building entrance, and the screen sat against the blank wall where balcony light would not fall across it.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Would keeping both side lanes open solve late arrivals without sacrificing the sightlines?","gold_reply":"Open side lanes let people enter without crossing the image, while the low-to-high seating order keeps the wall visible.","pause_after":"short"},
+      {"kind":"narration","text":"What could be more cinematic than measuring chair backs with a broom handle?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Families brought their own seats and found a matching zone from the chalk symbols, while late arrivals entered from either side without crossing the projected image.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"When the opening scene began, the lawn settled into three gentle levels, and even the smallest viewers could see the lower half of the wall without leaning into the aisle.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-015","persona":"market-day-observer","domain":"seasonal-customs","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"At the solstice sweet stall, white thread marked sesame bundles and red marked ginger.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The same brown leaf wrapped both, so thread carried the distinction.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Offer both fillings side by side for families with mixed tastes.","gold_reply":"Yes—people can take sesame, ginger, or one of each without treating a shared table as a single preference.","pause_after":"short"},
+      {"kind":"narration","text":"A child read the maker's card aloud: “Will the white thread remind us which bundle has sesame?”","traps":["quoted_question","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"Her grandfather chose both and set them side by side in his basket.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At dusk, the small knots remained legible after the stall sign came down.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Seasonal taste traveled home under two modest colors.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-016","persona":"shared-house-organizer","domain":"street-food","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"We took our new housemate to the night market without planning a full tour.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"He paused longest where sesame smoke drifted across the noodle lane.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Suggest a low-pressure way to help him choose without narrating every stall.","gold_reply":"Follow what catches his attention, offer one useful detail, and leave him room to ask or simply taste.","pause_after":"short"},
+      {"kind":"narration","text":"We named the pancake seller and stepped back while he watched the batter spread.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"He chose one crisp edge, then found the tea stall alone.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"On the walk home, he introduced us to a fruit drink we had missed.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The market became mutual discovery rather than orientation.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-017","persona":"market-day-observer","domain":"public-spaces","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"At midday, the market plaza's awning sent a square of shade from the flower carts toward the public notice wall.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Could that moving shade become a practical meeting place for workers finishing different stalls?","gold_reply":"A moving patch can work because its path is visible, shifts with the hour, and belongs to no single vendor.","pause_after":"short"},
+      {"kind":"narration","text":"The western benches cooled first while stone seats near the notice wall remained bright.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A flower seller reported that the wall would enter shade after the school's second bell, just as her busiest hour ended.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"Would the chessboard need moving first? I followed the diagonal shadow while players rotated their stools instead of lifting the table.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"By the bell, two fruit vendors and a porter were eating beside the wall.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"One passed a peach across the cooling stone as the last flower cart rolled away.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-05-018","persona":"shared-house-organizer","domain":"seasonal-customs","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"For our autumn leaf book, each housemate chose one fallen leaf from the courtyard.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We pressed them beneath the shared dictionary with a dated paper strip.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"What better guest book could autumn leave us?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Treat the different leaves as a group portrait rather than a specimen chart.","gold_reply":"Each choice reflects one housemate, while the shared book keeps those separate autumn walks together.","pause_after":"short"},
+      {"kind":"narration","text":"A red maple leaf rested beside a small brown fig leaf.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Nobody tried to make the colors match.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The dictionary closed on a quiet, uneven household.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-019","persona":"market-day-observer","domain":"street-food","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"At the rice-cake stall, the vendor divided each steaming batch between a tray beside the brazier and another beneath the open awning.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Cakes on the warm tray stayed glossy while the shaded ones began to firm at the edges.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"She folded banana leaves around each cake only after its steam stopped clouding her glasses.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Does splitting the batch help her serve warm cakes without wrapping them while they are still too wet?","gold_reply":"Yes—the warm tray keeps some ready to serve, while the shaded tray lets the rest release steam before wrapping.","pause_after":"short"},
+      {"kind":"narration","text":"A customer eating nearby received one from the brazier tray, still soft enough to bend around a spoonful of coconut.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Two cakes for the walk home came from the shaded tray and left in dry, tight leaf parcels.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The two trays held the same batch at different moments between heat and travel.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-020","persona":"shared-house-organizer","domain":"public-spaces","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"Our shared house carried folding stools to the river plaza for an evening listening circle with three neighborhood musicians and anyone who happened to stop.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We left the riverside edge open so walkers could hear a verse without entering the ring, while the stools faced inward for people ready to stay longer.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The first singer ended a love song on the word “wait,” holding it across two soft guitar chords as part of the refrain.","traps":["descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"address","text":"Tell me what makes this feel welcoming without turning every passerby into an audience member.","gold_reply":"People can listen from the open edge, choose a stool only if they want to stay, and leave without crossing the circle.","pause_after":"short"},
+      {"kind":"narration","text":"A cyclist stopped with one foot on the ground for half a song; an older couple took the last two stools and shared the printed lyric sheet.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Between songs, river noise filled the ring instead of an organizer's announcement, and a child rolled a fallen guitar pick back with one finger.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"When the lamps came on, the stools folded under our arms while the final refrain traveled farther down the path than we did.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-021","persona":"market-day-observer","domain":"seasonal-customs","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"At the first peach-blossom stall, each branch got a paper sleeve for its destination.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Gold sleeves marked family tables, while plain sleeves marked branches for shop doorways.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A buyer asked, “Will the buds open before the weekend meal?” while comparing two curved stems.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The seller turned each fuller side toward the customer.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Tell me what the two destinations say about where spring gets welcomed.","gold_reply":"The same pale buds enter private family tables and public shop doorways, carrying spring into both settings.","pause_after":"short"},
+      {"kind":"narration","text":"People carried the same pale buds toward homes and businesses.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The wrappers quietly mapped where spring would be welcomed.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-022","persona":"shared-house-organizer","domain":"street-food","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"The evening dessert vendor signaled his arrival by striking a metal spoon twice against the side of the sweet-soup pot.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The sound carried neatly into our shared courtyard, where a neighbor's baby had begun falling asleep before the vendor's usual round.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"With his agreement, one tap on the wooden tray replaced the two bright clangs while he passed our building.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Regular customers recognized the softer knock on its second evening and came out with bowls just as before.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you call that a fair compromise between a recognizable call and a quieter courtyard?","gold_reply":"That compromise preserves an audible signal for customers while softening it near the sleeping household.","pause_after":"short"},
+      {"kind":"narration","text":"He saved the metal spoon for the louder market road beyond our gate.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"One small change let the dessert route and the baby's bedtime pass each other peacefully.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-023","persona":"market-day-observer","domain":"public-spaces","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"The movable green chairs beside the Saturday flower market began in straight rows, but readers and tired vendors soon turned them toward shade, conversation, and the noon violinist.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Read that untidy furniture as permission for the square to rearrange itself.","gold_reply":"The loose chairs let people choose shade, company, music, or a quiet view instead of accepting one fixed public arrangement.","pause_after":"short"},
+      {"kind":"narration","text":"A groundskeeper explained that the chairs were deliberately untethered, even though he returned a few to the paving edge each evening for the morning cleaners.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"By eleven, two flower sellers faced each other over tea, single readers occupied narrow islands of shade, and four empty chairs curved around a violin case.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Would the square look disorderly from the balcony? I traced how each apparent stray still faced light, music, another person, or an open path through the market crowd.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"When the violinist began, the semicircle tightened without closing, leaving gaps for shoppers carrying tall bundles of lilies.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"A seller dragged one chair back to her stall with a bucket of unsold daisies balanced between her knees.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-05-024","persona":"shared-house-organizer","domain":"seasonal-customs","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"At year-end, our house turned clean scraps of old wrapping paper into small gift envelopes.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Faded stars, grocery logos, and last winter's ribbon shared the table.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"What expensive paper could carry more household history?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"We folded around stains instead of hiding every trace of earlier use.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Give the mismatched envelopes a warmer interpretation than thrift alone.","gold_reply":"They turn a year's ordinary paper into gifts that visibly carry shared meals, errands, and celebrations.","pause_after":"short"},
+      {"kind":"narration","text":"One tiny envelope kept half a gold star above a tea-shop receipt.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"It went beneath the door of the housemate who saved both scraps.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-025","persona":"market-day-observer","domain":"street-food","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"The flatbread seller tore a small corner from each first batch and placed it on a saucer at the end of the counter.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"People already in line passed each corner backward, so those farthest from the griddle tasted it first.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The saucer returned empty to the front just as the full breads came off the iron plate.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"New arrivals joined a queue that was already sharing one warm piece among strangers.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Do you see why the sample travels opposite the buying line?","gold_reply":"It moves backward so the people who have stood farthest from the griddle receive the first shared taste.","pause_after":"short"},
+      {"kind":"narration","text":"Nobody kept the saucer long enough to slow the orders.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"One torn corner made the line feel briefly like a table.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-05-026","persona":"shared-house-organizer","domain":"public-spaces","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"Our house carried six board games to the riverside pergola, where four public tables offered enough shade for long games near the columns and quick rounds along the open railing.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Wooden clamps held felt playing mats against the breeze, and shallow trays at every table kept loose cards, dice, and spare pieces from traveling across the promenade.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"We left one end of each table open, with rules facing outward, so a passerby could observe, join the next round, or move on without leaning across an active game.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The cooperative game’s “wait” card sent the active team quiet while one player tapped a hidden clue beneath the table.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"narration","text":"As afternoon wind strengthened, players shifted score sheets into the trays, newcomers took the open table ends, and not one cardboard token escaped toward the water.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Explain why the setup could absorb both wind and new players.","gold_reply":"Clamps and trays secure the game materials, while open table ends and outward-facing rules make joining easy.","pause_after":"short"},
+      {"kind":"narration","text":"A missing blue disk turned up beneath a felt corner, and the next group began after returning every shared piece to its labeled cloth pouch.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"At closing, a girl carried the recovered blue disk to our pouch and slapped the empty felt mat twice before running back to the river path.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-05-027","persona":"market-day-observer","domain":"seasonal-customs","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"With the first steady rain, children folded paper boats beneath the market arcade.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Some chose the curb stream; others carried boats to the garden ditch.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"One child asked, “Will mine reach the fig tree?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Treat that question as excitement, not a request for certainty.","gold_reply":"The rain route is unpredictable, so we can cheer the launch without promising where the boat will land.","pause_after":"short"},
+      {"kind":"narration","text":"Could the gutter bend that far? I followed its muddy curve with him.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"Two boats spun together at the grate.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The fig-tree boat vanished first.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Its owner cheered for the empty stream.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-05-028","persona":"shared-house-organizer","domain":"street-food","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"Before redevelopment changed our lane, the shared house began recording the evening calls of three street-food vendors from the front balcony: dumplings, sweet corn, and sesame cakes.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would a sound map preserve something a written menu never could?","gold_reply":"A sound map holds rhythm, distance, personality, and the way each vendor moves through the lane, not just what they sell.","pause_after":"short"},
+      {"kind":"narration","text":"The dumpling call arrived in two clipped notes from the north gate, followed by the squeak of a cart wheel that needed no place name once neighbors recognized it.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The corn seller drew out one long vowel beneath our windows, and children answered from different floors before anyone reached the courtyard with coins and bowls.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Sesame cakes came last behind a quiet wooden clapper that grew louder near the stairwell and softened again toward the old laundry wall.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We marked where each sound entered and faded, but the recordings also kept coughs, bicycle bells, balcony greetings, and one dog joining the corn call every night.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"On the final evening, all three vendors stopped beneath the balcony to hear their calls played back, laughing when the cart squeak received the loudest recognition.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"After they rolled on, the lane briefly held only our speaker's soft replay and the real clapper receding around the corner.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-05-029","persona":"market-day-observer","domain":"public-spaces","register":"low-key-reflective","segments":[
+      {"kind":"narration","text":"Beside the Saturday craft market, portrait artists set up along the museum wall, leaving the brass paving line clear for people entering the doors.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Striped cloth lay beneath charcoal work, gray cloth beneath watercolor, and silhouette cutters worked directly from narrow stools.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Visitors drifted from pottery stalls toward whichever portraits caught them, forming loose half-circles without closing the walkway.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"One artist called the bright stripe on a painted nose the “highlight,” then softened its lower edge with a thumb.","traps":["reported_speech","descriptive_command_word"],"pause_after":"none"},
+      {"kind":"narration","text":"Wind lifted drawing paper while a potter caught two escaping sheets against her apron.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Tell me what makes the wall feel like a temporary neighborhood rather than a row of stalls.","gold_reply":"Artists, visitors, and nearby makers help one another, share the walkway, and gather around faces instead of guarding separate pitches.","pause_after":"short"},
+      {"kind":"narration","text":"By noon, painted faces leaned beside clay cups, and the potter was posing for a charcoal sketch.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Her apron still held one faint corner crease from the rescued paper.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-05-030","persona":"shared-house-organizer","domain":"seasonal-customs","register":"lively-plainspoken","segments":[
+      {"kind":"narration","text":"For the summer fan-making night, our house laid bamboo ribs beside scraps of old letters, maps, and sheet music.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Each person chose paper whose earlier marks they were willing to fold into a new pattern.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A bus route became one fan's outer arc; a piano staff disappeared and returned between another's pleats.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"What blank paper could compete with a breeze full of old handwriting?","traps":["rhetorical_question"],"pause_after":"none"},
+      {"kind":"narration","text":"We brushed thin rice paste along the ribs and held each fold with clothespins until it settled.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Does reusing those marked pages make the fans feel more personal rather than merely uneven?","gold_reply":"Reused pages let each fan carry recognizable routes, notes, and handwriting from the household's earlier days.","pause_after":"short"},
+      {"kind":"narration","text":"The first finished fan sent a grocery list fluttering above the lamp.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"By midnight, six different paper breezes were moving around the same warm room.","traps":[],"pause_after":"medium"}
+    ]}
+  ]
+}

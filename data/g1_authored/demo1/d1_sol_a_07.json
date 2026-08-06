@@ -1,0 +1,267 @@
+{
+  "schema_version":"g1-authored-1","demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":7},
+  "records":[
+    {"id":"d1-sol-a-07-001","persona":"weekend-community-helper","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"The jam notebook margin instructed, “Correct a runny test with one more minute,” while today's cooled plum spoonful held a slow wrinkle.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"address","text":"Does that slow wrinkle make the jam likely to be near its setting point?","gold_reply":"Yes. A wrinkle that holds under the spoon makes a near setting point plausible, though another cooled sample can confirm it.","pause_after":"short"},
+      {"kind":"narration","text":"The warm spoonful had looked fluid before touching the plate.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"A second plate waited in the cool cupboard.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The pot stayed on its lowest flame between checks.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"No extra sugar entered during the test.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-002","persona":"family-kitchen-storyteller","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"The bamboo steamer held mushroom buns below and delicate spinach rolls above.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Steam reached the lower basket first, while condensation ran along the sloped lid toward its rim and away from the upper basket.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Give one practical stacking rule from those facts.","gold_reply":"Put sturdy buns below and delicate rolls above, where they avoid the strongest steam and most lid drips.","pause_after":"short"},
+      {"kind":"narration","text":"Could the rolls simply cook longer below? I was protecting their thin wrappers as well as timing them.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The upper rolls stayed closed while the buns expanded.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Both baskets reached the table together.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-003","persona":"weekend-community-helper","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"Roasted peppers rested beneath a lid, and condensation gathered while their blistered skins began to wrinkle.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"One uncovered pepper stayed glossy and held its skin tightly.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My niece asked, “Will the covered skins slide off without tearing the flesh?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The peppers were meant for broad intact strips, not a purée.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Which batch should be peeled first for the intact strips?","gold_reply":"Start with the covered peppers because their wrinkling skins are already loosening while the flesh rests beneath the lid.","pause_after":"short"},
+      {"kind":"narration","text":"The uncovered pepper returned beneath the lid.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-004","persona":"family-kitchen-storyteller","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A narrow counter left one tiled square beside the oven for landing a hot roasting pan.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Keep that square clear before the next pan comes out.","gold_reply":"Move loose prep items away and keep the oven-side tile open for the hot pan.","pause_after":"short"},
+      {"kind":"narration","text":"The cook explained that her thick mitt reached the square, but not the counter's far end.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"A spice bowl and towel moved to the prep board.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"What use was a clear counter if the hot pan had nowhere to land? The oven timer rang.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"narration","text":"The pan reached the empty tile in one steady movement.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The mitt returned to its hook without crossing the board.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-005","persona":"weekend-community-helper","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A tray of corn cakes carried neat round edges except for one that spread into a shape resembling a boot. Its center browned evenly and lifted cleanly from the griddle.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The cook placed it beside the round cakes rather than trimming its crisp toe. A streak of scallion made the shape look even more determined.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A child pointed and asked, “Does the boot cake walk to my plate?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Does that odd cake merit a playful reaction instead of correction?","gold_reply":"Absolutely. It is evenly cooked, releases cleanly, and its accidental boot shape adds harmless fun.","pause_after":"short"},
+      {"kind":"narration","text":"What griddle ever promised a full wardrobe? The cook slid the boot toward the child with a flat wooden turner.","traps":["rhetorical_question"],"pause_after":"none"},
+      {"kind":"narration","text":"The child ate the toe first and used a round cake to demonstrate the missing partner shoe.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Only two scallion crumbs marked the boot's former place.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-07-006","persona":"family-kitchen-storyteller","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"At the end of a family meal, hot broth was poured into the rice pot to lift the crisp layer from its base. The first spoonful loosened a golden sheet without breaking it apart.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Bowls returned to the table with only a little soft rice left in each. The lifted crust went into the center, where its toasted edge stayed above the broth.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"People tore pieces with their own spoons and added them to the final mouthfuls. Nobody received a separate formal course or a preassigned share.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The pot that had anchored the main meal became the shared serving dish for its last texture. Conversation slowed as the crisp sheet disappeared around the table.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Describe the texture sequence created by broth meeting the rice crust.","gold_reply":"Soft rice gives way to broth-loosened crust, while the toasted edge held above the liquid stays crisp longest.","pause_after":"short"},
+      {"kind":"narration","text":"When the pot was empty, only pale arcs showed where spoons had lifted the crust from the dark base.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-007","persona":"weekend-community-helper","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A clay pot held millet porridge over a charcoal ring, with a metal diffuser protecting its narrow base from the hottest point.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Should the diffuser stay for the next slow batch?","gold_reply":"Keeping it spreads the concentrated charcoal heat beneath the narrow clay base and supports a steadier simmer.","pause_after":"short"},
+      {"kind":"narration","text":"The cook explained her father's advice: “Correct a hard boil by lifting the pot onto the diffuser until the bubbles settle.”","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"Small bubbles rose across the surface instead of gathering at one scorched center. A wooden spoon passed along the bottom without catching.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"When one coal split, the diffuser held the pot above the brighter fragment. The simmer quickened slightly but did not erupt against the lid.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The finished porridge carried a toasted edge without a burnt patch. Its thickest portion released from the base under one slow turn of the spoon.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The clay cooled on the metal disk while the remaining coals faded beneath it.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"For the next batch, diffuser and ring stayed nested together beside the charcoal tin.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-008","persona":"family-kitchen-storyteller","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"Fresh tofu sat under a ceramic plate and three pantry jars. After twenty minutes, whey ringed the cloth, but a fingertip through the fabric still found the center softer than the corners.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We moved the jars from a row into a triangle without adding weight. The plate looked level, yet the middle of the bundle still yielded more than either corner.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The cloth stayed smooth, no curd squeezed through, and the draining tray kept the bundle out of its whey. Nothing looked strained or torn.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Name the observation that should decide when pressing stops.","gold_reply":"Stop when the center and corners offer similar resistance through the cloth; a level plate alone does not show that the middle is ready.","pause_after":"short"},
+      {"kind":"narration","text":"Could matching plate edges settle it? I kept feeling the covered center instead of letting the neat-looking plate answer for the tofu.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"After another twenty minutes, the center pushed back much like the corners. The plate had lowered a little, but that was only a companion clue.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A straight cut showed small pores across the block with no wet seam hiding in the middle. Each slice lifted cleanly in one piece.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The jars went back to the pantry, leaving three round patches of condensation on the plate and an evenly pressed block on the board.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-009","persona":"weekend-community-helper","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"At a wedding kitchen, one broth pot received roasted onion early and another held its onion until the final half hour. Both began with the same stock, ginger, and measured salt.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The early-onion broth turned amber and mellow, while the late-onion pot stayed paler with a sharper sweet edge. Two white ladles kept the tastings separate.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"An aunt lifted the pale ladle and asked, “Will this brighter broth suit the herb-heavy bowls?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The serving plan paired one hundred bowls with fresh basil and thirty bowls without herbs. Neither broth had yet received the final squeeze of lime.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Who expected an onion clock to divide the whole family kitchen? The two pots nevertheless offered clearly different bases for the same meal.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"address","text":"Would the sharper pale broth be the stronger partner for herb-heavy bowls?","gold_reply":"Likely yes. Its brighter onion edge can remain distinct beside fresh basil, while the mellow amber broth suits bowls served without herbs.","pause_after":"short"},
+      {"kind":"narration","text":"At service, colored cloths beneath the pots guided ladles rather than guests. Both broths traveled through the room as parts of one wedding meal.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-010","persona":"family-kitchen-storyteller","domain":"cooking","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A broad outdoor wok sat over a ring fire whose hottest flame touched the rear curve. The cook placed dense squash near that bright zone and tender greens along the cooler front edge.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A long spatula moved ingredients across the center without forcing every piece through the hottest oil. Squash edges browned while the greens wilted slowly and retained their stems.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The fire tender added one split stick at the rear, preserving the same heat gradient. A drop of sauce hissed sharply there and only whispered at the front.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"When the squash softened, it crossed forward into the greens and made room for sliced mushrooms at the rear. The wok worked like several cooking surfaces without adding another pan.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Does using the wok's heat zones offer a better tradeoff than stirring everything constantly?","gold_reply":"Yes. Dense foods can brown in the hot rear while tender foods soften at the front, reducing unnecessary movement and overcooking.","pause_after":"short"},
+      {"kind":"narration","text":"The final toss happened only after every ingredient had reached the center. Sauce coated the vegetables evenly, but their edges still showed the different heat each had received.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-011","persona":"weekend-community-helper","domain":"gardening","register":"warm-animated","segments":[
+      {"kind":"narration","text":"One corner of the seed tray's capillary mat had curled away from the water shelf, and the two cells above it looked paler than their neighbors.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Should restoring the curled mat's contact be the first step, rather than pouring extra water into those cells?","gold_reply":"Restore contact with the shared wet mat first, then see whether the two pale cells darken like their neighbors.","pause_after":"short"},
+      {"kind":"narration","text":"A smooth pebble held the lifted corner down without touching the tray holes.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Water spread beneath the mat from the same shallow shelf.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Both pale cells darkened before the next scheduled watering.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"No separate top pour disturbed their tiny stems.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-012","persona":"family-kitchen-storyteller","domain":"gardening","register":"warm-animated","segments":[
+      {"kind":"narration","text":"The watering-can rose produced one heavy stream where three small holes had joined with grit.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"That stream dented seed compost while the clear holes made soft droplets.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Would cleaning the rose be the proportionate first step?","gold_reply":"Cleaning the joined holes should restore separate droplets before any change to the can or seed tray.","pause_after":"short"},
+      {"kind":"narration","text":"Warm water loosened the grit without widening the metal openings.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The next pour spread evenly across an empty tray.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"No new dents appeared around the seedlings.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-013","persona":"weekend-community-helper","domain":"gardening","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A tomato stem leaned outward but remained uncreased and flexible.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The nearest bamboo stake stood a palm away, while a low branch carried two green fruits.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A soft cloth loop could reach the stake without pulling the fruit branch upward.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The main stem still had room to thicken inside a loose figure-eight tie.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Choose the support that protects both stem and fruit.","gold_reply":"Use the loose figure-eight loop on the main stem and leave the fruiting branch in its natural position.","pause_after":"short"},
+      {"kind":"narration","text":"The tied stem settled beside the stake without lifting the branch.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-014","persona":"family-kitchen-storyteller","domain":"gardening","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A nasturtium vine reached the top of its short trellis and began curling toward the neighboring rosemary. Its newest stem remained soft enough to bend without whitening.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would a sideways guide preserve growth better than cutting the tip now?","gold_reply":"A sideways guide lets the flexible stem extend without crowding the rosemary or removing active growth.","pause_after":"short"},
+      {"kind":"narration","text":"The gardener explained that the rosemary needed open air around its inner branches after rain.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"Could the vine simply hang free? I checked whether its weight would pull against the top trellis joint before choosing a route.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"A cotton cord ran horizontally to an empty hook, staying a hand above the rosemary tips. The vine's own curl held it without a tight knot.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Two days later, the growing tip had turned along the cord. The rosemary gap remained open, and the trellis top showed no extra pull.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The side route gained a second loose loop only after the next leaf unfolded.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-015","persona":"weekend-community-helper","domain":"gardening","register":"warm-animated","segments":[
+      {"kind":"narration","text":"A bean tendril had curled around the handle of an unused hand fork and lifted it slightly from the pot rim. The vine itself stayed green and uncreased.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Each breeze made the fork tap the bamboo stake like a tiny garden bell. No leaf was pinned beneath the tool, and the soil showed no pull at the roots.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The tendril had already secured itself to the stake above the fork, so the tool was an extra attachment rather than the vine's only support.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Does the fork deserve a laugh and a gentle release rather than an emergency rescue?","gold_reply":"It does. The intact vine is already supported, and the harmless tapping comes from one tendril borrowing an idle tool handle.","pause_after":"short"},
+      {"kind":"narration","text":"The fork rotated once until the coil slipped free without being pulled straight. The tendril kept its curl and rested against the stake.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The tool moved to the bench, where the next breeze found nothing metallic to ring against bamboo.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"By evening, the freed curl had caught the stake again on its own.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-07-016","persona":"family-kitchen-storyteller","domain":"gardening","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"The balcony shadow reached mint first, basil about an hour later, and thyme last. I could watch the shade travel down the row without moving a single pot.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Basil sagged during its last bright hour and stood back up once the shadow arrived. Mint stayed perky, and thyme seemed pleased with whatever the afternoon gave it.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The soil felt damp in all three pots, and their saucers matched. That made the extra stretch of sun a more useful clue than another round with the watering can.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"I chalked a spot closer to mint's shade. Basil would still get the gentle morning sun there, just not the final hot hour by the wall.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Tell me what that small move is likely to change.","gold_reply":"It should preserve basil's morning light while removing the late bright hour linked to its temporary droop, with watering left unchanged.","pause_after":"short"},
+      {"kind":"narration","text":"Basil moved to the chalk mark for two days, while mint and thyme stayed put and kept the moving shadow easy to read.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-017","persona":"weekend-community-helper","domain":"gardening","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"Several seed packets on the neighborhood shelf were old enough to make everyone hesitate. The dates were clear, but the beans, marigolds, lettuce, and coriander inside still looked dry and sound.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Is trying a small handful fairer than throwing out each packet by date alone?","gold_reply":"Yes. A small germination check can show what still grows while leaving most seeds available instead of treating age as the verdict.","pause_after":"short"},
+      {"kind":"narration","text":"We counted ten seeds from each packet onto damp paper and wrote the names on four little dishes. The newer packets stayed closed on the shelf.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"All four dishes sat together by the bright window. They received the same drops of water, and clear lids kept us from having to guess which paper had dried faster.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Four days later, eight beans and seven marigolds had opened. Two lettuces showed tiny roots, and coriander still looked exactly as it had on the first morning.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"We wrote the day beside each count and gave coriander more time. A quiet seed was not automatically a dead seed, especially when the other kinds had moved at different speeds.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Beans and marigolds went back to the sharing row with their results clipped on. Lettuce moved to a small-trial basket rather than straight into a large community bed.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Forty tested seeds had given the remaining packets a clearer future than four printed dates could manage on their own.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-018","persona":"family-kitchen-storyteller","domain":"gardening","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"Our orchard map gave every young tree a number and a simple mulch circle. Grass had crept right up to the newest plum, unlike the clean rings around the older pears.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The coordinator told us, “Search the grass for old trunk guards before you spread mulch,” and kept a separate box for that check on the work sheet.","traps":["reported_speech","descriptive_command_word"],"pause_after":"short"},
+      {"kind":"narration","text":"A thin guard peeked above the plum's grass and wiggled freely around the stem. The mulch circle on the map reached much farther out.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Would you keep the guard check separate from clearing the mulch circle?","gold_reply":"Yes. Check the loose guard on its own, then clear grass to the mapped circle without assuming that one task proves anything about the other.","pause_after":"short"},
+      {"kind":"narration","text":"The guard lifted without catching a stem or hidden tie, then went back with the same loose overlap. A string showed us the wider circle.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We pulled grass by hand inside the string and found two shallow roots. Around those, fingers did the work instead of a tool digging to an arbitrary depth.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A thin mulch layer filled the circle and stopped a palm from the trunk. The guard, roots, and stem all stayed visible and unburied.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The sheet ended with two plain marks: guard free, mulch done. Side by side on paper no longer meant they had been one problem.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-019","persona":"weekend-community-helper","domain":"gardening","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A pollinator bed opened in three visible waves: low white alyssum first, purple salvia next, and tall yellow fennel last. The first two already overlapped for several days.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Morning bees worked the alyssum edge while larger visitors reached deep salvia tubes after the sun warmed them. The unopened fennel stood above both without shading their flowers.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"An empty corner near the path could hold one more plant, but its soil dried sooner than the center. A small water dish already occupied the shaded side.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The nursery offered compact oregano beginning to bud and another salvia already in full flower. Either would fit the corner without covering the alyssum.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A flowering salvia would repeat the current purple wave, while budding oregano could extend low flowers into the gap before fennel fully opened.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Would the budding oregano add the more useful sequence?","gold_reply":"Yes. It adds a low, upcoming bloom between the present alyssum-salvia overlap and the later fennel rather than duplicating flowers already open.","pause_after":"short"},
+      {"kind":"narration","text":"The oregano entered the corner with a shallow basin, leaving its lowest buds clear of the path.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-020","persona":"family-kitchen-storyteller","domain":"gardening","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A mature chive clump filled its pot so tightly that water ran around the root mass instead of soaking through it. New green tips still emerged, but the center held several dry brown stems.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"When lifted, pale roots circled the pot wall and a natural seam divided the clump into three hand-sized sections. None of the sections required cutting through the densest crown.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Three prepared pots held the same fresh mix and drainage depth. One could receive the whole clump, or the natural seams could supply three smaller starts.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Frame the tradeoff between keeping one large plant and dividing along those seams.","gold_reply":"Keeping it whole preserves immediate size, while division sacrifices that fullness but relieves circling roots and creates three less-crowded plants.","pause_after":"short"},
+      {"kind":"narration","text":"The clump separated under steady hand pressure, leaving roots attached to every crown. Only dry central stems and one torn root tip were removed.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Each section sat at its original depth and received water slowly until the mix darkened throughout. No pot produced the former rush around a solid root wall.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The original single mound became three quieter starts, trading instant abundance for space to renew.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-021","persona":"weekend-community-helper","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"The festival map used a gold highlight from the entrance through the lantern court to the exit.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"address","text":"Read the gold line as orientation, not decoration.","gold_reply":"It gives visitors one continuous route between the entrance, lantern court, and exit.","pause_after":"short"},
+      {"kind":"narration","text":"Blue dots marked water tables without interrupting the line.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The gold route avoided the loading gate.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A copy hung at both ends of the square.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Visitors traced the same line from opposite directions.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-022","persona":"family-kitchen-storyteller","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"The repair café gave each arriving object a numbered cloth loop.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Owners kept their objects while volunteers called only the next number.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Can that system keep the queue orderly without separating people from their belongings?","gold_reply":"Numbered loops preserve arrival order while each owner remains responsible for the object.","pause_after":"short"},
+      {"kind":"narration","text":"Could a paper ticket work as well? I watched the cloth loop stay attached to a lamp through two conversations.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A toaster and torn backpack advanced without changing hands.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The loops returned to the entrance after each consultation.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-023","persona":"weekend-community-helper","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"Before the procession, three handbells were tested from the square's rear gate.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The small brass bell faded halfway back, while the bronze bell remained distinct beside traffic.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The route marshal asked, “Can the rear gate hear the bronze bell clearly?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A checker at the gate raised the matching bronze card after each of three rings.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Choose the lead bell from that distance test.","gold_reply":"Use the bronze bell because it stayed distinct at the rear gate and was identified correctly on all three rings.","pause_after":"short"},
+      {"kind":"narration","text":"The brass bell moved to a quieter greeting point.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-024","persona":"family-kitchen-storyteller","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"At the outdoor poetry evening, the microphone carried voices clearly until wind crossed its uncovered side. A foam cover softened the gust noise but also dulled quiet final consonants.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would turning the microphone away from the wind be worth testing before changing the cover?","gold_reply":"Yes. Orientation may reduce side gusts while preserving the clearer consonants heard without the heavier cover.","pause_after":"short"},
+      {"kind":"narration","text":"Could the reader simply speak louder? I kept voice effort separate from a noise created at the microphone itself.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The stand turned thirty degrees while its height and reader distance stayed fixed. A thin cover remained over the grille.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The next poem kept its soft endings, and two gusts passed with only a low brush of noise.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A chalk mark at the stand base preserved the tested angle for the next reader.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-025","persona":"weekend-community-helper","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A neighborhood swap used low tables for books and tall racks for coats. Empty baskets beneath each section held items that needed a closer category decision.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The coordinator explained that mixed baskets prevented volunteers from forcing uncertain objects into the first plausible pile.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"A cookbook with handwritten family notes went into the basket between books and keepsakes. A rain cape with a broken snap waited between clothing and repair.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Describe the social value of leaving those categories temporarily open.","gold_reply":"The baskets make room for context and repair instead of forcing meaningful or uncertain objects into rigid labels.","pause_after":"short"},
+      {"kind":"narration","text":"Owners could add context before leaving, and later visitors could choose an object from the basket without its category becoming permanent.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By noon, the cape moved to the repair table and the cookbook found a reader interested in its margin notes.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The empty baskets remained available for the next object that did not fit at first glance.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-026","persona":"family-kitchen-storyteller","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A neighborhood history walk placed listening flags at five corners rather than gathering everyone around one guide. Each flag carried a short place description and a direction toward the next stop.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Groups could begin at different corners, which reduced crowding beside the narrow bakery steps. The route still formed one loop and returned every group to the community hall.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"At the canal flag, traffic briefly covered the quiet spoken passage. A printed summary beneath the speaker preserved the key place names without duplicating every sentence.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Two visitors read while another listened again after the bus passed. Neither choice delayed the group behind them because the next direction remained visible on the post.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Frame the flags as flexible pacing rather than a fragmented event.","gold_reply":"They let small groups listen, read, or repeat at their own pace while the linked loop keeps everyone inside one shared walk.","pause_after":"short"},
+      {"kind":"narration","text":"At the hall, people arrived from both sides carrying different first impressions of the five corners.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-027","persona":"weekend-community-helper","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A neighborhood skill-share planned three short sessions in adjoining rooms: block printing, a story circle, and handbell playing. The first timetable started all three at the same hour.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"During a five-minute trial, the printing room stayed quiet, but handbell phrases crossed the folding divider and covered the storyteller's softer endings.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Moving the bells to the courtyard helped, although their warm-up still overlapped the story circle's opening. The printing tables could continue through either sound without losing instructions.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The storyteller listened at the divider and asked, “Could the bells begin during our tea pause instead of our first page?”","traps":["quoted_question"],"pause_after":"none"},
+      {"kind":"address","text":"Can staggering the bells around the existing tea pause give the three sessions a workable rhythm?","gold_reply":"Staggering can work: let printing continue, finish the story's opening before tea, and begin the courtyard bells during that pause so their strongest sound does not cover spoken words.","pause_after":"short"},
+      {"kind":"narration","text":"The revised board placed block printing first, story ten minutes later, and bell warm-up at the tea break. Colored clips made each start visible without adding another announcement.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"In the next trial, the story reached its pause before the first bell phrase. Printers kept rolling ink, and people leaving tea could follow the bells into the courtyard.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The final timetable did not silence any workshop or force visitors into one route. It used the natural pause between speaking and tea to let three different activities remain distinct within one shared afternoon.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-028","persona":"family-kitchen-storyteller","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"For a community book walk, volunteers placed twelve story pages in shop windows along a short market loop. Large numbers at the lower corners made the sequence visible from the pavement.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The bakery owner explained that page four needed to remain above the bread display, where steam would not cloud its sleeve. The number stayed visible even when customers lined up inside.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"At the florist, page seven faced direct sun and developed a bright reflection. Tilting its sleeve downward removed the glare without moving the page away from its numbered position.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Families followed the numbers in small groups, sometimes pausing for a shop doorway to clear. Arrows on each page pointed toward the next window without requiring a guide.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"One missing number became visible across the lane only after a delivery bicycle moved. The page itself had remained in place behind the pharmacy glass.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Summarize how the route stays coherent while shops keep operating.","gold_reply":"Visible numbers and arrows maintain the story sequence, while adjustable sleeves and small-group pacing accommodate displays, glare, queues, and deliveries.","pause_after":"short"},
+      {"kind":"narration","text":"The final page returned walkers to the market clock, where blank cards gathered alternate endings.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-029","persona":"weekend-community-helper","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"A neighborhood shadow-puppet evening used a white sheet stretched between two courtyard posts. Families brought kitchen utensils, cardboard animals, and leafy branches to test as silhouettes.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A single lamp made crisp shapes near the sheet but enlarged hands dramatically when they moved toward the light. Tape lines on the ground marked one sharp zone and one giant-shape zone.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Children began with a tiny cardboard bird and discovered that a soup ladle could become its moon. Adults supplied a forest by holding colanders and herb stems along the lower edge.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Who had expected the evening's largest creature to be a potato masher? Its shadow crossed the sheet with six square feet and received a solemn drum tap.","traps":["rhetorical_question"],"pause_after":"none"},
+      {"kind":"narration","text":"The sharp-zone line kept detailed animals readable, while performers stepped backward only for deliberate transformations. Nobody needed a fixed role or rehearsed script.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Does the two-zone setup create useful freedom rather than technical fuss?","gold_reply":"Yes. One line preserves crisp detail and the other enables playful enlargement, giving improvised performers two reliable visual choices.","pause_after":"short"},
+      {"kind":"narration","text":"When the lamp switched off, utensils returned to kitchens and the courtyard kept the potato masher's brief career as a six-legged legend.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-07-030","persona":"family-kitchen-storyteller","domain":"local-events","register":"practical-reflective","segments":[
+      {"kind":"narration","text":"Six small telescopes stood across the schoolyard, with two taped power leads and one low step between the gate and the first viewing spot. White string lights made the ground obvious but washed the faint stars from the sky.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We switched the white strings off and set low red lamps beside the gate, step, and cable crossing. Their shades pointed down, so the ground glowed without a red bulb facing the telescopes.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Reflective bands wrapped the outward tripod legs, and a red-lit viewing mark sat a full step before each one. From the gate, the ground lights led to those stopping points without entering the telescope line.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Give arriving visitors one clear sentence to follow.","gold_reply":"Follow the red ground lights from the gate and stop at a red-lit viewing mark before the reflective tripod legs, keeping white lights off.","pause_after":"short"},
+      {"kind":"narration","text":"The first family followed the red pools, crossed the taped lead at its lamp, and stopped on the viewing mark before the nearest reflective tripod legs.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A volunteer invited one person forward from the mark to the eyepiece. A late arrival used the same short direction and waited at the second red-lit position without raising a phone light.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Through the final session, people paused at red-lit marks before volunteers brought them past the reflective legs one at a time, and the faint sky stayed visible without white glare.","traps":[],"pause_after":"long"}
+    ]}
+  ]
+}

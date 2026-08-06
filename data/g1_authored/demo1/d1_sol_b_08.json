@@ -1,0 +1,299 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {"model": "gpt-5.6-sol", "slot": "d1-sol-b", "tranche": 8},
+  "records": [
+    {
+      "id": "d1-sol-b-08-001",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "After rain, water stayed along the painted edge of the new curb ramp although the nearby grate was clear. One paint ridge sat between water and drain.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "What is the most likely reason that small puddle remains?", "gold_reply": "The raised paint edge is acting like a tiny dam, keeping water from reaching the clear grate.", "pause_after": "none"},
+        {"kind": "narration", "text": "A worker poured a bucket above the ramp and watched water stop at that line.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The concrete beneath the stripe still sloped toward the grate.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A narrow section of excess paint was shaved level without widening the ramp.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The second bucket crossed the former ridge and left no standing strip.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-002",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "The town clock played four quarter tones, then held five seconds of silence before the hour strike. Its maintenance sheet called that interval “wait,” describing a programmed gap rather than a missing note.", "traps": ["descriptive_command_word"], "pause_after": "medium"},
+        {"kind": "address", "text": "Does the silence sound like part of the sequence rather than a fault?", "gold_reply": "Yes. Four quarter tones followed by the documented five-second gap make the later hour strike a separate, deliberate phrase.", "pause_after": "none"},
+        {"kind": "narration", "text": "The clock keeper explained that the pause prevents the hour count from blending into the quarter melody.", "traps": ["reported_speech"], "pause_after": "short"},
+        {"kind": "narration", "text": "At noon, listeners heard the four-note pattern, the full quiet interval, and then twelve evenly spaced strikes.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "No mechanism stuttered or repeated a partial tone during the gap.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A small display inside the foyer counted down the same five seconds before showing the hour.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-003",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "During public comment, the council chamber’s countdown clock faced the chair and audience from the rear wall. Speakers at the lectern could see it only by turning away from the microphone, so several people discovered that their three minutes had nearly ended only when the closing chime sounded.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Moving the large clock beside the dais would put it behind the sign-language interpreter and narrow the clear sightline from the accessible seating row. The lectern already had power and an unused low shelf where a small synchronized display would face the speaker without entering anyone else’s view.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Which arrangement gives speakers equal time awareness without sacrificing the interpreter’s sightline?", "gold_reply": "Keep the main clock where the room can see it and add the synchronized display on the lectern’s low shelf, facing only the speaker; both clocks show the same limit while the interpreter remains unobstructed.", "pause_after": "none"},
+        {"kind": "narration", "text": "Could the chair simply announce each final minute instead? I treated that as a different safeguard: it depends on one person speaking at the right moment and would interrupt testimony, while a matched display gives every speaker the same quiet cue.", "traps": ["elaborating_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "At the next meeting, the two clocks began together and remained within one second through nine speakers. People at the lectern glanced downward without leaving the microphone, and seated residents retained a full view of the interpreter’s hands, face, and upper body.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The clerk logged one remaining difference: the lectern display needed larger numerals for a speaker using its lowest height setting. That adjustment changed legibility, not the public-comment limit or the chamber layout, so the shared timing rule stayed visible without making one audience’s access pay for another’s.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-004",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "A new recycling-bin flap in the civic plaza made a clear metal ping whenever it closed.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "A child dropped in a can and asked, “Did the bin just say thank you?”", "traps": ["quoted_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "Why should a civic bin be denied one tiny note of good manners?", "traps": ["rhetorical_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "The ping was audible nearby but did not carry across the square.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Would you keep that sound as it is?", "gold_reply": "Keep it. The harmless nearby ping confirms that the flap closed and adds personality without disturbing the wider square.", "pause_after": "none"},
+        {"kind": "narration", "text": "Staff left the flap unchanged, and the next can earned the same small note.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-005",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "Residents beside the municipal basketball court wanted the floodlights off earlier because late games kept their bedrooms bright. Players leaving the court wanted enough light to find the gate and cross the uneven path to the bus stop, especially after rain made the paving edges harder to distinguish.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "A week of gate counts showed that organized play fell sharply by nine, while small groups continued along the exit path for another ten minutes. The court lamps lit the playing surface and nearby windows together; three low path lamps served only the gate, paving edge, and bus-stop approach.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Measurements from the apartment side separated the two effects. With the floodlights on, upper windows received a broad white band. With only the path lamps on, the court went dark, the band disappeared, and the curb line remained visible from the gate to the shelter.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The parks electrician reported that the court and path already used independent circuits, so their shutdown times could differ without rewiring the site. The path lamps also had fixed downward covers that kept their beam below the apartment windows.", "traps": ["reported_speech"], "pause_after": "short"},
+        {"kind": "address", "text": "Does a split lighting schedule meet both public needs better than one shared switch-off?", "gold_reply": "Use the split schedule: turn the court floodlights off at nine, keep the covered path lamps on through the ten-minute exit period, then switch those off too. Residents lose the broad glare while players retain a lit route out.", "pause_after": "none"},
+        {"kind": "narration", "text": "During the trial, the final game ended under full court light, the route stayed visible as players left, and the apartments darkened at nine. By nine ten the gate was empty and the path lamps went out, preserving a clear end to public lighting rather than extending the compromise all night.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-006",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "A temporary pedestrian signal beside the roadworks displayed “wait” in amber even after the traffic lane stopped, because the protected crossing phase began several seconds later. The red walking figure stayed lit during that gap.", "traps": ["descriptive_command_word"], "pause_after": "none"},
+        {"kind": "address", "text": "Which visible cue should pedestrians follow during those few quiet seconds?", "gold_reply": "The walking figure; stopped traffic alone does not begin the protected phase, and the figure remains red until crossing time actually starts.", "pause_after": "none"},
+        {"kind": "narration", "text": "The construction barrier blocked the view of one turning lane from the near curb.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "A countdown appeared only after the figure changed to green.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Two observers timed the silent gap at four seconds on three cycles.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "A larger sign beside the button now points directly to the walking figure.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "People waited through the gap and entered with the protected countdown.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-007",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "At a participatory-budget workshop, residents placed colored dots on a large neighborhood map: blue for safer crossings, green for trees, amber for benches, and purple for public toilets. The legend named every category, but the loose dots carried color alone once people lifted them from the table.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Two participants repeatedly brought blue and purple dots close to the legend before choosing, and the photographed map turned several shades nearly identical under the meeting-room lights. Replacing color entirely would discard a cue many people used quickly; leaving it alone made independent selection and later counting unreliable.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Could facilitators simply read every choice aloud? I kept that as verbal support, not a substitute for marks that residents could choose privately and auditors could distinguish on the completed map.", "traps": ["elaborating_question"], "pause_after": "medium"},
+        {"kind": "address", "text": "Would pairing each color with a printed shape preserve speed while making every category independently legible?", "gold_reply": "Pair each familiar color with a distinct shape on both legend and dots—such as circle, leaf, triangle, and square—so either cue identifies the same budget category during selection and counting.", "pause_after": "none"},
+        {"kind": "narration", "text": "The accessibility officer explained that the shapes needed different outlines, not merely different orientations of one symbol, and that each one should also appear beside the category name on the instruction sheet.", "traps": ["reported_speech"], "pause_after": "none"},
+        {"kind": "narration", "text": "A second table used blue circles, green leaves, amber triangles, and purple squares. Participants sorted sample dots correctly without consulting staff, while people who preferred color moved at their earlier pace and did not have to decode a new numbering system.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "When the maps were photographed in grayscale, the four outlines remained separable and the tally matched the physical count. The revision did not create a special parallel ballot; it made the shared one readable through two redundant cues.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-008",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "The wooden suggestion box in the town-hall foyer squeaked loudly whenever its lid opened.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "In the quiet foyer, that sound turned each anonymous card into a small public event.", "traps": [], "pause_after": "none"},
+        {"kind": "address", "text": "Name the civic cost of that squeak.", "gold_reply": "It announces that someone is submitting a supposedly anonymous comment, which can make private participation feel exposed even without revealing the card’s contents.", "pause_after": "none"},
+        {"kind": "narration", "text": "A felt dot softened the closing tap.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "One small drop of wax eased the dry hinge.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The next card entered without announcing its author to the foyer.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The lid still settled firmly over the slot.", "traps": [], "pause_after": "none"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-009",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "A portable hearing loop gave a clear middle-row voice, a front buzz, and a weak back-row signal. Its cable surrounded only the center chairs.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "One receiver reproduced the pattern across the aisle, tying it to seat position. The front buzz peaked beside the lectern power strip.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The technician asked, “Can the back row hear without extra volume?”", "traps": ["quoted_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "Extra volume enlarged the buzz before back-row words became clear. Another cable section could reach behind the final chairs and move the front edge from the power strip.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "A temporary extension cleared the final row, and shifting the cable half a meter from the lectern reduced the front buzz. Middle seats stayed clear.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "State the placement lesson from that test.", "gold_reply": "Extend the loop behind the back row and keep its front edge away from the lectern power strip; coverage improves without amplifying the buzz.", "pause_after": "none"},
+        {"kind": "narration", "text": "Removable tabs marked the tested cable path. Receivers remained at the entrance, while the seating note no longer treated the middle block as the only usable area.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-010",
+      "persona": "civic-meeting-observer",
+      "domain": "local-government",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "A public bicycle pump was folded into a gray cabinet on the civic-center wall, but parked bicycles covered the only small label at handlebar height. The pump remained usable whenever someone found the latch, and a blank band of wall stayed visible above every bicycle in the rack.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Make the pump discoverable without filling the square with extra signs.", "gold_reply": "Carry one high-contrast stripe and a bicycle-wheel symbol up the visible wall band, directly above the existing cabinet.", "pause_after": "none"},
+        {"kind": "narration", "text": "The cabinet door opened toward the rack, so any new mark on the door itself would disappear behind a bicycle at the same moment as the old label. A symbol placed higher could remain aligned with the pump without entering the pedestrian route.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Who should search behind six parked bicycles for a tool installed for public use?", "traps": ["rhetorical_question", "descriptive_command_word"], "pause_after": "short"},
+        {"kind": "narration", "text": "A removable yellow strip rose from the cabinet edge to a simple wheel icon above the rack. From the plaza entrance, the icon sat below the building name and did not compete with exit or accessibility signs.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Three cyclists approached from different sides. Each looked first at the high mark, then followed the strip down to the same latch without moving another bicycle or checking neighboring service doors.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The pump hose reached both ends of the rack and returned fully inside the cabinet. The test therefore separated finding the tool from using it; the new mark solved the first problem without implying that every bicycle repair could happen there.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "After one week, the temporary strip remained clean and the cabinet handle showed ordinary use. The civic center kept the wall band but reduced the wheel icon slightly before making the marker permanent.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-011",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "Every chapter in our novel is titled with a weather report, yet the third chapter never leaves a warm kitchen. Its title is “Gale Warning.”", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Does that title make the kitchen feel less safe before anything happens?", "gold_reply": "Yes. “Gale Warning” places pressure around the warm room, so its safety already feels temporary.", "pause_after": "none"},
+        {"kind": "narration", "text": "A kettle whistles while two characters avoid naming their disagreement.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The curtains hang still through the entire scene.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Only the final sentence opens the back door to cold air.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The title supplied the storm before the room admitted it.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-012",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "In a linked-story collection, the final sentence of each piece becomes the opening sentence of the next. “The window stayed open all winter” closes a daughter’s departure and then begins a caretaker’s account of an abandoned school.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Give that repeated sentence one structural purpose.", "gold_reply": "It turns one story’s closure into another story’s premise, carrying language across lives while changing what the same words can mean.", "pause_after": "none"},
+        {"kind": "narration", "text": "The editor explained that every shared sentence was chosen before the surrounding stories were revised into their final forms.", "traps": ["reported_speech"], "pause_after": "short"},
+        {"kind": "narration", "text": "Could the chain be only a decorative puzzle? I kept that possibility beside the stronger pattern: each borrowed line shifts speaker, setting, and consequence.", "traps": ["elaborating_question"], "pause_after": "long"},
+        {"kind": "narration", "text": "A later line about a missing blue coat ends a brother’s confession and opens a stranger’s lost-property log.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The repeated words make neighboring stories touch without pretending their characters share one plot.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-013",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "The fantasy novel’s glossary begins with plain entries for tides, tools, and harbor taxes. Halfway through, its definitions become oddly personal: “harbor” is called a place you leave before it leaves you, and “compass” becomes an instrument that points everywhere except home.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "No byline identifies the glossary writer. Several phrases echo a minor cartographer’s jokes in the chapters, but the entries also know events that happen after that character disappears from the story.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Does the glossary become a second narrator rather than a neutral reference?", "gold_reply": "Yes. Its increasingly personal definitions interpret exile and home, giving the reference pages a distinct voice beyond ordinary world-building.", "pause_after": "none"},
+        {"kind": "narration", "text": "A sailor reaches the final pages, reads one definition, and asks, “Who wrote the part about the compass?”", "traps": ["quoted_question"], "pause_after": "medium"},
+        {"kind": "narration", "text": "The question receives no name, but the next glossary entry defines “return” as a direction that changes while you travel. That line comments on the sailor’s choice without entering the chapter as spoken dialogue.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Our group treated the glossary voice as structurally real even though its owner remained open. The definitions do more than explain invented terms: they revise earlier meanings, anticipate emotional turns, and let the book argue quietly from its edges.", "traps": [], "pause_after": "long"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-014",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "A poem repeats the line “I carried the key” three times, but the punctuation changes from a period to a comma and then no mark at all.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The words stay identical while the line sounds less settled on each return.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Name the movement created by those disappearing stops.", "gold_reply": "The line moves from certainty into continuation: statement, attachment, then an opening that refuses to close.", "pause_after": "none"},
+        {"kind": "narration", "text": "The final version runs directly into an image of an unlocked gate.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "No fourth repetition restores the period.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The key remains carried, but its sentence no longer stands alone.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-015",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "In the adventure novel, the search party appears only through traces: a fresh boot mark at dawn, a cut rope at noon, and a lantern moving on the far ridge after dark. The lost traveler never sees the people themselves.", "traps": ["descriptive_command_word"], "pause_after": "medium"},
+        {"kind": "narration", "text": "Each sign could mean rescue is closer, but each also makes the traveler aware of how much landscape still lies between the signals. The narration stays inside that uncertainty instead of shifting to the rescuers.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Who needs a visible crowd when one distant lantern can carry both hope and distance?", "traps": ["rhetorical_question"], "pause_after": "long"},
+        {"kind": "narration", "text": "The traveler answers the ridge with a small fire, then shelters it behind stones so wind cannot erase the reply.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Frame the unseen rescuers’ role without making them feel absent.", "gold_reply": "They are present as an approaching pattern of evidence; being unseen keeps rescue uncertain while every trace narrows the emotional distance.", "pause_after": "none"},
+        {"kind": "narration", "text": "The chapter ends before either light reaches the other.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-016",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "A graphic novel gives six equal panels to a daughter clearing her late father’s kitchen. Five show her hands wrapping a cup, closing a drawer, or stacking plates; the center panel contains only a pale rectangle of afternoon sun across the empty table, with no figure, object in motion, or caption.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Read that blank-looking panel as part of the action.", "gold_reply": "It pauses the inventory and makes absence occupy the table; the daughter’s practical work continues around a moment in which nothing can be packed away.", "pause_after": "none"},
+        {"kind": "narration", "text": "The illustrator noted that the panel has the same dimensions as the others and repeats the exact window light established on the previous page, so it is composed space rather than missing artwork.", "traps": ["reported_speech"], "pause_after": "short"},
+        {"kind": "narration", "text": "The following panel returns to the daughter’s hand, now suspended above a chair she has not moved. Its border arrives after a wider strip of white than the gaps separating the earlier packing gestures.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "When our group read the page quickly, the empty panel seemed to vanish between the objects. On a slower pass, it lengthened the instant before the untouched chair and made that hesitation feel earned rather than overstated.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "No dialogue names grief on the page. The cup, drawer, plates, and chair remain ordinary household things, while the sunlit table interrupts their usefulness with an area that belongs to memory more than sorting.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "By the final panel she has packed one fewer object than the sequence first promised. The apparently empty frame becomes the hinge between efficient clearing and the choice to leave the chair in place.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-017",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "A family novel stays in past tense until Mara unlocks the abandoned greenhouse. For three paragraphs, the narration shifts into the future: one pane will crack, seedlings will survive beneath a bench, and her aunt will stand in the doorway holding the old brass key.", "traps": [], "pause_after": "short"},
+        {"kind": "address", "text": "Hold that future tense as pressure rather than a guaranteed prophecy.", "gold_reply": "It crowds Mara’s present choice with possible consequences, but the scene has not promised that every forecast will occur exactly as phrased.", "pause_after": "none"},
+        {"kind": "narration", "text": "The next chapter returns to past tense before Mara decides whether to clear the broken pots.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "A storm later cracks a different pane, and the seedlings are moved before frost reaches them.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "Her aunt comes back carrying pruning shears rather than the key.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "Mara nevertheless remembers the earlier sentences while choosing what to save.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The future-tense passage shapes expectation, then the altered details keep possibility from hardening into fate.", "traps": [], "pause_after": "medium"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-018",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "One scene in the printed play splits the page into two narrow columns. The left column follows a mother packing a suitcase upstairs; the right follows her son repairing a bicycle below. Their lines align horizontally even though neither character can hear the other.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "At three points, an action in one column answers an image in the other: a zipper closes beside a tightened brake cable, folded shirts sit beside stacked tools, and both characters pause with one object still in hand.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "The son looks toward the ceiling and asks, “Are you taking the blue case?”", "traps": ["quoted_question"], "pause_after": "long"},
+        {"kind": "address", "text": "Describe what the two-column page lets an audience feel before staging decides where to look.", "gold_reply": "It makes separation simultaneous: their practical actions rhyme across floors, so distance and connection occupy the same moment.", "pause_after": "none"},
+        {"kind": "narration", "text": "Could the aligned pauses require exact timing on stage? I kept the visual relationship from the page while leaving performance tempo open.", "traps": ["elaborating_question"], "pause_after": "short"},
+        {"kind": "narration", "text": "In rehearsal, the actors tried the columns first as strict cues and then as looser overlapping rhythms. The second version preserved all three object echoes without making every gesture land like a mechanical signal.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "The director kept one shared pause near the end and let the earlier actions breathe independently. The page’s architecture remained visible in performance, but the actors did not have to imitate typography with stopwatches.", "traps": [], "pause_after": "none"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-019",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "plain-reflective",
+      "segments": [
+        {"kind": "narration", "text": "A sonnet keeps an alternating rhyme for eleven lines, then ends line twelve on the unrhymed word “stone.” Its final couplet returns to quieter rhyme.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The broken line describes a carved name amid voices fading from a garden. Its consonants feel heavier than the softer pattern around it.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "Our group read the line aloud twice, once forcing a near-rhyme and once allowing “stone” to remain alone. The forced version smoothed the form but weakened the sudden weight of the carved object.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Who repairs a broken rhyme before listening to what the break carries?", "traps": ["rhetorical_question"], "pause_after": "none"},
+        {"kind": "narration", "text": "The short couplet afterward does not erase the disruption. It sounds like speech resuming more carefully after the mouth has met one word it cannot pass lightly.", "traps": [], "pause_after": "long"},
+        {"kind": "address", "text": "Would you read the unrhymed line as failure or deliberate pressure?", "gold_reply": "Deliberate pressure: “stone” interrupts the established music exactly where the poem turns from fading voices to a carved name.", "pause_after": "none"},
+        {"kind": "narration", "text": "We marked the rhyme break without labeling the whole sonnet irregular.", "traps": [], "pause_after": "short"}
+      ]
+    },
+    {
+      "id": "d1-sol-b-08-020",
+      "persona": "reading-circle-participant",
+      "domain": "literature",
+      "register": "friendly-precise",
+      "segments": [
+        {"kind": "narration", "text": "The novel’s town speaks through a rotating “we”: bakers in one chapter, ferry workers in another, then schoolchildren watching from a wall. Each group knows a different part of the missing musician’s last day, and none identifies an individual speaker within its chorus.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "The bakers remember flour on the musician’s coat and a tune tapped against the counter. Ferry workers remember a dry instrument case carried toward the inland road, while the children remember no case at all, only both hands in empty pockets.", "traps": [], "pause_after": "medium"},
+        {"kind": "narration", "text": "Their details do not combine into a clean route. The coat could retain flour for hours, the road begins near the ferry, and the children watched from a wall that overlooks two exits. Each chorus speaks confidently from one limited angle.", "traps": [], "pause_after": "none"},
+        {"kind": "narration", "text": "A later chapter shifts to the empty bandstand, where the town’s voice lists everything still present: one chair, rain in the drum, and a page of music held down by a stone. No new witness arrives to settle the earlier differences.", "traps": [], "pause_after": "long"},
+        {"kind": "narration", "text": "The final section brings all three choruses to a festival without merging their pronouns. Bakers carry bread, ferry workers raise the canvas roof, and children chalk musical notes around the same wall from which they once watched.", "traps": [], "pause_after": "short"},
+        {"kind": "narration", "text": "What changes is not their knowledge of the disappearance but their willingness to occupy one scene together. The missing musician remains beyond the edge of every account, while the town becomes more visible through the labor of its separate groups.", "traps": [], "pause_after": "medium"},
+        {"kind": "address", "text": "Synthesize what the rotating “we” achieves without forcing the musician’s route into one answer.", "gold_reply": "The rotating chorus builds a town from partial communal viewpoints: contradictions preserve each group’s limits, while their later cooperation becomes the clearest shared development.", "pause_after": "none"},
+        {"kind": "narration", "text": "We ended our discussion with the bandstand rather than drawing a path across the town. The novel leaves one life unresolved but makes collective memory concrete through work, repeated places, and the changing distance among the people who remain.", "traps": [], "pause_after": "long"}
+      ]
+    }
+  ]
+}

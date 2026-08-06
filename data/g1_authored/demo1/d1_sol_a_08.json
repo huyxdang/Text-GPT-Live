@@ -1,0 +1,179 @@
+{
+  "schema_version":"g1-authored-1",
+  "demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":8},
+  "records":[
+    {"id":"d1-sol-a-08-001","persona":"household-coordination-narrator","domain":"household-logistics","register":"practical-candid","segments":[
+      {"kind":"narration","text":"A receipt caught in the refrigerator's upper gasket left a gap and a frost line below it; the other edges stayed dry.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Name the first fix before changing the temperature dial.","gold_reply":"Remove the receipt, wipe the gasket clean, and check that the door seals evenly before adjusting the refrigerator setting.","pause_after":"short"},
+      {"kind":"narration","text":"My brother reported that the milk had felt colder yesterday, though he had not seen the trapped paper.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"The receipt peeled free, and a damp cloth lifted one sticky patch.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Why ask the thermostat to fight an open door? The gasket met the frame all around.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"narration","text":"By evening, no new frost had appeared along the upper edge.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-002","persona":"household-coordination-narrator","domain":"household-logistics","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"Three pantry jars shared one shape. My low-vision aunt could tell their one-band, two-band, and smooth lids by touch, while the food labels stayed visible.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would tactile lids plus printed labels make the jars easier to share?","gold_reply":"Yes. Keep each food label visible and give every jar a distinct tactile lid pattern so either touch or sight can identify it.","pause_after":"short"},
+      {"kind":"narration","text":"She matched oats to one band, rice to two, and flour to the smooth lid without lifting a jar.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"My nephew checked the same choices by reading the labels aloud.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Both routes found the same ingredients.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The jars returned to the shelf with touch and print still available together.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-003","persona":"household-coordination-narrator","domain":"household-logistics","register":"practical-candid","segments":[
+      {"kind":"narration","text":"Our new housemate thought the pantry board's red, blue, and blank dots marked ownership. The legend actually meant running low, unopened spare, and currently in use.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Its heading read, “Highlight anything running low,” above one shared pencil and the three-dot legend.","traps":["descriptive_command_word"],"pause_after":"short"},
+      {"kind":"address","text":"Explain the board without making it feel like a test.","gold_reply":"The dots track pantry status, not ownership: red means running low, blue marks an unopened spare, and blank means the item is in use.","pause_after":"short"},
+      {"kind":"narration","text":"She added a red dot beside tea and left her name off the board.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"A blue spare packet stayed easy for anyone to find.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By breakfast, the legend felt shared rather than graded.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-004","persona":"household-coordination-narrator","domain":"household-logistics","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"The vacuum sounded normal, yet crumbs remained in one narrow stripe after every pass.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Turning the floor head over revealed a ribbon of thread wound around only the center section of the brush.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My niece pointed to the clear side bristles and asked, “Did the middle forget how to sweep?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The hose drew a loose tissue corner firmly, so the airflow had not disappeared.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"State the evidence-based next step.","gold_reply":"Unplug the vacuum or remove its battery, confirm the brush has stopped, cut away the center thread, and then reconnect it to test the stripe again.","pause_after":"short"},
+      {"kind":"narration","text":"With the brush clear, one pass collected the entire crumb line.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-005","persona":"household-coordination-narrator","domain":"household-logistics","register":"practical-candid","segments":[
+      {"kind":"narration","text":"Before returning a neighbor's folding hand truck, its pickup photo showed an old blue scuff, with a squeaky left wheel documented beside it. Both were unchanged, and no tube or latch had bent.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Draft the brief, transparent return note.","gold_reply":"The original blue scuff and left-wheel squeak are unchanged, the frame and latch remain intact, and the pickup photo is available if you would like to compare them.","pause_after":"short"},
+      {"kind":"narration","text":"Could silence make the return feel simpler? I was keeping the known imperfections visible so ordinary old wear would not become a surprise at the neighbor's door.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"We brushed grit from both wheels, wiped the handles, and folded the platform until its latch clicked without force.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"My partner reported that the truck had rolled straight throughout the move and that nothing had struck its frame.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"The note went under the handle beside a small print of the pickup photo, with the blue scuff easy to compare rather than hidden beneath tape.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The folded truck returned clean, functional, and accompanied by the same condition record with which it had arrived.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-006","persona":"household-coordination-narrator","domain":"household-logistics","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"Four saucepan lids stood in a wire organizer, but the narrowest lid slipped under its divider whenever the drawer closed. Its handle then pushed the next lid sideways.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A cork spacer filled the unused width beside the small lid without touching its glass or blocking the drawer rail. The other three lids still lifted straight up.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Two gentle drawer closures left the small lid upright, although its handle remained close to the neighboring rim.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"What observation should decide whether the spacer is sufficient?","gold_reply":"Keep the spacer only if repeated drawer closures leave every lid upright and each handle can be lifted without catching a neighboring rim.","pause_after":"short"},
+      {"kind":"narration","text":"The next test used a normal closing motion rather than an exaggeratedly careful push.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Each handle cleared its neighbor, and the cork stayed outside the rail's path.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The drawer reopened with the same quiet spacing after dinner cleanup.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-007","persona":"household-coordination-narrator","domain":"household-logistics","register":"practical-candid","segments":[
+      {"kind":"narration","text":"The kitchen scale gave three different readings for the same sealed rice bag whenever its rear foot sat in a grout channel. On a thick cutting board, the display repeated one reading three times, and the bag never changed between trials.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The scale maker had explained that all four feet needed one rigid plane before a reading could be judged, because a rocking base could shift force between the sensors even with fresh batteries.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"A known five-hundred-gram check weight varied by twenty-two grams on the tiled counter but stayed within one gram across four placements on the board. The feet were clean, intact, and level with one another when viewed from the side.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Why replace batteries or recalibrate a scale that became steady as soon as the floor beneath it became steady? I marked one board corner as the scale position so later measurements would use the same support.","traps":["rhetorical_question"],"pause_after":"none"},
+      {"kind":"address","text":"Turn the repeated trials into a practical household rule.","gold_reply":"Use the scale on the rigid cutting board with all four feet supported, verify it with the check weight, and investigate the scale itself only if readings still vary there.","pause_after":"short"},
+      {"kind":"narration","text":"The rice bag then repeated its board reading before and after dinner preparation. The scale returned to the marked corner instead of balancing across two grout heights on the counter.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-008","persona":"household-coordination-narrator","domain":"household-logistics","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"Four people in our home needed fewer interruptions for different reasons: online teaching, recorded music practice, exam reading, and quiet rest after night shifts. Closed doors alone had become ambiguous, so we considered a small green ribbon for welcome knocks, a red ribbon for urgent-only interruptions, and no ribbon for the household's ordinary knock-then-pause habit.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Could we choose those signals together instead of guessing what each closed door means?","gold_reply":"Yes. Let each person choose green, red, or no ribbon for the moment, agree on those shared meanings, and revisit the system after everyone has lived with it.","pause_after":"short"},
+      {"kind":"narration","text":"My younger cousin turned a ribbon between her fingers and asked, “Can red still allow someone to knock if dinner is burning?” Everyone agreed that urgent meant safety, not importance measured by whoever happened to be outside.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The music student wanted green during tuning and red only once recording began. The night-shift worker preferred red while sleeping but no ribbon after waking, because ordinary household sounds did not need a separate permission system.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We kept the meanings short enough to remember and left room for anyone to remove a ribbon without explanation. A ribbon described the present boundary; it did not announce why someone needed quiet or invite a debate about whether that reason was worthy.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Each person chose a place beside the handle where the ribbon could be changed from inside the room. We also agreed that unanswered ordinary knocks needed no immediate reply, while smoke, injury, or another immediate risk overrode every color.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"After a week, green had prevented hesitant whispering outside the teaching room, red had protected two stretches of sleep, and no ribbon still worked for most of the day. The family kept the meanings but dropped an unused yellow option.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-009","persona":"household-coordination-narrator","domain":"household-logistics","register":"practical-candid","segments":[
+      {"kind":"narration","text":"Three moving-day lists survived in our family folder: my grandparents' penciled card from 1978, my parents' typed sheet from 2001, and the phone checklist we used last year. Each ended with a final walk through emptied rooms, though the details around that walk differed.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The oldest card closed with the instruction “Search every cupboard before locking the door.” The typed sheet added meter numbers and a space for returned keys, while the phone list paired room photos with the same last cupboard check.","traps":["descriptive_command_word"],"pause_after":"short"},
+      {"kind":"narration","text":"Did the phone make our move more careful than theirs? I was comparing what the lists preserved, not ranking pencil, typewriter, and screen as stages of household wisdom.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Summarize the evidence without turning it into a progress story.","gold_reply":"All three lists use a final room-and-cupboard check to prevent forgotten items; later versions add records such as keys, meters, and photos, but the shared precaution remains the clearest continuity.","pause_after":"short"},
+      {"kind":"narration","text":"The penciled card named a coal cupboard our home never had. Our phone list named a router their homes never needed. Both still made someone pause at the threshold and look back before leaving.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We copied the three final-check lines onto one page without modernizing their language. Beside them, dates and formats stayed visible so resemblance did not erase the conditions of each move.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The folder returned to the drawer carrying no winner, only three practical versions of the same reluctance to leave a key, a reading, or a teacup behind.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-010","persona":"household-coordination-narrator","domain":"household-logistics","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"A framed print needed to reach the upstairs landing, where the staircase turned beneath a low pendant. The frame was light enough for two people, but its long diagonal made the turn uncertain and the glass was not something we wanted to test against plaster.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We traced the frame's outer dimensions onto flattened cardboard and cut one rigid template, marking the hanging-wire side with blue tape. The actual print remained wrapped on the dining table, away from the experiment.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Held upright, the template cleared the first flight but touched the pendant at the inner corner. Rotating it flat cleared the light yet brought its lower edge too close to the stair rail.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"A second trial began flat, paused on the wide third tread, and rotated only after the upper corner had passed beneath the pendant. Both carriers could keep one hand on their end without leaning over the rail.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Removable tape marked the pause tread and the point where the top carrier should turn toward the landing. The template then cleared the wall, rail, and light by several fingers at every stage.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The route also left the lower carrier facing forward rather than walking backward around the bend. We returned the cardboard downstairs and compared its blue mark with the wrapped frame's hanging-wire side.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Give the carriers the concise movement plan supported by the rehearsal.","gold_reply":"Carry the wrapped frame flat to the marked tread, pause there, rotate it upright after the upper corner passes the pendant, and continue with both carriers facing forward.","pause_after":"short"},
+      {"kind":"narration","text":"The real frame followed the marked turn without touching the pendant, rail, or plaster. Its wrapping stayed closed until it rested safely on the landing.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-011","persona":"library-program-regular","domain":"libraries","register":"practical-candid","segments":[
+      {"kind":"narration","text":"Mira wanted to keep a half-finished proof on the study-room whiteboard, while Jo needed space beside it to draw a diagram. The board was wide enough to divide, and Mira had already photographed her work.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Offer them a fair agreement for sharing the board.","gold_reply":"Keep Mira's proof on one marked half, give Jo the other half for the diagram, and erase only the side its writer agrees is finished.","pause_after":"short"},
+      {"kind":"narration","text":"A strip of removable tape made two equal writing fields.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Mira moved one final line left without changing the proof.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Jo's diagram stayed entirely on the open side.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"They left with two photos and no mystery eraser marks.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-012","persona":"library-program-regular","domain":"libraries","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"A picture book came back with one clean page tear. The library uses removable tissue because clear tape yellows and can pull fibers as it ages.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Can you explain why it goes to mending instead of quick tape?","gold_reply":"The mending shelf protects the page: reversible repair tissue can support the tear without the yellowing and fiber damage that ordinary tape may cause.","pause_after":"short"},
+      {"kind":"narration","text":"A soft flag marked the tear, and the closed book rested in a tray.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Its young reader touched the cover and asked, “Will it come back for story time?”","traps":["quoted_question"],"pause_after":"none"},
+      {"kind":"narration","text":"A return card showed that mended books rejoined the shelf after drying.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The child chose another story while this one waited for careful hands.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-013","persona":"library-program-regular","domain":"libraries","register":"practical-candid","segments":[
+      {"kind":"narration","text":"A teenager returned a novel one day late and kept apologizing, although the library is fine-free and the book had no hold waiting behind it.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Was the apology silly? I did not want to turn a small worry into a lecture or make care for a borrowed book sound embarrassing.","traps":["elaborating_question"],"pause_after":"short"},
+      {"kind":"address","text":"Answer with the right emotional weight.","gold_reply":"You are okay—the book is back safely, there is no fine, and you do not need to keep apologizing.","pause_after":"short"},
+      {"kind":"narration","text":"His shoulders dropped before the return receipt finished printing.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"He glanced at the new-books shelf instead of the exit.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The next checkout began without carrying yesterday's worry into it.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-014","persona":"library-program-regular","domain":"libraries","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"The microfilm reader held sharp text at the reel's beginning, but later frames drifted upward and softened along only their top edge. Rewinding restored the same pattern at the same points.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The technician had explained that a loose take-up reel could change the film's path gradually, while a focus fault would blur the entire frame rather than one traveling edge.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"Why sharpen the lens again when the film itself was climbing? The take-up reel wobbled slightly as its outer layers grew.","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Does the evidence favor checking reel alignment before recalibrating focus?","gold_reply":"The evidence favors the reel: reseat and align it, then replay the affected frames before changing the reader's focus calibration.","pause_after":"short"},
+      {"kind":"narration","text":"The reel clicked fully onto its spindle, and its next rotation stayed level.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Those later frames returned to the center with their top lines clear.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-015","persona":"library-program-regular","domain":"libraries","register":"practical-candid","segments":[
+      {"kind":"narration","text":"A communal jigsaw puzzle still had one pale-blue sky gap, and the table's raised wooden rim concealed a narrow channel beneath its inner edge.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Loose pieces were lifted onto a dark felt square, where every pale edge became easier to distinguish from the tabletop. None matched the small sky-shaped gap.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A thin card passed gently around the rim channel without entering the assembled puzzle. It met an unseen object below the upper-left corner, but nothing had risen into view.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The table had not moved since the last group, and the floor beneath it was already clear. The marked channel was worth checking, though the hidden object could still be dust, a token, or a puzzle piece.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Can we name what is hidden there yet?","gold_reply":"Not yet. We can say only that the card met an object in the marked channel; lift gently if an edge becomes visible, then identify it from what we actually see.","pause_after":"short"},
+      {"kind":"narration","text":"The card raised one pale-blue piece, and its tabs completed the sky gap without force.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-016","persona":"library-program-regular","domain":"libraries","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"A returned thermal-camera kit contained one battery with a swollen side that prevented it from lying flat beside two normal batteries. The kit was not due to circulate again until the battery had been assessed.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Give the safe intake decision.","gold_reply":"Keep the swollen battery out of the device, isolate the kit from circulation, and send the battery for the library's approved safety assessment rather than charging it.","pause_after":"short"},
+      {"kind":"narration","text":"A volunteer held the open case at the desk and asked, “Should I see whether it still takes a charge?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The battery remained untouched in its molded slot while the two flat batteries moved into a separate inspection tray.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The equipment librarian reported that the approved container was ready in the staff workroom and that no charging test was required.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"A hold note blocked the kit's barcode from completing another loan.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Trained staff brought the approved battery container to the desk and completed the transfer under library protocol. The empty device case remained blocked from circulation.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-017","persona":"library-program-regular","domain":"libraries","register":"practical-candid","segments":[
+      {"kind":"narration","text":"The library's portable reading kit came back with its magnifier arm at a comfortable low angle, the page clip on the right, and the lamp softened by its diffuser. Those settings had helped the last reader keep both hands relaxed over a large-print cookbook.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A printed handoff card invited each borrower to “Highlight any setting that made reading easier.” The last reader had circled lamp angle and added one plain note: the right-side clip left room for a cup beside the book.","traps":["descriptive_command_word"],"pause_after":"short"},
+      {"kind":"narration","text":"Nothing was fixed permanently. The clip slid left or right, the arm had five marked heights, and the card left a blank line for someone whose comfort differed from the previous setup.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Would preserving that setup as a starting point make the next handoff more accessible?","gold_reply":"Yes. Pass the kit on with the low lamp angle and right-side clip recorded as a starting point, while making clear that every setting can be changed for the next reader's comfort.","pause_after":"short"},
+      {"kind":"narration","text":"We matched the arm to the circled height, tucked the card into its clear pocket, and left every adjustment lever unlocked. A small diagram showed how to change each part without implying that one arrangement suited everyone.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At the next loan, the borrower began with the saved angle, then moved the clip to the left for easier page turns. That change went onto the blank line in the borrower's own words.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The kit traveled as a conversation between readers: useful experience came forward, but nobody inherited another person's comfort as a rule.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-018","persona":"library-program-regular","domain":"libraries","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"Our library book club had six regulars with different ways of entering a conversation. Two loved quick back-and-forth, two preferred a pause before speaking, one followed best when every face stayed visible, and one liked to write a thought before saying it aloud.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We placed six paper names around a round table, added an optional wooden talking token, and set blank cards beside a small bowl. Nothing on the table required people to speak in one fixed order.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Could one discussion rule make everyone equally comfortable? I kept the token and cards optional because a support for pausing could become another obstacle if every comment had to pass through it.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Together we shaped a trial: keep the round seating so faces remain visible, let anyone place the token near a person waiting to speak, and welcome written cards into the conversation without reading them aloud unless their writer chooses.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Why call a room lively only when the fastest voices fill it? We tried one sample question, left three real pauses, and heard from all six people without turning the exchange into a roll call.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"address","text":"Does that shared trial respect the different ways this group joins in?","gold_reply":"Yes. Keep faces visible, use the token only to notice someone waiting, accept written thoughts without forced reading, and revise the trial together after a full discussion.","pause_after":"short"},
+      {"kind":"narration","text":"At the next meeting, the token moved twice and stayed untouched for most of the hour. One card became a spoken comment, another remained private, and the group changed one rule by agreement before leaving.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-019","persona":"library-program-regular","domain":"libraries","register":"practical-candid","segments":[
+      {"kind":"narration","text":"An automatic page-turner in the accessible reading room handled thick leaves cleanly but skipped every third thin page in a large-print paperback. Its soft roller completed each turn, while the separator's air puff struck near the gutter instead of the free outer corner.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At the current pressure, a tissue strip fluttered strongly beside the binding and barely moved at the page edge. Increasing pressure made several untouched pages ripple together without lifting the outermost corner first.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"We returned to the lower pressure and shifted the nozzle outward by one marked notch. The tissue then lifted at the free corner while the bound edge stayed quiet against the reading cradle.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Three practice turns advanced one thin page each, and the roller met the separated leaf without scuffing its print. The cradle clamps remained outside the text block and did not move during the trials.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A second paperback with slightly heavier paper also turned one leaf at a time under the new alignment. Both books used the original pressure, so the test isolated nozzle position rather than adding force.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Does nozzle alignment now deserve priority over stronger airflow?","gold_reply":"Yes. Keep the lower pressure and the outward nozzle position, since it separates one page at the free corner without rippling the stack or disturbing the cradle.","pause_after":"short"},
+      {"kind":"narration","text":"The next reader moved through ten pages with the same single control, and every turn left the printed surface flat and visible beneath the reading light.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-08-020","persona":"library-program-regular","domain":"libraries","register":"warm-methodical","segments":[
+      {"kind":"narration","text":"A compact shelving row stopped before opening even though its aisle was empty; the fringe of a dropped scarf lay across the floor-level optical sensor beside the end stack. The emergency bar was released and no warning came from the opposite sensor.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Is clearing the visible obstruction and rechecking the sensor safer than forcing the controls?","gold_reply":"Clear the scarf from the sensor line, confirm the aisle is empty, and run the normal opening check without bypassing or forcing the safety controls.","pause_after":"short"},
+      {"kind":"narration","text":"The maintenance card used “search” as a printed instruction for staff to inspect the full sensor line before any reset. Its diagram placed loose fabric, dropped paper, and cart wheels among the ordinary obstructions to remove.","traps":["descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"We lifted the scarf from outside the moving-stack boundary and placed it on the service counter. A clear sightline then ran from the near sensor to its reflector across the empty aisle.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"One staff member checked the aisle from both ends while another kept hands away from the drive button. The emergency bar remained free, and the indicator changed from blocked amber to ready green.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The normal control opened the row at its usual slow pace and stopped correctly when the test wand crossed the beam. Removing the wand restored ready status without a second command.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"A floor basket beside the service counter gave loose scarves and bags a place outside every sensor line. Its edge remained behind the fixed boundary stripe and clear of the adjacent aisle.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The shelving row completed three ordinary openings with the safety beam active, and nobody bypassed the control that had noticed the scarf in the first place.","traps":[],"pause_after":"long"}
+    ]}
+  ]
+}

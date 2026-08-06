@@ -1,0 +1,643 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "claude",
+    "slot": "d2-slot-b",
+    "tranche": 1
+  },
+  "records": [
+    {
+      "id": "d2-slot-b-c1",
+      "mode": "corrections",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Chase down every little slip while I bang out this trip plan!",
+        "ack": "On it, I'll swoop in the moment a slip shows up!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "We keep flip-flopping between Lisbon and Porto for the middle leg of the trip.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Both cities have direct trains that run every twenty minutes during the day.",
+          "pause_after": "short",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I regularly botch itinerary in trip notes like this, so please ignore that particular slip.",
+          "mentions": [
+            "itinerary"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Local currency exchange booths near the plaza close earlier than we expected this week.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Our hotel conirfmation finally arrived this morning. The ferry now arives closer to half past nine some days.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "conirfmation",
+              "right": "confirmation",
+              "subtype": "letter-swap",
+              "occurrence": 1
+            },
+            {
+              "wrong": "arives",
+              "right": "arrives",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Yesterday we walk along the riverfront before stopping for pastries. We arrived to the station ten minutes early. I forgot to pack a umbrella even though rain was forecast.",
+          "pause_after": "long",
+          "errors": [
+            {
+              "wrong": "we walk along",
+              "right": "we walked along",
+              "subtype": "tense",
+              "occurrence": 1
+            },
+            {
+              "wrong": "arrived to the station",
+              "right": "arrived at the station",
+              "subtype": "preposition",
+              "occurrence": 1
+            },
+            {
+              "wrong": "a umbrella",
+              "right": "an umbrella",
+              "subtype": "article",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c2",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "school",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Whenever I fumble a word while taking these lecture notes, quietly fix it for me.",
+        "ack": "Sure thing, I'll clean up any fumble as we go.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Guest lecturers this month rotate through three different sections before finals.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "repair",
+          "text": "The lab report is due before Thursday's discussion section starts.",
+          "repair": {
+            "wrong": "Thurdsay's",
+            "right": "Thursday's",
+            "subtype": "letter-swap",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "aside",
+          "text": "I constantly misspell syllabus in these notes, so let that one slide today.",
+          "mentions": [
+            "syllabus"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Nearby, the study group meets in the library annex every Tuesday afternoon near the reference desk.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The professor say the midterm covers chapters four through nine this term. Its going to be a long study session before the review sheet is due tomorrow.",
+          "pause_after": "short",
+          "errors": [
+            {
+              "wrong": "professor say",
+              "right": "professor says",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "Its going",
+              "right": "It's going",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We need to bring three pencil and a calculator to the exam room on Friday. Please rememberto submit the worksheet before the end of class today. She walked us through the proof quick before the bell rang for the next class.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "three pencil",
+              "right": "three pencils",
+              "subtype": "plural",
+              "occurrence": 1
+            },
+            {
+              "wrong": "rememberto",
+              "right": "remember to",
+              "subtype": "spacing",
+              "occurrence": 1
+            },
+            {
+              "wrong": "proof quick",
+              "right": "proof quickly",
+              "subtype": "word-form",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c3",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Fix spelling mistakes in this event recap as I write it.",
+        "ack": "Noted, spelling mistakes get fixed as they show up.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "aside",
+          "text": "I always misspell attendnace, so watch for that tonight.",
+          "mentions": [
+            "attendnace"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The music stopped abruptly when the amplifiers cutt out near dusk. Ticket sales open early on friday morning downtown.",
+          "pause_after": "none",
+          "errors": [
+            {
+              "wrong": "cutt out",
+              "right": "cut out",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "friday morning",
+              "right": "Friday morning",
+              "subtype": "capitalization",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Setup volunteers arived an hour before the event. Overall, the organizers was pleased with the results. Last week the committee meet about logistics.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "arived",
+              "right": "arrived",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "organizers was",
+              "right": "organizers were",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "committee meet",
+              "right": "committee met",
+              "subtype": "tense",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c4",
+      "mode": "corrections",
+      "persona": "class-notetaker",
+      "domain": "music",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Catch any grammar wobble in these theory notes as I hammer them out!",
+        "ack": "You got it, wobbles get caught the second they land!",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Today's ear training drill covered intervals from a minor third up to a perfect fifth.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The professor played three chord progressions back to back without naming any of them.",
+          "pause_after": "short",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Sight-singing warm-ups focused on stepwise motion across two octaves.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I always misspell arpeggio in these theory notes, so ignore that slip if it shows up.",
+          "mentions": [
+            "arpeggio"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Each student have to transcribe the melody before the quiz. We spent the hour comparing a scale against it's relative minor.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "student have",
+              "right": "student has",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "against it's relative",
+              "right": "against its relative",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Next semester the syllabus coveres counterpoint before orchestration. The two violinist argued about bowing during rehearsal. The recital starts on seven sharp, so arrive early.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "coveres",
+              "right": "covers",
+              "subtype": "doubled-letter",
+              "occurrence": 1
+            },
+            {
+              "wrong": "two violinist",
+              "right": "two violinists",
+              "subtype": "plural",
+              "occurrence": 1
+            },
+            {
+              "wrong": "starts on seven",
+              "right": "starts at seven",
+              "subtype": "preposition",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-c5",
+      "mode": "corrections",
+      "persona": "club-organizer",
+      "domain": "travel",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Nudge me toward the right wording anytime this itinerary draft slips up.",
+        "ack": "Understood, I'll nudge you the moment the wording slips.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The hiking club voted last night to spend four days near the northern coastline.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "repair",
+          "text": "Everyone needs to confirm their passport is valid for six more months.",
+          "repair": {
+            "wrong": "passsport",
+            "right": "passport",
+            "subtype": "doubled-letter",
+            "occurrence": 1
+          },
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Trail maps for the loop get handed out at check-in near the ranger station.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "aside",
+          "text": "I always garble campsite in these itinerary drafts, so let that one go tonight.",
+          "mentions": [
+            "campsite"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Members who bringing their own tents get a discount on the shared campsite fee. The bus leaves promptly at seven, so please dont wander off from the meeting point.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "who bringing",
+              "right": "who bring",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "please dont wander",
+              "right": "please don't wander",
+              "subtype": "apostrophe",
+              "occurrence": 1
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "We booked a guide who speak three languages fluently for the coastal trail portion. Anyone missing the eight o clock van will have to arrange there own transport. The group agreed on tent campin near the river for the first two nights of the loop.",
+          "pause_after": "medium",
+          "errors": [
+            {
+              "wrong": "guide who speak",
+              "right": "guide who speaks",
+              "subtype": "agreement",
+              "occurrence": 1
+            },
+            {
+              "wrong": "arrange there own",
+              "right": "arrange their own",
+              "subtype": "word-form",
+              "occurrence": 1
+            },
+            {
+              "wrong": "tent campin",
+              "right": "tent camping",
+              "subtype": "missing-letter",
+              "occurrence": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h1",
+      "mode": "highlights",
+      "category": "instrument",
+      "category_words": [
+        "guitar",
+        "drums",
+        "violin"
+      ],
+      "persona": "club-organizer",
+      "domain": "music",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Highlight any band instrument I mention, okay?",
+        "ack": "Deal, every instrument you name gets a highlight!",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Marco showed up tonight lugging a battered guitar case. Somebody fixed the squeaky pedal on the drums before rehearsal.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "guitar",
+              "literal": true
+            },
+            {
+              "word": "drums",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Our bassist Violin has never touched a violin in his life.",
+          "pause_after": "medium",
+          "marks": [
+            {
+              "word": "Violin",
+              "literal": false
+            },
+            {
+              "word": "violin",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "Somehow the venue owner still hasn't fixed the sound system.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "The jam pulled together one guitar and a borrowed set of drums tonight.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "guitar",
+              "literal": true
+            },
+            {
+              "word": "drums",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h2",
+      "mode": "highlights",
+      "category": "weather",
+      "category_words": [
+        "rain",
+        "fog",
+        "wind"
+      ],
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Flag any weather word that shows up while I sketch out this itinerary.",
+        "ack": "Will do, weather words get flagged as they appear.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The coastal leg of the route runs through several small fishing villages first.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Locals warned us that rain tends to arrive without much warning in the hills.",
+          "marks": [
+            {
+              "word": "rain",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "By the time we reach the valley floor, thick fog usually settles in until noon.",
+          "marks": [
+            {
+              "word": "fog",
+              "literal": true
+            }
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The ridge crossing gets brutal wind gusts, so we should pack the heavier jackets.",
+          "marks": [
+            {
+              "word": "wind",
+              "literal": true
+            }
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "By evening the wind had died down, but light rain kept falling steadily until midnight.",
+          "marks": [
+            {
+              "word": "wind",
+              "literal": true
+            },
+            {
+              "word": "rain",
+              "literal": true
+            }
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "aside",
+          "text": "I keep spelling drizzle wrong in every draft, so ignore that one if it slips through.",
+          "mentions": [
+            "drizzle"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-slot-b-h3",
+      "mode": "highlights",
+      "category": "color",
+      "category_words": [
+        "scarlet",
+        "amber",
+        "violet"
+      ],
+      "persona": "class-notetaker",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Mark any color word in these festival notes.",
+        "ack": "Confirmed, color words will be marked as they turn up.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Apparently the vendor list still needs two more food trucks confirmed.",
+          "pause_after": "none",
+          "trap": "clean_text"
+        },
+        {
+          "kind": "passage",
+          "text": "Committee members agreed the banners should be scarlet, not white.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "scarlet",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "The lantern display will use amber lighting on the walkway. Stage decorations settled on a violet backdrop with lights.",
+          "pause_after": "none",
+          "marks": [
+            {
+              "word": "amber",
+              "literal": true
+            },
+            {
+              "word": "violet",
+              "literal": true
+            }
+          ]
+        },
+        {
+          "kind": "passage",
+          "text": "They debated switching signage from scarlet to amber next year.",
+          "pause_after": "short",
+          "marks": [
+            {
+              "word": "scarlet",
+              "literal": true
+            },
+            {
+              "word": "amber",
+              "literal": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

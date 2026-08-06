@@ -1,0 +1,128 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "author": {"model": "claude-sonnet-5", "slot": "d5-slot-c", "tranche": 1},
+  "bank": [
+    {
+      "id": "d5c-req-every-01",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Every {interval}s, check the monitor!",
+      "gold_ack_template": "Of course — I'll nudge you to check the baby monitor every {interval} seconds!",
+      "fire_message": "Check the baby monitor!",
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "affectionate-casual"
+    },
+    {
+      "id": "d5c-req-once-01",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Remind me once about the swifts!",
+      "gold_ack_template": "Got it — one reminder to look up the swifts' departure.",
+      "fire_message": "Look up when the swifts leave!",
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "d5c-req-every-02",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Ping me every {interval} seconds so I don't lose the thread of this cataloguing mess.",
+      "gold_ack_template": "Noted — a ping every {interval} seconds so the cataloguing mess doesn't win.",
+      "fire_message": "Back to cataloguing!",
+      "persona": "office-diarist",
+      "domain": "libraries",
+      "register": "wry-understated"
+    },
+    {
+      "id": "d5c-req-once-02",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Could you just remind me once when it's a good time to check the storm radar?",
+      "gold_ack_template": "Sure thing — I'll remind you once to check the storm radar.",
+      "fire_message": "Check the storm radar!",
+      "persona": "family-chronicler",
+      "domain": "weather",
+      "register": "affectionate-casual"
+    },
+    {
+      "id": "d5c-req-every-03",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Nudge me every {interval} seconds to log what's happening at the feeder.",
+      "gold_ack_template": "Will do — a nudge every {interval} seconds to log the feeder.",
+      "fire_message": "Log the feeder activity!",
+      "persona": "nature-logger",
+      "domain": "family",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "d5c-req-once-03",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "One reminder, whenever it fits, to email the raccoon complaint to building management.",
+      "gold_ack_template": "Duly noted — one reminder to email building management about the raccoon.",
+      "fire_message": "Email building management!",
+      "persona": "office-diarist",
+      "domain": "urban-wildlife",
+      "register": "wry-understated"
+    },
+    {
+      "id": "d5c-cancel-01",
+      "kind": "cancellation",
+      "text": "That's enough nudging now, stop.",
+      "gold_ack": "Okay — I'll stop the nudges.",
+      "persona": "family-chronicler",
+      "domain": "weather",
+      "register": "affectionate-casual"
+    },
+    {
+      "id": "d5c-cancel-02",
+      "kind": "cancellation",
+      "text": "Alright, feeder updates can stop.",
+      "gold_ack": "Understood — feeder reminders are off.",
+      "persona": "nature-logger",
+      "domain": "urban-wildlife",
+      "register": "wry-understated"
+    },
+    {
+      "id": "d5c-filler-01",
+      "kind": "filler",
+      "trap": "none",
+      "text": "The returns cart is backed up again, and the intern still hasn't learned the numbers.",
+      "persona": "office-diarist",
+      "domain": "libraries",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "d5c-filler-02",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Grandpa keeps insisting the photo album goes in chronological order, bless him, so we're redoing it.",
+      "persona": "family-chronicler",
+      "domain": "family",
+      "register": "affectionate-casual"
+    },
+    {
+      "id": "d5c-filler-bait-01",
+      "kind": "filler",
+      "trap": "bait",
+      "text": "A jogger stopped and asked, \"is that fog going to burn off by noon?\" and I just shrugged at the sky.",
+      "persona": "nature-logger",
+      "domain": "weather",
+      "register": "wry-understated"
+    },
+    {
+      "id": "d5c-filler-address-01",
+      "kind": "filler",
+      "trap": "address",
+      "text": "quick check, still timing this?",
+      "gold_reply": "Still here, still tracking the time!",
+      "persona": "office-diarist",
+      "domain": "urban-wildlife",
+      "register": "plain-descriptive"
+    }
+  ]
+}

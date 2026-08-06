@@ -1,0 +1,1621 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 1
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-01-001",
+      "persona": "voice-note-storyteller",
+      "domain": "arts",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I volunteered at a monotype open table and discovered the black ink had crept under its tray overnight.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "My first job was wiping a crescent-shaped stain before anyone rested a sleeve in it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Roughly how long does a fresh monotype usually need before it can be stacked safely?",
+          "gold_reply": "A thin print often needs several hours; I would leave it flat until the surface no longer feels tacky.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By opening time, six clean rollers were lined up beside scraps reserved for test pulls.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first visitor printed a fern so lightly that its stem looked like a pencil line.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-002",
+      "persona": "community-organizer",
+      "domain": "local-events",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "I worried that stepping closer during sound-check might distract the players; was that inconsiderate?",
+          "gold_reply": "Stepping closer was not necessarily inconsiderate; during sound-check, the clearest cue would be whether the players seemed interrupted or asked for more room.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Before the neighborhood parade, I helped carry music stands from the hall to the railway arch.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A trombonist discovered that one rubber foot was missing, so the stand rocked on the pavement.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We slid a folded program under the short leg and tested it through two quiet scales.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "When the full brass chord arrived, the paper shim held and the arch returned a warm echo.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-003",
+      "persona": "voice-note-storyteller",
+      "domain": "hobbies",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the repair booth, a woman brought a lamp with a shade like a faded peach.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The volunteer told her the switch was loose, not ruined.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Will it still feel like my grandmother’s lamp?” she asked.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why do objects hold whole rooms inside them?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "That question about the grandmother’s lamp landed hard; can you sit with that feeling for a moment?",
+          "gold_reply": "Of course. It makes sense that an ordinary lamp could suddenly carry the weight of a whole room and the person who once used it.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-004",
+      "persona": "community-organizer",
+      "domain": "arts",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The evening ferry was hosting a poetry reading, which felt wonderfully improbable.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Just give me your first reaction to gulls arriving before the ferry poems begin.",
+          "gold_reply": "That feels perfect—slightly comic, slightly ceremonial, and completely at home on the river.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A deckhand mentioned that gulls often arrive before the first poem.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A child kept one hand inside her father’s sleeve while a gull crossed the wake.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Who can say a boat is only for getting somewhere?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-005",
+      "persona": "voice-note-storyteller",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I joined a spoon-carving class in the back of a neighborhood bakery.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The baker said cherry wood smells sweeter when it is freshly cut.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Is it supposed to wobble this much?” my neighbor asked of her spoon.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "When carvers talk about reading the grain, what are they actually noticing?",
+          "gold_reply": "They are watching the direction and rise of the fibers so the blade travels with the wood instead of tearing across it.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Must useful things begin life perfectly balanced?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-006",
+      "persona": "community-organizer",
+      "domain": "hobbies",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A row of folding chairs faced the vacant lot where the outdoor film would start.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The organizer said the screen had once been a bedsheet from her aunt.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "“What if the wind steals the movie?” someone asked while tying knots.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Doesn’t weather make a public showing feel more like an adventure?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Please tell me the cat taking the front row is as funny as I think it is.",
+          "gold_reply": "It is. The cat sounds like the evening’s most confident critic.",
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-007",
+      "persona": "voice-note-storyteller",
+      "domain": "arts",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "In the orchid house, the air smelled like wet stone and pepper.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The guide said one plant had waited seven years to bloom.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "I could use one practical tip for keeping notes dry inside that glasshouse.",
+          "gold_reply": "Slip the notebook into a reusable pouch between observations and write with pencil, which tolerates damp paper better than ink.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "“How does it know when the time is right?” a teenager asked.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why are we so impatient with slow, hidden work?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The guide described the word “search” on the plant label as a botanical instruction.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-008",
+      "persona": "community-organizer",
+      "domain": "local-events",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The bookmobile parked beside the basketball court after a sudden shower.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Its driver explained that the damp days brought the most curious borrowers.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A dripping boy climbed aboard and headed straight for the shelf of weather stories.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Isn’t a library on wheels a lovely answer to a gray afternoon?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "The bookmobile story is not finished yet—ask me what the boy borrowed.",
+          "gold_reply": "Which weather story did he choose when he reached the shelf?",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “remind” appeared gently at the top of each overdue note.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-009",
+      "persona": "voice-note-storyteller",
+      "domain": "hobbies",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the model-boat pond, my walnut-shell cutter kept circling toward the same clump of reeds.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I shifted one grain of clay from the stern to the bow and tried another launch.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A ripple from a passing duck turned the boat sideways but also freed its paper sail.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Quick reality check: was cheering when the duck freed its paper sail too much?",
+          "gold_reply": "Not at all—the tiny rescue broke the tension, and your cheer matched that turn.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "It crossed the pond’s narrow inlet while three strangers tracked it from the railing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I caught it downstream with a kitchen sieve borrowed from the refreshment table.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-010",
+      "persona": "community-organizer",
+      "domain": "arts",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I found a folding telescope station beside the night market’s mango stall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The astronomer told us city lights hide more than they erase.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "“Is that really Saturn, or just a sticker?” someone asked.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Do city lights hide Saturn itself, or mainly the fainter objects around it?",
+          "gold_reply": "Saturn can remain visible through a telescope; city glow mostly washes out dimmer stars and subtle detail.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why does a distant ringed planet make a crowded street suddenly quiet?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She used “highlight” while tracing the moon’s bright rim on a chart.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-011",
+      "persona": "voice-note-storyteller",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The neighborhood chorus met in a laundromat because the hall was being painted.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "I felt oddly moved when the lost sock received a bow; does that make sense?",
+          "gold_reply": "Completely. The tiny joke released all the warmth the group had built in such an ordinary room.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Their conductor said the spinning machines made a surprisingly steady drone.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "One alto waited through the rinse cycle, then entered exactly on the mechanical hum.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Isn’t that exactly what a chorus is for—making company with ordinary noise?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Someone described the word “remind” as a cue to breathe before the refrain.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-012",
+      "persona": "community-organizer",
+      "domain": "hobbies",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the tiny museum, a volunteer was polishing old bicycle bells.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "He explained that each bell had a different voice because of its metal mix.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Can I ring the one from 1952?” I asked, trying to sound casual.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Why should history stay behind glass when it wants to chime?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “search” was stamped on the restoration checklist beside missing parts.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Clarify something for me: why would two old bicycle bells sound different at the same size?",
+          "gold_reply": "Their alloy, thickness, shape, and wear all change how the metal vibrates.",
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-013",
+      "persona": "voice-note-storyteller",
+      "domain": "arts",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A dance teacher took over the supermarket carpark after closing.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The painted parking lines gave every dancer a ready-made place to stand.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Suggest a low-pressure way to help the banker recover after turning the wrong direction.",
+          "gold_reply": "Keep the line moving, mirror the next simple step, and let the mistake disappear into the group rather than stopping to correct him.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A retired banker turned the wrong way, recovered, and kept moving without apology.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Does anyone truly know left from right once music starts?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The teacher used “correct” only to describe where the sun was setting, never our feet.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "For one song, the empty carpark became unexpectedly elegant.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-014",
+      "persona": "community-organizer",
+      "domain": "local-events",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I attended a pebble-painting table beside the river steps.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Smooth stones seemed to slow every painter’s hand.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "“May I paint a face on this one?” a man asked, choosing a heart-shaped pebble.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The heart-shaped stone quickly acquired a tiny personality.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She described “highlight” as the pale dot that makes an eye wake up.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Leaving the painted pebbles along the path made familiar steps feel newly discovered.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "That accidental purple crab is still making me laugh; laugh with me for a second.",
+          "gold_reply": "I’m laughing—the stone apparently knew what it wanted to become before you did.",
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-015",
+      "persona": "voice-note-storyteller",
+      "domain": "hobbies",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The knot club met around a long bench with a heap of retired climbing rope in the middle.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Could you describe the practical difference between a bowline and a square knot in one sentence?",
+          "gold_reply": "A bowline makes a fixed loop, while a square knot joins two ends and can slip under the wrong load.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I chose a soft orange length because the stiffer cords were bruising my fingertips.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "After three slow attempts, the loop finally held its shape when I pulled the standing end.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Across from me, an older member used two contrasting ropes so every crossing stayed visible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We tested our knots on empty buckets rather than anything precious.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Mine carried a stack of magazines from one end of the bench to the other without tightening.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-016",
+      "persona": "community-organizer",
+      "domain": "arts",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A folding map club spread its papers across a diner counter at breakfast.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Every paper on the counter traced a route its maker loved.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“What counts as a destination?” a woman asked, circling her grandmother’s balcony.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Let me continue the map story; ask where the waitress drew her shortcut.",
+          "gold_reply": "Where did she place the red shortcut, and what place did it bypass?",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our maps honored balconies, shortcuts, and breakfast counters instead of famous places.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He described “search” as what our fingers do when they trace a memory.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "One route followed the smell of roasting coffee and still led precisely home.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-017",
+      "persona": "voice-note-storyteller",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The kite hospital had a waiting room made of milk crates.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "At this repair table, tangled tails caused more trouble than torn wings.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A child held the torn red corner steady while the repairer checked the dragon’s frame.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Who could decline such a patient?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The repairer used “correct” while describing the angle of the bamboo spar.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "I need reassurance that a visible paper patch would not ruin the child’s dragon kite.",
+          "gold_reply": "It would not ruin it. A well-placed patch can strengthen the sail and become part of the dragon’s history.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The new patch strengthened the kite and gave its red wing a sharper outline.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-018",
+      "persona": "community-organizer",
+      "domain": "hobbies",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I slipped into a shadow-puppet rehearsal behind the community hall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give that friendly cardboard monster a brief welcome from the audience.",
+          "gold_reply": "Hello, gentle monster—we saved you a place beside the moon.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Under the brightest lamp, even a small wobble in the puppet’s hand became visible.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "“How do I make a monster look friendly?” a performer asked.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The monster received a gentle voice and immediately seemed less lonely.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She described “highlight” as the brief flicker that gives a puppet a thought.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The torn cardboard moon still ruled the final night scene.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-019",
+      "persona": "voice-note-storyteller",
+      "domain": "arts",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At a seed-saving talk, the speaker emptied envelopes onto a picnic cloth.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What is the simplest way to keep exchanged bean seeds labeled through a damp afternoon?",
+          "gold_reply": "Use pencil on sturdy paper packets, include the variety and year, and keep the packets inside a lidded box.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The large bean seeds sat plainly in her palm, easy for beginners to examine.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Do these remember last year’s rain?” someone asked.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I liked the idea that a bean might carry a memory of last year’s rain.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The speaker used “remind” while describing labels that survive damp fingers.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could saving seeds make a balcony feel connected to a farm? I was tracing how one exchanged packet could link several small growing spaces.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "It can, especially when neighbors exchange what grew well.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-020",
+      "persona": "community-organizer",
+      "domain": "local-events",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A sidewalk science cart was demonstrating mirrors and sunlight.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "In the curved bowl of a spoon, the sky appeared upside down.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "When the spoon flips the sky upside down, is the curved inner surface acting like a tiny mirror?",
+          "gold_reply": "Yes. The inward curve behaves like a concave mirror and can invert the reflected scene at the right distance.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A child rocked the spoon until her reflected face floated into view.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A lunch spoon made the whole science cart feel briefly strange.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "He described “search” as the way light finds every shiny surface.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a reflection teach us to look twice at ordinary things? I kept shifting the spoon to see which familiar object would become surprising next.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The upside-down trees in the spoon convinced me it could.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-021",
+      "persona": "voice-note-storyteller",
+      "domain": "hobbies",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I carried my fox marionette into the puppet clinic with one wooden paw dangling by a thread.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The repairer explained that the old knots were sound and only the wrist loop needed replacing.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "That red cord looked like a bracelet on the fox; tell me you saw it too.",
+          "gold_reply": "I did—the repair reads as a deliberate piece of the fox’s character now.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A boy at the next table was testing whether his dragon could bow without losing its paper crown.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Mine sat rather sternly on a cushion while I waxed a length of red cord.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could that vivid repair become part of the fox’s character? I’m asking because the red line looked less like damage and more like a bracelet.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Once the paw moved again, I made the fox wave at the dragon across the table.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We left by the side door, both puppets tucked under our arms as if they had survived a tiny adventure.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-022",
+      "persona": "community-organizer",
+      "domain": "arts",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We pinned wet cyanotype sheets to a rooftop clothesline just as the clouds broke apart.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Leaves, lace, and a bicycle gear had left pale silhouettes in the deepening blue.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "I need a practical suggestion—the wind keeps flipping the cyanotype corners before they dry.",
+          "gold_reply": "Add clips to the lower corners and hang each sheet from two points; that should steady them without touching the image.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A bedsheet behind the line made the prints easier to see from the stairwell.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two visitors began matching each silhouette to the object displayed on a nearby crate.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The bicycle gear print drew the biggest cluster because its teeth looked almost botanical.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "When the sun returned, the last damp patches changed from greenish gray to blue.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved the finished sheets indoors before the next gust carried them toward the water tank.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-023",
+      "persona": "voice-note-storyteller",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our block closed the lane for a twilight dumpling picnic, and every doorstep became a little preparation station.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "One family folded neat crescents while another produced round parcels that looked like buttoned purses.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The soup pots arrived on bicycle trailers just before the first string lights came on.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "No analysis—just react to the lane quietly organizing itself around soup pots.",
+          "gold_reply": "That is lovely: everyone found a useful rhythm before anyone thought to assign one.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A teenager discovered that overfilled wrappers could be rescued by pinching them into lopsided stars.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could a meal organize strangers faster than a meeting? I wondered that while three people silently formed a serving line.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No jobs were assigned; ladles, napkins, and spare chairs simply found willing hands.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "When the lane reopened, chalk arrows and a smell of ginger were all that remained.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-024",
+      "persona": "community-organizer",
+      "domain": "hobbies",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Before sunrise, our color-watching club climbed the seawall with blank cards and no cameras.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The eastern clouds began as charcoal strips, then picked up a narrow green seam near the water.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Does sea-glass count as a sky color?” Leena asked, holding her card against the horizon.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I wrote down oyster gray, while the person beside me insisted the same patch was lavender.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What does oyster gray look like beside lavender in early morning light?",
+          "gold_reply": "Oyster gray is muted and pearly, while lavender carries a faint violet warmth; dawn can make the boundary between them unstable.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We compared cards without voting on whose description was right.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A fishing boat crossed the green seam and briefly turned every page into a different composition.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By the time the sun cleared the roofs, our disputed colors had vanished together.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-025",
+      "persona": "voice-note-storyteller",
+      "domain": "arts",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the flipbook jam, I drew a square trying to climb out of its own frame.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The first ten pages only made it shiver, so I shifted each corner by a smaller amount.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A child beside me animated a biscuit disappearing one bite at a time.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Please reassure me that twelve messy pages can still count as a finished animation.",
+          "gold_reply": "They can. If the motion reads when you flip it, the roughness is part of the handmade rhythm.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We borrowed binder clips from the registration desk to keep the page stacks aligned.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My square finally tipped over the border on page eighteen and landed as a diamond.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Someone added two motion lines in pencil, then passed the stack back without altering the drawing.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Under the desk lamp, the eraser dust looked like pale confetti.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the last page blank so the little escape had somewhere quiet to end.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-026",
+      "persona": "community-organizer",
+      "domain": "local-events",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the river lantern procession, our group built shades from translucent maps that no longer followed their original creases.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The coordinator said the blue route lines would look like currents once a candle shone through them.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I cut tiny windows around parks, bridges, and the street where my first flat used to be.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Outside, a breeze kept lifting the paper corners before the glue had settled.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Keep walking with the lantern group; I want to tell you what happened under the bridge.",
+          "gold_reply": "Go on—I’m following the reflections along the embankment with you.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A neighbor lent me two clothespins and held the frame steady without saying anything.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At dusk, the procession moved along the embankment like a map teaching itself to walk.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "My old street flickered once on the water, then stretched into gold.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We finished under the bridge and set the lanterns in a circle until the candles shortened.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-027",
+      "persona": "voice-note-storyteller",
+      "domain": "hobbies",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the flea-market story booth, I picked up a chipped green sugar bowl because its lid carried three tiny pencil marks.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The seller traced them with her thumb and remembered measuring her children against a kitchen shelf.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "I cannot decide whether the pencil marks are tender or sad; can you help me name the feeling?",
+          "gold_reply": "They feel tender first: ordinary evidence that someone kept noticing children as they grew.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "She laughed when I guessed the marks were prices from an old shop.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Behind us, somebody tested a music box, so her answer arrived with a thin mechanical waltz.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could those faint lines matter more than the bowl itself? I kept thinking about how casually a family record had traveled to this table.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I bought it without bargaining and wrapped the lid separately in yesterday’s newspaper.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "On the walk home, the parcel felt less like crockery and more like a borrowed chapter.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I still have not erased the seller’s price from the base.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-028",
+      "persona": "community-organizer",
+      "domain": "arts",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The arts center opened a cardboard automata show where every sculpture moved by turning a side handle.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A paper whale flapped above a city of matchbox roofs, while two cork swimmers rose and sank beneath it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Near the entrance, a child had built a silver wheelbarrow that carried a moon around a painted cabbage patch.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Why give gravity the final word when a scrap of wire can make vegetables orbit?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I tried the handle slowly and found a second moon hidden behind the first.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Wait, the hidden second moon is delightfully unnecessary, isn’t it?",
+          "gold_reply": "Entirely unnecessary and therefore essential—that delayed reveal is the machine’s best joke.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The mechanism clicked unevenly, which made the orbit look cautious rather than broken.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By the third rotation, three strangers were leaning closer to see where the wire disappeared.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I walked away wanting to build something whose sole purpose was one improbable movement.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-029",
+      "persona": "voice-note-storyteller",
+      "domain": "local-events",
+      "register": "animated-casual",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "During the evening commute, an illustrator invited waiting passengers to exchange three-line portraits.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "She sketched the ticket clerk first, catching his raised eyebrow before the departure board changed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Can you finish mine before the northbound train?” a woman asked, already laughing.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Why did the three-line portrait still resemble the clerk so clearly?",
+          "gold_reply": "A few distinctive cues—his eyebrow, head angle, and posture—were enough for viewers who already knew his face.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The illustrator answered by drawing the woman’s coat while its belt was still swinging.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A student accepted the next pencil and attempted the illustrator’s profile on the back of a timetable.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could three lines recognize a person? I was doubtful until the ticket clerk pointed at his portrait from across the platform.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The pictures passed hand to hand whenever their subjects boarded.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Mine showed mostly my glasses and one impatient shoulder, and somehow that was enough.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-01-030",
+      "persona": "community-organizer",
+      "domain": "hobbies",
+      "register": "thoughtful-spoken",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our night insect walk began beside a hedge, with every flashlight covered by red cellophane.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The first sound was a steady chirp low in the grass, followed by a dry ticking from the acacia tree.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Stay for the next sound with me; I think the clicking is about to start again.",
+          "gold_reply": "I’m here—let’s hold still and listen through the next quiet interval.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We lowered our lights and found a leaf-mimicking katydid pressed flat against a branch.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its wings matched the leaf veins so closely that I noticed the antennae first.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A moth crossed my notebook and left a dusting of scales near the margin.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the ticking come from the same katydid? I kept comparing its pauses with the movement of the antennae.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The rhythm resumed from higher in the tree, proving that I had been watching the wrong musician.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We finished without collecting anything, carrying home only sketches and uncertain identifications.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+.venv/
+.venv-mlx/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+
+# Weights live on Hugging Face.
+models/
+
+# Compiled training cards live on Hugging Face and rebuild from
+# data/g1_authored via `python -m scripts.g1_full_build`.
+data/**/*.jsonl
+data/tinker/
+
+# Build and evaluation output.
+artifacts/

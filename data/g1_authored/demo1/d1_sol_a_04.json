@@ -1,0 +1,266 @@
+{
+  "schema_version":"g1-authored-1","demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":4},
+  "records":[
+    {"id":"d1-sol-a-04-001","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Three pigeons followed the street sweeper one curb behind, inspecting everything his brushes uncovered.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Do you see the tiny inspection team too?","gold_reply":"Exactly—three pigeons are methodically checking the freshly swept curb behind him.","pause_after":"short"},
+      {"kind":"narration","text":"They ignored the clean pavement and concentrated on each dark seam beside the drain.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At the crossing, all three paused when the machine paused and resumed behind it.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"One found a seed, which briefly ended the group's professional cooperation.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The sweeper continued without acknowledging his unpaid surveyors.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-04-002","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"After weekend guests left, the hall held daily shoes, two pairs needing repair, and three pairs that belonged to cousins across town.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"My cousin texted, “Can the black boots go in storage?” I kept checking the return list after reading it because storage was only one of three destinations.","traps":["quoted_question","elaborating_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Can you repeat the three destinations before we move anything?","gold_reply":"Daily shoes stay in the hall, repair pairs go out for service, and cousin-owned pairs need returning.","pause_after":"short"},
+      {"kind":"narration","text":"We placed the repair pairs in a cloth tote, tied cousin names to the return pairs, and left only everyday shoes on the rack.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The black boots appeared on the cousin list, so they joined the return tote rather than a storage box.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"One doorway trip delivered the repair tote to the cobbler and the named pairs to the right apartment.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The hall now contains shoes that actually participate in this household.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-003","persona":"commute-note-taker","domain":"festivals","register":"observant-wry","segments":[
+      {"kind":"narration","text":"The lantern festival closed my usual riverside path, so the morning bus crossed two blocks inland while volunteers suspended red frames above the empty avenue before sunrise.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A marshal reported that the road would reopen after the evening procession and that commuters could still reach the central stop through the market arcade behind the old post office.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"address","text":"Which two route facts should I keep distinct?","gold_reply":"The bus is detouring inland now; the central stop remains reachable through the market arcade.","pause_after":"short"},
+      {"kind":"narration","text":"From the detour, I could see lantern crews testing each cable with sandbags, their bright jackets moving between unlit red shapes that looked almost plain without the evening crowd.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"I left at the arcade, walked past shuttered spice shops, and emerged beside the central stop from the rear, adding six minutes but avoiding the fenced avenue entirely. The temporary route revealed the festival as labor before spectacle: cables, weights, reflective clothing, and a city quietly making room for light it would admire hours later.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-004","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"A pale moth kept circling the bus shelter lamp after daylight made the bulb unnecessary.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you call that persistence or poor scheduling?","gold_reply":"Both fit—a determined moth is still working the night shift after sunrise.","pause_after":"short"},
+      {"kind":"narration","text":"Why abandon a perfectly good moon substitute merely because the sun has arrived?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"It landed on the timetable, wings flat across the route numbers.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A passing bus shook the panel and sent it back toward the glowing tube.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My route remained briefly supervised by a very tired celestial navigator.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The lamp finally switched off before the moth reconsidered its plan.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-005","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Our shared laundry basket migrated between bedrooms so reliably that nobody knew where an empty one belonged.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"I placed one small tag on each handle: upstairs wash, downstairs fold, and return to hall shelf.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Does that route sound clear without becoming a timetable?","gold_reply":"The handle tags define three locations and a simple direction of travel.","pause_after":"short"},
+      {"kind":"narration","text":"The first load completed the circuit in a day.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The folding stage still acquired several orphan socks.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A cloth pouch on the folding basket now holds unmatched items until their partners appear.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The basket no longer disappears; only individual socks maintain that tradition.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Nobody needed an alarm, just a visible next place.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-006","persona":"home-project-diarist","domain":"festivals","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"The parade crossed our grocery street as afternoon drums reached their loudest block.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A note read, “Should we wait behind the blue barrier?” where ‘wait’ belonged to last week's planning question, not a current instruction.","traps":["quoted_question","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"address","text":"Keep the old note apart from today's open crossing.","gold_reply":"That note is old; today's crossing is open.","pause_after":"short"},
+      {"kind":"narration","text":"A marshal opened the side lane between drum sections, giving residents a brief route across.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We crossed with two shopping bags before the next banners filled the street.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The milk reached home accompanied by excellent percussion.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-007","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"A crow placed a walnut in the crosswalk and stepped back before the traffic light changed.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Will you appreciate the traffic-assisted kitchen setup?","gold_reply":"Absolutely—the crow has positioned a walnut for passing tires to crack.","pause_after":"short"},
+      {"kind":"narration","text":"Two bicycles missed it, followed by a taxi that pressed the shell without stopping.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The crow returned only when pedestrians received the signal.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"It carried one broken half to the railing and left the other near the curb.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Urban tool use apparently includes respecting the crossing phase.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The remaining shell entered the next traffic cycle without supervision.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-008","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"The pantry delivery arrived while one shelf still held jars meant for next week's party.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Could the new cartons fit below? I was measuring the clear height after asking, not inviting a guess from appearances.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Am I being clear about why height matters here?","gold_reply":"The cartons need to fit below without displacing the party jars above.","pause_after":"short"},
+      {"kind":"narration","text":"The lower space was tall enough once two empty trays were nested together.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We grouped the cartons by opening date and left the party shelf untouched.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"One measurement prevented the pantry from becoming a sliding puzzle.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-009","persona":"commute-note-taker","domain":"festivals","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Volunteers threaded garlands under the station awning before the procession.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"They put broken blossoms in a low tray and kept full stems in water.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Who expects festival color to begin with this much stem accounting?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The shortest pieces became wrist loops while longer chains climbed the entrance posts.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By the commuter rush, the worktables had vanished behind complete curtains of orange and white.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Do you see the material logic beneath the decoration?","gold_reply":"Short pieces became loops, long pieces became chains, and broken blossoms went to the low tray.","pause_after":"short"},
+      {"kind":"narration","text":"The entrance concealed a practical morning.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-010","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"A colony of swifts used the open levels of the parking garage as a morning flight circuit, entering above the ramp and leaving through the opposite concrete bay in fast looping groups.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Will you hold that one-way flight pattern in mind?","gold_reply":"Yes—they enter above the ramp, loop through the garage, and leave from the opposite bay.","pause_after":"short"},
+      {"kind":"narration","text":"Cars climbed slowly enough that the birds crossed between levels before each vehicle reached the next turn, while the open sides kept their route visible from the bus lane outside.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"At the third level, the flock widened around a hanging height bar, split neatly at one support column, and reunited beyond it without losing speed or direction.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The garage attendant placed two cones beneath a nest ledge, leaving a clean rectangle on the floor while drivers continued using every marked space around it.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"By eight, warm air rising through the central opening lifted the birds toward the roof, and the repeated circuit dissolved into higher arcs above the surrounding buildings.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"For twenty minutes, a structure designed to stack stationary cars functioned equally well as a vertical roundabout for creatures with no interest in parking.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-011","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Our grocery pickup list used three colored bags for pantry, refrigerator, and upstairs supplies.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Dad reported that the yellow bag already held cold items, contrary to the color key taped by the door.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"address","text":"Which evidence should override our tidy color theory?","gold_reply":"The actual cold items in the yellow bag override the door's intended color key.","pause_after":"short"},
+      {"kind":"narration","text":"A label with ‘correct’ described a past correction to the key, not a present request.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"narration","text":"We checked contents, relabeled the bags, and carried each directly to its destination. The system now follows groceries rather than defending its original stationery.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-012","persona":"home-project-diarist","domain":"festivals","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"The food fair sold paper tokens at one booth for use at twelve stalls.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A child asked, “Do the green tokens buy drinks?” while holding two colors in one hand.","traps":["quoted_question"],"pause_after":"short"},
+      {"kind":"narration","text":"The board showed green for drinks and orange for food, with each token worth one marked unit.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"We separated the colors into two pockets before joining the longest stall line.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The first purchase used three orange tokens and left the drink pocket untouched.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Keep the token rule simple for us.","gold_reply":"Green buys drinks, orange buys food, and each token equals one marked unit.","pause_after":"short"},
+      {"kind":"narration","text":"Nobody paid twice for lemonade.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-013","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Bats crossed the canal path when lamp reflections formed full circles.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you keep the lamp reflection as our timing clue?","gold_reply":"Use the complete lamp reflections to mark the first bat crossings.","pause_after":"short"},
+      {"kind":"narration","text":"They flew low beneath the bridge, then climbed where insects gathered above the warmer wall.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Cyclists passed below without changing the bats' repeated diagonal route.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Within ten minutes, the crossings spread along the whole bend rather than one point.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The reflections became a surprisingly dependable evening clock.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Cloud changed the sky but not the lamps or first pass.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-014","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Our building's recycling pickup moved one day earlier, but the kitchen calendar still showed the old Thursday routine.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Why did every bottle seem to multiply precisely when the calendar was wrong?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Could you state the mismatch without blaming the bottles?","gold_reply":"Pickup moved earlier, while the household calendar still points to Thursday.","pause_after":"short"},
+      {"kind":"narration","text":"We shifted the reminder card to Wednesday and placed the flattened boxes beside it.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The first new pickup left the storage corner empty before breakfast.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Thursday now contains only the pleasant absence of cardboard.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The bottles were acquitted on procedural grounds.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-015","persona":"commute-note-taker","domain":"festivals","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Silver fish costumes queued beside the station lift before the river parade.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A coordinator explained that the wide tails could use the lift only two at a time.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"Could the headpieces travel separately? She kept testing the doorway after asking, protecting fins rather than changing the costume order.","traps":["reported_speech","elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The first pair angled their tails inward and cleared both doors without removing anything.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Do you follow why the queue stayed deliberately small?","gold_reply":"Two performers at a time kept the wide fish tails clear of the lift doors.","pause_after":"short"},
+      {"kind":"narration","text":"Four silver fish reached street level, fins attached.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-04-016","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Sparrows carried dry grass into a gap above the ticket machine near platform two.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Notice the very public address they selected.","gold_reply":"A nest above a busy ticket machine is exceptionally public real estate.","pause_after":"short"},
+      {"kind":"narration","text":"A sign used ‘highlight’ for the marked nesting gap, not as a request to anyone passing.","traps":["descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"Commuters stepped back to read the screen while grass ends moved overhead.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"One bird entered only after the payment tone stopped.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The machine sold tickets beneath a construction project with no permit desk.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"By evening, the gap held a complete rim of straw.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-017","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Preparing the house for twelve overnight guests began with three piles of bedding: complete sets, clean pieces missing partners, and blankets that needed airing after storage.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We matched each fitted sheet to a room before adding pillowcases, which prevented the largest set from migrating onto the smallest sofa bed simply because it sat on top.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The airing blankets went across two indoor rails near open windows, while complete sets were tied loosely with fabric strips and placed outside their assigned doors.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"What are the three stages again?","gold_reply":"Complete sets go to assigned rooms, unmatched clean pieces stay separate, and stored blankets air before use.","pause_after":"short"},
+      {"kind":"narration","text":"One missing pillowcase appeared inside a folded duvet.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A smaller spare completed the sofa-bed set without disturbing any room already prepared.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"By afternoon, every sleeping place had a bundle, and the remaining shelf held only true extras rather than pieces waiting to be identified.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The method was less charming than a stack of fresh linen and much kinder to whoever would otherwise remake beds at midnight.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-018","persona":"home-project-diarist","domain":"festivals","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Rain reached the craft festival while our paper lantern table still held unfinished frames and open pots of paste.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Could the drying rack fit under the information tent? I was comparing its width with the clear side panel after asking.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Two volunteers carried the rack sideways while others capped the paste and stacked paper beneath oilcloth.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The rack cleared the tent pole with a hand's width and left the information desk accessible.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Visitors finished lanterns under cover and hung them from the dry rear rail.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Give the sideways rack maneuver its deserved applause.","gold_reply":"It protected the wet lanterns and still preserved access to the information desk.","pause_after":"short"},
+      {"kind":"narration","text":"The rain changed the workshop's shape without ending it.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-019","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"Honeybees covered one lavender patch on the traffic island and ignored the identical patch ten meters away.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Can you hold that uneven choice without explaining it yet?","gold_reply":"Yes—one lavender patch is crowded with bees while the matching patch remains empty.","pause_after":"short"},
+      {"kind":"narration","text":"A gardener asked, “Is the sunny side warmer this early?” while touching neither plant.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The busy patch caught direct sun between buildings; the empty one remained in shade.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By noon, both patches held bees and the morning imbalance disappeared.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The insects had apparently read the island's solar timetable.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-020","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Our grocery service left three crates in the hall and would collect only empty ones next visit.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Who knew returning boxes required a brief household supply chain?","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Treat the hallway stack as logistics, not decoration.","gold_reply":"Understood—the crates must be emptied and ready for collection at the next delivery.","pause_after":"short"},
+      {"kind":"narration","text":"We moved pantry goods first, folded the liners, and nested the smallest crate inside the largest.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A note on the door kept the nested stack from returning to storage by habit.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The driver collected one tidy tower instead of a hallway installation.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The entrance has resumed being an entrance.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-021","persona":"commute-note-taker","domain":"festivals","register":"observant-wry","segments":[
+      {"kind":"narration","text":"The noon procession paused its drums beside the library and continued with bells and hand signs for one block.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A steward explained that the quieter block protected the library's reading event without breaking the parade route.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"Dancers kept the same steps while bell carriers marked the pulse at shoulder height.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The crowd lowered its own volume as the first silent drum crossed the corner.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Full percussion returned beyond the garden wall without anyone needing to restart the formation.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Would you call that adaptation visible rather than empty?","gold_reply":"Yes—the steps, bells, and hand signs carry the procession through a block without drums.","pause_after":"short"},
+      {"kind":"narration","text":"Quiet became part of the performance instead of a gap in it.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-022","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"After rain, snails crossed the underpass in a slow line toward weeds beside the drain.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Keep me patient with this extremely gradual commute.","gold_reply":"I'm with you—the snails are making measurable progress toward the drain weeds.","pause_after":"short"},
+      {"kind":"narration","text":"Cyclists steered around the brightest shells where the path narrowed.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"One snail chose the painted center line and became unusually easy to track.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"By my return trip, it had crossed half one bicycle symbol.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Scale remains the main source of comedy here.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-023","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"The utility company scheduled a meter visit during the same afternoon our hallway cabinets were due to arrive.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The dispatcher confirmed that the meter needed a clear path from the front door before the two-hour window began.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"address","text":"Can you identify the nonnegotiable part of that overlap?","gold_reply":"The route from the front door to the meter must stay clear throughout the visit window.","pause_after":"short"},
+      {"kind":"narration","text":"A delivery sheet used ‘delegate’ for who would receive boxes, not a task for anyone reading now.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"narration","text":"We directed unopened cabinets into the dining room and marked the meter path with tape.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The technician reached the panel while the delivery continued outside that lane.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Two appointments overlapped without turning the hall into shared storage.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-024","persona":"home-project-diarist","domain":"festivals","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"After the neighborhood flag festival, our courtyard held fabric banners from six houses, each attached with a different mixture of string, clips, and reusable ties.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We spread them across dry sheets by color, removed metal clips into one bowl, and left each house tag attached so the decorations would not become anonymous during cleanup.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Two damp banners went over the rail rather than into storage, while paper streamers were separated for recycling and intact cord was wound around labeled cards.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Children matched the remaining clips by shape and discovered that one wooden peg carried a tiny painted roof matching the blue house at the courtyard entrance.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By sunset, every household had one dry bundle, the shared bowls held reusable hardware, and nothing wet had been folded into a box to surprise us next year.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Recognize the care hidden inside that cleanup.","gold_reply":"Tags preserve ownership, drying protects the fabric, and sorted hardware makes the next festival easier for everyone.","pause_after":"short"},
+      {"kind":"narration","text":"The festival ended after the last flag came down, with small objects returning to known homes.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The remaining materials were prepared for another season of color.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-025","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"A myna near the crossing copied the pedestrian signal's rising beep from a lamp post.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Will you keep the bird's sound distinct from the real signal?","gold_reply":"Yes—the bird is imitating the beep, while the real crossing signal still needs an independent check.","pause_after":"short"},
+      {"kind":"narration","text":"A cyclist asked, “Did the crossing start already?” and checked the light before moving.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The bird repeated the sound during the red phase with excellent timing and poor civic value.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Pedestrians watched the light; the myna continued reviewing its repertoire.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Imitation briefly outperformed infrastructure in volume.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The real signal eventually joined the duet.","traps":[],"pause_after":"none"}
+    ]},
+    {"id":"d1-sol-a-04-026","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Our family calendar showed school pickup, a grocery delivery, and one borrowed ladder returning on the same afternoon.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Could the ladder leave before the groceries arrived? I was checking the doorway sequence after asking, not choosing between obligations.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Keep the doorway sequence visible for me.","gold_reply":"Ladder-before-groceries is only proposed; exact timing is not confirmed yet.","pause_after":"short"},
+      {"kind":"narration","text":"The neighbor collected the ladder at two, and we folded its floor cloth immediately.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Groceries arrived at three while the pickup driver was already away at school. One clear threshold handled three unrelated plans without becoming a queue.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-04-027","persona":"commute-note-taker","domain":"festivals","register":"observant-wry","segments":[
+      {"kind":"narration","text":"The festival wristband booth wrote a guardian's phone suffix inside each child's band before sealing it.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Volunteers checked the last four digits aloud with the adult and then covered the writing beneath the fold.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The bands showed color zones outside while keeping contact details hidden during ordinary play.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"One child practiced opening the information flap with a volunteer nearby.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At the gate, staff matched band colors to the map without exposing any numbers.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Notice the balance between visibility and privacy there.","gold_reply":"Color zones stay visible for navigation, while contact digits remain folded away unless needed.","pause_after":"short"},
+      {"kind":"narration","text":"A small paper band carried two kinds of information at different layers.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-028","persona":"commute-note-taker","domain":"urban-wildlife","register":"observant-wry","segments":[
+      {"kind":"narration","text":"A gray heron stood in the shallow drainage pond beside the ring road, motionless enough that its reflection remained clearer than the cars moving across the water behind it.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Hold the still bird against that moving background for me.","gold_reply":"The heron and its reflection stay fixed while traffic ripples across the pond behind them.","pause_after":"short"},
+      {"kind":"narration","text":"Who would expect such patience beside six lanes of acceleration? I watched through two full signal changes as the bird shifted only one foot deeper into the reeds.","traps":["rhetorical_question","elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A delivery truck sent a broad shadow over the pond, but the heron lowered its head rather than leaving, keeping its beak aligned with a patch of open water near the culvert.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"When a small fish broke the surface, the bird struck once, lifted its catch, and returned to nearly the same posture before the next line of vehicles reached the intersection.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The scene did not become quiet; instead, the heron's concentration made engine noise feel like a separate layer that never entered the narrow circle of its attention.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"By the time my bus arrived, the reflection had shifted with the light while the bird remained at work, an island of intention inside infrastructure built entirely for motion.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-029","persona":"home-project-diarist","domain":"household-logistics","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"Before repainting the spare room, we mapped every packed box to one of three temporary zones: hall, dining corner, or stay against the far wall.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Colored tape on each box matched a paper square on the floor, so nobody needed to read small labels while carrying weight through the doorway.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The first six boxes cleared the window wall and left a continuous path from the door to the covered bookcase.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Reflect the advantage of mapping destinations before lifting anything.","gold_reply":"Visible zones reduce decisions while carrying and preserve where each box should return after painting.","pause_after":"short"},
+      {"kind":"narration","text":"One unmarked lamp box paused in the center until its fragile contents earned it a low corner away from traffic.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By lunch, the room held only far-wall boxes and painting supplies, while every moved item remained grouped by where it would return later.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The plan turned a room shuffle into three known landings instead of one growing pile with excellent intentions and no route back.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-04-030","persona":"home-project-diarist","domain":"festivals","register":"affectionate-casual","segments":[
+      {"kind":"narration","text":"For the doorstep festival pattern, we cut one cardboard stencil for the border and another for the center flower.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The organizer reported yellow for our flower; ‘highlight’ described an old sample area, not a present request.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"We taped four corners so the border stencil could return to position.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Fine chalk passed through a tea strainer while the cardboard stayed flat.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Lifting both stencils revealed a centered flower inside an even white frame.","traps":[],"pause_after":"long"},
+      {"kind":"address","text":"Give those four corner marks their modest credit.","gold_reply":"They let the border stencil return to one position without disturbing the chalk.","pause_after":"short"}
+    ]}
+  ]
+}

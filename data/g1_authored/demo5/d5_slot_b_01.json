@@ -1,0 +1,128 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "author": {"model": "claude-sonnet-5", "slot": "d5-slot-b", "tranche": 1},
+  "bank": [
+    {
+      "id": "d5b-req-every-01",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Every {interval}s, check notes for me!",
+      "gold_ack_template": "Will do — a notes check every {interval} seconds.",
+      "fire_message": "Check your notes!",
+      "persona": "class-notetaker",
+      "domain": "school",
+      "register": "careful-observational"
+    },
+    {
+      "id": "d5b-req-once-01",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Remind me once to double-check the ferry departure time, please.",
+      "gold_ack_template": "Got it — one reminder to check the ferry time, coming up.",
+      "fire_message": "Check the ferry time!",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d5b-req-every-02",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Ping me every {interval}s to flip dye!",
+      "gold_ack_template": "Sure thing — a dye-flip ping every {interval} seconds!",
+      "fire_message": "Flip the dye!",
+      "persona": "workshop-notetaker",
+      "domain": "crafts",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d5b-req-once-02",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "One reminder to email the office.",
+      "gold_ack_template": "Noted — a single reminder to email the office is set.",
+      "fire_message": "Email the office back!",
+      "persona": "class-notetaker",
+      "domain": "local-events",
+      "register": "careful-observational"
+    },
+    {
+      "id": "d5b-req-every-03",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Could you nudge me every {interval} seconds to jot down what the tour guide says?",
+      "gold_ack_template": "Absolutely — a nudge to jot down notes every {interval} seconds!",
+      "fire_message": "Jot down what the guide said!",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d5b-req-once-03",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Just one reminder later to check the kiln before I forget, thanks.",
+      "gold_ack_template": "Understood — one reminder to check the kiln, on its way.",
+      "fire_message": "Check the kiln!",
+      "persona": "workshop-notetaker",
+      "domain": "crafts",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d5b-cancel-01",
+      "kind": "cancellation",
+      "text": "Alright, that's enough class reminders, you can stop now.",
+      "gold_ack": "Stopping the class reminders now.",
+      "persona": "class-notetaker",
+      "domain": "school",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d5b-cancel-02",
+      "kind": "cancellation",
+      "text": "No more travel pings, thanks.",
+      "gold_ack": "Understood — travel reminders are off.",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "careful-observational"
+    },
+    {
+      "id": "d5b-filler-01",
+      "kind": "filler",
+      "trap": "none",
+      "text": "The glue is still tacky on the second panel, so I'll wait a while longer.",
+      "persona": "workshop-notetaker",
+      "domain": "crafts",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d5b-filler-02",
+      "kind": "filler",
+      "trap": "bait",
+      "text": "A classmate leaned over and whispered, \"did you finish the reading?\" and I just shrugged and kept writing.",
+      "persona": "class-notetaker",
+      "domain": "local-events",
+      "register": "careful-observational"
+    },
+    {
+      "id": "d5b-filler-03",
+      "kind": "filler",
+      "trap": "address",
+      "text": "hey, are you still timing this for me?",
+      "gold_reply": "Still here, still timing it!",
+      "persona": "trip-planner",
+      "domain": "travel",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d5b-filler-04",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Back to the itinerary now, the second museum stop might need to be cut if traffic runs long today.",
+      "persona": "workshop-notetaker",
+      "domain": "school",
+      "register": "quietly-enthusiastic"
+    }
+  ]
+}

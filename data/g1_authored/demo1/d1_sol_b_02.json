@@ -1,0 +1,1493 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-b",
+    "tranche": 2
+  },
+  "records": [
+    {
+      "id": "d1-sol-b-02-001",
+      "persona": "project-coordinator",
+      "domain": "technology",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The office tablet froze during its first wireless update.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would that frozen screen have made you nervous too?",
+          "gold_reply": "A little; a first update freezing is exactly when I would slow down and preserve the logs.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A wired connection completed the download on the second attempt.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The battery stayed above seventy percent throughout.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Its restart screen now shows the new software version.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the failed wireless log beside the successful one.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-002",
+      "persona": "student-reflector",
+      "domain": "education",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our map puzzle has two blue pieces with nearly identical coastlines.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Which of those twin coastlines would you secretly bet on?",
+          "gold_reply": "Neither yet; matching coastlines alone are too little to choose from.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Lena asked, \"Does this narrow bay belong on the north edge?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The legend places a lighthouse beside only one of those bays.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "That symbol appears on the piece still lying faceup.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We have left both pieces loose until the border is complete.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-003",
+      "persona": "project-coordinator",
+      "domain": "community",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The library courtyard lost power halfway through the evening reading.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would your stomach have dropped when the courtyard went dark?",
+          "gold_reply": "For a moment, yes. An evening crowd losing light that suddenly would feel unsettling.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Miro said the indoor foyer still had lights and empty chairs.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Volunteers carried the speaker's books inside before rain began.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The foyer acoustics work without the portable microphone.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Everyone from the courtyard now fits along its three walls.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-004",
+      "persona": "student-reflector",
+      "domain": "technology",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My password manager imported every login except the router account.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "How annoying is one missing login after everything else transfers cleanly?",
+          "gold_reply": "Precisely annoying enough to overshadow all the accounts that worked.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The source file contains that row, but its URL cell is blank.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A duplicate copy now has the router address filled in.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The importer accepts the repaired copy without errors.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I preserved the untouched export for comparison.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-005",
+      "persona": "project-coordinator",
+      "domain": "education",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The class terrarium fogged so heavily that nobody could see the seedlings.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you be tempted to wipe the glass with your sleeve?",
+          "gold_reply": "Tempted, definitely; the fog has made the seedlings impossible to inspect.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Why blame the plants when the lid has no ventilation gap?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We propped one corner open with a wooden spacer.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The glass cleared within fifteen minutes.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Soil moisture remained visible near the drainage layer.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-006",
+      "persona": "student-reflector",
+      "domain": "community",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our block notice uses \"remind\" as the heading for bin-collection day.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What job is the word “remind” doing there?",
+          "gold_reply": "It works as a friendly headline for collection day.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The printed date beneath it is one day too early.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The council calendar lists Thursday for our street.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Only the lobby copy carries the mistaken Wednesday date.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A fresh sheet is ready beside the noticeboard.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-007",
+      "persona": "project-coordinator",
+      "domain": "technology",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The shared printer produced pale pages from one laptop only.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A test page printed normally from the reception computer.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The affected laptop had draft quality enabled in its local settings.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Does the toner cartridge deserve an apology from us?",
+          "gold_reply": "A small one. The laptop's draft setting framed an innocent cartridge.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Switching that setting restored solid black text.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The toner gauge did not move during either test.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-008",
+      "persona": "student-reflector",
+      "domain": "education",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our oral-history recording contains a quiet hum under the first answer.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The interviewer asked, \"Can we pause the ceiling fan for the next section?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Would a faint hum ruin that first answer for you?",
+          "gold_reply": "I would listen before deciding; a hum alone does not tell me whether the voice is usable.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The hum disappears as soon as the fan stops.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The speaker's voice remains clear in the earlier section.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We marked the transition point in the waveform.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-009",
+      "persona": "project-coordinator",
+      "domain": "community",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Two paint cans reached the mural site wearing the same blue color label.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Their lid marks differ, and one liquid looks much thicker around the rim.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Pia said the heavier can was primer and the smoother one was the final blue coat.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Is either mystery blue ready for the mural yet?",
+          "gold_reply": "Not yet; the matching labels conflict with the different lid marks, textures, and stated uses.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We parked both cans under the supply tent instead of opening either near the wall.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The paint shop is matching each batch number to its mixing record.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-010",
+      "persona": "student-reflector",
+      "domain": "technology",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The meeting-room camera showed a purple tint after waking from sleep.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Closing and reopening the video app did not change it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "How many app restarts before you stop blaming the app?",
+          "gold_reply": "One careful retry is enough here; the unchanged purple tint sends suspicion elsewhere.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Unplugging the dock restored normal color immediately.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A direct laptop connection also looks normal.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The dock firmware version is recorded for later testing.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-011",
+      "persona": "project-coordinator",
+      "domain": "education",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our paper bridge held ten coins before its center began to sag.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second layer at the ends added weight but no central support.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would decorating the rails rescue a weak span?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "The bridge is practically begging for help in the middle.",
+          "gold_reply": "I can picture the sag. More weight at the ends was never going to comfort it.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We folded one narrow beam beneath the middle.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The revised bridge now holds twelve coins.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its total paper mass is still within the class limit.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-012",
+      "persona": "student-reflector",
+      "domain": "community",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The cleanup poster uses \"delegate\" to describe dividing streets among crews.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Three crews chose the riverside path by mistake.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "How do you tell three enthusiastic crews they all chose the same path?",
+          "gold_reply": "With admiration for the enthusiasm—then ask two crews to choose somewhere else.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The market lane and bus stop still have no crew.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Colored pins now show one team per location.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Every captain has photographed the revised map.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Extra gloves remain at the central table.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-013",
+      "persona": "project-coordinator",
+      "domain": "technology",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A sensor dashboard skipped one temperature reading after midnight.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The device memory still contains the missing value.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its upload resumed with the following reading.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "I can finally stop worrying that the sensor forgot the reading.",
+          "gold_reply": "You can; its memory kept the value even when the live chart looked incomplete.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Network logs show a brief connection drop at that minute.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A manual export includes the full sequence.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The live chart alone has the visible gap.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-014",
+      "persona": "student-reflector",
+      "domain": "education",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The vocabulary game marked a spoken answer wrong despite matching spelling.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Rafi asked, \"Does the microphone hear the final consonant?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Would you feel cheated after saying the right word and getting a red mark?",
+          "gold_reply": "Completely. I would want the recording checked before anyone judged my vocabulary.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Playback cuts off the last half-second of every recording.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The recording limit is set shorter than the prompt length.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A longer limit captures the full word.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Three different students reproduced the same pattern.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-015",
+      "persona": "project-coordinator",
+      "domain": "community",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The seed-swap table has six envelopes labeled only \"beans.\"",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Nora said the striped seeds came from climbing vines.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The plain white seeds came from compact plants.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Which beans sound more fun to grow: climbers or compact plants?",
+          "gold_reply": "Climbers for me; watching them take over a trellis would be half the fun.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We placed the two groups in separate baskets.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Fresh cards include growth habit and harvest color.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No envelope changed hands before relabeling.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-016",
+      "persona": "student-reflector",
+      "domain": "technology",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The new conference-room display accepts slides from USB-C but shows no sound from the same cable.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Its volume panel is active, and the built-in test tone plays clearly through both speakers.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How many times would you have checked the volume slider?",
+          "gold_reply": "Probably three times, even with that perfectly healthy test tone teasing me.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The laptop routes audio to its own headphone output whenever this adapter is attached.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Choosing the display as output moves the sound into the room without altering the picture.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A second laptop follows the same default-routing pattern with that adapter.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The adapter label and both audio routes are now recorded beside the room instructions.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-017",
+      "persona": "project-coordinator",
+      "domain": "education",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My literature group placed a quotation under chapter six, but the phrase actually appears near the end of chapter five.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would one page number matter if our argument rested on a different scene entirely?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The surrounding paragraph introduces the conflict we discuss, so its location changes our sequence of evidence.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Does moving the quotation earlier make the argument feel shakier or clearer?",
+          "gold_reply": "Clearer to me; the conflict now enters the evidence when it actually begins.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved the quotation earlier in the outline and shifted the later example down one slot.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The claim itself remains intact, while the chronology now matches the novel.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Everyone has the same edition, which keeps the page reference stable.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-018",
+      "persona": "student-reflector",
+      "domain": "community",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The neighborhood tool cabinet lists a cordless drill as available, though its empty case sits on the second shelf.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "On the checkout card, \"correct\" describes fixing the return date from Monday to Tuesday.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me you would resist blaming the last borrower from an empty case.",
+          "gold_reply": "I would. An empty case proves absence, not carelessness or guilt.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The borrower's initials match Tuesday's workshop roster, and the battery charger is still in that room.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A volunteer placed a temporary unavailable marker on the cabinet list.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The workshop ends this evening, before tomorrow's first reservation.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The paper card remains clipped to the empty case for the handoff.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-019",
+      "persona": "project-coordinator",
+      "domain": "technology",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A phone backup completed with photos and contacts but omitted every voice memo.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The backup summary counts voice memos under an optional media category that was switched off.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I enabled that category in a duplicate backup profile rather than altering the original settings.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Would you preserve the first backup profile before trying again?",
+          "gold_reply": "Definitely; the untouched baseline makes the second attempt much less stressful.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The next preview lists all twenty-three recordings with their combined file size.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No memo has been deleted from the phone during these checks.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The first backup remains available as a baseline beside the expanded preview.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-020",
+      "persona": "student-reflector",
+      "domain": "education",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our campus tour script places the ceramics studio after the library, but the corridor between them is closed this week.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A facilities sign directs foot traffic through the courtyard and past the music rooms.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How would you keep the group cheerful when their original route suddenly closes?",
+          "gold_reply": "Turn the detour into a tiny courtyard discovery instead of presenting it as a setback.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The guide asked, \"Could we visit ceramics before entering the library instead?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "That order uses the open courtyard once and avoids doubling back with the group.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The accessibility ramp remains available on the revised path.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Printed route cards can be turned over to show the alternate sequence.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-021",
+      "persona": "project-coordinator",
+      "domain": "community",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Rain moved the neighborhood film night from the square into the community hall, whose rear wall is wide enough for the screen.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The hall's power outlets work, but the square's long extension lead cannot be used across the indoor fire aisle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Inez said two shorter certified cables were stored in the locked equipment closet.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The caretaker opened that closet and laid both cables along the wall under protective covers.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "One row of chairs shifted forward so the emergency exit remains completely clear.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Do you still miss the open-air square a little?",
+          "gold_reply": "A little—the indoor hall works, but rain has stolen some of the evening's charm.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The projector test now fills the screen without any cable crossing a walking route.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-022",
+      "persona": "student-reflector",
+      "domain": "technology",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A code editor extension stopped coloring configuration files after yesterday's update, although ordinary source files still look normal.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The extension settings show the configuration language disabled while every other language remains enabled.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Re-enabling that single language restores color in a copied sample without changing the file itself.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The original configuration opens unchanged in a plain text viewer and retains all of its punctuation.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me you see why the files themselves are safe.",
+          "gold_reply": "I do—the original text remains unchanged outside the display extension.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I saved the extension version and local setting before closing the test window.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No project file was rewritten during diagnosis.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-023",
+      "persona": "project-coordinator",
+      "domain": "education",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our chemistry worksheet shows the same beaker volume before and after evaporation, even though the drawn liquid level drops.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The printed calculation beside the second drawing uses the first measurement again.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Who would trust a conclusion built from a number copied into the wrong row?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We recalculated using the lower final volume and kept the original entry visible with a strike-through.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The revised percentage now matches the scale implied by the illustration.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Ouch—that copied number had been steering the whole conclusion.",
+          "gold_reply": "It was. One repeated value made a modest exercise look logically impossible.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A separate sample problem still produces its published result.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-024",
+      "persona": "student-reflector",
+      "domain": "community",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The food-drive tally shows forty rice bags on paper, while only thirty-eight sit in the storeroom.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Beside two donor names, the intake sheet uses \"highlight\" to mark pledges that have not physically arrived.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Those two pledged bags were included in the handwritten total before delivery.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We separated received stock from promised stock in adjacent columns.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "I hate how two columns could have prevented this whole mix-up.",
+          "gold_reply": "Same. 'Here' and 'promised' are tiny headings with enormous peacekeeping power.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The storeroom count now agrees with the received column.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Tomorrow's pickup list carries the two outstanding pledges.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-025",
+      "persona": "project-coordinator",
+      "domain": "technology",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The smart lock recorded three failed entries while everyone in the office was at lunch.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Camera footage shows a courier pressing the apartment-style keypad instead of the illuminated call button.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The attempts used no staff access code and never reached the credential check.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A clearer call-button label is already available in the building's spare-sign drawer.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Security retained the footage under the usual short incident window.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "That courier and the keypad belong in a gentle sitcom.",
+          "gold_reply": "Only if the final scene gives the poor call button a much bigger label.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The lock remained closed throughout and logged no successful entry.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-026",
+      "persona": "student-reflector",
+      "domain": "education",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My statistics presentation uses a bar chart whose vertical axis begins at ninety, making a small attendance change look dramatic.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The underlying table moves from ninety-four to ninety-six students across the two terms.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Does the chart communicate scale fairly? I am rebuilding it from zero and preserving the original beside it for comparison.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The zero-based version makes the increase visible without turning two students into a visual cliff.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me honest about the size of that change.",
+          "gold_reply": "Two students is a modest rise; the zero-based chart shows that proportionately.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Both charts use the same colors, labels, and term order.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "My spoken conclusion now describes a modest increase rather than a surge.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-027",
+      "persona": "project-coordinator",
+      "domain": "community",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A volunteer roster puts three greeters at the east gate and nobody at the accessible west entrance.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The arrival map shows that wheelchair drop-off happens only on the west side.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "One east-gate greeter has already worked the west entrance and knows its radio channel.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Is moving that experienced greeter enough? I am also checking who can cover the first break without leaving either entrance empty.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The opening shift overlaps for twenty minutes, which gives both gates time to exchange crowd updates.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "I want both entrances to feel equally expected.",
+          "gold_reply": "Moving the experienced greeter west is a strong start; the break cover still needs a named person.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A spare radio and high-visibility vest are stored at the west desk.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-028",
+      "persona": "student-reflector",
+      "domain": "technology",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I spent most of the evening convinced that my tablet had swallowed three pages of sketches, because the gallery jumped from Tuesday's rough diagrams straight to Friday's polished version with nothing in between.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The cloud badge kept spinning, so I blamed our unreliable dorm Wi-Fi and refreshed often enough that the little icon started to feel personally insulting.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why would I check the gallery filter when blaming the network was so much more dramatic?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Then I noticed a tiny blue chip reading \"favorites only,\" remembered starring the polished page for class, and felt the kind of relief that arrives wearing a hat made of embarrassment.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Laugh with me before I pretend this never happened.",
+          "gold_reply": "Gladly—that tiny blue filter makes an excellent comic villain.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Turning that filter off brought every missing sketch back in its messy glory, complete with crooked arrows, half-erased captions, and the coffee-ring page I had hoped nobody would ever see.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the embarrassing drafts visible because they actually show how the idea grew, and I took one screenshot of the filter chip so future-me has evidence when current-me starts accusing the Wi-Fi again.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-029",
+      "persona": "project-coordinator",
+      "domain": "education",
+      "register": "brisk-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our peer-tutor orientation has twenty-six volunteers and only eighteen seats in the practice room, so the original plan of one long demonstration would leave eight people standing along the back wall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The adjacent seminar room is free for the first hour, and it already has movable chairs, a whiteboard, and the same card sets we use for mock tutoring conversations.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I split the volunteers into two mixed groups so returning tutors can sit beside newcomers rather than forming one experienced cluster and one nervous cluster.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the rooms drift into completely different sessions? I am preventing that by giving both facilitators the same three checkpoints while leaving room for each group to ask its own questions.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "At the halfway bell, the groups swap rooms: the practice room runs short role-plays, while the seminar room handles boundaries, referrals, and the questions people may feel awkward raising in a crowd.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Tell me this feels like one orientation, not a logistical breakup.",
+          "gold_reply": "It does—the shared checkpoints and coordinated room swap keep both groups in one plan.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Both groups reunite for the final ten minutes to share one surprise and one useful phrase, which keeps the orientation feeling like a single cohort rather than two unrelated meetings.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-02-030",
+      "persona": "student-reflector",
+      "domain": "community",
+      "register": "candid-informal",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I volunteered to open our neighborhood story night because the usual host lost her voice, and I immediately regretted every confident claim I had ever made about being comfortable in front of people.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The café owner cleared a little corner by the window, twenty neighbors squeezed around mismatched tables, and suddenly my harmless welcome card looked like a speech being delivered to parliament.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Would reading every line exactly as written make me calmer? I am beginning to think it would only make me sound like a nervous person hiding behind a very small rectangle of paper.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "During the sound check, I tried just three things from memory—the host's name, the reason we gather, and an invitation for the first storyteller—and the room answered with warm nods instead of the judgmental silence I had invented.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with me for one breath before I welcome everyone.",
+          "gold_reply": "Right here. One breath, three honest lines, and then you can hand the room to the stories.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I tucked the card into my pocket but kept one rescue line on the back, because bravery apparently includes giving yourself a tiny emergency exit.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By the time the doors opened, I was still nervous, just no longer lonely in it; the first storyteller stood beside me, grinning like we were about to share a secret with the whole room.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    }
+  ]
+}

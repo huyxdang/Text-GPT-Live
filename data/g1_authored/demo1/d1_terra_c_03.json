@@ -1,0 +1,1513 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-terra",
+    "slot": "d1-terra-c",
+    "tranche": 3
+  },
+  "records": [
+    {
+      "id": "d1-terra-c-03-001",
+      "persona": "workshop-host",
+      "domain": "architecture",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I describe this little load test to you as I begin?",
+          "gold_reply": "Yes—start with the pieces, what is supporting them, and anything deliberately left unsecured.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I set a cardboard arch on two foam piers and left the keystone loose.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Without tape, the wedge settled only after both sides carried equal rows.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A coin on the left pier made the curve flatten slightly near its base.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I removed the coin and marked the joint that had opened.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The arch stood through three gentle table taps once the rows were balanced.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-002",
+      "persona": "heritage-walk-guide",
+      "domain": "weather",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The manual rain gauge held fourteen millimeters after the overnight shower.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What reading did the gauge show after the overnight shower?",
+          "gold_reply": "Fourteen millimeters.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I found one maple seed floating against the inner wall above the water line.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The measuring tube itself remained clear, with the meniscus just below the fifteenth mark.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed the scale before lifting the seed with dry tweezers.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A second reading from eye level matched the first.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-003",
+      "persona": "workshop-host",
+      "domain": "performing-arts",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Will you track the suitcase exchange while I talk through it?",
+          "gold_reply": "Yes—I’ll follow the suitcase exchange in the order you describe it.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The props table had two identical suitcases, but only one contained the collapsible hat.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "“Which case crosses first?” the understudy asked while checking the handles.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A red thread around the marked handle stayed hidden from the audience side.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I walked the exchange slowly, placing the empty case downstage before taking the marked one.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The hat opened cleanly on the next run without anyone looking at the tags.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-004",
+      "persona": "heritage-walk-guide",
+      "domain": "architecture",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the old fire station, I stopped beneath a brick arch filled with newer glass blocks.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me honest while I inspect this altered fire-station opening.",
+          "gold_reply": "Start with the materials and edges you can see now, then add documentary context separately.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "An archival elevation depicts a wider engine door before the present glass-block infill.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Two vertical seams in the brickwork showed where the wider opening had begun.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The stone curb also ended abruptly on both sides of the present doorway.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I sketched the seams and curb breaks without reconstructing a missing facade.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-005",
+      "persona": "workshop-host",
+      "domain": "weather",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "address",
+          "text": "Can I walk you through one cloud’s changes from the beginning?",
+          "gold_reply": "Yes—describe the first visible state, then each change in the order you observed it.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "By noon, three flat cumulus clouds had risen above the same dark ridge.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Why does the smallest cloud often seem to grow fastest once its base turns gray?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I traced each outline on a transparent card at five-minute intervals.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the darker base mark increasing thickness? I compared it only with the next two tracings.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The smallest outline doubled in width before the ridge disappeared behind it.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-006",
+      "persona": "heritage-walk-guide",
+      "domain": "performing-arts",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "During cue rehearsal, the stage-left lamp stayed amber while every other unit shifted to blue.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can you keep track of the one lamp that did not shift to blue?",
+          "gold_reply": "Yes—the stage-left lamp remained amber while the others changed.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The lighting operator used “correct” descriptively when reading the color printed on the old cue sheet.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "“Are we preserving the mismatch?” the director asked from the center aisle.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I checked the current plot and found the stage-left unit labeled amber there too.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The team kept the lamp unchanged for the full scene run.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-007",
+      "persona": "workshop-host",
+      "domain": "architecture",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The apartment block’s terrazzo stairs changed aggregate at the fourth-floor landing.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A resident told us the upper floors were added after her family moved in.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which claim came from the resident rather than the building itself?",
+          "gold_reply": "The resident attributed the upper floors to an addition made after her family moved in.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The lower treads contained black stone chips; the upper flight used pale shell fragments.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the material break locate the addition precisely? I checked the wall joints before treating it as a boundary.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A vertical plaster seam began one landing above the terrazzo change.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-008",
+      "persona": "heritage-walk-guide",
+      "domain": "weather",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I tied three ribbon streamers to the fence before the sea breeze arrived.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The eastern ribbon lifted first, then the middle one turned toward the road.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The staggered movement showed that the three fence positions were not behaving alike.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "React to the eastern and middle ribbons moving at different times.",
+          "gold_reply": "That offset is worth noticing; the breeze reached or affected those two positions differently.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The western ribbon remained slack beside a dense hedge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I marked the hedge on the sketch rather than averaging the directions.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-009",
+      "persona": "workshop-host",
+      "domain": "performing-arts",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the radio drama, I placed gravel, a metal tray, and a wet sponge around one microphone, with a folded towel separating each noisy surface.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The script used “wait” as a character’s descriptive cue inside the dialogue.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which three sound materials are arranged around the microphone?",
+          "gold_reply": "Gravel, a metal tray, and a wet sponge.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I rolled gravel slowly for footsteps, then squeezed the sponge over the tray for gutter water.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first take buried the final footstep beneath the splash.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Moving the tray farther back separated the two sounds on the second take.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-010",
+      "persona": "heritage-walk-guide",
+      "domain": "architecture",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I entered a narrow courtyard where four upper windows faced a single stone basin.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A carved channel ran from the roof drain to the basin’s back edge.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Dark staining stopped halfway up the wall, well below the current overflow spout.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Which visible features suggest that water moved through this courtyard?",
+          "gold_reply": "The roof-drain channel, the stone basin, and the dark wall staining.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The guidebook mentioned that the basin once fed a laundry room beyond the sealed doorway.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the stain show an older water level? I compared its top edge with the blocked channel before drawing that possibility.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-011",
+      "persona": "workshop-host",
+      "domain": "weather",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A line of frost covered the grass except beneath the wooden bench and the low cedar branches.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The bench shadow still reached westward when I arrived just after sunrise.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Stay with me while the sunlight reaches the last shaded patch.",
+          "gold_reply": "I’m here; keep the cedar patch and the moving bench shadow as separate observations.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "On the exposed path, crushed leaves held white crystals along every curled edge.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I pressed no surface and used a ruler in each photograph for scale.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Half an hour later, the crystals vanished first from the path nearest the brick wall.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The shaded patch beneath the cedar remained white after the bench shadow had shortened.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-012",
+      "persona": "heritage-walk-guide",
+      "domain": "performing-arts",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The mime exercise began with an empty chair and a taped square on the rehearsal floor.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why make an invisible wall convincing if the performer’s hand never meets the same plane twice?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I watched the wrist angle rather than the actor’s facial expression during the first pass.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Which body detail did I watch during the first mime pass?",
+          "gold_reply": "The performer’s wrist angle, rather than the facial expression.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The second pass kept the palm level at shoulder height across the full square.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A slow turn at the corner made the imagined surface feel continuous.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The actor ended by sitting on the real chair without breaking the established space.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-013",
+      "persona": "workshop-host",
+      "domain": "architecture",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The library annex showed three rooflines where a modern reading room met two older masonry wings.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “highlight” appeared descriptively on a conservation drawing beside a band of repaired mortar.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep me with the roofline comparison before I move closer.",
+          "gold_reply": "Stay with the three rooflines and the repair band shown on the conservation drawing for now.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Copper flashing stepped downward along the older gable instead of following the new flat roof.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A narrow expansion joint separated the glass corridor from both brick walls.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I photographed the joint from each end because reflected trees hid its center in a frontal view.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The drawing and the physical joint agreed on location but used different dates.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-014",
+      "persona": "heritage-walk-guide",
+      "domain": "weather",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At sunset, a shelf cloud stretched across the western horizon in a smooth dark band.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Is that rain already reaching the ground?” Luis asked, pointing to a gray veil beneath its center.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the veil be rain that evaporates before landing? I watched whether its lower edge reached the hills.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "What am I watching to distinguish the gray veil from rain reaching the ground?",
+          "gold_reply": "Whether the veil’s lower edge reaches and obscures the hills.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The hills stayed visible through the veil for six minutes.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A cool gust arrived before any drops struck the observation deck.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The first measurable rain began after the western hills had disappeared completely.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-015",
+      "persona": "workshop-host",
+      "domain": "performing-arts",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The ensemble rehearsed a scene in which every actor passed the same folded letter without opening it.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The director said the handoff should feel routine until the final performer refused it.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Keep following the folded letter with me before the first run begins.",
+          "gold_reply": "I’m following the unopened letter through its routine handoffs toward the final planned refusal.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "On the first run, two actors stared at the letter and made the object feel important too early.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I marked those glances in the margin but left the spoken lines untouched.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "During the repeat, the first four handoffs happened inside other movements.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The final refusal then stopped the room without any added pause.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-016",
+      "persona": "heritage-walk-guide",
+      "domain": "architecture",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The corner house had a bricked doorway whose lintel still aligned with the shopfront next door.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Does a sealed opening stop being part of the building’s circulation story?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A worn stone threshold remained visible beneath the newer infill.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Keep walking with me; I want to inspect the inside alignment before drawing a timeline.",
+          "gold_reply": "Go on—I’ll hold onto the lintel, threshold, and neighboring shopfront as the visible exterior evidence.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Inside, the floor tiles changed direction exactly behind that threshold.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I recorded the alignment without assuming when or why the doorway closed.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A 1960s facade photograph later showed the opening already sealed.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-017",
+      "persona": "workshop-host",
+      "domain": "weather",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "We placed two thermometers at the same height, one above a shaded lawn and one above a paved plaza.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The setup card used “wait” descriptively in the note about sensor settling time.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "After ten minutes, the plaza reading was 2.4 degrees higher.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Both shields remained dry and out of direct contact with the ground.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What makes the lawn and plaza readings comparable so far?",
+          "gold_reply": "Both thermometers are at the same height, shielded, dry, and not touching the ground.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A delivery van then parked beside the plaza sensor, changing its immediate surroundings.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I ended the comparison at that moment rather than extending the earlier trend.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-018",
+      "persona": "heritage-walk-guide",
+      "domain": "performing-arts",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "For the quick-change rehearsal, the coat hung open over the vest and both sleeve linings were turned outward.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Do I enter before the hat is fastened?” the actor asked from behind the screen.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Could the dresser finish the hat during the walk? I timed the route from the screen to the doorway before answering.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The route lasted nine seconds, while fastening the hat alone took eleven.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved the fastening behind the screen and left only the coat closure for the walk.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Do the timings support fastening the hat during the walk?",
+          "gold_reply": "No. The walk lasts nine seconds, while fastening the hat alone takes eleven.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The next change reached the doorway with two seconds to spare.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-019",
+      "persona": "workshop-host",
+      "domain": "architecture",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Beneath the railway viaduct, a row of shallow arches changed from brick to poured concrete halfway along the block.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A neighborhood archivist noted that wartime damage affected this end of the street.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The concrete bays had wider piers and no decorative brick rings.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Bolt holes along one pier indicated a former attachment, but no fixture remained.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I mapped the material transition separately from the archivist’s account.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A dated aerial image would be needed before linking the replacement to a specific event.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Can you state the evidence split back to me in plain language?",
+          "gold_reply": "The arches visibly change material and shape; the wartime explanation comes from the archivist and is not yet dated by the structure itself.",
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-020",
+      "persona": "heritage-walk-guide",
+      "domain": "weather",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "During the thunder log, I saw a sharp flash behind the northern apartment towers.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I counted seven seconds before the first low roll reached the balcony.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "How could one delay describe distance precisely when the sound rumbled from several directions?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A second flash appeared farther east, followed by a shorter four-second gap.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me a quick reality check on whether seven seconds is an exact distance.",
+          "gold_reply": "It is only a rough estimate because the sound source and first audible point are uncertain, especially with echoes among buildings.",
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Rain began as scattered large drops while the western sky stayed bright.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I recorded each flash and sound onset separately instead of averaging them.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-021",
+      "persona": "workshop-host",
+      "domain": "performing-arts",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The community opera projected translations onto a narrow panel above the stage.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The word “translate” appeared descriptively in the production note naming the surtitles file.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "During the trio, the second line appeared before the singer reached its first phrase.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I marked the musical bar where the early change became visible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "On the repeat, the operator held the first line through that bar and advanced on the singer’s breath.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "What evidence shows the revised cue worked?",
+          "gold_reply": "On the repeat, the operator held the first line through the marked bar and advanced on the singer’s breath.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The audience-view monitor then matched the sung phrase for the rest of the trio.",
+          "traps": [],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-022",
+      "persona": "heritage-walk-guide",
+      "domain": "architecture",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The covered market used sawtooth roof monitors to bring north light into each trading aisle.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "From the upper gallery, I could see that two glazed faces had been replaced with opaque panels.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "A line of brighter stalls ended directly beneath the last intact glazed monitor.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I checked the compass plaque at the entrance before calling the light northern.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Dust patterns on the beams showed no obvious leak beneath the opaque replacements.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The afternoon sun remained outside the glazed faces, leaving the aisles evenly lit.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "I want to keep following the roof monitors without jumping to a cause.",
+          "gold_reply": "Continue with the glazing, compass direction, and observed light boundary; the reason for the opaque panels can remain open.",
+          "pause_after": "none"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-023",
+      "persona": "workshop-host",
+      "domain": "weather",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A hail shower crossed the orchard in a narrow strip, leaving white pellets under only four rows of trees. I began photographs at the undamaged eastern edge and kept the row numbers visible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The pellets ranged from pea-sized spheres to flattened translucent discs. I used a dark card for scale and avoided handling them until each cluster had been photographed.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Leaves beneath the densest fall carried fresh pale nicks, while fruit on the sheltered side of the same branches remained unmarked. I recorded side and height rather than assigning damage to every pellet.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Meltwater gathered first on the black card and made the largest disc look wider. I replaced the card for later images and retained the first photograph with a note about the spreading edge.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Could the final pellet count represent how much hail originally fell?",
+          "gold_reply": "No. Meltwater had already widened one disc on the card, so a later count could not represent the original fall exactly.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Beyond row four, the grass was wet but held no visible ice. The abrupt boundary matched a gap I had watched moving across the western field during the shower.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Twenty minutes later, only shaded pellets remained, so the final count described visible remnants rather than the original fall.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-024",
+      "persona": "heritage-walk-guide",
+      "domain": "performing-arts",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The prompt book from a touring play contained blocking diagrams, hotel receipts, and three layers of cue changes in different pencils. I opened it on a cradle so the inserted papers would not pull against the binding.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A stage manager’s note in the margin linked a missing sound cue to a venue with a shallow orchestra pit.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The next page carried a replacement cue in blue pencil, but no venue name. I kept the relationship tentative rather than treating adjacent pages as proof of the same performance.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two folded receipts dated the company’s stay in that city and sat between the relevant scene pages. Their location supported the sequence, although either could have been moved later.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I numbered every loose insertion in pencil on a separate enclosure, preserving its found page without marking the artifact. The cue layers remained visible through transparent guards.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Please separate the firm link from the tentative one for me.",
+          "gold_reply": "Firm: the margin note ties the missing cue to the shallow-pit venue. Tentative: the blue replacement cue may follow from it, but adjacency and receipts do not prove that connection.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By the end of the session, the book documented a changing production process more clearly than any single final script could. The word “correct” appeared beside revisions without erasing the tour’s uncertainty.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-025",
+      "persona": "workshop-host",
+      "domain": "architecture",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "On the courthouse facade, six sandstone columns carried patches of darker repair mortar around their bases. I photographed each column from the same distance before comparing the patch shapes.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The third column had a narrow vertical crack that crossed both original stone and repair mortar. The crack therefore postdated at least part of that patch, though its exact age remained unknown.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "“Was every base repaired in the same campaign?” a visitor asked while studying the uneven colors.",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Tool marks differed: columns one and two showed parallel chisel lines, while four through six had smoother fills. Color alone could not establish separate dates because weathering varied across the portico.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A drainage grate sat closest to column three, and splash staining reached higher there. I recorded the proximity without turning it into a cause for the crack.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The survey sheet kept material, tool marks, cracking, and moisture in separate fields. That structure made comparison possible without forcing the six columns into one repair story.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Which observation actually establishes a sequence at column three?",
+          "gold_reply": "The crack crosses both the original sandstone and the repair mortar, so it formed after at least that portion of repair was present.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-026",
+      "persona": "heritage-walk-guide",
+      "domain": "weather",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Before dawn, a temperature inversion trapped a pale gray layer between the river and the hill road. From the overlook, the upper roofs remained sharp while the lower warehouses faded.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The weather observer mentioned that the hill sensor was six degrees warmer than the riverside station.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I checked both readings on the public display and copied their update times because the hill value was three minutes newer. The difference was real on screen, but not perfectly simultaneous.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Why call the layer ordinary cloud when its top stayed level below our feet?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What makes the six-degree comparison slightly uncertain?",
+          "gold_reply": "The readings were displayed at different update times—the hill value was three minutes newer than the riverside value.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "As sunlight reached the river, the gray layer thinned from its upper edge and individual chimneys emerged. Wind at the overlook remained nearly calm.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "By eight o’clock, the two station readings were closer, although their update times still differed. I kept the timing caveat beside every comparison.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-027",
+      "persona": "workshop-host",
+      "domain": "performing-arts",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The body-percussion group built a sequence from heel taps, palm rubs, and a single chest beat. I stood at the edge of the circle where I could see hands without blocking anyone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The notation card used “wait” descriptively beside a bracket covering the final four beats.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "On the first run, the heel taps spread apart because people lifted their feet to different heights. The softer palm rub stayed together.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I lowered my heel movement until it barely left the floor, and the two neighbors beside me mirrored that smaller motion. The next entrance tightened without anyone counting aloud.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The chest beat arrived early from across the circle, then returned to the “correct” place on the repeated bracket. I logged the timing change rather than identifying a person.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Just acknowledge the tiny heel movement solving a big timing problem.",
+          "gold_reply": "That is delightfully practical—the smaller motion shortened the delay and gave nearby players an easy cue to mirror.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "When the full sequence cycled again, the quiet palm rub became the clearest shared pulse. The room sounded organized without becoming louder.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-028",
+      "persona": "heritage-walk-guide",
+      "domain": "architecture",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The row-house workshop compared three window reveals built from plaster, brick, and a modern insulated panel. Each sample faced the same movable lamp to make shadow depth comparable.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The instruction sheet used “measure” throughout, but “search” appeared only in a quoted title from an earlier survey.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The brick reveal cast the deepest side shadow at the first lamp angle. When the lamp moved higher, the plaster sample’s upper edge became more pronounced.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Could shadow alone identify wall thickness? I checked the section drawings because surface shape and lamp angle could produce similar effects.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The drawings showed the insulated panel was thickest despite its shallow initial shadow. That mismatch made the visual demonstration more useful, not less.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I labeled the samples with material and lamp angle before visitors arrived, leaving thickness values on a separate card for the reveal.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Explain the mismatch without pretending the shadow measurement failed.",
+          "gold_reply": "Shadow depth reflected reveal shape and lamp angle, not thickness alone; the section drawing showed why the thickest panel could cast a shallow shadow.",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-029",
+      "persona": "workshop-host",
+      "domain": "weather",
+      "register": "vivid-conversational",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "After the coastal front passed, the harbor barometer rose while flags on the breakwater still snapped toward the east. I began a half-hour log rather than treating the first reading as settled.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The pressure climbed two hectopascals across three checks. Wind remained gusty, and a brief shower crossed the outer pier between the second and third entries.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved no instrument, but I did note that the kiosk door opened during the final reading. The barometer case did not visibly shake.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The cloud deck broke first over the inland hills, leaving a sharp blue strip while low scud continued racing above the water.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can you restate the sequence without turning it into a forecast?",
+          "gold_reply": "Pressure rose across three checks, a shower crossed between the second and third, and the inland sky cleared before the harbor.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "By the fourth check, the flags eased between gusts and the shower had cleared the pier. The pressure trend continued upward at the same instrument position.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I ended with the raw readings, door event, flag behavior, and sky changes in separate columns so later interpretation would not erase the sequence.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-terra-c-03-030",
+      "persona": "heritage-walk-guide",
+      "domain": "performing-arts",
+      "register": "calm-curious",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The street-theatre company rehearsed a market scene using only voices, shoe sounds, and one rolling wooden crate. No painted scenery marked the location.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "At the first entrance, vendors called from every side at once, and the central conversation disappeared. The crate’s rough wheels added a low rhythm that remained audible.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I shifted two vendor calls behind the crate crossing and left one short call before it. The actors kept their words but changed when they entered the sound field.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The second run opened with the single call, then the crate, then the central exchange. Background voices accumulated only after the audience had a clear focus.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A passerby stopped beyond the rehearsal line and looked toward an empty stall, showing that the sound alone had evoked a location.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Stay for one more run; I want to hear whether the same order holds.",
+          "gold_reply": "I’m listening for the same order: one vendor call, the crate crossing, the central exchange, then the wider market voices.",
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "We repeated the opening once more at lower volume and kept the same order. The imagined market stayed legible without anyone adding explanation.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    }
+  ]
+}

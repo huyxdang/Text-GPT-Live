@@ -1,0 +1,1624 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "note": "Tranche 2 of author slot d3-slot-b.",
+  "author": {
+    "model": "claude-sonnet-5",
+    "slot": "d3-slot-b",
+    "tranche": 2
+  },
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "claude-sonnet-5-self-review",
+    "reviewed_at": "2026-08-01",
+    "note": "Chinese references are machine-reviewed only; no human on this project reads Chinese."
+  },
+  "records": [
+    {
+      "id": "d3-slot-b-11",
+      "persona": "study-abroad-diarist",
+      "domain": "education",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Turn every sentence I type into Chinese, live, please!",
+        "gold_ack": "Deal! Chinese will land right after each sentence.",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Registration day turned into a three-hour scavenger hunt,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and nobody could find the hou",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "sing office anywhere on campus.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A senior finally walked us there between classes.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Registration day turned into a three-hour scavenger hunt,",
+          "reference": "注册日变成了一场三个小时的寻宝游戏，"
+        },
+        {
+          "english": "and nobody could find the housing office anywhere on campus.",
+          "reference": "而且谁都找不到住宿办公室到底在校园的哪里。"
+        },
+        {
+          "english": "A senior finally walked us there between classes.",
+          "reference": "一个学长最后在课间把我们带了过去。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-12",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Send Chinese for each line as soon as I finish it.",
+        "gold_ack": "Understood, Chinese follows the moment each line finishes.",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Because the broth needs to reduce slowly for at least two hours before anything else on tonight's menu can even begin, and because the same thing happens every single time I try to rush it,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so I skim the surface every fifteexx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "n minutes or so.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Nothing about this stock is fast.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Because the broth needs to reduce slowly for at least two hours before anything else on tonight's menu can even begin, and because the same thing happens every single time I try to rush it,",
+          "reference": "因为今晚菜单上的其他东西都得等汤汁至少收汁两个小时之后才能开始做，而且我每次想赶时间结果都是一样，"
+        },
+        {
+          "english": "so I skim the surface every fifteen minutes or so.",
+          "reference": "所以我大概每十五分钟撇一次浮沫。"
+        },
+        {
+          "english": "Nothing about this stock is fast.",
+          "reference": "这锅高汤一点也不快。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-13",
+      "persona": "study-abroad-diarist",
+      "domain": "festivals",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Please put each finished sentence into Chinese for me.",
+        "gold_ack": "Of course, each finished sentence becomes Chinese.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Since the university scheduled the dragon boat festival celebration during the busiest week of midterms this year, teams still practiced on the river every evening,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and their drumbeats carried all the way to my dorm window.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Local vendors set up stalls selling zongzi and grilled corn along the bank, and the line for the corn stall wrapped halfway around the closest bridge.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A vendor called out 粽子新鲜 to passersby.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " I bought two and ate them on a bench.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " The race itself lasted less than three minutes.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Since the university scheduled the dragon boat festival celebration during the busiest week of midterms this year, teams still practiced on the river every evening,",
+          "reference": "由于学校今年把龙舟节庆祝活动安排在了期中考试最忙的一周，各队还是每天傍晚在河上训练，"
+        },
+        {
+          "english": "and their drumbeats carried all the way to my dorm window.",
+          "reference": "他们的鼓声一直传到了我宿舍的窗边。"
+        },
+        {
+          "english": "Local vendors set up stalls selling zongzi and grilled corn along the bank, and the line for the corn stall wrapped halfway around the closest bridge.",
+          "reference": "当地摊贩在河岸边摆摊卖粽子和烤玉米，烤玉米摊的队伍绕着最近的那座桥排了半圈。"
+        },
+        {
+          "english": "I bought two and ate them on a bench.",
+          "reference": "我买了两个，坐在长椅上吃了。"
+        },
+        {
+          "english": "The race itself lasted less than three minutes.",
+          "reference": "比赛本身持续了不到三分钟。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-14",
+      "persona": "kitchen-notetaker",
+      "domain": "education",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Keep giving me Chinese for every sentence I complete.",
+        "gold_ack": "Will do, Chinese for every sentence you complete.",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The culinary program invited a guest chef to demonstrate knife cuts,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and half the class had never held a chef's knife before.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " She moved through brunoise, julienne, and chiffonade in under a minute.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Notebooks came out immediately around the room.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " A few students asked her to repeat the julienne cut.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody wanted to miss a single cut.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The culinary program invited a guest chef to demonstrate knife cuts,",
+          "reference": "烹饪项目请了一位客座厨师来演示刀工。"
+        },
+        {
+          "english": "and half the class had never held a chef's knife before.",
+          "reference": "班上一半的人以前从没拿过厨师刀。"
+        },
+        {
+          "english": "She moved through brunoise, julienne, and chiffonade in under a minute.",
+          "reference": "她不到一分钟就演示完了细丁、细丝和叶菜切丝三种刀法。"
+        },
+        {
+          "english": "Notebooks came out immediately around the room.",
+          "reference": "教室里立刻有人拿出了笔记本。"
+        },
+        {
+          "english": "A few students asked her to repeat the julienne cut.",
+          "reference": "有几个学生请她把细丝切法再演示一遍。"
+        },
+        {
+          "english": "Nobody wanted to miss a single cut.",
+          "reference": "谁都不想错过任何一刀。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-15",
+      "persona": "study-abroad-diarist",
+      "domain": "cooking",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Give me a Chinese version the instant I finish a sentence!",
+        "gold_ack": "You got it! Chinese lands the instant a sentence finishes!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "My host mom handed me a rolling pin and said good luck,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so I rolled the dough thinner than I probably should have.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Flour ended up everywhere, including my hair.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We shaped the noodles by ha",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "nd, one at a time.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Dinner was late but worth the wait.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " My host dad tried to help and made it worse.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Everyone blamed the humidity instead of the recipe.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We saved the extra dough for breakfast the next day.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "My host mom handed me a rolling pin and said good luck,",
+          "reference": "寄宿家庭的妈妈递给我一根擀面杖，祝我好运，"
+        },
+        {
+          "english": "so I rolled the dough thinner than I probably should have.",
+          "reference": "所以我把面团擀得可能比该有的还要薄。"
+        },
+        {
+          "english": "Flour ended up everywhere, including my hair.",
+          "reference": "面粉最后到处都是，连我的头发上都有。"
+        },
+        {
+          "english": "We shaped the noodles by hand, one at a time.",
+          "reference": "我们用手一根一根地做出了面条。"
+        },
+        {
+          "english": "Dinner was late but worth the wait.",
+          "reference": "晚饭晚了，但值得等待。"
+        },
+        {
+          "english": "My host dad tried to help and made it worse.",
+          "reference": "寄宿家庭的爸爸想帮忙，结果反而弄得更糟。"
+        },
+        {
+          "english": "Everyone blamed the humidity instead of the recipe.",
+          "reference": "大家都怪湿度，而不怪食谱。"
+        },
+        {
+          "english": "We saved the extra dough for breakfast the next day.",
+          "reference": "我们把多余的面团留到了第二天早饭。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-16",
+      "persona": "kitchen-notetaker",
+      "domain": "festivals",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Output Chinese for each sentence right when it's done.",
+        "gold_ack": "Noted, Chinese arrives right when each sentence is done.",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Since the community center wanted every dish logged for insurance reasons after last year's mix-up, I ended up tracking every pan for the harvest potluck,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so I numbered each pan as it arrivxx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "ed at the table.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Someone brought a squash pie nobody could identify.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Leftovers filled four separate refrigerators.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Since the community center wanted every dish logged for insurance reasons after last year's mix-up, I ended up tracking every pan for the harvest potluck,",
+          "reference": "因为去年出了差错，社区中心这次出于保险原因要求记录每一道菜，我便负责追踪丰收聚餐上的每一个锅，"
+        },
+        {
+          "english": "so I numbered each pan as it arrived at the table.",
+          "reference": "所以每个锅端上桌时我都给它编了号。"
+        },
+        {
+          "english": "Someone brought a squash pie nobody could identify.",
+          "reference": "有人带了一个南瓜派，谁都认不出是什么口味。"
+        },
+        {
+          "english": "Leftovers filled four separate refrigerators.",
+          "reference": "剩菜装满了四个不同的冰箱。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-17",
+      "persona": "study-abroad-diarist",
+      "domain": "education",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Match Chinese to each sentence the moment I complete it.",
+        "gold_ack": "Confirmed, each completed sentence gets matched Chinese.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "This morning the exam schedule went up on the department board,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and three of my classes now overlap on the same day.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Someone had written 加油 next to the schedule.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " I emailed the registrar to ask about a conflict form.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " She replied within the hour with instructions.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Two signatures were required instead of one.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " The form is due by Friday at noon.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "This morning the exam schedule went up on the department board,",
+          "reference": "今天早上，系里的公告板贴出了考试安排。"
+        },
+        {
+          "english": "and three of my classes now overlap on the same day.",
+          "reference": "我现在有三门课都排在了同一天。"
+        },
+        {
+          "english": "I emailed the registrar to ask about a conflict form.",
+          "reference": "我给教务处发了邮件，询问冲突申请表的事。"
+        },
+        {
+          "english": "She replied within the hour with instructions.",
+          "reference": "她一个小时之内就回复了说明。"
+        },
+        {
+          "english": "Two signatures were required instead of one.",
+          "reference": "需要两个签名，而不是一个。"
+        },
+        {
+          "english": "The form is due by Friday at noon.",
+          "reference": "表格必须在周五中午前交。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-18",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Please match Chinese to every sentence I type.",
+        "gold_ack": "Sure, Chinese will match every sentence you type.",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Today's prep list included braising short ribs for six hours,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and the recipe called for brow",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "ning them in batches first.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Onions and carrots went into the same pot afterward.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Today's prep list included braising short ribs for six hours,",
+          "reference": "今天的准备清单包括把牛小排炖六个小时。"
+        },
+        {
+          "english": "and the recipe called for browning them in batches first.",
+          "reference": "食谱要求先分批把它们煎上色。"
+        },
+        {
+          "english": "Onions and carrots went into the same pot afterward.",
+          "reference": "之后洋葱和胡萝卜也下进了同一个锅里。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-19",
+      "persona": "study-abroad-diarist",
+      "domain": "festivals",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Whenever I finish a sentence, hand me the Chinese!",
+        "gold_ack": "On it! Chinese the moment each sentence is finished!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Because the whole exchange dorm had been talking about the fireworks display for weeks beforehand, fireworks lit up the whole sky on New Year's Eve,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and everyone on my floor ran up to txx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "he roof to watch.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Strangers passed out sparklers to anyone nearby.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " The countdown echoed from every dorm window.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " A few people set off small firecrackers in the courtyard.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody went to sleep before two in the morning.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Because the whole exchange dorm had been talking about the fireworks display for weeks beforehand, fireworks lit up the whole sky on New Year's Eve,",
+          "reference": "因为整个交换生宿舍好几周前就一直在讨论这场烟花表演，除夕夜的烟花把整片天空都照亮了，"
+        },
+        {
+          "english": "and everyone on my floor ran up to the roof to watch.",
+          "reference": "我们那层楼的人都跑上了天台去看。"
+        },
+        {
+          "english": "Strangers passed out sparklers to anyone nearby.",
+          "reference": "陌生人把仙女棒分给了周围的人。"
+        },
+        {
+          "english": "The countdown echoed from every dorm window.",
+          "reference": "倒数声从每扇宿舍窗户里传了出来。"
+        },
+        {
+          "english": "A few people set off small firecrackers in the courtyard.",
+          "reference": "有几个人在院子里放了小鞭炮。"
+        },
+        {
+          "english": "Nobody went to sleep before two in the morning.",
+          "reference": "凌晨两点之前谁都没有睡觉。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-20",
+      "persona": "kitchen-notetaker",
+      "domain": "education",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Drop the Chinese in right as I type each sentence!",
+        "gold_ack": "Absolutely! Chinese dropped right as each sentence lands!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The school invited our kitchen crew to cater the science fair,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " A teacher wrote 谢谢帮忙 on our sign-up sheet.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " so we planned finger food that wouldn't spoil under the lights.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Mini quiches traveled better than anything with cream.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Students lined up before the judging even started.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " We ran out of napkins by noon.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The school invited our kitchen crew to cater the science fair,",
+          "reference": "学校请我们厨房团队为科学展提供餐饮。"
+        },
+        {
+          "english": "so we planned finger food that wouldn't spoil under the lights.",
+          "reference": "所以我们准备了不会在灯光下变质的小点心。"
+        },
+        {
+          "english": "Mini quiches traveled better than anything with cream.",
+          "reference": "迷你法式咸派比任何带奶油的东西都更耐放。"
+        },
+        {
+          "english": "Students lined up before the judging even started.",
+          "reference": "评审还没开始学生们就已经排起了队。"
+        },
+        {
+          "english": "We ran out of napkins by noon.",
+          "reference": "到中午我们的餐巾纸就用完了。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-21",
+      "persona": "study-abroad-diarist",
+      "domain": "cooking",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Follow each sentence I finish with its Chinese translation.",
+        "gold_ack": "Right, the Chinese translation follows each sentence.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "My cooking partner insisted on measuring everything by weight,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and I finally understood why after the dough turned out even.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A kitchen scale sat on the counter the entire afternoon.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Every gram of flour got checked twice.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Sugar got the same treatment right after that.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Even the salt was measured to the gram.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Consistency mattered more than speed to her.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "My cooking partner insisted on measuring everything by weight,",
+          "reference": "我的做饭搭档坚持所有东西都按重量称。"
+        },
+        {
+          "english": "and I finally understood why after the dough turned out even.",
+          "reference": "面团做得很均匀之后我终于明白了原因。"
+        },
+        {
+          "english": "A kitchen scale sat on the counter the entire afternoon.",
+          "reference": "厨房秤在台面上放了一整个下午。"
+        },
+        {
+          "english": "Every gram of flour got checked twice.",
+          "reference": "每一克面粉都被检查了两次。"
+        },
+        {
+          "english": "Sugar got the same treatment right after that.",
+          "reference": "糖之后也被同样认真地称过。"
+        },
+        {
+          "english": "Even the salt was measured to the gram.",
+          "reference": "就连盐都精确称到了克。"
+        },
+        {
+          "english": "Consistency mattered more than speed to her.",
+          "reference": "对她来说，稳定比速度更重要。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-22",
+      "persona": "kitchen-notetaker",
+      "domain": "festivals",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Post the Chinese version right after I complete a sentence.",
+        "gold_ack": "Understood, the Chinese version posts right after each sentence.",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Since the bakery had already sold out of gingerbread twice last December before anyone thought to plan ahead, the bakery took holiday orders starting in October this year,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and the list filled two full notebooks by December.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Gingerbread requests outnumbered ev",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "ery other flavor combined.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Deliveries started at five in the morning on the busiest days and did not stop until well past dinnertime.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " One driver made eleven stops before sunrise.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Two days before Christmas, the last order went out.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Since the bakery had already sold out of gingerbread twice last December before anyone thought to plan ahead, the bakery took holiday orders starting in October this year,",
+          "reference": "因为去年十二月姜饼两次卖光都没人提前计划，今年面包店从十月起就开始接节日订单了，"
+        },
+        {
+          "english": "and the list filled two full notebooks by December.",
+          "reference": "到十二月名单已经写满了整整两个笔记本。"
+        },
+        {
+          "english": "Gingerbread requests outnumbered every other flavor combined.",
+          "reference": "姜饼的订单数量超过了其他所有口味的总和。"
+        },
+        {
+          "english": "Deliveries started at five in the morning on the busiest days and did not stop until well past dinnertime.",
+          "reference": "最忙的那几天配送从早上五点就开始了，一直到晚饭过后很久才停下来。"
+        },
+        {
+          "english": "One driver made eleven stops before sunrise.",
+          "reference": "有一位司机在日出前跑了十一趟。"
+        },
+        {
+          "english": "Two days before Christmas, the last order went out.",
+          "reference": "圣诞节前两天，最后一单送了出去。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-23",
+      "persona": "study-abroad-diarist",
+      "domain": "education",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "As soon as I finish typing, send the Chinese version.",
+        "gold_ack": "Confirmed, the Chinese version follows as soon as typing finishes.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The library extended its hours during exam week,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so I claimed the same desk on the thirdxx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " floor every night.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Vending machine coffee became a nightly ritual.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The library extended its hours during exam week,",
+          "reference": "图书馆在考试周延长了开放时间。"
+        },
+        {
+          "english": "so I claimed the same desk on the third floor every night.",
+          "reference": "所以我每晚都占了三楼的同一张桌子。"
+        },
+        {
+          "english": "Vending machine coffee became a nightly ritual.",
+          "reference": "自动售货机的咖啡成了我每晚的固定习惯。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-24",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Relay Chinese for each sentence the second I finish it!",
+        "gold_ack": "You got it! Chinese relayed the second each sentence finishes!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "We are testing three fillings for the dumpling competition,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and the pork and chive one keeps winning every blind taste test.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Judges get exactly one bite of each version.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " One judge scribbled 好吃 on her scorecard.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Halfway through testing, our dumpling wrappers ran out.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Round two starts tomorrow at nine.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "We are testing three fillings for the dumpling competition,",
+          "reference": "我们正在为饺子比赛测试三种馅料，"
+        },
+        {
+          "english": "and the pork and chive one keeps winning every blind taste test.",
+          "reference": "猪肉韭菜馅在每次盲测中都赢了。"
+        },
+        {
+          "english": "Judges get exactly one bite of each version.",
+          "reference": "评委每种口味只能尝一口。"
+        },
+        {
+          "english": "Halfway through testing, our dumpling wrappers ran out.",
+          "reference": "测试进行到一半，我们的饺子皮就用完了。"
+        },
+        {
+          "english": "Round two starts tomorrow at nine.",
+          "reference": "第二轮明天九点开始。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-25",
+      "persona": "study-abroad-diarist",
+      "domain": "festivals",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Flip each sentence I type straight into Chinese!",
+        "gold_ack": "Flipping each sentence straight into Chinese!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Half the students crammed into one tiny kitchen for hot pot night,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and somebody's rice cooker became the broth pot.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Thinly sliced lamb disap",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "peared within minutes.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We were still hungry by midnight.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Half the students crammed into one tiny kitchen for hot pot night,",
+          "reference": "一半的学生都挤进了一个小厨房过火锅之夜。"
+        },
+        {
+          "english": "and somebody's rice cooker became the broth pot.",
+          "reference": "有人的电饭煲成了汤锅。"
+        },
+        {
+          "english": "Thinly sliced lamb disappeared within minutes.",
+          "reference": "切得很薄的羊肉几分钟内就没了。"
+        },
+        {
+          "english": "We were still hungry by midnight.",
+          "reference": "到了半夜我们还是都饿了。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-26",
+      "persona": "kitchen-notetaker",
+      "domain": "education",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Switch each sentence into Chinese as soon as it's typed.",
+        "gold_ack": "Right away, each sentence switches to Chinese as soon as it's typed.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The school asked our team to run a bread-baking workshop for parents,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so we prepped enough dough for twentxx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "y separate loaves.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Half the parents had never kneaded dough before.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Flour dust settled on every surface in the room.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " One father accidentally added salt twice.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Every loaf came out a slightly different shape.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The school asked our team to run a bread-baking workshop for parents,",
+          "reference": "学校请我们团队为家长办一场面包烘焙工作坊。"
+        },
+        {
+          "english": "so we prepped enough dough for twenty separate loaves.",
+          "reference": "所以我们准备了够做二十个面包的面团。"
+        },
+        {
+          "english": "Half the parents had never kneaded dough before.",
+          "reference": "一半的家长以前从没揉过面。"
+        },
+        {
+          "english": "Flour dust settled on every surface in the room.",
+          "reference": "面粉的粉尘落在了房间里的每一个表面上。"
+        },
+        {
+          "english": "One father accidentally added salt twice.",
+          "reference": "有一位爸爸不小心加了两次盐。"
+        },
+        {
+          "english": "Every loaf came out a slightly different shape.",
+          "reference": "每一个面包出炉时形状都略有不同。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-27",
+      "persona": "study-abroad-diarist",
+      "domain": "cooking",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "One sentence, one Chinese line, please.",
+        "gold_ack": "Understood, one Chinese line per sentence.",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "After my roommate's family mailed us an entire box of dried shiitake mushrooms from home along with a handwritten note about how to use them, since none of us had ever cooked with them before,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " The note said 冷水泡发 in careful handwriting.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " warm water actually worked faster than the instructions suggested.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Leftover mushrooms went into three different dishes.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "After my roommate's family mailed us an entire box of dried shiitake mushrooms from home along with a handwritten note about how to use them, since none of us had ever cooked with them before,",
+          "reference": "自从我室友家人从老家寄来一整箱干香菇，还附了一张手写的使用说明，因为我们谁都没用干香菇做过饭，"
+        },
+        {
+          "english": "warm water actually worked faster than the instructions suggested.",
+          "reference": "温水实际上比说明上写的泡发得更快。"
+        },
+        {
+          "english": "Leftover mushrooms went into three different dishes.",
+          "reference": "剩下的香菇被用进了三道不同的菜里。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-28",
+      "persona": "kitchen-notetaker",
+      "domain": "festivals",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Chinese, live, for every sentence I write!",
+        "gold_ack": "Live Chinese, coming for every sentence!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The whole street set up grills for the barbecue festival,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and smoke drifted between the buildings all afternoon.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Kids ran between stalls collecting free samples.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A band started playing right as the sun went down.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody wanted to be the first to leave.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The whole street set up grills for the barbecue festival,",
+          "reference": "整条街都摆起了烤架来过烧烤节。"
+        },
+        {
+          "english": "and smoke drifted between the buildings all afternoon.",
+          "reference": "整个下午烟雾都在楼房之间飘荡。"
+        },
+        {
+          "english": "Kids ran between stalls collecting free samples.",
+          "reference": "孩子们在摊位之间跑来跑去，收集免费的试吃。"
+        },
+        {
+          "english": "A band started playing right as the sun went down.",
+          "reference": "太阳一落山，乐队就开始演奏了。"
+        },
+        {
+          "english": "Nobody wanted to be the first to leave.",
+          "reference": "谁都不想第一个离开。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-29",
+      "persona": "study-abroad-diarist",
+      "domain": "education",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "Type me the Chinese now for every finished sentence!",
+        "gold_ack": "Coming right up! Chinese for every finished sentence!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Midterms buried the whole dorm in coffee cups this week,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and the study room stayed full past two in the mor",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "ning every night.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Someone taped motivational notes to the vending machine.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " My roommate color-codes her notes by subject.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " A few people brought sleeping bags to the study room.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We celebrated with instant noodles when it was over.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Midterms buried the whole dorm in coffee cups this week,",
+          "reference": "这周期中考把整个宿舍都淹没在了咖啡杯里。"
+        },
+        {
+          "english": "and the study room stayed full past two in the morning every night.",
+          "reference": "自习室每晚都满座到凌晨两点以后。"
+        },
+        {
+          "english": "Someone taped motivational notes to the vending machine.",
+          "reference": "有人把鼓励的字条贴到了自动售货机上。"
+        },
+        {
+          "english": "My roommate color-codes her notes by subject.",
+          "reference": "我室友按科目给笔记标了不同的颜色。"
+        },
+        {
+          "english": "A few people brought sleeping bags to the study room.",
+          "reference": "有几个人还把睡袋带到了自习室。"
+        },
+        {
+          "english": "We celebrated with instant noodles when it was over.",
+          "reference": "考完之后我们用泡面庆祝了一下。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-32",
+      "persona": "kitchen-notetaker",
+      "domain": "education",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "No delay: Chinese for each finished sentence.",
+        "gold_ack": "No delay, Chinese for each finished sentence.",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The nutrition class assigned us to log every ingredient for a week,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " and I underestimated how of",
+          "trap": "half_clause",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "ten I reach for salt.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Portion sizes turned out smaller than I imagined.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The nutrition class assigned us to log every ingredient for a week,",
+          "reference": "营养学课让我们记录一周内的每一种食材。"
+        },
+        {
+          "english": "and I underestimated how often I reach for salt.",
+          "reference": "我低估了自己伸手拿盐的次数。"
+        },
+        {
+          "english": "Portion sizes turned out smaller than I imagined.",
+          "reference": "分量比我想象的要小。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-33",
+      "persona": "study-abroad-diarist",
+      "domain": "cooking",
+      "register": "animated-casual",
+      "instruction": {
+        "text": "As we go, give me Chinese for every finished sentence!",
+        "gold_ack": "As we go, Chinese for every finished sentence!",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "My exchange buddy dared me to try making hand-pulled noodles,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so I watched three videos before attxx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "empting it myself.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " The dough snapped instead of stretching the first two tries.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Third time, it finally held together.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " My roommate filmed the whole attempt on her phone.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We ate them, still a little uneven, but delicious.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "My exchange buddy dared me to try making hand-pulled noodles,",
+          "reference": "我的交换生搭档怂恿我试着做手拉面。"
+        },
+        {
+          "english": "so I watched three videos before attempting it myself.",
+          "reference": "所以我在自己动手之前看了三段视频。"
+        },
+        {
+          "english": "The dough snapped instead of stretching the first two tries.",
+          "reference": "面团前两次都是断掉了，而不是拉长。"
+        },
+        {
+          "english": "Third time, it finally held together.",
+          "reference": "第三次，它终于没有断。"
+        },
+        {
+          "english": "My roommate filmed the whole attempt on her phone.",
+          "reference": "我室友用手机把整个过程都录了下来。"
+        },
+        {
+          "english": "We ate them, still a little uneven, but delicious.",
+          "reference": "我们吃了它们，形状还有点不均匀，但很好吃。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-34",
+      "persona": "kitchen-notetaker",
+      "domain": "festivals",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Track this in Chinese, one sentence at a time.",
+        "gold_ack": "Tracked closely, Chinese for each sentence.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Because the whole block party got moved up by a full day without much warning, the kitchen crew ended up prepping food for the entire event less than twenty-four hours before it started,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Labels marked which trays needed reheating.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Volunteers arrived an hour before serving started.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Everything was gone within ninety minutes.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Because the whole block party got moved up by a full day without much warning, the kitchen crew ended up prepping food for the entire event less than twenty-four hours before it started,",
+          "reference": "因为整个街区聚会毫无预警地提前了一整天，厨房团队只能在活动开始前不到二十四小时仓促准备好所有的食物，"
+        },
+        {
+          "english": "Labels marked which trays needed reheating.",
+          "reference": "标签标明了哪些托盘需要重新加热。"
+        },
+        {
+          "english": "Volunteers arrived an hour before serving started.",
+          "reference": "志愿者在开始供应前一个小时就到了。"
+        },
+        {
+          "english": "Everything was gone within ninety minutes.",
+          "reference": "所有的食物在九十分钟内就被吃光了。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-31",
+      "persona": "study-abroad-diarist",
+      "domain": "festivals",
+      "register": "dry-matter-of-fact",
+      "instruction": {
+        "text": "Echo each sentence back to me in Chinese immediately.",
+        "gold_ack": "Immediately, each sentence echoed back in Chinese.",
+        "pause_after": "none"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Since the exchange program had postponed the lantern release twice already earlier that month because of rain, the whole group finally gathered together by the lake to hold it properly this time,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Someone had written 平安 on their lantern.",
+          "trap": "prequoted_chinese",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " and mine drifted sideways into a tree branch almost immediately.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A friend climbed halfway up to rescue it.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " By nine, the lake reflected dozens of lights.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " A few lanterns drifted all the way to the far shore.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Someone started counting how many were still visible.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " The count reached almost forty before people lost interest.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Nobody kept track of the time after that.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Since the exchange program had postponed the lantern release twice already earlier that month because of rain, the whole group finally gathered together by the lake to hold it properly this time,",
+          "reference": "由于交换项目那个月因为下雨已经推迟了两次孔明灯活动，大家这次终于聚在湖边把它好好办了起来，"
+        },
+        {
+          "english": "and mine drifted sideways into a tree branch almost immediately.",
+          "reference": "我的那盏几乎立刻就歪着飘进了树枝里。"
+        },
+        {
+          "english": "A friend climbed halfway up to rescue it.",
+          "reference": "一个朋友爬了一半的树去把它救了下来。"
+        },
+        {
+          "english": "By nine, the lake reflected dozens of lights.",
+          "reference": "到九点，湖面上映出了几十盏灯的光。"
+        },
+        {
+          "english": "A few lanterns drifted all the way to the far shore.",
+          "reference": "有几盏灯笼一直飘到了对岸。"
+        },
+        {
+          "english": "Someone started counting how many were still visible.",
+          "reference": "有人开始数还能看见多少盏。"
+        },
+        {
+          "english": "The count reached almost forty before people lost interest.",
+          "reference": "数到快四十盏时大家就没再数了。"
+        },
+        {
+          "english": "Nobody kept track of the time after that.",
+          "reference": "那之后谁都没再看时间。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-b-35",
+      "persona": "kitchen-notetaker",
+      "domain": "cooking",
+      "register": "careful-observational",
+      "instruction": {
+        "text": "Track each finished sentence with Chinese right behind it, please.",
+        "gold_ack": "Noted, Chinese tracked right behind every finished sentence.",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "The catering order called for two hundred small tarts,‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " so we split the fillings betweexx",
+          "pause_after": "none"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 2,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "n three people.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " Lemon curd took the longest to set properly.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Each tart shell got blind-baked the night before.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Someone burned the first batch of shells slightly.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " We tossed those and started a second batch.‖",
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": " Exactly on schedule, the final tray went out.‖",
+          "pause_after": "long"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "The catering order called for two hundred small tarts,",
+          "reference": "这份餐饮订单要求做两百个小挞。"
+        },
+        {
+          "english": "so we split the fillings between three people.",
+          "reference": "所以我们把馅料分给了三个人来做。"
+        },
+        {
+          "english": "Lemon curd took the longest to set properly.",
+          "reference": "柠檬奶油花了最长的时间才凝固好。"
+        },
+        {
+          "english": "Each tart shell got blind-baked the night before.",
+          "reference": "每个挞皮前一晚都先空烤过了。"
+        },
+        {
+          "english": "Someone burned the first batch of shells slightly.",
+          "reference": "有人把第一批挞皮烤得稍微有点焦。"
+        },
+        {
+          "english": "We tossed those and started a second batch.",
+          "reference": "我们把那批扔了，重新烤了一批。"
+        },
+        {
+          "english": "Exactly on schedule, the final tray went out.",
+          "reference": "最后一盘正好按时送了出去。"
+        }
+      ]
+    }
+  ]
+}

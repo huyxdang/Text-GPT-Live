@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Watch a model decide while you type." />
+    <title>Text GPT-Live</title>
+    <link rel="stylesheet" href="/static/styles.css?v=text-gpt-live-19" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="masthead">
+        <div class="identity">
+          <h1>Text GPT-Live</h1>
+        </div>
+
+        <div class="masthead-side">
+          <span class="error-line" id="error-line" role="alert" hidden></span>
+        </div>
+
+        <div class="runtime-state sr-only" aria-live="polite">
+          <span class="runtime-state__light" id="runtime-light"></span>
+          <span id="runtime-label">Connecting</span>
+          <span class="runtime-state__mode details-only" id="mode-label"></span>
+        </div>
+      </header>
+
+      <main class="workbench" aria-label="Interaction probe">
+        <section class="writing-bay" aria-labelledby="writing-heading">
+          <div class="live-stage" id="live-stage">
+          <div class="interaction-card" id="interaction-card">
+            <header class="card-head">
+              <h2 id="writing-heading">Text GPT-Live</h2>
+              <div class="card-head__side">
+                <span class="pane-status" id="pane-status" aria-live="polite"></span>
+                <div class="clock details-only" aria-label="Decision interval">
+                  <span class="clock__pulse" id="clock-pulse"></span>
+                  <span>650 ms</span>
+                </div>
+                <button class="button button--quiet card-reset" id="card-reset" type="button">Reset</button>
+              </div>
+            </header>
+
+            <div class="card-body">
+              <span
+                class="sr-only"
+                id="action-stage-announcement"
+                role="status"
+                aria-live="polite"
+                aria-atomic="true"
+              ></span>
+              <div class="render-pane" id="highlight-backdrop">
+                <h3 class="participant-label">Human</h3>
+                <div class="highlight-layer" id="highlight-layer"></div>
+              </div>
+              <aside class="action-log" id="action-panel" aria-label="Model activity">
+                <h3 class="participant-label">Model<span class="live-dot" aria-hidden="true"></span></h3>
+                <section
+                  class="action-stage"
+                  id="action-stage"
+                  aria-hidden="true"
+                  hidden
+                >
+                  <div class="action-stage__content">
+                    <span class="action-stage__label" id="action-stage-label"></span>
+                    <p class="action-stage__value" id="action-stage-value"></p>
+                  </div>
+                </section>
+                <section class="translation-output" id="translation-output" hidden>
+                  <p id="translation-text"></p>
+                </section>
+                <ul id="action-log"></ul>
+              </aside>
+            </div>
+
+            <div class="card-foot">
+              <label class="sr-only" for="live-text">Live text input</label>
+              <textarea
+                id="live-text"
+                class="input-strip"
+                spellcheck="true"
+                wrap="soft"
+                placeholder="Start typing..."
+              ></textarea>
+            </div>
+          </div>
+          <aside class="external-workbench" id="external-workbench" aria-label="External work" aria-hidden="true">
+            <header class="external-workbench__head">
+              <h3>Work</h3>
+              <span id="workbench-count" aria-live="polite"></span>
+            </header>
+            <section class="work-surface" id="work-surface" aria-label="Work in progress"></section>
+          </aside>
+          </div>
+        </section>
+
+        <section
+          class="view-panel current-panel"
+          id="current-panel"
+          aria-label="Current Model action"
+          tabindex="0"
+        >
+          <div class="current-action" id="current-action" data-action="waiting" aria-live="polite">
+            <div class="current-action__header">
+              <h2>Model<span class="decide-pulse" id="decide-pulse" aria-hidden="true" hidden></span></h2>
+              <span class="current-action__index details-only" id="current-action-index">No decision</span>
+            </div>
+            <div class="current-action__body">
+              <p class="current-action__status" id="current-action-title"></p>
+              <code id="current-action-value"></code>
+              <code class="current-action__raw" id="current-action-raw" hidden></code>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="view-panel trace-bay details-panel"
+          id="details-panel"
+          aria-labelledby="trace-heading"
+          tabindex="0"
+          hidden
+        >
+          <div class="section-heading section-heading--trace">
+            <div class="history-title">
+              <h2 id="trace-heading">History</h2>
+              <button
+                class="copy-button"
+                id="copy-history-button"
+                type="button"
+                aria-label="Copy history"
+                title="Copy history"
+                disabled
+              >
+                <span class="copy-icon" aria-hidden="true"></span>
+                <span class="check-icon" aria-hidden="true"></span>
+              </button>
+              <span class="model-name" id="model-name">Model unavailable</span>
+              <span class="sr-only" id="copy-history-status" aria-live="polite"></span>
+            </div>
+            <div class="history-format" role="group" aria-label="History format">
+              <button
+                class="history-format__option is-active"
+                id="readable-history-button"
+                type="button"
+                aria-pressed="true"
+              >Readable</button>
+              <button
+                class="history-format__option"
+                id="model-input-button"
+                type="button"
+                aria-pressed="false"
+              >Model input</button>
+            </div>
+          </div>
+
+          <div class="operator-strip" aria-label="Stream controls">
+            <label class="instruction-control" for="standing-instruction">
+              <span>Instruction</span>
+              <input
+                id="standing-instruction"
+                type="text"
+                autocomplete="off"
+                maxlength="2000"
+              />
+            </label>
+
+            <div class="config-groups" role="group" aria-label="Runtime configuration">
+              <span class="config-model" id="config-model"></span>
+              <span class="config-latency" id="config-latency" title="Last decision latency (budget: one 650 ms tick)"></span>
+              <div class="config-group" aria-label="Search provider">
+                <span>Search</span>
+                <button class="history-format__option" type="button" data-config="search_mode" data-value="ddgs">Live</button>
+                <button class="history-format__option" type="button" data-config="search_mode" data-value="demo">Demo</button>
+              </div>
+              <div class="config-group" aria-label="UI generator">
+                <span>UI gen</span>
+                <button class="history-format__option" type="button" data-config="uigen_mode" data-value="openai">GPT-4o</button>
+                <button class="history-format__option" type="button" data-config="uigen_mode" data-value="demo">Demo</button>
+              </div>
+              <div class="config-group" aria-label="Model panel view">
+                <span>Model view</span>
+                <button class="history-format__option is-active" id="stream-view-button" type="button" aria-pressed="true">Live</button>
+                <button class="history-format__option" id="model-actions-view-button" type="button" aria-pressed="false">Model actions</button>
+              </div>
+            </div>
+
+            <div class="controls">
+              <button class="button button--primary" id="run-button" type="button">Start</button>
+              <button class="button button--quiet" id="reset-button" type="button">Clear</button>
+              <button class="button button--record" id="record-button" type="button">Record</button>
+              <button class="button button--quiet" id="replay-button" type="button" disabled>Replay</button>
+              <button class="button button--quiet" id="export-button" type="button" disabled>Export</button>
+              <button class="button button--quiet" id="import-button" type="button">Import</button>
+              <input id="import-input" type="file" accept="application/json,.json" hidden />
+              <span class="sr-only" id="recording-status" aria-live="polite"></span>
+            </div>
+
+            <dl class="counters" aria-label="Session counts">
+              <div><dt>Events</dt><dd id="event-count">0</dd></div>
+              <div><dt>Idle</dt><dd id="idle-count">0</dd></div>
+              <div><dt>Tools</dt><dd id="search-count">0</dd></div>
+              <div><dt>Pending</dt><dd id="pending-count">0</dd></div>
+            </dl>
+          </div>
+
+          <ol class="trace-list" id="trace-list" aria-live="polite"></ol>
+          <pre class="model-input" id="model-input" hidden></pre>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js?v=text-gpt-live-18" defer></script>
+  </body>
+</html>

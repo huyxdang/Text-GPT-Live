@@ -1,0 +1,1493 @@
+{
+  "schema_version": "g1-authored-1",
+  "demo": "demo-1",
+  "author": {
+    "model": "gpt-5.6-sol",
+    "slot": "d1-sol-b",
+    "tranche": 3
+  },
+  "records": [
+    {
+      "id": "d1-sol-b-03-001",
+      "persona": "team-facilitator",
+      "domain": "software-usage",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our shared calendar shifted tomorrow's check-in one hour forward on my phone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The desktop view still shows the time we agreed in the room.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My phone changed zones after I connected through the airport network.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I have not accepted or resent either invitation.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "What would you do before touching the invitation?",
+          "gold_reply": "Leave the meeting unchanged and compare another calendar view first.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Both views keep the same meeting link and guest list.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-002",
+      "persona": "campus-volunteer",
+      "domain": "libraries",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The return cart holds two copies of the same mystery novel, one moonlit blue and one bright red.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Jo asked, \"Can I keep the copy with the foldout map?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Only one cover mentions a foldout map inside.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Both copies belong to the library and carry active barcodes.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Choose the cover that would tempt you too.",
+          "gold_reply": "Moonlit blue; mysteries deserve a cover that already looks suspicious.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The map edition is still resting on the cart.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-003",
+      "persona": "team-facilitator",
+      "domain": "local-government",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The park fountain stopped just as families gathered for the weekend lantern display.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Imagine one evening use for that silent fountain area.",
+          "gold_reply": "A gathering point for lanterns, since families already came for a light display.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Mira said the dry stone basin could hold the battery lanterns safely.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The lanterns produce no heat and need no cables.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Rain is not expected before the display closes.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Volunteers have kept the walking path around the basin open.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-004",
+      "persona": "campus-volunteer",
+      "domain": "software-usage",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The campus map app opened with every building name stacked in one unreadable knot.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What nickname would you give that pile of building names?",
+          "gold_reply": "Label lasagna—too many layers, no clear way into the campus.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Pinching outward separated the labels for a moment before they snapped together again.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The app had remembered an extreme text-size setting from my accessibility practice.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Resetting only the map view restored ordinary spacing without changing the phone's text size.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I can now read the hall names without moving my face closer to the screen.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-005",
+      "persona": "team-facilitator",
+      "domain": "libraries",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The library kiosk printed my checkout receipt long enough to touch the floor.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "How many bookmarks could that receipt become?",
+          "gold_reply": "At least four, with enough paper left for a dramatic ribbon.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Each book title occupies a separate strip with a huge blank gap beneath it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Who needs a receipt that doubles as a ceremonial sash?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The paper-size menu was set to poster rather than receipt.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A normal reprint fits all three titles in my palm.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-006",
+      "persona": "campus-volunteer",
+      "domain": "local-government",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the permit counter, \"search\" is the label on the kiosk's address lookup button.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Does the word “search” make the kiosk feel less intimidating?",
+          "gold_reply": "A little; at least it shows where the address lookup begins.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The button opens a street list rather than a free-text box.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our alley appears under its older official name.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The clerk has placed both names on a paper cross-reference.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No application details have been entered yet.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-007",
+      "persona": "team-facilitator",
+      "domain": "software-usage",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Autocorrect replaced our neighborhood's name with a breakfast cereal in the group chat.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Can we allow the cereal version to live for one minute?",
+          "gold_reply": "Please—some mistakes deserve a brief and affectionate retirement.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The message landed before I noticed the swap.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Two teammates reacted with laughing faces.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Nobody has treated the cereal name as the actual venue.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The real location appears correctly in the pinned message.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-008",
+      "persona": "campus-volunteer",
+      "domain": "libraries",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The children's room reservation overlaps with puppet rehearsal by fifteen minutes.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "How would you use the overlapping fifteen minutes without taking the puppet stage?",
+          "gold_reply": "Begin with a quiet welcome in any open corner and let families settle gradually.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Niko asked, \"Could our reading circle begin beside the picture-book shelves?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "That corner has cushions but no closing door.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The puppeteers need the small stage only until three fifteen.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Our families usually arrive gradually.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-009",
+      "persona": "team-facilitator",
+      "domain": "local-government",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A removable project dot slid off the civic-center map and landed in the painted river.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Where would you park that rogue dot for now?",
+          "gold_reply": "Anywhere off the map; its real location is no longer trustworthy.",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Its tiny label came loose, so the dot no longer identifies a street or project.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Dara said every dot represented work that had already received a location.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed the loose pieces together on a clean card beside the map.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The map key lists three possible projects using that same orange color.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-010",
+      "persona": "campus-volunteer",
+      "domain": "software-usage",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My slide app placed the presenter's notes on the public screen during rehearsal.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What is the smallest useful lesson from that rehearsal?",
+          "gold_reply": "Check presenter mode before an audience arrives.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I closed the presentation before the second slide appeared.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The room contained only our planning group.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "My notes are prompts, not private personal material.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The projector is disconnected now.",
+          "traps": [],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-011",
+      "persona": "team-facilitator",
+      "domain": "libraries",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The audiobook kiosk started a detective story at double speed, turning every suspect into a frantic chipmunk.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give the chipmunk detective a one-line review.",
+          "gold_reply": "Breathless pacing, excellent urgency, impossible interrogation technique.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The speed indicator is tucked behind a small ear-shaped icon near the bottom corner.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would any detective solve a case while speaking that fast?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I brought the speed back to normal before the next patron tried the headphones.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The opening paragraph sounds wonderfully serious again.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the ear icon visible on the home screen.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-012",
+      "persona": "campus-volunteer",
+      "domain": "local-government",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A road-maintenance card uses \"delegate\" beside the box where supervisors assign pothole photos to inspection teams.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Translate that road card's mood into ordinary human language.",
+          "gold_reply": "It sounds formal and task-focused, like a card for assigning work rather than discussing it.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Today, every photo from Cedar Lane landed under one supervisor's initials.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Two other supervisors have empty morning queues.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The Cedar Lane set covers three separate blocks.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No inspection has started yet.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The assignment board remains open in the crew room.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-013",
+      "persona": "team-facilitator",
+      "domain": "software-usage",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our team chat keeps showing my status as busy even after the planning call ends, and colleagues have started sending apologies before ordinary questions.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The status came from a focus timer I started for forty-five minutes, then forgot while we moved into the call.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Its countdown still has nearly two hours left because I accidentally chose the three-hour preset.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Give me the human version of that status mistake.",
+          "gold_reply": "I accidentally wore a digital \"do not disturb\" sign long after I needed it.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I stopped the timer, but I am leaving my cheerful follow-up messages in place rather than explaining every apology individually.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The status dot has already returned to green on both desktop and phone.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Our next shared call begins much later this afternoon.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-014",
+      "persona": "campus-volunteer",
+      "domain": "libraries",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A donation carton contains six cookbooks from the same household, each with soft pencil marks beside favorite dishes.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "One book also holds a handwritten recipe card between its soup pages, and the card carries a first name not printed anywhere in the book.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give me your instinct: bookmark or belonging.",
+          "gold_reply": "Belonging, provisionally; handwriting and a first name make it feel more personal than scrap paper.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Nia asked, \"Could this card be something the donor meant to keep?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The carton slip includes a contact number and permits questions about personal items found inside donated books.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed the card in a clear sleeve with the cookbook's temporary intake number.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The book remains off the sale cart until the donor can identify the card.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-015",
+      "persona": "team-facilitator",
+      "domain": "local-government",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The meeting packet lists a playground discussion before the traffic update, while tonight's guest engineer can stay only for the first half hour.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Councilor An said she was comfortable moving traffic to the opening slot.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The playground presenters are all available for the full meeting.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "Name the one constraint that earns this agenda change.",
+          "gold_reply": "The guest engineer can attend only the first half hour.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I have placed the alternate order on every member's desk without erasing the original sequence.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "No public speaker registered for a time-specific item.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The chair will announce any order change before discussion begins.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-016",
+      "persona": "campus-volunteer",
+      "domain": "software-usage",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our shared agenda suddenly shows a six-month-old comment as unread after a teammate opened the archived meeting page.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The comment itself ends with the line \"Resolved after the room change,\" and no new words appear beneath it.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Talk me out of replying to a six-month-old ghost.",
+          "gold_reply": "The word \"Resolved\" is already your reason; let that old thread sleep.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The activity panel records a page view today but no fresh comment or mention.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I left the thread closed rather than waking everyone from the old meeting.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Current agenda items still display their own new comments normally.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The archive page can remain available without joining today's notification stream.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-017",
+      "persona": "team-facilitator",
+      "domain": "libraries",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A local-history display has one community zine mounted upside down, which makes the hand-lettered title look like an abstract row of waves.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The mounting corners release without adhesive touching the paper, and the neighboring zines already show which edge belongs at the top.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would leaving it inverted count as daring curation, or just make the artist seasick?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "I disagree that the upside-down zine looked intentional.",
+          "gold_reply": "Fair; accidental waves are still accidental, however artistic they appear.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I turned the sleeve, not the zine itself, so the fragile fold never had to flex.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The title now faces the same direction as its handwritten issue number.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The empty backing card stayed fixed throughout the adjustment.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-018",
+      "persona": "campus-volunteer",
+      "domain": "local-government",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The resident-service handbook boldfaces \"respond\" in the example describing how staff acknowledge a noisy-construction complaint.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Our training group keeps reading that bold word aloud as if it were a button on the page.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Explain why one bold verb confused the trainees.",
+          "gold_reply": "Its emphasis made an example sentence look like an interface control.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The actual online form uses a plain text box and a separate submit button.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I covered the example sentence and let everyone locate the real controls without hints.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "All four trainees found the text box first.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The handbook remains open beside the screen for the discussion afterward.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-019",
+      "persona": "team-facilitator",
+      "domain": "software-usage",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "My browser translated the café's menu page automatically, then turned the owner's surname into an ordinary noun in the booking header.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The original-language toggle restores the surname immediately while leaving the reservation date and guest count unchanged.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I copied the owner's spelling from the café's own contact page into my confirmation message.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "address",
+          "text": "The surname stays a surname. Full stop.",
+          "gold_reply": "Agreed. Automatic conversion does not get to rename the café owner.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Automatic page conversion is now off for that site, but still available elsewhere.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The booking itself never left the pending screen.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I have not submitted a message with the altered name.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-020",
+      "persona": "campus-volunteer",
+      "domain": "libraries",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "An interlibrary-loan email names the west branch, but the pickup slip inside my account names the central desk.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The email and slip carry the same request number and book title, so neither looks like an unrelated stale message from an older loan.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Before boarding any bus, give me the safest next move.",
+          "gold_reply": "Ask the library to reconcile the two pickup locations tied to the same request.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "A librarian asked, \"Would you hold off traveling until we check the transfer scan?\"",
+          "traps": [
+            "quoted_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I put my bus card away and kept both screens open.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The hold expires next week rather than tonight.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "No pickup trip has started.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-021",
+      "persona": "team-facilitator",
+      "domain": "local-government",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "A street-tree watering list places the youngest saplings at the end of a route that starts two neighborhoods away.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "Ravi said the city cart was already parked beside those saplings after yesterday's planting.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The cart carries enough filled containers for that first cluster.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We moved the route's starting marker without changing any volunteer's assigned day.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "The remaining trees still follow the same street order.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What made the revised watering start easier?",
+          "gold_reply": "The filled cart was already beside the youngest trees, so volunteers could begin there.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Everyone can meet at the cart rather than hauling containers from the depot.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-022",
+      "persona": "campus-volunteer",
+      "domain": "software-usage",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our poll closed with one teammate's vote missing because she opened the form in a private browser window and closed it before submitting.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The results page shows nine responses for a ten-person group, and nobody else is absent.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "She still remembers her choice and can reopen the poll before its manual lock time.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I extended nothing and changed no existing vote; I simply left the form open for the final response.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "I think leaving the poll open is fairer than locking nine votes.",
+          "gold_reply": "So do I; the poll is still open, and the missing voter can submit before lock time.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The decision meeting is tomorrow, so the group has not acted on the nine-vote snapshot.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "A small message in chat tells everyone the tally is still provisional.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-023",
+      "persona": "team-facilitator",
+      "domain": "libraries",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Renovation noise has reached the silent reading floor from a wall repair two levels below.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "What library-friendly nickname would you give the construction drill?",
+          "gold_reply": "Professor Rumble, visiting lecturer in subjects nobody can read through.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The work ends at noon, and the library's enclosed garden room remains reliably quiet in the meantime.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Would whispering angrily at a drill make it quieter?",
+          "traps": [
+            "rhetorical_question"
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "We carried a stack of desk signs to the garden room and cleared its long table.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Readers can move there without checking out their books.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The silent floor stays open for anyone who prefers not to relocate.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-024",
+      "persona": "campus-volunteer",
+      "domain": "local-government",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The bus-stop relocation notice uses \"correct\" beside the small diagram showing where crews will repaint the curb marker.",
+          "traps": [
+            "descriptive_command_word"
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "Several residents interpreted the word as an admission that the current stop was installed wrongly.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The written paragraph says the move is temporary while drainage work occupies the original curb.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I placed the paragraph above the diagram and removed the isolated margin caption.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "Explain how that tiny caption started such a large rumor.",
+          "gold_reply": "Without the drainage paragraph, \"correct\" sounded like an admission of a past mistake.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The temporary stop remains on the same street, one block east.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The notice now leads with the drainage dates.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-025",
+      "persona": "team-facilitator",
+      "domain": "software-usage",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "The idea-board preview places full names beside its sample votes, even though tomorrow's exercise is meant to feel anonymous.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The anonymity switch is off in this copied board, while the original template still has it on.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "No participant has opened the copied link, and every visible vote belongs to the built-in examples.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I turned anonymity on before sharing anything and removed the example votes from the live view.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A fresh guest-window test now labels the sample response as anonymous.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "I would still tell the team what almost happened.",
+          "gold_reply": "That seems fair; transparency can build trust even when no real response was exposed.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The participant link remains in my draft message until tomorrow's session begins.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-026",
+      "persona": "campus-volunteer",
+      "domain": "libraries",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Someone left a sticky note over the final paragraph of our book-club copy, so I reached the ending without seeing the author's last sentence.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "The note itself contains only a grocery reminder, not a comment about the story.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I have kept it folded over the page while the rest of the group finishes.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Is that hidden sentence a twist or simply a quiet goodbye? I am enjoying the uncertainty instead of peeking at another copy.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "My guess is that the hidden sentence is a quiet goodbye.",
+          "gold_reply": "Plausible, though I am keeping a little room for one final surprise.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Our discussion begins after everyone returns from the break.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The uncovered text can remain hidden until we are all seated together.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-027",
+      "persona": "team-facilitator",
+      "domain": "local-government",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "At the service fair, the housing desk and permit desk both chose pale green tablecloths, and visitors keep joining the wrong line before noticing the small paper signs.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The housing volunteers have round name badges, while the permit team wears square badges and keeps rolls of site-plan paper on its table.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "We have two unused standing boards near the entrance, one tall enough to see above a line and one low enough for children to draw on during the event.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Could color alone separate the desks from across the hall? I am thinking about landmarks people can name aloud, not another pair of nearly matching shades.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A volunteer sketched a simple house roof for one board and a rolled plan for the other, using the same shapes already visible at each desk.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "Give the greeter one sentence for a visitor in the wrong line.",
+          "gold_reply": "\"You are close—the matching symbol for your desk is just over here.\"",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The boards can stand at the line entrances without narrowing the main walkway.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-028",
+      "persona": "campus-volunteer",
+      "domain": "software-usage",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our campus event app began reading every announcement aloud through my phone speaker during setup, including the cheerful welcome message I had already heard six times while arranging chairs.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "address",
+          "text": "Let the patient chairs review my repeated welcome message.",
+          "gold_reply": "\"Warm delivery, clear diction, perhaps six rehearsals more than necessary.\"",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The volume buttons lowered the voice but did not stop the next announcement, and I started apologizing to empty rows as if the chairs were losing patience with me.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I found an accessibility shortcut on the lock screen that had been enabled when my phone brushed against the lanyard clip in my pocket.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "The shortcut panel offered a clear pause control, so I stopped the speech without disabling accessibility features or changing anyone else's event settings.",
+          "traps": [],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "A short headphone test let me turn the feature back on deliberately, hear one announcement privately, and pause it again without the welcome message surprising the entire hall.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I kept the shortcut icon visible because knowing what happened feels far better than pretending my phone has developed a passion for public speaking.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-029",
+      "persona": "team-facilitator",
+      "domain": "libraries",
+      "register": "plain-collaborative",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "Our library's volunteer shelving game uses colored cards to represent call-number ranges, but the newest volunteers keep clustering around the bright red cards and leaving the quieter gray range untouched.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The red cards cover popular fiction, which feels familiar, while the gray cards lead to essays and local-language collections that several volunteers have never browsed before.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "I paired each newcomer with someone who knows one gray-range shelf, then let the pair choose a single book whose title made them curious before placing any cards.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "Would that pause feel like wasting training time? I think one moment of curiosity can make an unfamiliar shelf feel like a place rather than an assignment code.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "narration",
+          "text": "Pairs returned carrying books about street photography, folktales, tiny houses, and the history of noodles, and the gray cards stopped looking like the leftovers nobody wanted.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "address",
+          "text": "I would keep the curiosity pause even if it slows the lesson.",
+          "gold_reply": "I would too; one intriguing title gives an unfamiliar shelf a human doorway.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "For the final round, volunteers traded partners and introduced their chosen shelf with one human sentence instead of reciting a number range.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    },
+    {
+      "id": "d1-sol-b-03-030",
+      "persona": "campus-volunteer",
+      "domain": "local-government",
+      "register": "casual-problem-solving",
+      "segments": [
+        {
+          "kind": "narration",
+          "text": "I am helping at a neighborhood ideas table where residents can place wooden tokens beside possible improvements, and the first hour has produced a mountain of tokens beside shade trees but almost none beside public noticeboards.",
+          "traps": [],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "narration",
+          "text": "An older resident quietly told me she liked the noticeboards but could not reach their token jar because two folding chairs had drifted in front of it.",
+          "traps": [
+            "reported_speech"
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "I moved the chairs back into the conversation circle, and the noticeboard jar became visible from the entrance without changing the wording or position of any proposal card.",
+          "traps": [],
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "How many apparent preferences are really stories about what people can see and reach? The new tokens after that chair move made the question impossible for me to ignore.",
+          "traps": [
+            "elaborating_question"
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "address",
+          "text": "That chair move changed who could participate.",
+          "gold_reply": "Yes. Accessibility altered the visible preference pattern without persuading anyone.",
+          "pause_after": "none"
+        },
+        {
+          "kind": "narration",
+          "text": "I resisted making a speech about the change; instead, I walked the table once from seated height and shifted a stack of flyers that hid the rain-shelter jar.",
+          "traps": [],
+          "pause_after": "short"
+        },
+        {
+          "kind": "narration",
+          "text": "The table now feels less like a test of who notices obstacles first and more like an invitation where every idea has a fair chance to be encountered.",
+          "traps": [],
+          "pause_after": "medium"
+        }
+      ]
+    }
+  ]
+}

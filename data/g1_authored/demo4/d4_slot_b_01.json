@@ -1,0 +1,290 @@
+{
+  "schema_version": "g1-authored-demo4-1",
+  "demo": "demo-4",
+  "author": {"model": "claude-sonnet-5", "slot": "d4-slot-b", "tranche": 1},
+  "requests": [
+    {
+      "id": "d4sb-req-01",
+      "text": "Can you throw together a little dashboard for our block party signups?",
+      "task": "generate a UI to visualize block party signup counts",
+      "persona": "community-organiser",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-02",
+      "text": "Could you sketch out a quick chart of how the seedlings are germinating?",
+      "task": "generate a UI to visualize seedling germination rates",
+      "persona": "small-shop-owner",
+      "domain": "gardening",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-req-03",
+      "text": "I'd love a simple graphic tracking this week's rainfall totals.",
+      "task": "generate a UI to visualize weekly rainfall totals",
+      "persona": "field-researcher",
+      "domain": "weather",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-req-04",
+      "text": "Would you mind putting together a board of farmers market vendor slots?",
+      "task": "generate a UI to visualize farmers market vendor slots",
+      "persona": "community-organiser",
+      "domain": "local-events",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-05",
+      "text": "Let's get a plain chart showing foot traffic around the block.",
+      "task": "generate a UI to visualize neighborhood foot traffic",
+      "persona": "small-shop-owner",
+      "domain": "neighborhood",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-req-06",
+      "text": "Mind building a small panel that tracks the pest counts in the plots?",
+      "task": "generate a UI to visualize garden pest counts",
+      "persona": "field-researcher",
+      "domain": "gardening",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-req-07",
+      "text": "Any chance you could chart out the storm watch alerts this month?",
+      "task": "generate a UI to visualize storm watch alerts",
+      "persona": "community-organiser",
+      "domain": "weather",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-08",
+      "text": "We could use a simple dashboard of ticket sales for the festival.",
+      "task": "generate a UI to visualize festival ticket sales",
+      "persona": "small-shop-owner",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-req-09",
+      "text": "Think you could draft a tiny visual of the noise complaint log?",
+      "task": "generate a UI to visualize the noise complaint log",
+      "persona": "field-researcher",
+      "domain": "neighborhood",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-req-10",
+      "text": "Go ahead and build a small display of the harvest tally so far.",
+      "task": "generate a UI to visualize the harvest tally",
+      "persona": "community-organiser",
+      "domain": "gardening",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-11",
+      "text": "It'd help to have a chart of temperature swings this week.",
+      "task": "generate a UI to visualize weekly temperature swings",
+      "persona": "small-shop-owner",
+      "domain": "weather",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-req-12",
+      "text": "Throw together a quick graphic for the volunteer shift sign-ups.",
+      "task": "generate a UI to visualize volunteer shift sign-ups",
+      "persona": "field-researcher",
+      "domain": "local-events",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-req-13",
+      "text": "Do you have time to sketch out a map of the cleanup zones?",
+      "task": "generate a UI to visualize neighborhood cleanup zones",
+      "persona": "community-organiser",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-14",
+      "text": "One more thing, could you chart our bloom timeline for the shop window?",
+      "task": "generate a UI to visualize the bloom timeline",
+      "persona": "small-shop-owner",
+      "domain": "gardening",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-req-15",
+      "text": "Picture this as a board: a readout of the wind speed logs.",
+      "task": "generate a UI to visualize wind speed logs",
+      "persona": "field-researcher",
+      "domain": "weather",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-req-16",
+      "text": "Might you build a tiny dashboard for the workshop RSVP count?",
+      "task": "generate a UI to visualize workshop RSVP counts",
+      "persona": "community-organiser",
+      "domain": "local-events",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-req-17",
+      "text": "Whip me up a simple visual of the potluck signup list, would you?",
+      "task": "generate a UI to visualize the potluck signup list",
+      "persona": "small-shop-owner",
+      "domain": "neighborhood",
+      "register": "dry-matter-of-fact"
+    }
+  ],
+  "progress_pairs": [
+    {
+      "id": "d4sb-check-01",
+      "kind": "check",
+      "question": "any traction?",
+      "reply": "Not yet, still pulling the numbers together over here.",
+      "persona": "community-organiser",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-nudge-01",
+      "kind": "nudge",
+      "question": "signal received?",
+      "persona": "small-shop-owner",
+      "domain": "gardening",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-check-02",
+      "kind": "check",
+      "question": "made headway?",
+      "reply": "Getting there slowly, nothing to show quite yet.",
+      "persona": "field-researcher",
+      "domain": "weather",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-nudge-02",
+      "kind": "nudge",
+      "question": "reach you okay?",
+      "persona": "community-organiser",
+      "domain": "local-events",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-check-03",
+      "kind": "check",
+      "question": "close to done?",
+      "reply": "Closer, but it's not ready to look at just yet.",
+      "persona": "small-shop-owner",
+      "domain": "neighborhood",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-nudge-03",
+      "kind": "nudge",
+      "question": "got that okay?",
+      "persona": "field-researcher",
+      "domain": "gardening",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-check-04",
+      "kind": "check",
+      "question": "where's it at?",
+      "reply": "Still churning away, nothing finished to share.",
+      "persona": "community-organiser",
+      "domain": "weather",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-nudge-04",
+      "kind": "nudge",
+      "question": "pick that up?",
+      "persona": "small-shop-owner",
+      "domain": "local-events",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-check-05",
+      "kind": "check",
+      "question": "any luck yet?",
+      "reply": "Not quite, give it a little more time please.",
+      "persona": "field-researcher",
+      "domain": "neighborhood",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-nudge-05",
+      "kind": "nudge",
+      "question": "notice that?",
+      "persona": "community-organiser",
+      "domain": "gardening",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-check-06",
+      "kind": "check",
+      "question": "moving along?",
+      "reply": "Yep, plugging away, just not finished on my end.",
+      "persona": "small-shop-owner",
+      "domain": "weather",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-nudge-06",
+      "kind": "nudge",
+      "question": "still there?",
+      "persona": "field-researcher",
+      "domain": "local-events",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-check-07",
+      "kind": "check",
+      "question": "nearly ready?",
+      "reply": "Almost, but I don't have anything finished yet.",
+      "persona": "community-organiser",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-nudge-07",
+      "kind": "nudge",
+      "question": "see my note?",
+      "persona": "small-shop-owner",
+      "domain": "gardening",
+      "register": "dry-matter-of-fact"
+    },
+    {
+      "id": "d4sb-check-08",
+      "kind": "check",
+      "question": "panel done yet?",
+      "reply": "Coming together, though it's not finished just yet.",
+      "persona": "field-researcher",
+      "domain": "weather",
+      "register": "quietly-enthusiastic"
+    },
+    {
+      "id": "d4sb-nudge-08",
+      "kind": "nudge",
+      "question": "get my ping?",
+      "persona": "community-organiser",
+      "domain": "local-events",
+      "register": "warm-plainspoken"
+    },
+    {
+      "id": "d4sb-check-09",
+      "kind": "check",
+      "question": "wrapped up yet?",
+      "reply": "Nope, still in progress, nothing to hand over yet.",
+      "persona": "small-shop-owner",
+      "domain": "neighborhood",
+      "register": "dry-matter-of-fact"
+    }
+  ]
+}

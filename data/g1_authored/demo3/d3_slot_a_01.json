@@ -1,0 +1,608 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "author": {
+    "model": "claude-sonnet-5",
+    "slot": "d3-slot-a",
+    "tranche": 1
+  },
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "claude-sonnet-5",
+    "reviewed_at": "2026-08-01",
+    "note": "Chinese references are LLM-authored and machine-reviewed only; no human on this project reads Chinese."
+  },
+  "records": [
+    {
+      "id": "d3-slot-a-market-01",
+      "persona": "market-diarist",
+      "domain": "street-food",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Turn my notes into Chinese live, please.",
+        "gold_ack": "好嘞，我这就同步翻成中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Right as I arrived, well before the first customers had even sat down, while the broth in three different pots was still working its way up to a boil and the morning delivery of noodles hadn't even been unpacked yet, the noodle stall owner waved me over,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and I tried a skewer that turned out too spicey",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 6,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "spicy for me.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " A kid nearby was slurping soup happily.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Right as I arrived, well before the first customers had even sat down, while the broth in three different pots was still working its way up to a boil and the morning delivery of noodles hadn't even been unpacked yet, the noodle stall owner waved me over,",
+          "reference": "我刚到，第一批客人都还没坐下，三个不同的汤锅都还没烧开，早上送来的面条也还没拆封，面摊老板就朝我招手，"
+        },
+        {
+          "english": "and I tried a skewer that turned out too spicy for me.",
+          "reference": "我尝了一串烤肉，结果对我来说太辣了。"
+        },
+        {
+          "english": "A kid nearby was slurping soup happily.",
+          "reference": "旁边一个小孩在开心地喝汤。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-commuter-02",
+      "persona": "commuter-notetaker",
+      "domain": "public-transit",
+      "register": "brisk-observational",
+      "instruction": {
+        "text": "Render each line I write here in Chinese.",
+        "gold_ack": "明白，我这就逐行给你中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "By seven fifteen, with the ticket line already looping past the vending machines, the platform was already packed,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and the express to the north terminal was running late.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " An old vendor near the gate muttered 早点来 as I rushed past.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " I finally squeezed onto the third car.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A toddler pressed his palm flat against the window.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "By seven fifteen, with the ticket line already looping past the vending machines, the platform was already packed,",
+          "reference": "到七点十五分，检票的队伍已经绕过了自动售票机，月台上已经挤满了人，"
+        },
+        {
+          "english": "and the express to the north terminal was running late.",
+          "reference": "开往北站的快车又晚点了。"
+        },
+        {
+          "english": "I finally squeezed onto the third car.",
+          "reference": "我总算挤上了第三节车厢。"
+        },
+        {
+          "english": "A toddler pressed his palm flat against the window.",
+          "reference": "一个小男孩把手掌贴在了车窗上。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-market-03",
+      "persona": "market-diarist",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Give me the Chinese version as I type this out.",
+        "gold_ack": "没问题，我边看边给你中文版。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "After the flood, the corner bakery finally reopened,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and the owner handed out free rolls to evryone",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 7,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "everyone on the block.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " An elderly couple sat on the same bench they always use.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Someone had chalked a hopscotch grid on the sidewalk.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " The whole street smelled like warm butter by noon.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "After the flood, the corner bakery finally reopened,",
+          "reference": "水灾过后，转角那家面包店终于重新开张了，"
+        },
+        {
+          "english": "and the owner handed out free rolls to everyone on the block.",
+          "reference": "老板把免费的面包卷分给了这一片的每个人。"
+        },
+        {
+          "english": "An elderly couple sat on the same bench they always use.",
+          "reference": "一对老夫妻坐在他们一直坐的那张长椅上。"
+        },
+        {
+          "english": "Someone had chalked a hopscotch grid on the sidewalk.",
+          "reference": "有人在人行道上用粉笔画了跳房子的格子。"
+        },
+        {
+          "english": "The whole street smelled like warm butter by noon.",
+          "reference": "到中午的时候整条街都飘着黄油的香味。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-commuter-04",
+      "persona": "commuter-notetaker",
+      "domain": "street-food",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Follow along and give me Chinese for each part.",
+        "gold_ack": "好的，我会一段一段给你中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "On my way to the station, weaving between two delivery bikes and a cart of watermelons, I grabbed a skewer of grilled squid,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and the vendor wrapped it in old newspap",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 7,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "newspaper before handing it over.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " The sauce dripped down my sleeve almost immediately.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A stray cat watched me from under the cart.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " I finished it before the next train even arrived.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "On my way to the station, weaving between two delivery bikes and a cart of watermelons, I grabbed a skewer of grilled squid,",
+          "reference": "我在去车站的路上，绕过两辆送货的自行车和一车西瓜，买了一串烤鱿鱼，"
+        },
+        {
+          "english": "and the vendor wrapped it in old newspaper before handing it over.",
+          "reference": "老板用旧报纸把它包好才递给我。"
+        },
+        {
+          "english": "The sauce dripped down my sleeve almost immediately.",
+          "reference": "酱汁几乎马上就滴到了我的袖子上。"
+        },
+        {
+          "english": "A stray cat watched me from under the cart.",
+          "reference": "一只流浪猫从推车底下盯着我看。"
+        },
+        {
+          "english": "I finished it before the next train even arrived.",
+          "reference": "下一班车还没到我就把它吃完了。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-market-05",
+      "persona": "market-diarist",
+      "domain": "public-transit",
+      "register": "brisk-observational",
+      "instruction": {
+        "text": "Keep giving me the Chinese as this comes out.",
+        "gold_ack": "行，我会跟着给你中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Ten minutes early, with the last cart of ice barely loaded, the ferry to the fish market left the dock,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A deckhand shouted 快上船 at anyone still on the dock.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " I barely made it up the ramp in time.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Crates of ice sat stacked along the railing.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " The whole deck rocked once the engine kicked in.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Ten minutes early, with the last cart of ice barely loaded, the ferry to the fish market left the dock,",
+          "reference": "提前十分钟，最后一车冰块才刚装上船，开往鱼市的渡轮就离港了，"
+        },
+        {
+          "english": "I barely made it up the ramp in time.",
+          "reference": "我差一点就没能及时冲上跳板。"
+        },
+        {
+          "english": "Crates of ice sat stacked along the railing.",
+          "reference": "一箱箱冰块沿着栏杆堆放着。"
+        },
+        {
+          "english": "The whole deck rocked once the engine kicked in.",
+          "reference": "引擎一启动整个甲板都晃了一下。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-commuter-06",
+      "persona": "commuter-notetaker",
+      "domain": "neighborhood",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Translate each sentence into Chinese as I finish it.",
+        "gold_ack": "了解，我写完一句就给你中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Fresh green paint covered the bus stop bench that morning, still tacky enough to catch a sleeve,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " so nobody wanted to sit down just yet.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A crossing guard chatted with the same three kids as always.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Fresh green paint covered the bus stop bench that morning, still tacky enough to catch a sleeve,",
+          "reference": "那天早上，公交站的长椅刚被刷上了一层新绿漆，还黏得能粘住袖子，"
+        },
+        {
+          "english": "so nobody wanted to sit down just yet.",
+          "reference": "所以还没人愿意坐上去。"
+        },
+        {
+          "english": "A crossing guard chatted with the same three kids as always.",
+          "reference": "交通协管员像往常一样和那三个孩子聊天。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-market-07",
+      "persona": "market-diarist",
+      "domain": "street-food",
+      "register": "brisk-observational",
+      "instruction": {
+        "text": "Put this into Chinese line by line as I go.",
+        "gold_ack": "好的，我会一句一句翻给你。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Before dawn broke, with the shop's shutter still down, the street lamps still lit, and the pavement still damp from last night's rain, the dumpling line had already wrapped around the block,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and regulars saved spots for their neighbrs",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 8,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "neighbors before the shop even opened.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " One woman near the front kept saying 快点快点 under her breath.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " The steam from the baskets fogged up my glasses.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A cook shouted out numbers as each batch finished.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " By the time I reached the counter my feet were numb.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Before dawn broke, with the shop's shutter still down, the street lamps still lit, and the pavement still damp from last night's rain, the dumpling line had already wrapped around the block,",
+          "reference": "天还没亮，店铺的卷帘门还没拉起，路灯也还亮着，人行道也还带着昨晚雨水的潮气，饺子摊前的队伍已经绕着街区排了一圈，"
+        },
+        {
+          "english": "and regulars saved spots for their neighbors before the shop even opened.",
+          "reference": "老顾客还没开门就替邻居占好了位置。"
+        },
+        {
+          "english": "The steam from the baskets fogged up my glasses.",
+          "reference": "蒸笼冒出的热气把我的眼镜都熏白了。"
+        },
+        {
+          "english": "A cook shouted out numbers as each batch finished.",
+          "reference": "每出一笼，厨师就大声报出号码。"
+        },
+        {
+          "english": "By the time I reached the counter my feet were numb.",
+          "reference": "等我走到柜台前，脚都已经站麻了。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-commuter-08",
+      "persona": "commuter-notetaker",
+      "domain": "public-transit",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Give me a Chinese line for every sentence I write.",
+        "gold_ack": "好嘞，每句我都会给你配中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "My phone's subway map froze right at my transfer stop, with the screen locked on a spinning wheel, the little blue dot stuck in the exact same spot for a good five minutes, and no signal bars showing anywhere near the top of the screen,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " so I asked a stranger which platfrm",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 7,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "platform to use for the yellow line.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " She pointed down a stairwell without even looking up.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "My phone's subway map froze right at my transfer stop, with the screen locked on a spinning wheel, the little blue dot stuck in the exact same spot for a good five minutes, and no signal bars showing anywhere near the top of the screen,",
+          "reference": "我手机上的地铁图就在我要换乘的那站卡住了，屏幕停在一个转圈的图标上，那个蓝点在同一个位置卡了足足五分钟，屏幕顶部也没有一格信号，"
+        },
+        {
+          "english": "so I asked a stranger which platform to use for the yellow line.",
+          "reference": "所以我问了一个陌生人该用哪个站台去坐黄线。"
+        },
+        {
+          "english": "She pointed down a stairwell without even looking up.",
+          "reference": "她连头都没抬就朝一条楼梯指了指。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-market-09",
+      "persona": "market-diarist",
+      "domain": "neighborhood",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Just give me Chinese as each sentence lands.",
+        "gold_ack": "可以，每写完一句我就给中文。",
+        "pause_after": "short"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "At last, the community garden got its new fence,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " and the tomatoes climbed right up the wire.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " Two neighbors argued gently about whose turn it was to water.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "At last, the community garden got its new fence,",
+          "reference": "社区花园终于装上了新围栏，"
+        },
+        {
+          "english": "and the tomatoes climbed right up the wire.",
+          "reference": "番茄藤顺着铁丝爬了上去。"
+        },
+        {
+          "english": "Two neighbors argued gently about whose turn it was to water.",
+          "reference": "两位邻居为了轮到谁浇水在温和地争论。"
+        }
+      ]
+    },
+    {
+      "id": "d3-slot-a-commuter-10",
+      "persona": "commuter-notetaker",
+      "domain": "street-food",
+      "register": "warm-plainspoken",
+      "instruction": {
+        "text": "Keep the Chinese coming as I type this up.",
+        "gold_ack": "行，我这就一直给你配中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {
+          "kind": "type",
+          "text": "Just as my train pulled in, the night market lights flickered on,‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A grill vendor called out 便宜卖 to everyone walking by.",
+          "trap": "prequoted_chinese",
+          "pause_after": "long"
+        },
+        {
+          "kind": "type",
+          "text": " I bought a paper cone of roasted chesnuts",
+          "trap": "half_clause",
+          "pause_after": "short"
+        },
+        {
+          "kind": "backtrack",
+          "delete": 8,
+          "pause_after": "none"
+        },
+        {
+          "kind": "type",
+          "text": "chestnuts to eat on the platform.‖",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "type",
+          "text": " The shells were still warm enough to burn my fingers.‖",
+          "pause_after": "short"
+        },
+        {
+          "kind": "type",
+          "text": " A busker started playing near the exit stairs.‖",
+          "pause_after": "short"
+        }
+      ],
+      "clauses": [
+        {
+          "english": "Just as my train pulled in, the night market lights flickered on,",
+          "reference": "我的车刚进站，夜市的灯忽闪着亮了起来，"
+        },
+        {
+          "english": "I bought a paper cone of roasted chestnuts to eat on the platform.",
+          "reference": "我买了一纸袋烤栗子，打算在站台上吃。"
+        },
+        {
+          "english": "The shells were still warm enough to burn my fingers.",
+          "reference": "壳还烫得差点烫到我的手指。"
+        },
+        {
+          "english": "A busker started playing near the exit stairs.",
+          "reference": "一个街头艺人在出口的楼梯边弹唱了起来。"
+        }
+      ]
+    }
+  ]
+}

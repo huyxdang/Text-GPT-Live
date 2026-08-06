@@ -1,0 +1,268 @@
+{
+  "schema_version":"g1-authored-1",
+  "demo":"demo-1",
+  "author":{"model":"gpt-5.6-sol","slot":"d1-sol-a","tranche":6},
+  "records":[
+    {"id":"d1-sol-a-06-001","persona":"neighborhood-repair-companion","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"Beside a pale wheat loaf, a bakery card marked the darker rye as the highlight of Tuesday's tasting.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"address","text":"Would that darker crust make you expect a stronger toasted flavor?","gold_reply":"Yes. The deeper crust makes a stronger toasted flavor more likely than in the pale loaf beside it.","pause_after":"short"},
+      {"kind":"narration","text":"Could color alone settle it? I tore equal corners so the crumb and crust could be tasted together.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The dark loaf smelled of malt, while the pale one leaned toward butter.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Both slices disappeared before the labels did.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A few rye crumbs remained on the darker card.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-002","persona":"family-music-storyteller","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"Our dumpling plate held mild parcels on the outer ring and peppered ones in the center.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Two serving spoons rested on opposite sides, with their handles kept apart.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Keep the useful recommendation to one simple serving rule.","gold_reply":"Keep one spoon for the mild outer-ring dumplings and the other for the peppered center dumplings.","pause_after":"short"},
+      {"kind":"narration","text":"Would separate bowls be easier? The shared plate kept the meal together while the spoons preserved the choice.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"My aunt took one from each ring and compared the fillings.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The handles never crossed, though the conversation did.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-003","persona":"neighborhood-repair-companion","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"Clay cups cooled the lentil soup faster than the deep ceramic bowls.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The bowls kept steam above the table after the cups were comfortable to hold.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My cousin lifted a cup and asked, “Will this be cool enough for the children first?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"We had one ladle and enough of both vessels for everyone.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Which vessel would you choose for the first servings, and why?","gold_reply":"Use the clay cups first because the visible comparison shows that they shed heat sooner.","pause_after":"short"},
+      {"kind":"narration","text":"The deeper bowls went to relatives arriving later.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-004","persona":"family-music-storyteller","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"Four households poured their saved handfuls of white beans into one reunion stew.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Read that small pooling of ingredients as the meal's social center.","gold_reply":"Each handful keeps a household's contribution visible in the story, while the pot turns them into one shared dish.","pause_after":"short"},
+      {"kind":"narration","text":"My uncle explained that his beans came from the last jar packed in his old kitchen.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"The varieties softened at different rates, so the cook tasted texture before adding greens.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At lunch, nobody could assign a particular bean to its original cup.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The empty jars stood together beside the full bowls.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-005","persona":"neighborhood-repair-companion","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"For Sunday breakfast, each steamed bun received one pinched ridge so plain filling could be distinguished from mushroom. On the first tray, one mushroom bun opened along both sides of its ridge and emerged with two soft ears.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Its filling stayed enclosed, the dough was cooked through, and the little ears held when the bun moved to the basket. Two children immediately gave it a rabbit name.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Who could demand perfect geometry from breakfast after that entrance? The next buns kept their ordinary single ridges.","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Does the rabbit-shaped accident deserve saving for the youngest guest?","gold_reply":"Saving it fits: the bun is cooked, intact, and playfully surprising.","pause_after":"short"},
+      {"kind":"narration","text":"We placed it near the top of the basket without changing the marker on any other bun. The plain and mushroom batches remained easy to distinguish.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The youngest guest recognized the ears before the basket cloth was fully lifted and chose the rabbit without asking what had gone wrong.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"Flour marked its cooling spot.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-06-006","persona":"family-music-storyteller","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"One herb relish was pounded by hand, leaving torn mint, coriander stems, and coarse pepper visible in the bowl.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The same herbs and oil went through a small grinder for the second bowl, producing a smooth green paste with a glossy surface.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"On plain rice, the coarse relish released sharp bursts of leaf and pepper, while the smooth one spread flavor evenly across each bite.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The hand-pounded bowl smelled brighter when stirred; the machine-ground bowl clung more readily to the spoon.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Give me the sensory contrast without declaring either texture the winner.","gold_reply":"The coarse relish offers distinct leafy bursts and a brighter stirred aroma, while the smooth one gives even flavor and a silkier cling.","pause_after":"short"},
+      {"kind":"narration","text":"At lunch, one bowl dotted grilled vegetables and the other coated noodles, letting each texture find a different use.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-007","persona":"neighborhood-repair-companion","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"Three shallow crocks held radish, mustard stem, and green mango. Cloth collars caught brine above the borrowed table.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you keep the shared tasting bowls downstream from the crocks?","gold_reply":"Yes. Keeping bowls after the crocks lets people taste in sequence without carrying used spoons back over the open brine.","pause_after":"short"},
+      {"kind":"narration","text":"The host explained that the old ledger heading “search for salt balance” came from an earlier workshop.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"Fresh spoons began by the mango; a blue basin at the far end received used ones.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A radish-brine splash stopped at its cloth collar.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Tasters moved toward sweeter mango and circled back only with clean spoons.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The basin filled while all three crock rims stayed clean.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The table went home without a salt ring, and three pickles traveled onward.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-008","persona":"family-music-storyteller","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"My uncle revived a rice starter in the blue bowl his mother had used, but he measured the new flour with a stainless cup from his own kitchen. The old bowl carried a hairline glaze crack that stayed dry above the mixture.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"On the first morning, small bubbles gathered only near the warmer side of the cupboard. He turned the bowl a quarter turn and marked the original position with a folded towel rather than moving it elsewhere.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"By evening, bubbles appeared across the center and the surface rose just below the painted fish on the inner wall. The flour smell had softened into something faintly fruity.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Offer a cautious prediction for tomorrow from those changes.","gold_reply":"The spreading bubbles and rising surface make further activity likely, though the bowl should still be observed rather than treated as fully ready.","pause_after":"short"},
+      {"kind":"narration","text":"Could the warm corner alone explain the first cluster? I was comparing position and timing, not assigning a single cause to a living mixture.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"He fed the starter the same amount again and returned the fish to its towel mark. A glass cover rested loosely above the rim, leaving the surface visible without sealing the bowl.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The next check showed a broad lace of bubbles and a clean line where the starter had risen and fallen. He copied both heights into a notebook beside the room temperature.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"When the first batter finally went onto the griddle, the blue bowl remained on the counter with a smaller portion saved for another morning. Inheritance here was neither the vessel alone nor a frozen recipe: it was a repeated act adjusted with visible evidence.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-009","persona":"neighborhood-repair-companion","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"The communal oven opened for six households on Sunday, with each tray identified by a different folded corner in its parchment. Flat loaves entered first, followed by bean pots and two fruit tarts that needed the gentler heat near the door.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A baker kept one chalk line for entry order and another for the shelf each dish occupied. The marks allowed neighbors to talk freely without relying on whoever happened to remember the queue.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"One child pointed toward a sealed bean pot and asked, “Will ours be the one that sings first?” A soft whistle had begun at the edge of its lid.","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"Steam darkened the pot's cloth tie, while the adjacent loaf stayed pale along its center seam. The baker shifted neither item until the next scheduled door opening.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"What family oven ever required traffic control drawn in flour? The two chalk lines nevertheless kept hot dishes from becoming a guessing game.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"address","text":"Does the oven schedule feel restrictive, or does it create a fair shared rhythm?","gold_reply":"It creates fairness: entry and shelf marks make scarce heat predictable while each household keeps responsibility for its own dish.","pause_after":"short"},
+      {"kind":"narration","text":"The whistling bean pot emerged last, its folded green corner still visible beneath the damp tie. Six households carried different Sunday smells away from one cooling brick mouth.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-010","persona":"family-music-storyteller","domain":"food-culture","register":"warm-observational","segments":[
+      {"kind":"narration","text":"For a family noodle day, three generations worked at separate boards arranged around one flour bin. The oldest pair rolled broad sheets, the middle table cut ribbons, and the youngest children dusted finished nests on reed trays.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"No board set the pace for the others. When ribbons accumulated, the cutters helped roll; when trays filled, children carried one at a time to the shaded room and returned by the clear side passage.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A wooden gauge hung near the cutting table, but several cousins preferred the slight variation made by eye. The wide and narrow ribbons were kept together because the meal was meant to show many hands rather than imitate a factory packet.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Frame the uneven noodles as a social strength, not a quality failure.","gold_reply":"Their variation records different hands working toward one meal, while the shared flour bin and tray route keep the process coordinated.","pause_after":"short"},
+      {"kind":"narration","text":"A breeze lifted flour from the youngest board, so an aunt clipped a low cloth screen to two chair backs. The screen protected the nests without enclosing the children or changing their task.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"By noon, fifty pale nests covered the reed trays in loose rows. Some were tight as buttons and others spread like small hats; all had enough flour between their folds to separate in the pot.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The first cooked bowl combined widths deliberately. Broad ribbons held the broth, thin ones curled around greens, and nobody tried to identify which relative had cut a particular mouthful.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"After lunch, the boards leaned against the courtyard wall in descending sizes. Flour handprints remained until the evening sweep, a temporary family portrait made by work rather than posing.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-011","persona":"neighborhood-repair-companion","domain":"home-maintenance","register":"warm-observational","segments":[
+      {"kind":"narration","text":"The desk drawer moved freely until its final two centimeters, then bound at the left rear corner.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would you treat that endpoint as the useful clue?","gold_reply":"Yes. Binding only at the final two centimeters points to the rear end of the runner rather than the whole drawer path.","pause_after":"short"},
+      {"kind":"narration","text":"A runner sketch used a blue highlight where the left rail met its rear stop.","traps":["descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"The empty drawer caught at the same point, and both front screws stayed flush.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A loose felt pad was folded against the rear stop.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Reseating the pad restored the last two centimeters of travel.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-012","persona":"family-music-storyteller","domain":"home-maintenance","register":"warm-observational","segments":[
+      {"kind":"narration","text":"The roller blind climbed evenly at first, then its right edge rose ahead of the left.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"When fully lowered, its bottom bar returned level and the fabric lay flat without a crease.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Recommend a reversible check before anyone trims or replaces the fabric.","gold_reply":"Inspect and reseat the roller at its brackets first, because the fabric and bottom bar recover when lowered.","pause_after":"short"},
+      {"kind":"narration","text":"Could the cloth itself be stretched? I compared both edges at the lowered position before touching the brackets.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The right roller cap sat slightly forward and clicked back into its slot under light pressure.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Three lifts ended with the bottom bar level.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-013","persona":"neighborhood-repair-companion","domain":"home-maintenance","register":"warm-observational","segments":[
+      {"kind":"narration","text":"The laundry pulley carried a light sheet smoothly but clicked under a wet blanket. The ceiling hook stayed still, and the sound came from the wheel housing above the drying rail.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"I lowered the line, removed the blanket, and turned the empty wheel by hand. One shallow groove caught my fingertip at the same point on every rotation.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My neighbor looked up and asked, “Will that groove keep deepening under heavy loads?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"A spare wheel matched the axle width, but replacing it would require taking tension off both line runs. The current line showed no fray and remained easy to lower.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"What tradeoff should guide whether we replace the wheel today?","gold_reply":"Balance the repeatable load-click and visible groove against the intact line; unload it now and replace the wheel before returning heavy blankets.","pause_after":"short"},
+      {"kind":"narration","text":"We clipped a cloth marker beside the blanket end and used the rail for lighter washing. The spare wheel stayed with the measured axle note for the planned repair.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-014","persona":"family-music-storyteller","domain":"home-maintenance","register":"warm-observational","segments":[
+      {"kind":"narration","text":"A loose floorboard clicked near the bookcase but stayed quiet along the walking path. Chalk dust placed at its seams shifted only beside the rear left foot of the case.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Keep the diagnosis narrower than “the whole floor is loose.”","gold_reply":"The evidence points to one board beside the bookcase's rear left foot, not a room-wide problem.","pause_after":"short"},
+      {"kind":"narration","text":"The downstairs neighbor reported hearing one tap when heavy books were returned to the upper shelf.","traps":["reported_speech"],"pause_after":"medium"},
+      {"kind":"narration","text":"After the books were removed, the case slid forward on felt pads. The marked seam opened less than a millimeter when pressed and closed as soon as pressure lifted.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A thin shim beneath the joist-side edge stopped the click during six crossings. No adhesive went into the seam, so the board could still move with seasonal humidity.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The bookcase returned with its rear feet centered across two boards rather than resting on the marked edge.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The chalk line remained visible for a week of checks before the floor received its ordinary sweep.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-015","persona":"neighborhood-repair-companion","domain":"home-maintenance","register":"warm-observational","segments":[
+      {"kind":"narration","text":"The patched kitchen wall held one blue tile among twelve cream originals. Its glaze matched the shine but its painted leaf pointed sideways.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The replacement sealed the old pipe opening completely, and every grout line met cleanly. Only the leaf refused to join the upward garden around it.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Was the wall really going to lose sleep over one horizontal leaf? The cook had already nicknamed it the windy tile.","traps":["rhetorical_question"],"pause_after":"medium"},
+      {"kind":"address","text":"Would you reopen sound grout for visual uniformity, or keep the odd tile?","gold_reply":"Keep it. The patch is sealed and aligned; reopening it would trade a harmless visual quirk for unnecessary work.","pause_after":"short"},
+      {"kind":"narration","text":"A narrow shelf later covered the lower grout line without hiding the blue leaf. Jars of tea stood beneath it, leaving the sideways shape visible between their lids.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Guests noticed the tile, heard the pipe story, and usually found a different direction for the leaf. The repair became easier to explain than to overlook.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"No crack appeared through a season of steam, and the windy tile kept its sideways weather.","traps":[],"pause_after":"short"}
+    ]},
+    {"id":"d1-sol-a-06-016","persona":"family-music-storyteller","domain":"home-maintenance","register":"playful-practical","segments":[
+      {"kind":"narration","text":"The cane-chair seat sagged on damp mornings, although every strand remained woven through its neighbors without a break or loose end.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"After a dry afternoon indoors, the same weave drew tauter and its center rose close to the wooden frame again.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"We placed the same cloth-wrapped weight at the seat center for ten minutes in each condition, using a fixed ruler at the front rail.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The damp weave dropped eighteen millimeters and rebounded after drying; the dry retest dropped seven millimeters under the identical weight.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Set the next step before anyone removes the intact cane.","gold_reply":"Repeat the same-weight test through another damp-to-dry cycle; the reversible sag and intact weave do not yet justify reweaving.","pause_after":"short"},
+      {"kind":"narration","text":"The ruler marks and wrapped weight stayed with the chair for the next weather change, leaving every cane strand untouched.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-017","persona":"neighborhood-repair-companion","domain":"home-maintenance","register":"playful-practical","segments":[
+      {"kind":"narration","text":"The new rain chain guided most roof water into a stone basin, but wind pushed a thin spray toward the porch post. A dry-day chalk arc on the paving showed where the chain normally hung.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Would a lower guide solve more than tightening the whole chain?","gold_reply":"Likely yes. The chain follows its normal dry-day arc, while a lower guide would keep windblown spray centered over the basin without tightening the roof connection.","pause_after":"short"},
+      {"kind":"narration","text":"The caretaker explained that an old tag reading “correct alignment” belonged to the original gutter inspection. Its copper wire was still looped around the upper hook.","traps":["reported_speech","descriptive_command_word"],"pause_after":"medium"},
+      {"kind":"narration","text":"During the next shower, the upper cups filled in a steady sequence. Only the final three swung beyond the basin rim, and the porch post darkened at ankle height rather than along its full length.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A removable guide ring anchored the last cup above the center stone. It left enough slack for water to descend without pulling sideways on the gutter outlet.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The spray then landed inside the basin through two gusts. We kept a sheet of paper around the post base; it remained dry except for one drop carried from the paving by a shoe.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"After the storm, the chalk arc still matched the upper chain and the guide ring bore the movement below. No extra fastener entered the roof edge.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The basin collected a small circle of leaves, while the porch post returned to its ordinary color before sunset.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-018","persona":"family-music-storyteller","domain":"home-maintenance","register":"playful-practical","segments":[
+      {"kind":"narration","text":"The bathroom door rubbed its frame only after long showers. In the morning it closed with a clear gap, and a pencil line showed that the latch-side top corner was the first point of contact.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We placed a paper gauge at three heights before turning on hot water. All three passed freely, while the hinges stayed firm and the floor beneath them remained dry.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"After steam clouded the mirror, the upper gauge caught and the lower two still moved. The change appeared at the timber corner rather than along the whole latch edge.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Describe the most proportionate next step from that repeated pattern.","gold_reply":"Improve the room's drying first and monitor the marked upper corner; the temporary, localized swelling does not justify trimming the whole door.","pause_after":"short"},
+      {"kind":"narration","text":"Could hinge sag produce the same mark? I checked the morning gap again before treating moisture as the stronger explanation.","traps":["elaborating_question"],"pause_after":"none"},
+      {"kind":"narration","text":"The vent grille held a mat of dust, so it was brushed clean and tested with a tissue strip. The strip drew steadily inward once the grille was clear.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"On the next three shower days, the door still tightened slightly but released sooner. The pencil line did not widen, and no fresh scuff appeared below it.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-019","persona":"neighborhood-repair-companion","domain":"home-maintenance","register":"playful-practical","segments":[
+      {"kind":"narration","text":"Two wall shelves carried the same row of cookbooks, yet only the upper shelf dipped at its center. Its left bracket sat over a stud, while the right bracket used an anchor in hollow plaster.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A taut string across the front edge showed a six-millimeter gap at the middle. The lower shelf remained straight under a similar number of books, and neither wall surface showed cracking.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"My father tapped the right bracket and asked, “Will a wider anchor straighten it without moving the shelf?”","traps":["quoted_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"We unloaded the upper shelf and found that the board itself stayed bowed on the floor. The right anchor held firm when pulled by hand, though its bracket sat one millimeter lower.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Was one heroic anchor expected to iron timber flat? The empty board had already answered that with its stubborn curve.","traps":["rhetorical_question"],"pause_after":"short"},
+      {"kind":"address","text":"Which finding changes the repair plan most decisively?","gold_reply":"The unloaded board remains bowed, so replacing or reversing the board matters more than enlarging an anchor that is still firm.","pause_after":"short"},
+      {"kind":"narration","text":"Half the books went back for a week-long check, arranged near the brackets rather than piled at the center. Tape beneath the support recorded its exact position.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-020","persona":"family-music-storyteller","domain":"home-maintenance","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A long curtain rod bowed above the living-room window after heavier winter curtains replaced thin summer panels. The center sag appeared only when both curtains were drawn fully inward.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The end brackets stayed level and their screws remained tight. A measuring string from end to end showed the rod dropping nine millimeters at the center under the combined fabric weight.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"We tested one curtain at a time. Either panel alone produced a shallow curve, while stacking both near the center recreated the deeper bow immediately.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Choose between stronger end screws and a center support, using only what we observed.","gold_reply":"Add a center support: the end brackets are firm, and the measured deflection concentrates at midspan under combined weight.","pause_after":"short"},
+      {"kind":"narration","text":"A slim support was aligned with the window divider, where it would carry the rod without interrupting either curtain's travel. Its removable pad protected the painted trim.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"With both curtains closed, the rod stayed within two millimeters of the string. Each panel still crossed the center far enough to overlap and block the evening gap.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"At night, the heavier fabric hung in two even fields instead of pulling the rod into a smile. The old screws had done nothing wrong; the span had simply acquired a new job.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-021","persona":"neighborhood-repair-companion","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A liner-note draft called the quiet cello entrance the album's hidden highlight.","traps":["descriptive_command_word"],"pause_after":"none"},
+      {"kind":"address","text":"Does that phrase fit an entrance listeners might miss the first time?","gold_reply":"It fits: “hidden highlight” captures something rewarding that arrives without demanding attention.","pause_after":"short"},
+      {"kind":"narration","text":"The cello appeared beneath a sustained piano chord for only four bars.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Its second note borrowed the melody and then slipped below it.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"On replay, the room leaned toward the speaker at the same moment.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The note stayed in the draft.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-022","persona":"family-music-storyteller","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A hand drum sounded round near the curtains and sharp beside the bare wall.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The player kept the same seated position and used one measured center stroke in each spot.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Would the curtained corner suit a softer storytelling accompaniment?","gold_reply":"Yes. The same stroke sounds rounder there, so it should sit beneath speech with less hard reflection.","pause_after":"short"},
+      {"kind":"narration","text":"Could distance be doing the work? I matched the chair marks before comparing the recordings.","traps":["elaborating_question"],"pause_after":"medium"},
+      {"kind":"narration","text":"The wall take carried a brighter slap after the initial beat.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"We left both floor marks for rehearsal.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-023","persona":"neighborhood-repair-companion","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"The family dance refrain held one silent beat before its final word.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"My aunt explained that dancers once used that beat to turn toward their partners.","traps":["reported_speech"],"pause_after":"short"},
+      {"kind":"narration","text":"This time, cousins filled the held beat with one coordinated clap.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The final word still landed together immediately after their hands parted.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Reflect that change without framing the clap as a mistake.","gold_reply":"The held beat still organizes the refrain; the shared clap gives today's dancers a new coordinated gesture inside it.","pause_after":"short"},
+      {"kind":"narration","text":"On the next refrain, older relatives joined the clap.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-024","persona":"family-music-storyteller","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"Three metronomes began together on the piano lid and separated before eight beats.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Can you give that tiny collapse of discipline its proper comic reading?","gold_reply":"Absolutely: three machines devoted to perfect time have formed the least reliable trio in the room.","pause_after":"short"},
+      {"kind":"narration","text":"The wooden one hurried, the red plastic one lagged, and the pocket model wandered between them.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Who appointed this committee to supervise tempo? Their clicks were already debating the motion.","traps":["rhetorical_question"],"pause_after":"none"},
+      {"kind":"narration","text":"We stopped each pendulum with one finger.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Silence arrived in excellent unison.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-025","persona":"neighborhood-repair-companion","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"In a narrow room, the cello bow cleared the bookcase, but one violinist turned pages with an elbow against the wall.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Diagonal stands gained arm space but hid the end players' shared opening breath.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Could a shallow semicircle offer a better compromise than either arrangement?","gold_reply":"Yes. It can preserve bow and page space while restoring sightlines for the shared opening breath.","pause_after":"short"},
+      {"kind":"narration","text":"Paper squares marked a wider center, and each stand angled toward the first violin.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The next chord landed together; pages turned freely and the cello cleared the shelf.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The semicircle served movement, sound, and four pairs of eyes.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-026","persona":"family-music-storyteller","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"After rehearsal, flutes, a clarinet, bows, and a jingling tambourine crowded one bench while open cases blocked ankles.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A felt runner made landing places: bows at the back, winds in the center, and tambourine at the near corner.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Players wiped instruments and kept each case below its owner.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"The bench gained two seats and a clear walking line to the door.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"A flute packed with its cloth and pencil before the tambourine entered its round bag.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Summarize the practical value of the felt runner without turning it into a rigid rule.","gold_reply":"It provides visible temporary zones, clears the bench and walkway, and still lets each player pack in a suitable order.","pause_after":"short"},
+      {"kind":"narration","text":"We rolled the felt inward around one square of rosin dust.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-027","persona":"neighborhood-repair-companion","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A double bass held one low note beneath a quiet piano chord. Its vibration reached the wooden floor before the air felt loud.","traps":[],"pause_after":"none"},
+      {"kind":"address","text":"Does that floor vibration make the entrance feel larger without making it aggressive?","gold_reply":"It does. The low note expands through the floor, while the quiet piano leaves the entrance spacious rather than forceful.","pause_after":"short"},
+      {"kind":"narration","text":"A rubber cup softened the floor vibration while pitch and bow speed stayed steady.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"Two listeners felt the change through the bench before discussing volume.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The bare endpin returned for the final take, with a felt square protecting the floor between takes.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"Playback stayed quiet, but everyone anticipated the physical tremor the microphone only partly carried.","traps":[],"pause_after":"long"},
+      {"kind":"narration","text":"The take sheet recorded both conditions and selected the bare-floor opening.","traps":[],"pause_after":"medium"}
+    ]},
+    {"id":"d1-sol-a-06-028","persona":"family-music-storyteller","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"The oldest cousin began a village harvest verse; the youngest knew only its recorded refrain.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"At the refrain, voices entered from three sides of the table, some carrying only its final vowel.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"A guitarist lowered the key so both cousins could sing without shortening the elder's verse.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"Would you call that key change a form of musical hospitality?","gold_reply":"Yes. It widens participation in the shared refrain while preserving the older cousin's words and lead.","pause_after":"short"},
+      {"kind":"narration","text":"The younger cousin found a harmony beneath the next verse's final phrase.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Children supplied the closing vowel while two uncles tapped the table.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The elder ended on the village name and passed the first chord back to the guitarist.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-029","persona":"neighborhood-repair-companion","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A community choir practiced a long phrase that crossed the room's natural echo. Sopranos reached the final consonant together, while lower voices arrived unevenly after taking breaths in the same narrow gap.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The conductor divided the lower section into two breathing groups. One group released air after the second word and the other continued, then they exchanged roles near the end of the phrase.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"On the next attempt, the vowel remained present across both breath points. The final consonant arrived more closely, though one singer still entered early after the first exchange.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"A pencil mark above each part showed only the assigned breath, leaving dynamics and pronunciation unchanged. Singers could see their own gap without reading another section's line.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"The third attempt held an unbroken tone from the audience seats. Inside the choir, breaths remained audible as small staggered currents rather than one collective break.","traps":[],"pause_after":"short"},
+      {"kind":"address","text":"Could one more repetition improve the ending without changing the phrase's character?","gold_reply":"Yes. The staggered plan already sustains the vowel, and another pass can settle the early re-entry while preserving the musical line.","pause_after":"short"},
+      {"kind":"narration","text":"The final pass reached the consonant as one soft edge. The room returned a brief echo of the complete word after every singer had stopped.","traps":[],"pause_after":"long"}
+    ]},
+    {"id":"d1-sol-a-06-030","persona":"family-music-storyteller","domain":"music","register":"playful-practical","segments":[
+      {"kind":"narration","text":"A family string ensemble brought two violins, viola, and cello into a dining room that grew warmer as relatives arrived. Their opening reference note produced clean fifths and no audible beating between held pairs.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"For the first trial, all four players retuned after every piece. The intervals stayed clean, but repeated tuning broke the musical sequence and repeatedly stopped the conversation gathering around the performers.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"For the second trial, they played three pieces without retuning as the room warmed. Transitions stayed easy, yet sustained notes in the third piece produced audible beating. A brief pause already occurred between pieces while pages turned and listeners settled.","traps":[],"pause_after":"medium"},
+      {"kind":"address","text":"State the tuning compromise supported by those two trials and the existing pause.","gold_reply":"Use a brief reference-note check during the natural pause, and adjust only when audible beating shows that the ensemble has drifted.","pause_after":"short"},
+      {"kind":"narration","text":"Before the next piece, the first violin sounded one reference note during the page-turn pause. Three instruments matched it without moving their pegs, while the cello's held fifth revealed a slow beat.","traps":[],"pause_after":"none"},
+      {"kind":"narration","text":"Only the cello made a small adjustment. The check ended before the final page was placed on its stand, so the players began with the room's conversation still tapering naturally around them.","traps":[],"pause_after":"short"},
+      {"kind":"narration","text":"The next two pieces followed without a full tuning stop. At the later pause, another reference note produced stable intervals, and all four players left their pegs untouched.","traps":[],"pause_after":"medium"},
+      {"kind":"narration","text":"By the closing piece, the room was warmer but the held chords remained free of beating. Short checks had protected the ensemble's pitch only when needed, while the family's listening, page turns, and conversation kept their shared flow.","traps":[],"pause_after":"long"}
+    ]}
+  ]
+}
