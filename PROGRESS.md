@@ -97,7 +97,6 @@
 
 **Next**
 
-- Monitor GitHub Actions after push.
 - Merge Hugging Face model PR #1 only after explicit approval for the public deletion.
 
 **Blockers**
@@ -118,6 +117,7 @@
 - Fresh clone before corpus build: 515 passed, 4 expected skips.
 - Fresh clone full build: 6,688 rows; 6,013 train, 675 dev; zero overlap; maximum 62,223 target tokens.
 - The five previously skipped corpus checks all passed after the build.
+- GitHub Actions run `31463541407` passed on hosted Python 3.11.
 
 **Blockers**
 
