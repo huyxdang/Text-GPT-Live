@@ -1,0 +1,59 @@
+{
+  "schema_version": "g1-authored-demo4-1",
+  "demo": "demo-4",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-terra-b", "tranche": 0},
+  "requests": [
+    {
+      "id": "demo4-sample-req-04",
+      "text": "Can you sketch out a quick chart for my seedlings?",
+      "task": "generate a UI to visualize seedling growth",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "demo4-sample-req-05",
+      "text": "Build me a small view of this semester's grades.",
+      "task": "generate a UI to visualize semester grades",
+      "persona": "student-planner",
+      "domain": "school",
+      "register": "tired-honest"
+    },
+    {
+      "id": "demo4-sample-req-06",
+      "text": "Whip up a quick board showing our chore rotation.",
+      "task": "generate a UI to visualize the chore rotation",
+      "persona": "family-organizer",
+      "domain": "family",
+      "register": "cheerful-brief"
+    }
+  ],
+  "progress_pairs": [
+    {
+      "id": "demo4-sample-check-03",
+      "kind": "check",
+      "question": "how's it going?",
+      "reply": "Coming along — just a bit longer.",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "demo4-sample-nudge-02",
+      "kind": "nudge",
+      "question": "you still there?",
+      "persona": "student-planner",
+      "domain": "school",
+      "register": "tired-honest"
+    },
+    {
+      "id": "demo4-sample-nudge-03",
+      "kind": "nudge",
+      "question": "got my message?",
+      "persona": "family-organizer",
+      "domain": "family",
+      "register": "cheerful-brief"
+    }
+  ]
+}

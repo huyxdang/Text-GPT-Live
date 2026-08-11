@@ -1,6 +1,12 @@
 # Acceptance Criteria — the five demos
 
-**Status:** draft for sign-off
+> **Historical planning document.** This is the pre-training specification,
+> preserved to show what was proposed before evaluation. It is not the current
+> runtime contract: the released model has seven actions, includes web search,
+> and does not reliably perform Demo 5. See [architecture.md](architecture.md)
+> and [training.md](training.md) for the released system.
+
+**Status:** archived pre-training draft
 **Recorded:** 2026-07-30
 **Supersedes:** the archived `acceptance_tests.md` / `musts_finish_before_move_on.md`
 (text-only era, `archive/text-only`)
@@ -125,8 +131,8 @@ however good the eventual decisions are. The last measured hosted latency was
 
 Serving-path instrumentation for this exists on this branch: `/health` reports
 p50/p95/max decision latency and the ESC config strip shows a live readout
-([app/runtime.py](app/runtime.py) `latency_summary`,
-[static/app.js](static/app.js) `renderDecisionLatency`).
+([app/runtime.py](../app/runtime.py) `latency_summary`,
+[static/app.js](../static/app.js) `renderDecisionLatency`).
 
 - Record p50 and p95 decision latency for **every** filmed take, in `findings.md`.
 - No take is publishable if decisions exceed 650 ms or ticks are dropped during it.
@@ -229,7 +235,7 @@ suggest_edit it cannot widen its way to uniqueness).
 
 **Standing machinery (checked):** the probe-era surface already had a highlight
 action, and the current app still carries the full render path — `TextHighlight`
-in [app/domain.py](app/domain.py), session highlight state, quote/occurrence
+in [app/domain.py](../app/domain.py), session highlight state, quote/occurrence
 pruning when text changes, and the `<mark>` overlay in the UI. What g1 adds:
 `highlight` in the v6-surface tool list and its validation arm (mirror
 `suggest_edit`'s, minus replacement), and a neon style for the marks (CSS only).
@@ -333,7 +339,7 @@ remains a present, honest conversation partner while that work visibly runs.
 **The verb: `delegate({"task": "…"})`** — renamed from `generate_ui`
 (decided 2026-07-30). The payload is a described task ("generate a UI to
 visualize lighthouse statistics"); the executor is unchanged
-(`OpenAIUIGenProvider` → GPT-4o, [app/uigen.py](app/uigen.py)) — the small model
+(`OpenAIUIGenProvider` → GPT-4o, [app/uigen.py](../app/uigen.py)) — the small model
 never draws the panel; it *delegates*, which is the thesis of the whole project,
 now spelled out in its own grammar. Cost accepted: the frozen suites keep the
 old vocabulary, so their regression comparisons weaken slightly further.
@@ -375,7 +381,7 @@ which is also why this demo stopped being risky (see scope notes).
 
 **Presentation requirement (new work).** The job deck exists — `.job-window`
 cards with status chips and entry animation, the interaction card reflowing
-([static/app.js](static/app.js) `renderJobDeck`, [static/styles.css](static/styles.css)
+([static/app.js](../static/app.js) `renderJobDeck`, [static/styles.css](../static/styles.css)
 `.job-deck`). Changes: windows enter by **sliding up** (`translateY`, currently
 `translateX`); replies ride the utterance bubble; and job status must resolve in
 the mode being filmed (the deck reads `job_id` events — the v6-surface mode
@@ -431,7 +437,7 @@ t+10400ms, that is 5.2 s, fire again" is readable off the context it already get
 It was never trained to do that arithmetic because training gaps were uniform.
 
 **No contract change is needed after all.** An earlier reading of
-[app/runtime.py](app/runtime.py) `_validate_action_v6` concluded that the
+[app/runtime.py](../app/runtime.py) `_validate_action_v6` concluded that the
 one-response-per-target rule forbids a recurring reminder. It does — but only if the
 reminder targets the *original request*. It does not have to. Re-checked against the
 code:
@@ -507,7 +513,7 @@ parser, prompt, and per-demo scorers. Do not report the legacy factories as conf
 
 **Prompt asymmetry, deliberate and disclosed.** Config B (fine-tuned) will serve
 with the concise g1 system prompt baked into its training
-(synthetic_data_spec.md); config A (prompted stock) will get additional g1 worked
+(docs/data.md); config A (prompted stock) will get additional g1 worked
 examples for rules a model without the fine-tune cannot infer from training. Each
 config gets its best honest shot; both prompts are recorded with the reports.
 
@@ -524,7 +530,7 @@ wired, N episodes with statistics will be stronger evidence than one filmed take
 **Why not a side-by-side view in the UI.** The UI's recording machinery cannot do it.
 A recording stores the *model's actions* alongside the typing, and replay is a pure
 re-render — `applyInputSnapshot` / `applyActionSnapshot`
-([static/app.js](static/app.js) `startReplay`) — so replaying a recording never
+([static/app.js](../static/app.js) `startReplay`) — so replaying a recording never
 re-runs the model. Feeding one keystroke stream through two policies would need new
 plumbing (a "re-drive input frames as live ticks" mode, or dual-inference sessions).
 That work is cut. The offline harness already does the job it would have done.
@@ -575,7 +581,7 @@ Anything beyond this belongs to the speech era (`main`, paused).
 one coherent spec-first dataset in one LoRA stage. It does not inherit or chain
 the V4/V4.1/V6 curriculum. Old frozen suites score old-lineage models only; g1
 regression lives in its dev and freshly authored acceptance/report sets. See
-[`scripts/g1_runbook.md`](training.md).
+[`docs/training.md`](training.md).
 
 Remaining open questions:
 
@@ -584,7 +590,7 @@ Remaining open questions:
   clock can be read at all.
 - **Windows in ticks.** Demo 3's clause window is still unset. Fix it before the
   first run, not after seeing results.
-- **Grounding metric** ([train/evaluation.py](train/evaluation.py)): with
+- **Grounding metric** ([train/evaluation.py](../train/evaluation.py)): with
   `web_search` retired, g1 contains no search-grounded responses at all, so
   `respond_message_grounding` must be disabled (not merely limited) for g1
   reports, or every respond row scores zero for a bogus reason. Land before

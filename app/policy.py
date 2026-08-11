@@ -48,6 +48,8 @@ When search and highlight first become valid on the same event, search first; hi
 the next event. Prefer restraint: an unnecessary intervention is worse than waiting one tick."""
 
 
+# Historical training-only prompt retained until the mixed V4-V6 stages are
+# extracted from train/tinker_run.py. The app no longer serves a V5 editor.
 SYSTEM_PROMPT_V5 = """You are a machine-parsed interaction policy watching a chronological stream.
 Your entire output must be exactly one of these forms on one line and nothing else:
 
@@ -310,8 +312,6 @@ class TinkerPolicy:
         system_prompt: str | None = None,
         action_schema: str = "legacy",
     ) -> None:
-        if not os.environ.get("TINKER_API_KEY") and os.environ.get("TINER_API_KEY"):
-            os.environ["TINKER_API_KEY"] = os.environ["TINER_API_KEY"]
 
         self.system_prompt = system_prompt or SYSTEM_PROMPT_V4
         self.action_schema = action_schema
@@ -438,169 +438,6 @@ class TinkerPolicy:
         assert self._tokenizer is not None
         decoded = self._tokenizer.decode(tokens, skip_special_tokens=True)
         return decoded if self.action_schema == "g1" else decoded.strip()
-
-
-class ScriptedEditorPolicy:
-    """Deterministic T1-loop driver for runtime/UI development — not a model substitute.
-
-    Implements the co-writing repair choreography with rules so the full loop
-    (write → pause → underline → confirm → revise → resume) can be exercised
-    end-to-end before any checkpoint is trained. It reconstructs document and
-    proposal state purely from the event stream, exactly as the trained policy
-    must.
-    """
-
-    mode = "scripted"
-    display_name = "scripted editor rules (dev)"
-    availability = "ready"
-    availability_message = ""
-
-    def warm_up(self) -> None:
-        return None
-
-    _WRITE_REQUEST = re.compile(r"\b(write|draft|compose)\b", re.IGNORECASE)
-    _STOP = re.compile(r"^(stop|wait|hold on)\b|[.,;!—-]\s*(stop|wait|hold on)\b", re.IGNORECASE)
-    _ORDINALS = {
-        "first": 1, "1st": 1, "second": 2, "2nd": 2, "third": 3, "3rd": 3,
-        "fourth": 4, "4th": 4, "fifth": 5, "5th": 5,
-    }
-    _CONFIRM = re.compile(r"^\s*(yes|yeah|yep|correct|right|exactly)\b", re.IGNORECASE)
-    _RELATIVE_BEFORE = re.compile(r"\b(one|sentence)\s+before\b", re.IGNORECASE)
-
-    async def predict(
-        self,
-        compiled_stream: str,
-        current: StreamEvent,
-        history: list[CompletedTurn],
-    ) -> str:
-        del compiled_stream
-        turns = history
-
-        def action_line(body: str) -> str:
-            return f"<action>{body}</action>"
-
-        writer_sentences = [
-            turn.event for turn in turns if turn.event.source is EventSource.WRITER
-        ]
-        if current.source is EventSource.WRITER:
-            writer_sentences.append(current)
-
-        def find_last(predicate) -> CompletedTurn | None:
-            for turn in reversed(turns):
-                if predicate(turn):
-                    return turn
-            return None
-
-        write_started = find_last(
-            lambda turn: turn.action.valid
-            and turn.action.tool_name == "writer"
-            and turn.action.arguments.get("operation") in ("write", "resume")
-        )
-        paused = find_last(
-            lambda turn: turn.action.valid
-            and turn.action.tool_name == "writer"
-            and turn.action.arguments.get("operation") == "pause"
-        )
-        writing = write_started is not None and (
-            paused is None or paused.event.index < write_started.event.index
-        )
-        proposal = find_last(
-            lambda turn: turn.action.valid
-            and turn.action.tool_name == "ui"
-            and turn.action.arguments.get("operation") == "underline"
-        )
-        revise_done = find_last(
-            lambda turn: turn.action.valid
-            and turn.action.tool_name == "writer"
-            and turn.action.arguments.get("operation") == "revise"
-        )
-        proposal_active = (
-            proposal is not None
-            and (paused is None or proposal.event.index > paused.event.index)
-            and (revise_done is None or revise_done.event.index < proposal.event.index)
-        )
-
-        # Writer tool results: resume after a successful revision.
-        if current.source is EventSource.TOOL and current.tool_name == "writer":
-            content = current.content or ""
-            if '"replacement"' in content and '"error"' not in content and not writing:
-                return action_line('tool(writer,{"operation":"resume"})')
-            return action_line("idle()")
-
-        if current.source is not EventSource.USER:
-            return action_line("idle()")
-
-        text = " ".join(current.content.split())
-        lowered = text.casefold()
-
-        # Reflex: stop while writing.
-        if writing and self._STOP.search(text):
-            return action_line('tool(writer,{"operation":"pause"})')
-
-        # Start writing on a fresh request.
-        if not writing and write_started is None and self._WRITE_REQUEST.search(text) and len(text) > 12:
-            if text.endswith(("?", "…")) or current.state is not UserState.IDLE:
-                return action_line("idle()")
-            return action_line(
-                f'tool(writer,{{"operation":"write","instruction":{json.dumps(text)}}})'
-            )
-
-        # Confirmation: user says yes and gives an instruction → revise (once).
-        if proposal_active and not writing and self._CONFIRM.search(text):
-            instruction = self._CONFIRM.sub("", text, count=1).strip(" ,.—-") or "revise it"
-            return action_line(
-                f'tool(writer,{{"operation":"revise","instruction":{json.dumps(instruction)}}})'
-            )
-
-        # Reference resolution after a pause.
-        if not writing and write_started is not None and "sentence" in lowered and writer_sentences:
-            target_event: StreamEvent | None = None
-            if proposal_active and self._RELATIVE_BEFORE.search(text):
-                proposed_quote = proposal.action.arguments["target"]["quote"]
-                indices = [
-                    position
-                    for position, sentence in enumerate(writer_sentences)
-                    if sentence.content == proposed_quote
-                ]
-                if indices and indices[0] > 0:
-                    target_event = writer_sentences[indices[0] - 1]
-            elif "last" in lowered:
-                target_event = writer_sentences[-1]
-            else:
-                for word, ordinal in self._ORDINALS.items():
-                    if word in lowered and ordinal <= len(writer_sentences):
-                        target_event = writer_sentences[ordinal - 1]
-                        break
-            if target_event is not None:
-                quote = target_event.content
-                already = (
-                    proposal_active
-                    and proposal.action.arguments["target"]["quote"] == quote
-                )
-                if not already:
-                    target = {"occurrence": 1, "quote": quote}
-                    return action_line(
-                        f'tool(ui,{json.dumps({"operation": "underline", "target": target}, ensure_ascii=False)})'
-                    )
-
-        # Confirmation question one tick after proposing.
-        if proposal_active:
-            asked = any(
-                turn.action.kind is ActionKind.RESPOND and turn.action.valid
-                and turn.event.index > proposal.event.index
-                for turn in turns
-            )
-            if not asked and current.state is UserState.IDLE:
-                objection = find_last(
-                    lambda turn: turn.event.source is EventSource.USER
-                    and turn.event.index <= proposal.event.index
-                )
-                if objection is not None:
-                    message = "This sentence — is this the part you mean?"
-                    payload = json.dumps({"for": objection.event.index, "message": message})
-                    return action_line(f"respond({payload})")
-
-        return action_line("idle()")
 
 
 class ScriptedV6Policy:

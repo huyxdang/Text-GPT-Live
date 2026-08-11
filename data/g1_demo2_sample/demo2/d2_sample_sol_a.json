@@ -1,0 +1,213 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "fixture-sol",
+    "slot": "d2-sample-sol-a",
+    "tranche": 0
+  },
+  "records": [
+    {
+      "id": "d2-sample-sol-a-001",
+      "mode": "corrections",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Fix any grammar slips you catch while I am typing.",
+        "ack": "Got it, I will flag slips as you go.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Last night I tried make ramen from scratch and the noodles was still hard.",
+          "errors": [
+            {"wrong": "tried make", "right": "tried making", "subtype": "word-form", "occurrence": 1},
+            {"wrong": "noodles was", "right": "noodles were", "subtype": "agreement", "occurrence": 1}
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The broth simmered under a heavy lid until well past midnight, and the whole flat smelled of ginger by the time I gave up on it.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "repair",
+          "text": "I strained the noodles twice before serving them.",
+          "repair": {"wrong": "noodels", "right": "noodles", "subtype": "letter-swap", "occurrence": 1},
+          "pause_after": "medium"
+        },
+        {
+          "kind": "aside",
+          "text": "I always type resturant wrong, so keep an eye out for it.",
+          "mentions": ["resturant"],
+          "pause_after": "long"
+        },
+        {
+          "kind": "passage",
+          "text": "The recipe card said to fold the dough gentle before resting it.",
+          "errors": [
+            {"wrong": "dough gentle", "right": "dough gently", "subtype": "word-form", "occurrence": 1}
+          ],
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-a-002",
+      "mode": "corrections",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional",
+      "instruction": {
+        "text": "While I draft this, quietly correct any typos I leave behind.",
+        "ack": "Understood. Typos get flagged as they appear.",
+        "mentions_error": true
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The quarterly planning session ran twenty minutes over its slot.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Everyone agreed the roadmap needed fewer parallel tracks this time.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Marcus asked whether the budget have room for one more contractor.",
+          "errors": [
+            {"wrong": "budget have", "right": "budget has", "subtype": "agreement", "occurrence": 1}
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "We discused the hiring plan for almost an hour without deciding.",
+          "errors": [
+            {"wrong": "discused", "right": "discussed", "subtype": "missing-letter", "occurrence": 1}
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "repair",
+          "text": "The finance team promised numbers by Thursday morning.",
+          "repair": {"wrong": "promissed", "right": "promised", "subtype": "doubled-letter", "occurrence": 1},
+          "pause_after": "short"
+        },
+        {
+          "kind": "aside",
+          "text": "My spellcheck keeps suggesting recieve, which drives me mad.",
+          "mentions": ["recieve"],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "I will sent the summary round on Friday afternoon at the latest.",
+          "errors": [
+            {"wrong": "will sent", "right": "will send", "subtype": "tense", "occurrence": 1}
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-a-003",
+      "mode": "corrections",
+      "persona": "group-chat-drafter",
+      "domain": "travel",
+      "register": "chatty",
+      "instruction": {
+        "text": "Keep an eye on my grammar while I type this out, please.",
+        "ack": "Sure. Anything that reads wrong, I will say so.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "We landed in Lisbon just after the rain finally stopped.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The hostel sat three narrow streets from the tram stop.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Our first morning went entirely on finding decent coffee.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "By the second day we was walking everywhere without a map.",
+          "errors": [
+            {"wrong": "we was walking", "right": "we were walking", "subtype": "agreement", "occurrence": 1}
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-a-004",
+      "mode": "highlights",
+      "category": "animal",
+      "category_words": ["heron", "otter", "badger"],
+      "persona": "letter-writer",
+      "domain": "family",
+      "register": "warm-familiar",
+      "instruction": {
+        "text": "Please mark every creature I name in this note.",
+        "ack": "Happy to. Each creature gets marked as it turns up."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The heron was back on the far bank again this morning, standing in exactly the same patch of shallow water it claimed last spring.",
+          "marks": [{"word": "heron", "literal": true}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Grandad swears an otter took the last of his fish, though he has been blaming something different every summer for a decade now.",
+          "marks": [{"word": "otter", "literal": true}],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The river path is muddy from one end to the other, but the light through the alders makes the whole walk worth the ruined boots.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Our old neighbour Badger never did explain that nickname, and by the time anyone thought to ask him properly he had moved away.",
+          "marks": [{"word": "Badger", "literal": false}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Aunt Nessa still sends a card every February without fail.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "I keep forgetting which ones you already marked for me, so tell me if I start repeating myself halfway down the page.",
+          "mentions": ["marked"],
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,4 @@
 -r requirements.txt
-torch>=2.7,<3
+pytest>=8.3,<9
 transformers>=4.51,<6
 jinja2>=3.1,<4
-mlx==0.32.0
-mlx-lm==0.31.3

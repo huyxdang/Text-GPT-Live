@@ -1,118 +1,109 @@
 # Current architecture
 
-**Status:** implemented V4 probe, V5 editor, and V6 demo surface; g1 not implemented
-**Source of truth:** `app/`, `static/`, and `data/tinker/run_state.json`
+**Status:** g1 runtime, local MLX serving, asynchronous delegation/search, and the static browser UI are implemented.
 
-Smol Interactions is a single-process FastAPI application with a static browser UI. The browser
-sends a full textbox snapshot every 650 ms while an app surface is open, foregrounded, running,
-and unpaused. This includes initial, cleared, and unchanged empty text: silence is an event, not
-a reason to stop the clock. Pausing stops ticks; emptiness does not. The runtime serializes
-events per session, calls one policy, validates its decision, and runs permitted tools.
+Text GPT-Live is a single-process FastAPI application with a static browser UI.
+While the foreground demo is running, the browser sends the full current
+textbox every 650 ms. It sends initial, cleared, and unchanged empty snapshots
+too: silence is an event, not a reason to stop the clock.
 
-The browser intentionally owns scheduling for the current prototype. It allows only one request
-in flight, so slow decisions do not overlap or build a stale queue. A decision that runs longer
-than 650 ms causes a missed interval and is a latency failure; skipping that interval is
-backpressure, not successful on-time behavior. A server-owned session clock is deferred.
+The browser owns scheduling in the current prototype and permits only one tick
+request in flight. A slow decision therefore skips an interval instead of
+building a stale queue. This is backpressure, not successful 650 ms inference.
 
 ## Runtime flow
 
 ```text
-Browser textarea + standing instruction
+Browser textarea
   -> POST /api/sessions/{id}/tick
-  -> InteractionRuntime
-  -> compile context + stream + policy decision
-  -> validate permissions and action schema
-  -> append event/action trace
-  -> optional async web_search or immediate ui.highlight
-  -> tool result re-enters the chronological stream
+  -> InteractionRuntime serializes the event
+  -> compile_stream renders the complete chronological history
+  -> policy emits exactly one g1 action
+  -> runtime parses and validates the action
+  -> immediate UI/response effect or asynchronous job
+  -> accepted/completed tool events re-enter the same stream
 ```
 
-`app/runtime.py` owns sessions, locks, trace persistence, permission enforcement, highlight
-reconciliation, reset, and asynchronous search reinjection. `app/stream.py` renders prompts and
-strictly parses model output. Invalid output becomes an inspectable invalid idle decision rather
-than executing an unsafe or malformed action.
+`app/runtime.py` owns sessions, per-session locks, traces, action validation,
+reset, and asynchronous-result reinjection. `app/stream.py` is shared by data
+generation, evaluation, and serving; it renders prompts and parses the closed
+action grammar. Invalid output is recorded as an invalid idle decision and is
+never executed.
 
-## Context and action grammar
+## Stream contract
 
-Each prompt begins with server-owned standing context:
+Each user event contains the entire textbox, not a token delta:
 
 ```xml
-<interaction_context>
-<instruction>Highlight every animal I mention.</instruction>
-<permissions>{"ui":["highlight"],"web_search":["search"]}</permissions>
-</interaction_context>
+<stream_event index="12" source="user" state="active" time="t+7800ms">full current textbox</stream_event>
 ```
 
-The model must emit exactly one canonical v4 action:
+Tool events use the same chronological history and carry a stable `job_id`:
+
+```xml
+<stream_event index="13" source="tool" tool="web_search" job_id="job-12" time="t+8450ms">{"status":"accepted"}</stream_event>
+```
+
+Every prediction is one canonical action line:
 
 ```xml
 <action>idle()</action>
-<action>tool(web_search,{"query":"actual query"})</action>
-<action>tool(ui,{"operation":"highlight","target":{"occurrence":1,"quote":"exact text"}})</action>
-<action>respond({"for":17,"message":"grounded answer"})</action>
+<action>respond({"for":12,"message":"..."})</action>
+<action>suggest_edit({"quote":"...","replacement":"..."})</action>
+<action>highlight({"occurrence":1,"quote":"..."})</action>
+<action>delegate({"task":"..."})</action>
+<action>web_search({"query":"..."})</action>
+<action>translate_commit({"for":12,"message":"..."})</action>
 ```
 
-The runtime rejects unknown tools, missing permissions, invalid highlight targets, duplicate
-highlights/searches, active-user responses, nonexistent response targets, and repeated responses.
-Highlight anchors use an exact quote plus a one-based occurrence, avoiding fragile character
-offsets as text changes.
+The runtime checks syntax, grounded targets, duplicate actions, valid event
+references, and asynchronous job identity. It does not decide whether the user
+has finished, whether silence is appropriate, or which valid action to choose.
+Those decisions remain in the model.
 
-Search results return as generic events:
+## Policies
 
-```xml
-<stream_event index="17" source="tool" tool="web_search" call_id="call-12">{...}</stream_event>
-```
+The released path is `LocalMLXPolicy`, which loads the merged 8-bit
+`huyxdang/text-gpt-live` checkpoint. It uses the same g1 system prompt and Qwen
+chat template used during training, disables thinking, decodes greedily, and
+stops after the first complete action envelope.
 
-## Editor sessions (v5)
+Local serving maintains a persistent cache per session. The stable prefix is
+extended only through the latest durable stream event; the prediction marker
+and generated action are temporary. Cache access is serialized because MLX
+generation mutates cache containers, and the process keeps a bounded LRU of
+session caches.
 
-`/editor` sessions add a runtime-owned `Document` (revision counter, full-snapshot undo, one
-live underline proposal) and a background `WriterProvider` (Anthropic streaming or offline
-demo). New grammar, all inside the existing envelope:
+`TinkerPolicy` is retained for training-time evaluation and serving a sampler
+path owned by the operator. `scripted-v6` is a deterministic UI-development
+driver, not a model substitute.
 
-```xml
-<action>tool(writer,{"operation":"write","instruction":"..."})</action>
-<action>tool(writer,{"operation":"pause"})</action>
-<action>tool(writer,{"operation":"resume"})</action>
-<action>tool(writer,{"operation":"revise","instruction":"..."})</action>
-<action>tool(ui,{"operation":"underline","target":{"occurrence":1,"quote":"..."}})</action>
-```
+## Asynchronous work
 
-Writer sentences enter the stream as `source="writer"` events; revision results re-enter as
-`tool="writer"` events. `respond` may additionally target a user event to ask a confirmation
-question. Underlines are reversible proposals over the document, never mutations; `revise`
-applies only to the confirmed proposal and rejects stale document revisions. The
-`ScriptedEditorPolicy` (POLICY_MODE=scripted) drives the full loop deterministically for
-development; the trained policy serves under `SYSTEM_PROMPT_V5` (POLICY_PROMPT=v5).
+`delegate` and `web_search` return an accepted event immediately. Their jobs
+run in the background and later inject a completed or failed event with the
+same `job_id`. Multiple jobs can remain outstanding while ordinary user ticks
+continue. The model sees those lifecycle events and decides when and how to
+weave results back into the conversation.
 
-## V6 demo sessions
-
-The implemented V6 surface is selected with `POLICY_PROMPT=v6` and browser query
-`?mode=v6`. It adds flat intent-named `generate_ui` and `suggest_edit` tools, job identity for
-asynchronous work, and direct responses to user events while retaining the V4 action envelope.
-`POLICY_MODE=scripted-v6` drives the same runtime surface deterministically for development.
-
-V6 is the latest implemented lineage, but it is not g1. The planned g1 surface changes the
-action grammar, removes the old interaction header, renames `generate_ui` to `delegate`, adds
-`highlight`, and retires `web_search` from its training slate. Those changes remain
-prerequisites in the g1 data specification.
-
-## Model and prompt parity
-
-The hosted production path is `TinkerPolicy`. `POLICY_PROMPT` selects the implemented V4, V5,
-or V6 system prompt and the matching sampler namespace in `run_state.json`; V4 is the default.
-The base tokenizer is `Qwen/Qwen3-8B`. Each implemented training stage and serving mode share
-their system prompt, the Qwen chat template with thinking disabled, the flat compiled stream,
-and a 192-token output budget.
-
-Tinker connects lazily so the UI can load while the provider is unavailable. A missing key,
-checkpoint, connection, or decision stops streaming and shows **No model available**.
+The default search provider uses DDGS. UI generation uses a configured OpenAI
+provider when credentials are available and a deterministic demo provider
+otherwise.
 
 ## UI behavior
 
-The demo view contains the writing surface and current assistant action. Details contains the
-standing instruction, start/pause/clear/record controls, active checkpoint, readable history,
-exact model input, and copy control.
+The main view presents the human and model as two sides of one live
+interaction. Responses stream visually; tool actions appear immediately;
+delegated work and search results move into a separate work area so background
+activity does not read as conversation. A details view exposes the exact event
+history and model input for inspection.
 
-Highlights render through a synchronized, non-interactive backdrop behind the textarea; the
-textarea remains the real editing surface. Recording is browser-local. Version-2 recordings
-capture text, highlight state, and visible assistant state, then replay without a blinking caret.
+Reset clears runtime session state and the corresponding model cache. Recording
+and replay are browser-local.
+
+## Known boundary
+
+This is browser-driven continuous interaction, not a server-owned always-on
+session. Background tabs may throttle timers, closing the page ends the loop,
+and the released checkpoint currently runs slower than the 650 ms target on the
+measured local path.

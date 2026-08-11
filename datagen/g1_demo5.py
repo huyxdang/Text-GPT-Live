@@ -908,7 +908,7 @@ class Demo5Targets:
     """Source and selected-card counts for a Demo 5 build.
 
     Defaults reach a 970-card slice from 130 schedules cross-produced out of
-    36 authored phrasings (per ``synthetic_data_spec.md``'s 3x-cut Demo 5
+    36 authored phrasings (per ``docs/data.md``'s 3x-cut Demo 5
     numbers).  Every number is a parameter; the build CLI exposes each as a
     flag.
     """

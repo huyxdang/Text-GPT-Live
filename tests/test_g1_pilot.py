@@ -79,7 +79,7 @@ class G1PilotTests(unittest.TestCase):
         )
 
     def test_runtime_and_spec_system_prompts_match_exactly(self) -> None:
-        spec = (Path(__file__).resolve().parent.parent / "synthetic_data_spec.md").read_text(
+        spec = (Path(__file__).resolve().parent.parent / "docs" / "data.md").read_text(
             encoding="utf-8"
         )
         heading = spec.index("## The system prompt")

@@ -1,0 +1,36 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-sol-c", "tranche": 0},
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "hand-written-fixture",
+    "reviewed_at": "2026-08-01",
+    "note": "Fixture references are illustrative; machine review only."
+  },
+  "records": [
+    {
+      "id": "demo3-sample-13",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive",
+      "instruction": {
+        "text": "As I type, give me the Chinese version.",
+        "gold_ack": "收到，我会同步给出中文。",
+        "pause_after": "none"
+      },
+      "script": [
+        {"kind": "type", "text": "The tomato seedlings finally sprouted,‖", "pause_after": "medium"},
+        {"kind": "type", "text": " and the basil is still slow.‖", "pause_after": "short"},
+        {"kind": "type", "text": " My neighbour said 加油 when she saw the tray.", "trap": "prequoted_chinese", "pause_after": "long"},
+        {"kind": "type", "text": " I will water them again tomorrow.‖", "pause_after": "short"}
+      ],
+      "clauses": [
+        {"english": "The tomato seedlings finally sprouted,", "reference": "番茄幼苗终于发芽了，"},
+        {"english": "and the basil is still slow.", "reference": "而罗勒还是长得很慢。"},
+        {"english": "I will water them again tomorrow.", "reference": "我明天会再给它们浇水。"}
+      ]
+    }
+  ]
+}

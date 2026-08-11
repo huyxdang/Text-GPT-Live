@@ -32,15 +32,15 @@ sys.path.insert(0, str(ROOT))
 
 BASE_MODEL = "Qwen/Qwen3-8B"
 # Which local checkpoint this process serves/builds; rounds slot in via env.
-LOCAL_NAME = os.environ.get("SMOL_LOCAL_NAME", "smol-v6-e2")
+LOCAL_NAME = os.environ.get("LOCAL_BUILD_NAME", "text-gpt-live")
 ADAPTER_DIR = ROOT / "models" / LOCAL_NAME
 MERGED_DIR = ROOT / "models" / f"{LOCAL_NAME}-merged"
-MLX_BITS = int(os.environ.get("SMOL_LOCAL_BITS", "4"))
+MLX_BITS = int(os.environ.get("LOCAL_QUANT_BITS", "4"))
 MLX_DIR = ROOT / "models" / f"{LOCAL_NAME}-mlx-{MLX_BITS}bit"
 MAX_TOKENS = 192
 G1_MAX_TOKENS = 192
 G1_PREDICTION_MARKER = "<PREDICT_THIS_ACTION>"
-G1_QUANTIZED_DIR = ROOT / "models" / "smol-g1-v2-delivery-repair-fixed-mlx-8bit"
+G1_QUANTIZED_DIR = ROOT / "models" / "text-gpt-live-mlx-8bit"
 DEFAULT_G1_SESSION_CACHE_LIMIT = 8
 
 
@@ -213,8 +213,8 @@ class LocalMLXPolicy:
         self.action_schema = "g1" if self.system_prompt == SYSTEM_PROMPT_G1 else "legacy"
         import os as _os
 
-        adapter = adapter_path or _os.environ.get("SMOL_LOCAL_ADAPTER") or None
-        configured_model = _os.environ.get("SMOL_LOCAL_MODEL")
+        adapter = adapter_path or _os.environ.get("LOCAL_ADAPTER_PATH") or None
+        configured_model = _os.environ.get("LOCAL_MODEL_PATH")
         default_model = G1_QUANTIZED_DIR if self.action_schema == "g1" else MLX_DIR
         selected_model = model_path or configured_model or str(default_model)
         self.model, self.tokenizer = load(
@@ -225,22 +225,22 @@ class LocalMLXPolicy:
         if adapter:
             self.display_name += f" + {Path(adapter).name}"
         self._inference_lock = threading.Lock()
-        self._executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="smol-local-mlx")
+        self._executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="text-gpt-live-mlx")
         self._closed = False
         self._stream_caches: OrderedDict[str, _G1StreamState] = OrderedDict()
         self._session_cache_limit = int(
-            _os.environ.get("SMOL_LOCAL_SESSION_CACHE_LIMIT", DEFAULT_G1_SESSION_CACHE_LIMIT)
+            _os.environ.get("LOCAL_SESSION_CACHE_LIMIT", DEFAULT_G1_SESSION_CACHE_LIMIT)
         )
         if self._session_cache_limit < 1:
-            raise ValueError("SMOL_LOCAL_SESSION_CACHE_LIMIT must be at least 1.")
+            raise ValueError("LOCAL_SESSION_CACHE_LIMIT must be at least 1.")
         self._static_cache: Any | None = None
         self._static_tokens: list[int] = []
-        configured_kv_bits = _os.environ.get("SMOL_LOCAL_KV_BITS")
+        configured_kv_bits = _os.environ.get("LOCAL_KV_BITS")
         self.kv_bits = kv_bits if kv_bits is not None else (
             int(configured_kv_bits) if configured_kv_bits else None
         )
         if self.kv_bits not in {None, 4, 8}:
-            raise ValueError("SMOL_LOCAL_KV_BITS must be unset, 4, or 8.")
+            raise ValueError("LOCAL_KV_BITS must be unset, 4, or 8.")
         self.last_metrics: dict[str, Any] = {}
         if self.action_schema == "g1":
             self._static_tokens = g1_static_prefix(self.tokenizer, self.system_prompt)

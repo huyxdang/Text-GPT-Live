@@ -10,21 +10,20 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+from dotenv import load_dotenv
 
 from app.domain import EventSource, UserState
 from app.policy import (
     SYSTEM_PROMPT_G1,
-    SYSTEM_PROMPT_V5,
     SYSTEM_PROMPT_V6,
-    ScriptedEditorPolicy,
     ScriptedV6Policy,
     TinkerPolicy,
 )
 from app.runtime import InteractionRuntime, JsonlTraceWriter
 from app.search import DDGSSearchProvider, DemoSearchProvider
 from app.stream import STREAM_FORMATS
+from app.tls import maybe_use_system_certs
 from app.uigen import DemoUIGenProvider, OpenAIUIGenProvider
-from app.writer import AnthropicWriterProvider, DemoWriterProvider, OpenAIWriterProvider
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,21 +31,8 @@ STATIC_DIR = ROOT / "static"
 TICK_MS = 650
 
 
-def _load_dotenv() -> None:
-    """Best-effort .env loader (no overwrite) so provider keys reach the app
-    even when the launching shell cannot source the file."""
-    env_path = ROOT / ".env"
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#") or "=" not in stripped:
-            continue
-        key, _, value = stripped.partition("=")
-        os.environ.setdefault(key.strip(), value.strip().strip("'\""))
-
-
-_load_dotenv()
+load_dotenv(ROOT / ".env", override=False)
+maybe_use_system_certs()
 
 
 def build_runtime() -> InteractionRuntime:
@@ -56,15 +42,12 @@ def build_runtime() -> InteractionRuntime:
         "v6" if policy_mode == "local" else "v4",
     ).lower()
     uses_g1_contract = False
-    if policy_mode == "scripted":
-        # Deterministic T1-loop driver for runtime/UI development without a model.
-        policy = ScriptedEditorPolicy()
-    elif policy_mode == "scripted-v6":
+    if policy_mode == "scripted-v6":
         # Deterministic v6 demo-loop driver: concurrency + highlight, no model.
         policy = ScriptedV6Policy()
     elif policy_mode == "tinker":
-        if prompt_version not in ("v4", "v5", "v6", "g1"):
-            raise ValueError("POLICY_PROMPT must be 'v4', 'v5', 'v6', or 'g1'.")
+        if prompt_version not in ("v4", "v6", "g1"):
+            raise ValueError("POLICY_PROMPT must be 'v4', 'v6', or 'g1'.")
         uses_g1_contract = prompt_version == "g1"
         model_path = os.getenv("TINKER_MODEL_PATH", "")
         if not model_path:
@@ -77,7 +60,6 @@ def build_runtime() -> InteractionRuntime:
                     else ""
                 ) or state.get(f"{prompt_version}:sampler_path", "")
         prompt_overrides = {
-            "v5": SYSTEM_PROMPT_V5,
             "v6": SYSTEM_PROMPT_V6,
             "g1": SYSTEM_PROMPT_G1,
         }
@@ -100,24 +82,7 @@ def build_runtime() -> InteractionRuntime:
             system_prompt=SYSTEM_PROMPT_G1 if uses_g1_contract else SYSTEM_PROMPT_V6
         )
     else:
-        raise ValueError("POLICY_MODE must be 'tinker', 'scripted', 'scripted-v6', or 'local'.")
-
-    writer_mode = os.getenv("WRITER_MODE", "").lower()
-    if not writer_mode:
-        if os.getenv("ANTHROPIC_API_KEY"):
-            writer_mode = "anthropic"
-        elif os.getenv("OPENAI_API_KEY"):
-            writer_mode = "openai"
-        else:
-            writer_mode = "demo"
-    if writer_mode == "anthropic":
-        writer_provider = AnthropicWriterProvider()
-    elif writer_mode == "openai":
-        writer_provider = OpenAIWriterProvider()
-    elif writer_mode == "demo":
-        writer_provider = DemoWriterProvider()
-    else:
-        raise ValueError("WRITER_MODE must be 'anthropic', 'openai', or 'demo'.")
+        raise ValueError("POLICY_MODE must be 'tinker', 'scripted-v6', or 'local'.")
 
     search_mode = os.getenv("SEARCH_MODE", "ddgs").lower()
     if search_mode == "ddgs":
@@ -159,7 +124,6 @@ def build_runtime() -> InteractionRuntime:
         search_provider=search_provider,
         trace_writer=JsonlTraceWriter(trace_path),
         stream_format=stream_format,
-        writer_provider=writer_provider,
         uigen_provider=uigen_provider,
     )
 
@@ -186,17 +150,12 @@ class TickRequest(BaseModel):
 
 class SessionCreateRequest(BaseModel):
     instruction: str = Field(default="", max_length=2_000)
-    mode: Literal["probe", "editor", "v6", "g1"] = "probe"
+    mode: Literal["probe", "v6", "g1"] = "probe"
 
 
 @app.get("/", include_in_schema=False)
 async def index() -> FileResponse:
     return FileResponse(STATIC_DIR / "index.html")
-
-
-@app.get("/editor", include_in_schema=False)
-async def editor() -> FileResponse:
-    return FileResponse(STATIC_DIR / "editor.html")
 
 
 @app.get("/health")
@@ -286,17 +245,6 @@ async def tick(session_id: str, request: TickRequest) -> dict[str, object]:
         "turn": turn.to_dict(),
         "session": session.to_dict(pending_searches=runtime.pending_count(session_id)),
     }
-
-
-@app.post("/api/sessions/{session_id}/undo")
-async def undo_document(session_id: str) -> dict[str, object]:
-    try:
-        session = await runtime.undo_document(session_id)
-    except KeyError as exc:
-        raise HTTPException(status_code=404, detail=str(exc)) from exc
-    except ValueError as exc:
-        raise HTTPException(status_code=400, detail=str(exc)) from exc
-    return session.to_dict(pending_searches=runtime.pending_count(session_id))
 
 
 @app.post("/api/sessions/{session_id}/reset")

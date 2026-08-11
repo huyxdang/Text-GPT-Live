@@ -1,0 +1,56 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-sol-b", "tranche": 0},
+  "bank": [
+    {
+      "id": "demo5-sample-req-every-02",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Every {interval} seconds, nudge me to stand up and stretch, please!",
+      "gold_ack_template": "Sure — I'll nudge you to stretch every {interval} seconds!",
+      "fire_message": "Stand up and stretch!",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo5-sample-cancel-02",
+      "kind": "cancellation",
+      "text": "That's enough stretch reminders for now, you can stop.",
+      "gold_ack": "Understood — stretch reminders are off.",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo5-sample-filler-02",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Back to the report, I need to check last quarter numbers again before sending it to the whole team this afternoon.",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo5-sample-filler-03",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Also need to loop in Priya about the budget line before Thursday's review meeting starts.",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo5-sample-address-01",
+      "kind": "filler",
+      "trap": "address",
+      "text": "hey, are you still keeping time on this for me?",
+      "gold_reply": "Still here, and still keeping time!",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    }
+  ]
+}

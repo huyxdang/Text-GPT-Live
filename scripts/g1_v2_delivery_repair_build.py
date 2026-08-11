@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections import Counter
+from pathlib import Path
 from typing import Any
 
 from app.domain import Action, ActionKind, CompletedTurn, EventSource
@@ -22,8 +23,7 @@ from scripts.g1_v2_build import (
 
 OUTPUT = ROOT / "data" / "g1_v2" / "delivery_repair"
 MANIFEST = ROOT / "artifacts" / "g1-v2" / "delivery-repair-manifest.json"
-SOURCE_STATE = "tinker://aa801172-2f8b-5f9e-86a0-b9e346430c8a:train:0/weights/smol-g1-v2-epoch1"
-SOURCE_SAMPLER = "tinker://aa801172-2f8b-5f9e-86a0-b9e346430c8a:train:0/sampler_weights/smol-g1-v2-epoch1"
+STATE_PATH = ROOT / "data" / "tinker" / "run_state.json"
 FOREGROUND = (
     ("what does reusable mean here?", "It means the rocket can fly again after landing instead of being discarded."),
     ("can I keep talking while it builds?", "Yes. The delegated job keeps running while we continue this conversation."),
@@ -161,10 +161,45 @@ def _replay_rows() -> list[dict[str, Any]]:
     return selected
 
 
+def _source_paths(
+    state_path: Path,
+    source_state: str | None,
+    source_sampler: str | None,
+) -> tuple[str, str]:
+    """Resolve the stage-2 checkpoint without embedding one user's Tinker path."""
+
+    if source_state and source_sampler:
+        return source_state, source_sampler
+    if source_state or source_sampler:
+        raise SystemExit("Pass --source-state and --source-sampler together.")
+    if not state_path.exists():
+        raise SystemExit(
+            "No promoted stage-2 run state found. Run scripts.g1_v2_train and "
+            "pass its promotion gates, or pass --source-state and --source-sampler."
+        )
+    state = json.loads(state_path.read_text(encoding="utf-8"))
+    resolved_state = state.get("g1-v2:selected_state")
+    resolved_sampler = state.get("g1-v2:selected_sampler_path")
+    if not resolved_state or not resolved_sampler:
+        raise SystemExit(
+            "run_state.json does not contain a promoted stage-2 checkpoint. "
+            "Run scripts.g1_v2_train and pass its promotion gates first."
+        )
+    return str(resolved_state), str(resolved_sampler)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--index-mode", choices=("fixed", "varied"), default="fixed")
+    parser.add_argument("--state-path", type=Path, default=STATE_PATH)
+    parser.add_argument("--source-state")
+    parser.add_argument("--source-sampler")
     args = parser.parse_args()
+    source_state, source_sampler = _source_paths(
+        args.state_path,
+        args.source_state,
+        args.source_sampler,
+    )
     varied = args.index_mode == "varied"
     train_focus = [
         row for number in range(96) for row in _episode(number, "train", varied_indices=varied)
@@ -188,8 +223,8 @@ def main() -> None:
     dev_sha = _write_jsonl(dev_path, dev)
     manifest = {
         "schema_version": "g1-v2-delivery-repair-1",
-        "source_state": SOURCE_STATE,
-        "source_sampler": SOURCE_SAMPLER,
+        "source_state": source_state,
+        "source_sampler": source_sampler,
         "index_mode": args.index_mode,
         "train": {
             "path": str(train_path.relative_to(ROOT)),

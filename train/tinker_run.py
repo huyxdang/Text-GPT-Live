@@ -30,6 +30,11 @@ from pathlib import Path
 from random import Random
 from typing import Any, Mapping
 
+from dotenv import load_dotenv
+
+ROOT = Path(__file__).resolve().parent.parent
+load_dotenv(ROOT / ".env", override=False)
+
 from app.tls import maybe_use_system_certs
 
 maybe_use_system_certs()
@@ -43,7 +48,6 @@ from train.g1_evaluation import evaluate_g1_predictions
 # own system prompt so serving matches training; earlier stages keep v4 exactly.
 ACTIVE_SYSTEM_PROMPT = SYSTEM_PROMPT_V4
 
-ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "tinker"
 STATE_PATH = OUT_DIR / "run_state.json"
 BASE_MODEL = "Qwen/Qwen3-8B"
@@ -131,20 +135,6 @@ CLASS_WEIGHTS = {
 
 
 def load_env_key() -> None:
-    if os.environ.get("TINKER_API_KEY"):
-        return
-    env_path = ROOT / ".env"
-    matches: list[str] = []
-    if env_path.exists():
-        for line in env_path.read_text(encoding="utf-8").splitlines():
-            stripped = line.strip()
-            if stripped.startswith(("TINKER_API_KEY=", "TINER_API_KEY=")):
-                matches.append(stripped.split("=", 1)[1].strip().strip("'\""))
-    if matches:
-        # dotenv semantics: the last declaration is authoritative.
-        os.environ["TINKER_API_KEY"] = matches[-1]
-        if len(matches) > 1:
-            print(f"[env] warning: found {len(matches)} Tinker key declarations; using the last one.")
     if not os.environ.get("TINKER_API_KEY"):
         raise SystemExit("No TINKER_API_KEY found in environment or .env")
 

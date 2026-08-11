@@ -1,0 +1,60 @@
+{
+  "schema_version": "g1-authored-demo4-1",
+  "demo": "demo-4",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-sol-a", "tranche": 0},
+  "requests": [
+    {
+      "id": "demo4-sample-req-01",
+      "text": "Can you build a little dashboard about lighthouses?",
+      "task": "generate a UI to visualize lighthouse statistics",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-sample-req-02",
+      "text": "Could you put together a chart of our weekly sales?",
+      "task": "generate a UI to visualize weekly sales figures",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo4-sample-req-03",
+      "text": "Make me a little panel showing our trip itinerary.",
+      "task": "generate a UI to visualize the trip itinerary",
+      "persona": "group-chat-drafter",
+      "domain": "travel",
+      "register": "warm-chatty"
+    }
+  ],
+  "progress_pairs": [
+    {
+      "id": "demo4-sample-check-01",
+      "kind": "check",
+      "question": "how's it coming?",
+      "reply": "Still working on it — should be up in a moment.",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo4-sample-check-02",
+      "kind": "check",
+      "question": "is it done yet?",
+      "reply": "Not yet — almost there, hang tight.",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional"
+    },
+    {
+      "id": "demo4-sample-nudge-01",
+      "kind": "nudge",
+      "question": "did you get it?",
+      "persona": "group-chat-drafter",
+      "domain": "travel",
+      "register": "warm-chatty"
+    }
+  ]
+}

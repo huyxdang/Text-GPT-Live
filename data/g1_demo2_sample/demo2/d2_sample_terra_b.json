@@ -1,0 +1,194 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "fixture-terra",
+    "slot": "d2-sample-terra-b",
+    "tranche": 0
+  },
+  "records": [
+    {
+      "id": "d2-sample-terra-b-001",
+      "mode": "corrections",
+      "persona": "student-notetaker",
+      "domain": "school",
+      "register": "earnest-plain",
+      "instruction": {
+        "text": "If a sentence comes out wrong, tidy it up for me.",
+        "ack": "Right, I will tidy anything that slips.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The seminar covered three readings and one very long argument that nobody in the room seemed willing to end.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Professor Aldridge explained that the essay depend on one source.",
+          "errors": [
+            {"wrong": "essay depend", "right": "essay depends", "subtype": "agreement", "occurrence": 1}
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "repair",
+          "text": "I borrowed the library copy for the whole weekend anyway.",
+          "repair": {"wrong": "libary", "right": "library", "subtype": "missing-letter", "occurrence": 1},
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "My notes from Tuesday are missing a entire page of quotations.",
+          "errors": [
+            {"wrong": "a entire page", "right": "an entire page", "subtype": "article", "occurrence": 1}
+          ],
+          "pause_after": "long"
+        },
+        {
+          "kind": "passage",
+          "text": "I plan to rewrite the middle section before Thursday evening.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-terra-b-002",
+      "mode": "corrections",
+      "persona": "recipe-blogger",
+      "domain": "gardening",
+      "register": "wry-observational",
+      "instruction": {
+        "text": "Correct my slips as they happen, do not wait for the end.",
+        "ack": "Noted, I will jump in the moment something slips.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The tomato bed has finally stopped sulking after the frost.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "I planted the seedlings at March, which was far too early.",
+          "errors": [
+            {"wrong": "planted the seedlings at March", "right": "planted the seedlings in March", "subtype": "preposition", "occurrence": 1}
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "aside",
+          "text": "Every year I spell courgette as corgette in my own notes.",
+          "mentions": ["corgette"],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "Two of the rows survived and the other two rows was lost entirely.",
+          "errors": [
+            {"wrong": "rows was", "right": "rows were", "subtype": "agreement", "occurrence": 1}
+          ],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-terra-b-003",
+      "mode": "highlights",
+      "category": "colour",
+      "category_words": ["scarlet", "indigo", "amber"],
+      "persona": "diary-writer",
+      "domain": "hobby",
+      "register": "reflective-detailed",
+      "instruction": {
+        "text": "Mark any shade I name while I write this entry.",
+        "ack": "Understood, every shade you name gets marked."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The wool I bought yesterday is closer to scarlet than red.",
+          "marks": [{"word": "scarlet", "literal": true}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "My old tutor Amber taught the class for eleven years.",
+          "marks": [{"word": "Amber", "literal": false}],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "A band of indigo ran across the sky before the storm.",
+          "marks": [{"word": "indigo", "literal": true}],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The needles kept slipping out of the loose stitches.",
+          "trap": "clean_text",
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-terra-b-004",
+      "mode": "corrections",
+      "persona": "email-drafter",
+      "domain": "volunteering",
+      "register": "polite-formal",
+      "instruction": {
+        "text": "Watch this draft closely and repair whatever reads badly.",
+        "ack": "Of course, anything that reads badly gets repaired.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Thank you for hosting the sorting evening last Wednesday.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "We managed to pack forty three boxs before the hall closed.",
+          "errors": [
+            {"wrong": "forty three boxs", "right": "forty three boxes", "subtype": "plural", "occurrence": 1}
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The drivers collection route changed twice during the week.",
+          "errors": [
+            {"wrong": "drivers collection", "right": "driver's collection", "subtype": "apostrophe", "occurrence": 1}
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "aside",
+          "text": "Half our volunteers write recieved on the paperwork too.",
+          "mentions": ["recieved"],
+          "pause_after": "short"
+        },
+        {
+          "kind": "repair",
+          "text": "I will circulate the revised schedule tomorrow afternoon.",
+          "repair": {"wrong": "sceduled", "right": "schedule", "subtype": "letter-swap", "occurrence": 1},
+          "pause_after": "long"
+        },
+        {
+          "kind": "passage",
+          "text": "Please let me know if another evening would suit better.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        }
+      ]
+    }
+  ]
+}

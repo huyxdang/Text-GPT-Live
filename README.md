@@ -22,9 +22,10 @@ three stages cost about $50.
 ## Contents
 
 - [The action grammar](#the-action-grammar)
-- [Run the app](#run-the-app)
+- [Quick start](#quick-start)
 - [Reproduce the dataset](#reproduce-the-dataset)
 - [Train](#train)
+- [Test](#test)
 - [Layout](#layout)
 - [What is not in this repo](#what-is-not-in-this-repo)
 - [License](#license)
@@ -49,7 +50,7 @@ of stage-1 targets**. Most moments in a live interaction should not trigger
 anything, so learning when to stay quiet is the first thing the model has to
 get right.
 
-`highlight` and `suggest_edit` are trained (255 and 151 stage-1 cards) and the
+`highlight` and `suggest_edit` are trained (151 and 255 stage-1 cards) and the
 runtime will execute them, but no demo in the write-up exercises them.
 
 Note that stage 1 performs translation through `respond` — `translate_commit`
@@ -60,23 +61,52 @@ without putting any interaction policy in the runtime. The runtime never
 decides whether the user has finished, whether to interrupt, or whether to
 stay quiet; it only carries out the action the model emitted.
 
-## Run the app
+## Quick start
 
-Python 3.11+.
+The released checkpoint uses MLX and therefore requires an Apple Silicon Mac.
+You need Python 3.11+ and the [Hugging Face CLI](https://huggingface.co/docs/huggingface_hub/guides/cli).
 
 ```bash
+git clone https://github.com/huyxdang/Text-GPT-Live.git
+cd Text-GPT-Live
 python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-tinker.txt
-cp .env.example .env      # set TINKER_API_KEY
-POLICY_PROMPT=g1 .venv/bin/python -m uvicorn app.main:app --reload
+.venv/bin/python -m pip install -r requirements-local.txt
+
+hf download huyxdang/text-gpt-live \
+  model.safetensors \
+  model.safetensors.index.json \
+  config.json \
+  tokenizer.json \
+  tokenizer_config.json \
+  chat_template.jinja \
+  --local-dir models/text-gpt-live-mlx-8bit
+
+POLICY_MODE=local \
+POLICY_PROMPT=g1 \
+LOCAL_MODEL_PATH=models/text-gpt-live-mlx-8bit \
+.venv/bin/python -m uvicorn app.main:app
 ```
 
-Open <http://127.0.0.1:8000>. To serve the released weights locally instead of
-through Tinker, download the model from Hugging Face and set:
+Open <http://127.0.0.1:8000>. Model loading and cache warm-up happen during
+startup, so wait until Uvicorn reports that the application has started.
+
+The published checkpoint is about 5.1 GB. The validated local environment uses
+`mlx==0.32.0` and `mlx-lm==0.31.3`. Its selected persistent-cache
+benchmark measured 972 ms median and 1,129 ms p95 per decision; it does not
+consistently meet the 650 ms tick target. See the model card for the complete
+limitations.
+
+### UI development without weights
+
+The repository also includes a deterministic development driver. It exercises
+the browser, runtime, asynchronous jobs, search, and generated-UI surfaces, but
+it is **not** a substitute for the trained model:
 
 ```bash
-export POLICY_MODE=local
-export SMOL_LOCAL_MODEL=models/text-gpt-live-mlx-8bit
+.venv/bin/python -m pip install -r requirements.txt
+POLICY_MODE=scripted-v6 \
+SEARCH_MODE=demo \
+.venv/bin/python -m uvicorn app.main:app --reload
 ```
 
 If no model is reachable the UI stays open and says **No model available** —
@@ -131,7 +161,17 @@ repo and stamped into each run's report, so no forgotten flag can pass itself
 off as the recipe.
 
 ```bash
-.venv/bin/python -m train.tinker_run --stage g1
+# Stage 1
+.venv/bin/python -m scripts.g1_full_build
+.venv/bin/python -m train.tinker_run --stage g1 --epochs 1
+
+# Stage 2
+.venv/bin/python -m scripts.g1_v2_build
+.venv/bin/python -m scripts.g1_v2_train
+
+# Stage 3
+.venv/bin/python -m scripts.g1_v2_delivery_repair_build --index-mode fixed
+.venv/bin/python -m scripts.g1_v2_delivery_repair_train
 ```
 
 All three stages together cost about $50.
@@ -144,6 +184,26 @@ optimizer settings, per-stage step counts — is in
 Nothing here is Tinker-specific beyond the client: the corpus is plain JSONL
 of `prompt` / `completion` pairs, so any LoRA trainer that reads that format
 can substitute.
+
+## Test
+
+The default suite is self-contained and does not download model weights or the
+published training corpus:
+
+```bash
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m pytest
+```
+
+Four corpus-dependent integration checks require the compiled stage-1 train/dev
+files described in [Reproduce the dataset](#reproduce-the-dataset). They skip
+with an actionable message on a clean checkout and run automatically after the
+build:
+
+```bash
+.venv/bin/python -m scripts.g1_full_build
+.venv/bin/python -m pytest tests/test_g1_repair.py
+```
 
 ## Layout
 

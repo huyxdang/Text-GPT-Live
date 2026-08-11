@@ -18,8 +18,8 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_BASE = ROOT / "models" / "Qwen3.5-4B"
-DEFAULT_ADAPTER = ROOT / "models" / "smol-g1-v2-delivery-repair-lora"
-DEFAULT_OUTPUT = ROOT / "models" / "smol-g1-v2-delivery-repair-fixed-mlx-8bit"
+DEFAULT_ADAPTER = ROOT / "models" / "text-gpt-live-adapter"
+DEFAULT_OUTPUT = ROOT / "models" / "text-gpt-live-mlx-8bit"
 
 
 def _sha256(path: Path) -> str:

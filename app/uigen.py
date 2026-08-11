@@ -461,7 +461,7 @@ class OpenAIUIGenProvider:
         # model: a generated image URL would be an unverified guess.
         self._wiki = httpx.AsyncClient(
             base_url="https://en.wikipedia.org",
-            headers={"User-Agent": "smol-interactions-uigen/0.1"},
+            headers={"User-Agent": "text-gpt-live-uigen/0.1"},
             timeout=8.0,
         )
 

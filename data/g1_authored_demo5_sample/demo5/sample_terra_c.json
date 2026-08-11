@@ -1,0 +1,48 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-terra-c", "tranche": 0},
+  "bank": [
+    {
+      "id": "demo5-sample-req-every-03",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Can you ping me every {interval} seconds to feed the sourdough starter?",
+      "gold_ack_template": "On it — a sourdough ping every {interval} seconds!",
+      "fire_message": "Feed the sourdough starter!",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "demo5-sample-req-once-02",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Just remind me once to text my brother back later tonight.",
+      "gold_ack_template": "Got it — one reminder to text your brother back.",
+      "fire_message": "Text your brother back!",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "demo5-sample-filler-04",
+      "kind": "filler",
+      "trap": "none",
+      "text": "The tomato seedlings finally sprouted, and the basil tray still looks a little slow to me honestly.",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    },
+    {
+      "id": "demo5-sample-bait-02",
+      "kind": "filler",
+      "trap": "bait",
+      "text": "My neighbour leaned over the fence and asked, 'did you plant the peppers yet?' before I could answer her.",
+      "persona": "seed-diary-writer",
+      "domain": "gardening",
+      "register": "plain-descriptive"
+    }
+  ]
+}

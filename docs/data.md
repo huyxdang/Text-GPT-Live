@@ -2,11 +2,11 @@
 
 **Status:** round-1 corpus implemented and globally compiled 2026-08-01
 **Recorded:** 2026-07-30 (clean rewrite 2026-07-31)
-**Companions:** [acceptance_criteria.md](acceptance-criteria.md) (what the demos
-must do) · `scripts/g1_runbook.md` (how training runs; base model
-Qwen3.5-4B)
-**Lineage:** one coherent g1 dataset → one LoRA stage from the stock base model;
-no inherited V4/V4.1/V6 curriculum.
+**Companions:** [training.md](training.md) (the released three-stage recipe) ·
+[acceptance-criteria.md](acceptance-criteria.md) (the archived pre-training plan)
+**Lineage:** the round-1 corpus became stage 1 of the released g1 model; stages
+2 and 3 add translation/search and focused delivery repairs. No V4/V4.1/V6
+cards enter the released curriculum.
 
 **6,688 publishable flashcards from five accepted authored corpora.** A
 *situation* is one authored moment (a planted error, a quoted question, a
@@ -36,7 +36,7 @@ exist in g1.
 | `source` | `"user"` \| `"tool"` | all events | who produced it (g1 has no other sources) |
 | `state` | `"active"` \| `"idle"` | user events only | typing recently vs paused |
 | `time` | `"t+2600ms"` | all events | milliseconds since session start — non-uniform, readable |
-| `tool` | `"delegate"` | tool events only | g1's only async tool |
+| `tool` | `"delegate"` \| `"web_search"` | tool events only | which asynchronous job produced the event |
 | `job_id` | `"job-1"`, … | tool events only | correlates a job's accepted/completed/failed events |
 
 User-event content may be empty. The live app still creates a user event on every
@@ -44,25 +44,24 @@ foreground, running, unpaused browser tick, so the training format must represen
 initial silence, a cleared box, and unchanged empty text. Pausing the app stops
 ticks; emptiness does not.
 
-**Tool-event payloads** (the JSON body of `source="tool"` events — decided
-2026-07-31 with the one-place rule: `job_id` lives on the tag attribute only,
-never repeated in the payload; the built `spec` never enters the prompt — the
-model needs "done", the window shows what done built; the `task` echo stays on
-completion/failure so results are readable when multiple jobs are someday
-outstanding):
+**Tool-event payloads** are the JSON body of `source="tool"` events. Delegated
+UI jobs keep `job_id` on the tag and omit the generated UI spec from the model
+history. Search events also carry the query and returned results so the model
+can speak about them:
 
 ```
 {"status":"accepted"}
 {"status":"completed","task":"…"}
 {"status":"failed","task":"…","error":"…"}
+{"job_id":"job-2","status":"accepted"}
+{"job_id":"job-2","status":"completed","query":"…","results":[…]}
+{"job_id":"job-2","status":"failed","query":"…","error":"…"}
 ```
 
-Note honestly: the format supports multi-job correlation (the attribute), but
-g1's data never shows two jobs outstanding — the correlation *skill* is
-untrained until some future round's data exercises it. Format future-proof;
-model not.
+Stage 1 contains only delegated UI work. Stage 2 adds histories with concurrent
+delegate and search jobs, including completion in different orders.
 
-**The five action forms — exact, including key order** (JSON keys are sorted
+**The seven action forms — exact, including key order** (JSON keys are sorted
 alphabetically by the serializer; agents never write these, but the generator
 and any reader should know the bytes). Locked 2026-07-31: uniform `verb({json})`
 — the v6 `tool(name, …)` wrapper died with the permissions header it existed to
@@ -101,6 +100,10 @@ Semantics in one line each:
   the field genuinely varies in data, so it earns training signal.
 - **delegate** — start an async job described by `task`; acceptance and result
   arrive later as tool events; starting a job never blocks the stream.
+- **web_search** — start an asynchronous search whose completed result is added
+  to the event stream for a later grounded response.
+- **translate_commit** — append one completed Chinese sense unit without
+  repeating translation already committed earlier in the stream.
 
 **Rules of the stream:** exactly one action per event; every event in history
 carries its action line; the graded answer is one complete `<action>` line and
@@ -116,7 +119,7 @@ consequences: `compile_stream` needs a g1 format so serving matches training
 byte-for-byte (prerequisite 4), and per-session verb-disabling is not a thing
 the model can comply with — accepted; g1 has one fixed surface.
 
-## The system prompt (g1 draft — sign-off pending)
+## The system prompt (g1, released)
 
 Every training card is rendered as a chat: **system message below + the card as
 the user message → the action as the assistant answer.** Serving uses the
@@ -235,7 +238,7 @@ round-1 build. Global compilation removes 47 exact duplicates and guarantees
 zero conflicting completions, whole-episode split leaks, or train/dev prompt
 overlap. It also removes five late Demo 1 snapshots whose fully rendered target
 sequence exceeds Tinker's 65,536-token service limit; the largest published
-sequence is 62,103 target tokens.
+sequence is 62,223 target tokens.
 
 ## Timing requirements (global)
 
@@ -523,9 +526,9 @@ reference.
 
 ## Prerequisites before generation starts
 
-1. **Grounding metric** ([train/evaluation.py](train/evaluation.py)): g1 has no
-   search-grounded responds — disable `respond_message_grounding` for g1
-   reports outright.
+1. **Grounding metric** ([train/evaluation.py](../train/evaluation.py)): open-ended
+   response wording is scored semantically; search responses additionally require
+   the correct completed-result target and grounded source content.
 2. **Base-model probe:** stock `Qwen/Qwen3.5-4B` (ID confirmed live,
    2026-07-31) on (a) English → Chinese across a dozen real passages — demo 3's
    invalidation risk — and (b) timestamp arithmetic in g1-style streams —
@@ -541,8 +544,8 @@ reference.
 5. **g1 surface in the app — implemented 2026-07-31:** `delegate` replacing
    `generate_ui` (fixed runtime permissions,
    validation arm, job runner, deck labels; executor
-   [app/uigen.py](app/uigen.py) unchanged); `highlight` added; `web_search`
-   removed; **header-free g1 prompt format in `compile_stream`** so serving
+   [app/uigen.py](../app/uigen.py) unchanged); `highlight` and asynchronous
+   `web_search` added; **header-free g1 prompt format in `compile_stream`** so serving
    matches training byte-for-byte; **flat `verb({json})` action grammar** in
    `parse_g1_action`, the renderers, and validation (no `tool(` wrapper, no
    `target` nesting, suggest_edit uniqueness rule enforced in place of

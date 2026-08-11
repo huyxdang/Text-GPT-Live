@@ -1,0 +1,37 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-terra-b", "tranche": 0},
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "hand-written-fixture",
+    "reviewed_at": "2026-08-01",
+    "note": "Fixture references are illustrative; machine review only."
+  },
+  "records": [
+    {
+      "id": "demo3-sample-12",
+      "persona": "group-chat-drafter",
+      "domain": "travel",
+      "register": "warm-chatty",
+      "instruction": {
+        "text": "Keep turning my messages into Chinese, please.",
+        "gold_ack": "没问题，我这就开始翻。",
+        "pause_after": "short"
+      },
+      "script": [
+        {"kind": "type", "text": "Our train leaves Kyoto at six in the morning,‖", "pause_after": "short"},
+        {"kind": "type", "text": " so we shouldd pack tonite", "trap": "half_clause", "pause_after": "none"},
+        {"kind": "backtrack", "delete": 13, "pause_after": "short"},
+        {"kind": "type", "text": " pack up tonight.‖", "pause_after": "medium"},
+        {"kind": "type", "text": " I booked the small inn near the river.‖", "pause_after": "long"}
+      ],
+      "clauses": [
+        {"english": "Our train leaves Kyoto at six in the morning,", "reference": "我们的火车早上六点离开京都，"},
+        {"english": "so we should pack up tonight.", "reference": "所以我们今晚就该收拾行李。"},
+        {"english": "I booked the small inn near the river.", "reference": "我订了河边那家小旅馆。"}
+      ]
+    }
+  ]
+}

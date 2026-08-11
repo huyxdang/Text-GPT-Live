@@ -9,7 +9,6 @@ from typing import Any
 class EventSource(StrEnum):
     USER = "user"
     TOOL = "tool"
-    WRITER = "writer"
 
 
 class UserState(StrEnum):
@@ -28,14 +27,6 @@ DEFAULT_PERMISSIONS: dict[str, list[str]] = {
     "ui": ["highlight"],
 }
 
-# Editor sessions add the co-writing verbs: the shared document, reversible
-# underline proposals, and pause/resume/revise control over the background writer.
-EDITOR_PERMISSIONS: dict[str, list[str]] = {
-    "web_search": ["search"],
-    "ui": ["highlight", "underline"],
-    "writer": ["write", "pause", "resume", "revise"],
-}
-
 # The v6 surface uses flat, intent-named tools; async tools carry job identity.
 V6_PERMISSIONS: dict[str, list[str]] = {
     "tools": ["generate_ui", "suggest_edit", "web_search"],
@@ -52,11 +43,6 @@ G1_PERMISSIONS: dict[str, list[str]] = {
         "web_search",
     ],
 }
-
-WRITER_STATUS_IDLE = "idle"
-WRITER_STATUS_WRITING = "writing"
-WRITER_STATUS_PAUSED = "paused"
-
 
 @dataclass(frozen=True, slots=True)
 class StreamEvent:
@@ -177,55 +163,6 @@ class TranslationCommit:
         }
 
 
-@dataclass(slots=True)
-class Document:
-    """The shared artifact the background writer produces and the user negotiates over.
-
-    The runtime owns this state; the policy only ever proposes operations on it.
-    Undo restores exact prior text (acceptance criterion), so snapshots are kept whole.
-    """
-
-    text: str = ""
-    revision: int = 0
-    task: str = ""
-    preferences: list[str] = field(default_factory=list)
-    status: str = WRITER_STATUS_IDLE
-    undo_stack: list[str] = field(default_factory=list)
-
-    def append(self, chunk: str) -> None:
-        if not chunk:
-            return
-        if self.text and not self.text.endswith(("\n", " ")) and not chunk.startswith(("\n", " ")):
-            self.text += " "
-        self.text += chunk
-        self.revision += 1
-
-    def apply_patch(self, quote: str, occurrence: int, replacement: str) -> None:
-        start = find_occurrence(self.text, quote, occurrence)
-        if start < 0:
-            raise ValueError("Patch target no longer exists in the document.")
-        self.undo_stack.append(self.text)
-        self.text = self.text[:start] + replacement + self.text[start + len(quote):]
-        self.revision += 1
-
-    def undo(self) -> bool:
-        if not self.undo_stack:
-            return False
-        self.text = self.undo_stack.pop()
-        self.revision += 1
-        return True
-
-    def to_dict(self) -> dict[str, Any]:
-        return {
-            "text": self.text,
-            "revision": self.revision,
-            "task": self.task,
-            "preferences": list(self.preferences),
-            "status": self.status,
-            "undo_available": bool(self.undo_stack),
-        }
-
-
 def find_occurrence(text: str, quote: str, occurrence: int) -> int:
     """Return the start index of the nth occurrence of quote, or -1."""
     if not quote or occurrence < 1:
@@ -265,8 +202,6 @@ class Session:
     highlights: list[TextHighlight] = field(default_factory=list)
     suggestions: list[TextSuggestion] = field(default_factory=list)
     translation_commits: list[TranslationCommit] = field(default_factory=list)
-    document: Document | None = None
-    proposal: TextHighlight | None = None
     next_index: int = 1
     started_monotonic: float = 0.0
     generation: int = 0
@@ -288,9 +223,6 @@ class Session:
             "pending_searches": pending_searches,
             "latest_prompt": self.latest_prompt,
         }
-        if self.document is not None:
-            value["document"] = self.document.to_dict()
-            value["proposal"] = self.proposal.to_dict() if self.proposal else None
         if self.mode in ("v6", "g1"):
             value["suggestions"] = [suggestion.to_dict() for suggestion in self.suggestions]
             value["translation_commits"] = [

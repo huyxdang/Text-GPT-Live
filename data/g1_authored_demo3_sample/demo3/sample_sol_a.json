@@ -1,0 +1,60 @@
+{
+  "schema_version": "g1-authored-demo3-1",
+  "demo": "demo-3",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-sol-a", "tranche": 0},
+  "reference_review": {
+    "method": "machine",
+    "reviewer": "hand-written-fixture",
+    "reviewed_at": "2026-08-01",
+    "note": "Fixture references are illustrative; machine review only."
+  },
+  "records": [
+    {
+      "id": "demo3-sample-01",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective",
+      "instruction": {
+        "text": "Translate what I type into Chinese as I go.",
+        "gold_ack": "好的，我会边打边翻译。",
+        "pause_after": "short"
+      },
+      "script": [
+        {"kind": "type", "text": "The market was crowded this morning,‖", "pause_after": "none"},
+        {"kind": "type", "text": " and I bought some greeen", "trap": "half_clause", "pause_after": "short"},
+        {"kind": "backtrack", "delete": 6, "pause_after": "none"},
+        {"kind": "type", "text": "green tea for my mother.‖", "pause_after": "medium"},
+        {"kind": "type", "text": " She always says 谢谢 when I hand it over.", "trap": "prequoted_chinese", "pause_after": "long"},
+        {"kind": "type", "text": " I laughed and went back outside.‖", "pause_after": "short"}
+      ],
+      "clauses": [
+        {"english": "The market was crowded this morning,", "reference": "今天早上市场很拥挤，"},
+        {"english": "and I bought some green tea for my mother.", "reference": "我给母亲买了一些绿茶。"},
+        {"english": "I laughed and went back outside.", "reference": "我笑了笑，又走回外面。"}
+      ]
+    },
+    {
+      "id": "demo3-sample-02",
+      "persona": "meeting-note-taker",
+      "domain": "work",
+      "register": "brisk-professional",
+      "instruction": {
+        "text": "Please put everything I write here into Chinese.",
+        "gold_ack": "明白，我会逐句给出中文。",
+        "pause_after": "medium"
+      },
+      "script": [
+        {"kind": "type", "text": "We agreed to move the review to Thursday,‖", "pause_after": "short"},
+        {"kind": "type", "text": " and Nadia will send the revised deck.‖", "pause_after": "medium"},
+        {"kind": "type", "text": " I still need the budget lin", "trap": "half_clause", "pause_after": "long"},
+        {"kind": "type", "text": "e from finance.‖", "pause_after": "short"}
+      ],
+      "clauses": [
+        {"english": "We agreed to move the review to Thursday,", "reference": "我们同意把评审推迟到周四，"},
+        {"english": "and Nadia will send the revised deck.", "reference": "娜迪娅会发送修改后的演示文稿。"},
+        {"english": "I still need the budget line from finance.", "reference": "我还需要财务部门提供的预算项。"}
+      ]
+    }
+  ]
+}

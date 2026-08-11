@@ -1,0 +1,197 @@
+{
+  "schema_version": "g1-authored-demo2-1",
+  "demo": "demo-2",
+  "author": {
+    "model": "fixture-sol",
+    "slot": "d2-sample-sol-c",
+    "tranche": 0
+  },
+  "records": [
+    {
+      "id": "d2-sample-sol-c-001",
+      "mode": "corrections",
+      "persona": "storyteller",
+      "domain": "childhood",
+      "register": "nostalgic",
+      "instruction": {
+        "text": "Straighten out anything clumsy as this story goes down.",
+        "ack": "Absolutely, clumsy lines will not survive.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Our street had one lamp post that flickered every winter.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "My brother and me built a raft out of pallet wood.",
+          "errors": [
+            {"wrong": "brother and me built", "right": "brother and I built", "subtype": "word-form", "occurrence": 1}
+          ],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "It floated for maybe ten minutes befor the rope gave way.",
+          "errors": [
+            {"wrong": "befor the rope", "right": "before the rope", "subtype": "missing-letter", "occurrence": 1}
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "repair",
+          "text": "Mum pretended not to notice the missing washing line.",
+          "repair": {"wrong": "pretendedd", "right": "pretended", "subtype": "doubled-letter", "occurrence": 1},
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-c-002",
+      "mode": "highlights",
+      "category": "tool",
+      "category_words": ["chisel", "mallet", "spanner"],
+      "persona": "workshop-logger",
+      "domain": "diy",
+      "register": "terse-practical",
+      "instruction": {
+        "text": "Flag each piece of kit I mention in this log entry.",
+        "ack": "Right, each piece of kit will be flagged."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The bench needs clearing before anything useful happens, and that job alone will eat most of Saturday morning.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "I sharpened the chisel twice and it still bites badly.",
+          "marks": [{"word": "chisel", "literal": true}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "A borrowed mallet sat under the offcuts for two weeks.",
+          "marks": [{"word": "mallet", "literal": true}],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "The dog next door, Spanner, barked through the whole job.",
+          "marks": [{"word": "Spanner", "literal": false}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "aside",
+          "text": "Remind me later which ones you already picked out here.",
+          "mentions": ["picked out"],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-c-003",
+      "mode": "highlights",
+      "category": "instrument",
+      "category_words": ["clarinet", "cello", "banjo"],
+      "persona": "band-organiser",
+      "domain": "music",
+      "register": "upbeat-direct",
+      "instruction": {
+        "text": "Pick out anything anyone plays as I list the line up.",
+        "ack": "On it, anything played gets picked out."
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "Priya brings her clarinet to almost every rehearsal now.",
+          "marks": [{"word": "clarinet", "literal": true}],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Our rented cello has a crack along the lower bout.",
+          "marks": [{"word": "cello", "literal": true}],
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "The venue confirmed a start time of half past seven.",
+          "trap": "clean_text",
+          "pause_after": "medium"
+        },
+        {
+          "kind": "passage",
+          "text": "We still owe the sound engineer for the last two nights.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Tom named his terrier Banjo, which confuses every guest.",
+          "marks": [{"word": "Banjo", "literal": false}],
+          "pause_after": "long"
+        }
+      ]
+    },
+    {
+      "id": "d2-sample-sol-c-004",
+      "mode": "corrections",
+      "persona": "list-maker",
+      "domain": "shopping",
+      "register": "clipped",
+      "instruction": {
+        "text": "Tidy the wording here whenever something comes out crooked.",
+        "ack": "Fine by me, crooked wording gets tidied.",
+        "mentions_error": false
+      },
+      "segments": [
+        {
+          "kind": "passage",
+          "text": "The market closes at four on the last Sunday of the month, which nobody remembers until they are already standing at the gate.",
+          "trap": "clean_text",
+          "pause_after": "none"
+        },
+        {
+          "kind": "passage",
+          "text": "Two of the cheese stalls have swapped pitches since Easter, so the queue now blocks the entrance to the flower aisle completely.",
+          "trap": "clean_text",
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "Yesterday I buy two kilos of flour and forgot the yeast, which is the third time this has happened since the start of autumn.",
+          "errors": [
+            {"wrong": "I buy two kilos", "right": "I bought two kilos", "subtype": "tense", "occurrence": 1}
+          ],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "The stall holder said he would keep back some of the good apples for us.",
+          "errors": [
+            {"wrong": "stall holder", "right": "stallholder", "subtype": "spacing", "occurrence": 1}
+          ],
+          "pause_after": "medium"
+        },
+        {
+          "kind": "aside",
+          "text": "I write brocolli that way on every single list I make.",
+          "mentions": ["brocolli"],
+          "pause_after": "short"
+        },
+        {
+          "kind": "passage",
+          "text": "There is still one box of jars left over from the summer, sitting under the stairs where nobody has to look at it.",
+          "trap": "clean_text",
+          "pause_after": "long"
+        }
+      ]
+    }
+  ]
+}

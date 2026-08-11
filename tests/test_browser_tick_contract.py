@@ -10,7 +10,6 @@ class BrowserTickContractTests(unittest.TestCase):
     def test_running_browser_surfaces_do_not_suppress_empty_text_ticks(self) -> None:
         surfaces = {
             "main": ("static/app.js", "text"),
-            "editor": ("static/editor.js", "talk"),
         }
 
         for name, (relative_path, element_name) in surfaces.items():

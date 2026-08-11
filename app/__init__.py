@@ -1,1 +1,1 @@
-"""Smol Interactions prototype application."""
+"""Text GPT-Live application."""

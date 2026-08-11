@@ -320,7 +320,7 @@ class Demo5TimingVerifierTests(unittest.TestCase):
         self.bank = make_bank()
 
     def test_worked_example_matches_the_spec(self) -> None:
-        """Reproduces synthetic_data_spec.md's own worked arithmetic exactly:
+        """Reproduces docs/data.md's own worked arithmetic exactly:
 
         last fire at t+7600ms, current tick t+12700ms, interval 5s ->
         5.1s >= 5s -> fire, aimed at the current (empty, idle) tick.

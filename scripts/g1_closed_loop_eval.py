@@ -390,8 +390,7 @@ async def run(selected: tuple[str, ...] | None) -> dict:
     os.environ.setdefault("POLICY_PROMPT", "g1")
     os.environ.setdefault("STREAM_FORMAT", "g1")
     os.environ.setdefault("SEARCH_MODE", "demo")
-    os.environ.setdefault("WRITER_MODE", "demo")
-    os.environ.setdefault("TRACE_PATH", "/tmp/smol-g1-closed-loop-trace.jsonl")
+    os.environ.setdefault("TRACE_PATH", "/tmp/text-gpt-live-closed-loop-trace.jsonl")
 
     from app.main import runtime
 

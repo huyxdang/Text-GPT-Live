@@ -1,0 +1,57 @@
+{
+  "schema_version": "g1-authored-demo5-1",
+  "demo": "demo-5",
+  "note": "Hand-written machinery fixture. Not training data.",
+  "author": {"model": "hand-written-fixture", "slot": "fixture-terra-a", "tranche": 0},
+  "bank": [
+    {
+      "id": "demo5-sample-req-every-01",
+      "kind": "request",
+      "schedule_kind": "every",
+      "text_template": "Remind me every {interval} seconds to drink water!",
+      "gold_ack_template": "Got it — I'll remind you to drink water every {interval} seconds!",
+      "fire_message": "Drink water!",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo5-sample-req-once-01",
+      "kind": "request",
+      "schedule_kind": "once",
+      "text_template": "Remind me once to check the oven in a little while!",
+      "gold_ack_template": "Got it — I'll remind you to check the oven once, coming up.",
+      "fire_message": "Check the oven!",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo5-sample-cancel-01",
+      "kind": "cancellation",
+      "text": "Okay, you can stop reminding me about the water now, thanks.",
+      "gold_ack": "Got it — I'll stop the water reminders.",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo5-sample-filler-01",
+      "kind": "filler",
+      "trap": "none",
+      "text": "Okay, drafting the email now. Hi Mai, about the venue, I think we should book the smaller room this time.",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    },
+    {
+      "id": "demo5-sample-bait-01",
+      "kind": "filler",
+      "trap": "bait",
+      "text": "So my aunt calls me and asks, \"can you keep a secret?\" and I just laughed and kept chopping onions.",
+      "persona": "journal-keeper",
+      "domain": "cooking",
+      "register": "casual-reflective"
+    }
+  ]
+}

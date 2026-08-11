@@ -72,13 +72,12 @@ async def _run(args) -> dict[str, Any]:
     os.environ["STREAM_FORMAT"] = "g1"
     os.environ["SEARCH_MODE"] = args.search
     os.environ.setdefault("UIGEN_MODE", "demo")
-    os.environ.setdefault("WRITER_MODE", "demo")
     args.trace.parent.mkdir(parents=True, exist_ok=True)
     args.trace.write_text("", encoding="utf-8")
     os.environ["TRACE_PATH"] = str(args.trace)
     if args.model:
         if args.policy == "local":
-            os.environ["SMOL_LOCAL_MODEL"] = args.model
+            os.environ["LOCAL_MODEL_PATH"] = args.model
         else:
             os.environ["TINKER_MODEL_PATH"] = args.model
 

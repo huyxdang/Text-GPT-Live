@@ -6,7 +6,7 @@ const ACTION_STAGE_EXIT_MS = 220;
 const TRANSLATION_APPEND_MS_PER_CHARACTER = 42;
 const SEARCH_RESULT_HOLD_MS = 3500;
 const WORK_THREAD_EXIT_MS = 320;
-const RECORDING_STORAGE_KEY = "smol-interactions:last-recording";
+const RECORDING_STORAGE_KEY = "text-gpt-live:last-recording";
 const SESSION_MODE = new URLSearchParams(window.location.search).get("mode") || "probe";
 
 const elements = {

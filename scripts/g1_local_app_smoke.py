@@ -106,8 +106,7 @@ async def run(ticks: int, typing_ticks: int) -> dict[str, object]:
     os.environ.setdefault("POLICY_PROMPT", "g1")
     os.environ.setdefault("STREAM_FORMAT", "g1")
     os.environ.setdefault("SEARCH_MODE", "demo")
-    os.environ.setdefault("WRITER_MODE", "demo")
-    os.environ.setdefault("TRACE_PATH", "/tmp/smol-g1-app-smoke-trace.jsonl")
+    os.environ.setdefault("TRACE_PATH", "/tmp/text-gpt-live-app-smoke-trace.jsonl")
 
     from app.main import runtime
 
@@ -135,7 +134,7 @@ async def run(ticks: int, typing_ticks: int) -> dict[str, object]:
     )
     from scripts.local_model import G1_QUANTIZED_DIR
 
-    model_path = Path(os.environ.get("SMOL_LOCAL_MODEL", str(G1_QUANTIZED_DIR)))
+    model_path = Path(os.environ.get("LOCAL_MODEL_PATH", str(G1_QUANTIZED_DIR)))
     weights = sorted(model_path.glob("*.safetensors"))
     return {
         "schema_version": "g1-local-app-smoke-2",

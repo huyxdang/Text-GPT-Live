@@ -539,7 +539,7 @@ class G1RuntimeTests(unittest.IsolatedAsyncioTestCase):
             with self.assertRaisesRegex(ValueError, "event stream"):
                 runtime.create_session(instruction="Hidden instruction", mode="g1")
             with self.assertRaisesRegex(ValueError, "only creates g1"):
-                runtime.create_session(mode="editor")
+                runtime.create_session(mode="v6")
 
 
 class G1AppConfigurationTests(unittest.TestCase):
@@ -551,7 +551,6 @@ class G1AppConfigurationTests(unittest.TestCase):
                 "TINKER_MODEL_PATH": "",
                 "SEARCH_MODE": "demo",
                 "UIGEN_MODE": "demo",
-                "WRITER_MODE": "demo",
                 "TRACE_PATH": str(Path(directory) / "trace.jsonl"),
             }
             with patch.dict(os.environ, environment, clear=True):
@@ -572,7 +571,6 @@ class G1AppConfigurationTests(unittest.TestCase):
             "TINKER_MODEL_PATH": "",
             "SEARCH_MODE": "demo",
             "UIGEN_MODE": "demo",
-            "WRITER_MODE": "demo",
         }
         with patch.dict(os.environ, environment, clear=True):
             with self.assertRaisesRegex(ValueError, "select the g1 contract together"):

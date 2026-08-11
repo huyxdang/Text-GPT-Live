@@ -14,12 +14,21 @@ from scripts.g1_repair_train import build_focused_cases, finalize_repair_compari
 
 
 ROOT = Path(__file__).resolve().parent.parent
+FULL_CORPUS_PATHS = [
+    *(ROOT / "data" / f"train_g1-{index:05d}-of-00004.jsonl" for index in range(1, 5)),
+    ROOT / "data" / "dev_g1.jsonl",
+]
+FULL_CORPUS_AVAILABLE = all(path.is_file() for path in FULL_CORPUS_PATHS)
 
 
 def load_jsonl(path: Path):
     return [json.loads(line) for line in path.read_text().splitlines() if line]
 
 
+@unittest.skipUnless(
+    FULL_CORPUS_AVAILABLE,
+    "requires the generated full g1 corpus; run `python -m scripts.g1_full_build` first",
+)
 class G1RepairCorpusTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -80,6 +89,8 @@ class G1RepairCorpusTests(unittest.TestCase):
         self.assertEqual(audit["frozen_prompt_overlap"], 0)
         self.assertEqual({case["source"] for case in first}, {"train-only-ladder-validation"})
 
+
+class G1RepairPromotionTests(unittest.TestCase):
     def test_promotion_fails_closed_until_semantic_review_passes(self) -> None:
         deterministic = {"deterministic_gates_passed": True}
         pending = finalize_repair_comparison(
