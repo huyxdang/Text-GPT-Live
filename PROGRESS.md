@@ -86,7 +86,7 @@
 - Rebuilt the complete stage-1 corpus from tracked authored sources.
 - Re-ran the entire suite with generated train/dev files present.
 - Verified the Hugging Face `model.safetensors` hash matches the locally evaluated checkpoint and loads without the orphan shard.
-- Created Hugging Face backup tag `pre-cleanup-2026-08-11` and opened model PR #1 containing the orphan-shard deletion.
+- Created Hugging Face backup tag `pre-cleanup-2026-08-11` and merged model PR #1 containing the orphan-shard deletion.
 
 **Evidence**
 
@@ -95,13 +95,9 @@
 - Hugging Face model SHA-256: `0e8c3abc70a643a168eedcebbf9606884c029b0908bd5a1c8fe39381f7603369`.
 - The orphan `model-00001-of-00002.safetensors` is 3,215,610,503 bytes and is referenced by no index entry.
 
-**Next**
-
-- Merge Hugging Face model PR #1 only after explicit approval for the public deletion.
-
 **Blockers**
 
-- The Hub cleanup PR is safely staged but its public deletion requires explicit approval.
+- None.
 
 ### 2026-08-11 14:05 - Final release verification
 
@@ -118,6 +114,7 @@
 - Fresh clone full build: 6,688 rows; 6,013 train, 675 dev; zero overlap; maximum 62,223 target tokens.
 - The five previously skipped corpus checks all passed after the build.
 - GitHub Actions run `31463541407` passed on hosted Python 3.11.
+- Hugging Face PR #1 merged as `ea661822`; a post-merge dry run lists the complete 5.1 GB model and no orphan shard.
 
 **Blockers**
 
