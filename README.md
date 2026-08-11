@@ -1,5 +1,7 @@
 # Text GPT-Live
 
+<img src="static/demo_vid.webp" alt="Text GPT-Live demo" width="960" />
+
 A small language model trained to act *while* you type, instead of waiting for
 you to finish.
 
