@@ -8,7 +8,7 @@ chooses whether to stay silent, respond, edit, highlight, translate, search, or
 delegate work—allowing it to act while the user is still typing. The three-stage
 LoRA training cost approximately $50.
 
-You can read the full write-up [here](https://huyxdang.com/text-gpt-live).
+You can read the full blog post [here](https://huyxdang.com/text-gpt-live).
 
 The released [model](https://huggingface.co/huyxdang/text-gpt-live) and
 [dataset](https://huggingface.co/datasets/huyxdang/text-gpt-live-dataset) are
