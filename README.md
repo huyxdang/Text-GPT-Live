@@ -1,6 +1,6 @@
 # Text GPT-Live
 
-<img src="static/demo_vid.gif" alt="Text GPT-Live demo" width="960" />
+<img src="static/demo_vid.gif" alt="Text GPT-Live demo" width="760" />
 
 **TL;DR:** We trained Qwen3.5-4B to process a continuous stream of text instead
 of waiting for completed turns. Every 650 ms, it reads the current textbox and
@@ -34,7 +34,3 @@ LOCAL_MODEL_PATH=models/text-gpt-live-mlx-8bit \
 ```
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000).
-
-## License
-
-MIT. See [LICENSE](LICENSE).
