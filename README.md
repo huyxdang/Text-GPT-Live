@@ -4,7 +4,7 @@
 
 **TL;DR:** We trained Qwen3.5-4B to process a continuous stream of text instead
 of waiting for completed turns. Every 650 ms, it reads the current textbox and
-chooses whether to stay silent, respond, edit, highlight, translate, search, or
+chooses whether to stay silent, respond, highlight, translate, search, or
 delegate work—allowing it to act while the user is still typing. The three-stage
 LoRA training cost approximately $50.
 
