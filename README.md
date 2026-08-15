@@ -8,10 +8,9 @@ budget.
 We trained Qwen3.5-4B to process a continuous stream of text. This is in
 contrast to normal chatbots like ChatGPT or Claude.ai, which only takes in the
 completed text as input and waits for its turn. Our model acts in 650ms
-micro-interaction, which allows for real-time interactions.
+micro-turns, which allows for real-time interactions.
 
-The model reads the current text and decides to take one of the following
-options:
+The model reads the current text and takes one of the following options:
 
 - stay silent
 - respond
