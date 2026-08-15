@@ -2,11 +2,26 @@
 
 <img src="static/demo_vid.gif" alt="Text GPT-Live demo" width="760" />
 
-**TL;DR:** We trained Qwen3.5-4B to process a continuous stream of text instead
-of waiting for completed turns. Every 650 ms, it reads the current textbox and
-chooses whether to stay silent, respond, highlight, translate, search, or
-delegate work—allowing it to act while the user is still typing. The three-stage
-LoRA training cost approximately $50.
+The goal: post-train a model for real-time interactivity, with an affordable
+budget.
+
+We trained Qwen3.5-4B to process a continuous stream of text. This is in
+contrast to normal chatbots like ChatGPT or Claude.ai, which only takes in the
+completed text as input and waits for its turn. Our model acts in 650ms
+micro-interaction, which allows for real-time interactions.
+
+The model reads the current text and decides to take one of the following
+options:
+
+- stay silent
+- respond
+- translate
+- highlight
+- search (tool)
+- delegate work (tool)
+
+The whole post-training process, consisted of three LoRA stages, cost almost
+$50 in total.
 
 You can read the full blog post [here](https://huyxdang.com/text-gpt-live).
 
